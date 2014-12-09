@@ -71,20 +71,28 @@ def fetch_from_pubmed(pubmed_list):
     return records
 
 
-def write_record(cxn_issue, record):
-    """UNFINISHED, returns a list pertaining to single line in the CSV"""
+def write_record(record):
+    """Yields a list pertaining to single line in the CSV"""
     author_count = 0
+    pub_date = get_pub_date(record)
+    pub_link = clean_doi(record)
+
+
     for author in record.get('FAU'):
         last_name, first_name = name_split(author)
         try:
             institute = split_institute(record.get('AD'), author_count)
+            idict = parse_institute(institute)
+            email = find_email(record, last_name)
         except IndexError:
             institute = 'Malformed Record'
+        yield [last_name, first_name, email, idict.get('Company'), idict.get('Department'), idict.get('City'),
+               idict.get('State'), idict.get('Country'), idict.get('Postal'), 'Connexon', pub_date, pub_link,
+               record.get('TI')]
 
-    pub_date = get_pub_date(record)
 
 # This is too complicated and needs to be split up
-def write_csv(cxn_issue, records):
+def write_csv(records):
     """The main function. Writes a CSV to the path directory
 
     Currently writes Last Name, First, Company, Publication Date, Publication Link and Publication Title
@@ -92,17 +100,11 @@ def write_csv(cxn_issue, records):
     """
     with open('leadentry.csv', 'wb') as lead_csv:
         entry_csv = csv.writer(lead_csv)
-        entry_csv.writerow(['Last Name', 'First Name', 'Company', 'Publication Date', 'Publication Link',
+        entry_csv.writerow(['Last Name', 'First Name', 'Email', 'Company', 'Department', 'City',
+                            'State', 'Country', 'Postal Code', 'Lead Source', 'Publication Date', 'Publication Link',
                             'Publication Title'])
         for record in records:
-            author_count = 0
-            pub_date = get_pub_date(record)
-            pub_link = clean_doi(record)
-            for author in record.get('FAU'):
-                last_name, first_name = name_split(author)
-
-                entry_csv.writerow([last_name, first_name, institute, pub_date, pub_link, record.get('TI')])
-                author_count += 1
+            entry_csv.writerow(write_record(record))
 
     lead_csv.close()
 
@@ -145,9 +147,9 @@ def clean_doi(record):
             break
     try:
         doi = doi.split(' ')[0]
-        return 'http://dx.doi.org/{}\n'.format(doi)
+        return 'http://dx.doi.org/{}'.format(doi)
     except UnboundLocalError:
-        return 'No DOI!\n'
+        return 'No DOI!'
 
 
 def get_pub_date(record):
@@ -188,4 +190,4 @@ if __name__ == '__main__':
     test_pub_titles = parse_connexon(test_soup)
     test_pubmed_list = look_up_titles(test_pub_titles)
     test_records = fetch_from_pubmed(test_pubmed_list)
-    # write_csv(records)
+    write_csv(test_records)
