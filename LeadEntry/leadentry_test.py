@@ -16,6 +16,7 @@ class LeadEntryTest(unittest.TestCase):
         self.pubmed_list = leadentry.look_up_titles(self.publication_titles)
         self.records = leadentry.fetch_from_pubmed(self.pubmed_list)
         self.record = self.records[0]
+        self.institute = leadentry.split_institute(self.record.get('AD'), 0)
 
     def tearDown(self):
         pass
@@ -40,3 +41,11 @@ class LeadEntryTest(unittest.TestCase):
 
     def test_doi_success(self):
         self.assertEqual('http://dx.doi.org/10.1016/j.biomaterials.2014.11.011\n', leadentry.clean_doi(self.record))
+
+    def test_split_institute(self):
+        self.assertEqual('Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; '
+                         'Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA.',
+                         leadentry.split_institute(self.record.get('AD'), 0))
+
+    def test_find_company(self):
+        self.assertEqual('Yale University', leadentry.find_company(self.institute))

@@ -71,10 +71,20 @@ def fetch_from_pubmed(pubmed_list):
     return records
 
 
-def make_line(cxn_issue, record):
+def write_record(cxn_issue, record):
     """UNFINISHED, returns a list pertaining to single line in the CSV"""
     author_count = 0
+    for author in record.get('FAU'):
+        last_name, first_name = name_split(author)
+        try:
+            institute = split_institute(record.get('AD'), author_count)
+        except IndexError:
+            institute = 'Malformed Record'
+
     pub_date = get_pub_date(record)
+
+def find_company(institute):
+    pass
 
 
 # This is too complicated and needs to be split up
@@ -94,10 +104,7 @@ def write_csv(cxn_issue, records):
             pub_link = clean_doi(record)
             for author in record.get('FAU'):
                 last_name, first_name = name_split(author)
-                try:
-                    institute = split_institute(record.get('AD'), author_count)
-                except IndexError:
-                    institute = 'Malformed Record'
+
                 entry_csv.writerow([last_name, first_name, institute, pub_date, pub_link, record.get('TI')])
                 author_count += 1
 
