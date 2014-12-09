@@ -1,0 +1,178 @@
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">25433608</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>11</Month>
+            <Day>30</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2014</Year>
+            <Month>12</Month>
+            <Day>2</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1878-5905</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2014</Year>
+                        <Month>Nov</Month>
+                        <Day>26</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Biomaterials</Title>
+                <ISOAbbreviation>Biomaterials</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Mesenchymal stromal cells form vascular tubes when placed in fibrin sealant and accelerate wound healing in vivo.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="pii">S0142-9612(14)01171-5</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.biomaterials.2014.11.011</ELocationID>
+            <Abstract>
+                <AbstractText NlmCategory="UNLABELLED">Non-healing, chronic wounds are a growing public health problem and may stem from insufficient angiogenesis in affected sites. Here, we have developed a fibrin formulation that allows adipose-derived mesenchymal stromal cells (ADSCs) to form tubular structures in vitro. The tubular structures express markers of endothelium, including CD31 and VE-Cadherin, as well as the pericyte marker NG2. The ability for the MSCs to form tubular structures within the fibrin gels was directly dependent on the stoichiometric ratios of thrombin and fibrinogen and the resulting gel concentration, as well as on the presence of bFGF. Fibrin gel formulations that varied in stiffness were tested. ADSCs that are embedded in a stiff fibrin formulation express VE-cadherin and CD31 as shown by PCR, FACS and immunostaining. Confocal imaging analysis demonstrated that tubular structures formed, containing visible lumens, in the stiff fibrin gels in vitro. There was also a difference in the amounts of bFGF secreted by ADSCs grown in the stiffer gels as compared to softer gels. Additionally, hAT-MSCs gave rise to perfusable vessels that were VE-cadherin positive after subcutaneous injection into mice, whereas the softer fibrin formulation containing ADSCs did not. The application of ADSCs delivered in the stiff fibrin gels allowed for the wounds to heal more quickly, as assessed by wound size, amount of granulation tissue and collagen content. Interestingly, following 5 days of healing, the ADSCs remained within the fibrin gel and did not integrate into the granulation tissue of healing wounds in vivo. These data show that ADSCs are able to form tubular structures within fibrin gels, and may also contribute to faster wound healing, as compared with no treatment or to wounds treated with fibrin gels devoid of ADSCs.</AbstractText>
+                <CopyrightInformation>Copyright © 2014. Published by Elsevier Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Mendez</LastName>
+                    <ForeName>Julio J</ForeName>
+                    <Initials>JJ</Initials>
+                    <Affiliation>Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Ghaedi</LastName>
+                    <ForeName>Mahboobe</ForeName>
+                    <Initials>M</Initials>
+                    <Affiliation>Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Sivarapatna</LastName>
+                    <ForeName>Amogh</ForeName>
+                    <Initials>A</Initials>
+                    <Affiliation>Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Dimitrievska</LastName>
+                    <ForeName>Sashka</ForeName>
+                    <Initials>S</Initials>
+                    <Affiliation>Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Shao</LastName>
+                    <ForeName>Zhen</ForeName>
+                    <Initials>Z</Initials>
+                    <Affiliation>Department of Chemical and Environmental Engineering, Yale University, New Haven, CT, USA.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Osuji</LastName>
+                    <ForeName>Chinedum O</ForeName>
+                    <Initials>CO</Initials>
+                    <Affiliation>Department of Chemical and Environmental Engineering, Yale University, New Haven, CT, USA.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Steinbacher</LastName>
+                    <ForeName>Derek M</ForeName>
+                    <Initials>DM</Initials>
+                    <Affiliation>Department of Surgery, Yale University School of Medicine, New Haven, CT, USA.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Leffell</LastName>
+                    <ForeName>David J</ForeName>
+                    <Initials>DJ</Initials>
+                    <Affiliation>Department of Dermatology, Yale University School of Medicine, New Haven, CT, USA.</Affiliation>
+                </Author>
+                <Author>
+                    <LastName>Niklason</LastName>
+                    <ForeName>Laura E</ForeName>
+                    <Initials>LE</Initials>
+                    <Affiliation>Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA. Electronic address: laura.niklason@yale.edu.</Affiliation>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <GrantList>
+                <Grant>
+                    <GrantID>R01 HL083895</GrantID>
+                    <Acronym>HL</Acronym>
+                    <Agency>NHLBI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T32 GM086287</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Biomaterials</MedlineTA>
+            <NlmUniqueID>8100316</NlmUniqueID>
+            <ISSNLinking>0142-9612</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Adipose derived stromal cells (ADSCs)</Keyword>
+            <Keyword MajorTopicYN="N">Endothelial cells</Keyword>
+            <Keyword MajorTopicYN="N">Fibrin</Keyword>
+            <Keyword MajorTopicYN="N">Mesenchymal stromal cells (MSCs)</Keyword>
+            <Keyword MajorTopicYN="N">Stiffness</Keyword>
+            <Keyword MajorTopicYN="N">Wound healing</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>8</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2014</Year>
+                <Month>10</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>7</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0142-9612(14)01171-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.biomaterials.2014.11.011</ArticleId>
+            <ArticleId IdType="pubmed">25433608</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+

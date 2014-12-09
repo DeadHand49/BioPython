@@ -1,0 +1,195 @@
+Sci Rep: 5.078
+Protein Cell: 2.851
+PLoS One: 3.524
+PLoS One: 3.524
+PLoS One: 3.524
+Sci Rep: 5.078
+Angew Chem Int Ed Engl: 11.336
+Methods Mol Biol: 1.29
+Cell Death Dis: 5.177
+Dev Biol: 3.637
+Methods Mol Biol: 1.29
+Organogenesis: 2.596
+Development: 6.273
+Transgenic Res: 2.281
+Cell Death Differ: 8.385
+>>-->>Publication IF>>
+5.078
+>>-->>Publication Title>>
+The Homeobox Gene Dlx4 Promotes Generation of Human Induced Pluripotent Stem Cells
+>>-->>Publication Content>>
+The reprogramming of somatic cells into induced pluripotent stem cells (iPSCs) by defined transcription factors has been a well-established technique and will provide an invaluable resource for regenerative medicine. However, the low reprogramming efficiency of human iPSC is still a limitation for clinical application. Here we showed that the reprogramming potential of human dental pulp cells (DPCs) obtained from immature teeth is much higher than those of mature teeth DPCs. Furthermore, immature teeth DPCs can be reprogrammed by OCT3/4 and SOX2, conversely these two factors are insufficient to convert mature teeth DPCs to pluripotent states. Using a gene expression profiles between these two DPC groups, we identified a new transcript factor, distal-less homeobox 4 (DLX4), which was highly expressed in immature teeth DPCs and significantly promoted human iPSC generation in combination with OCT3/4, SOX2, and KLF4. We further show that activation of TGF-beta signaling suppresses the expression of DLX4 in DPCs and impairs the iPSC generation of DPCs. Our findings indicate that DLX4 can functionally replace c-MYC and supports efficient reprogramming of immature teeth DPCs.
+>>-->>Publication Journal>>
+Sci Rep
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/srep07283
+>>-->>Publication IF>>
+2.851
+>>-->>Publication Title>>
+Overexpression of Hdac6 Enhances Resistance to Virus Infection in Embryonic Stem Cells and in Mice
+>>-->>Publication Content>>
+?
+>>-->>Publication Journal>>
+Protein Cell
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1007/s13238-014-0120-6
+>>-->>Publication IF>>
+3.524
+>>-->>Publication Title>>
+Crispr Reveals a Distal Super-Enhancer Required for Sox2 Expression in Mouse Embryonic Stem Cells
+>>-->>Publication Content>>
+The pluripotency of embryonic stem cells (ESCs) is maintained by a small group of master transcription factors including Oct4, Sox2 and Nanog. These core factors form a regulatory circuit controlling the transcription of a number of pluripotency factors including themselves. Although previous studies have identified transcriptional regulators of this core network, the cis-regulatory DNA sequences required for the transcription of these key pluripotency factors remain to be defined. We analyzed epigenomic data within the 1.5 Mb gene-desert regions around the Sox2 gene and identified a 13kb-long super-enhancer (SE) located 100kb downstream of Sox2 in mouse ESCs. This SE is occupied by Oct4, Sox2, Nanog, and the mediator complex, and physically interacts with the Sox2 locus via DNA looping. Using a simple and highly efficient double-CRISPR genome editing strategy we deleted the entire 13-kb SE and characterized transcriptional defects in the resulting monoallelic and biallelic deletion clones with RNA-seq. We showed that the SE is responsible for over 90% of Sox2 expression, and Sox2 is the only target gene along the chromosome. Our results support the functional significance of a SE in maintaining the pluripotency transcription program in mouse ESCs.
+>>-->>Publication Journal>>
+PLoS One
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1371/journal.pone.0114485
+>>-->>Publication IF>>
+3.524
+>>-->>Publication Title>>
+Talen/Crispr-Mediated Egfp Knock-in Add-on at the Oct4 Locus Does Not Impact Differentiation of Human Embryonic Stem Cells towards Endoderm
+>>-->>Publication Content>>
+Human embryonic stem cells (hESCs) have great promise as a source of unlimited transplantable cells for regenerative medicine. However, current progress on producing the desired cell type for disease treatment has been limited due to an insufficient understanding of the developmental processes that govern their differentiation, as well as a paucity of tools to systematically study differentiation in the lab. In order to overcome these limitations, cell-type reporter hESC lines will be required. Here we outline two strategies using Transcription Activator Like Effector Nucleases (TALENs) and Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-CRISPR-Associated protein (Cas) to create OCT4-eGFP knock-in add-on hESC lines. Thirty-one and forty-seven percent of clones were correctly modified using the TALEN and CRISPR-Cas9 systems, respectively. Further analysis of three correctly targeted clones demonstrated that the insertion of eGFP in-frame with OCT4 neither significantly impacted expression from the wild type allele nor did the fusion protein have a dramatically different biological stability. Importantly, the OCT4-eGFP fusion was easily detected using microscopy, flow cytometry and western blotting. The OCT4 reporter lines remained equally competent at producing CXCR4+ definitive endoderm that expressed a panel of endodermal genes. Moreover, the genomic modification did not impact the formation of NKX6.1+/SOX9+ pancreatic progenitor cells following directed differentiation. In conclusion, these findings demonstrate for the first time that CRISPR-Cas9 can be used to modify OCT4 and highlight the feasibility of creating cell-type specific reporter hESC lines utilizing genome-editing tools that facilitate homologous recombination.
+>>-->>Publication Journal>>
+PLoS One
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1371/journal.pone.0114275
+>>-->>Publication IF>>
+3.524
+>>-->>Publication Title>>
+New Type of Sendai Virus Vector Provides Transgene-Free Ips Cells Derived from Chimpanzee Blood
+>>-->>Publication Content>>
+Induced pluripotent stem cells (iPSCs) are potentially valuable cell sources for disease models and future therapeutic applications; however, inefficient generation and the presence of integrated transgenes remain as problems limiting their current use. Here, we developed a new Sendai virus vector, TS12KOS, which has improved efficiency, does not integrate into the cellular DNA, and can be easily eliminated. TS12KOS carries KLF4, OCT3/4, and SOX2 in a single vector and can easily generate iPSCs from human blood cells. Using TS12KOS, we established iPSC lines from chimpanzee blood, and used DNA array analysis to show that the global gene-expression pattern of chimpanzee iPSCs is similar to those of human embryonic stem cell and iPSC lines. These results demonstrated that our new vector is useful for generating iPSCs from the blood cells of both human and chimpanzee. In addition, the chimpanzee iPSCs are expected to facilitate unique studies into human physiology and disease.
+>>-->>Publication Journal>>
+PLoS One
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1371/journal.pone.0113052
+>>-->>Publication IF>>
+5.078
+>>-->>Publication Title>>
+Combining Tgf-Beta Signal Inhibition and Connexin43 Silencing for Ipsc Induction from Mouse Cardiomyocytes
+>>-->>Publication Content>>
+The reprogramming of differentiated cells into induced pluripotent stem cells (iPSCs) can be achieved by ectopic expression of defined transcription factors (Oct3/4, Sox2, Klf4 and c-Myc). However, to date, some iPSCs have been generated using viral vectors; thus, unexpected insertional mutagenesis in the target cells would be a potential risk. Here we report reprogramming of siPSCs (gene silencing-induced pluripotent stem cells) from mouse neonatal cardiomyocytes (CMs) by combining TGF-beta signal inhibition and connexin43 (Cx43) silencing, and show that siPSCs show pluripotency in vitro and in vivo. Our novel non-insertional mutagenesis technique may provide a means for iPSC generation.
+>>-->>Publication Journal>>
+Sci Rep
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/srep07323
+>>-->>Publication IF>>
+11.336
+>>-->>Publication Title>>
+Long-Lived Engineering of Glycans to Direct Stem Cell Fate
+>>-->>Publication Content>>
+Glycans mediate many critical, long-term biological processes, such as stem cell differentiation. However, few methods are available for the sustained remodeling of cells with specific glycan structures. A new strategy that enables the long-lived presentation of defined glycosaminoglycans on cell surfaces using HaloTag proteins (HTPs) as anchors is reported. By controlling the sulfation patterns of heparan sulfate (HS) on pluripotent embryonic stem cell (ESC) membranes, it is demonstrated that specific glycans cause ESCs to undergo accelerated exit from self-renewal and differentiation into neuronal cell types. Thus, the stable display of glycans on HTP scaffolds provides a powerful, versatile means to direct key signaling events and biological outcomes such as stem cell fate.
+>>-->>Publication Journal>>
+Angew Chem Int Ed Engl
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1002/anie.201409258
+>>-->>Publication IF>>
+1.29
+>>-->>Publication Title>>
+Generation of Partially Reprogrammed Cells and Fully Reprogrammed Ips Cells by Plasmid Transfection
+>>-->>Publication Content>>
+Induced pluripotent stem (iPS) cells can be directly generated from somatic cells by overexpression of defined transcription factors. iPS cells can perpetually self-renew and differentiate into all cell types of an organism. iPS cells were first generated through infection with retroviruses that contain reprogramming factors. However, development of an exogene-free iPS cell generation method is crucial for future therapeutic applications, because integrated exogenes result in the formation of tumors in chimeras and regain pluripotency after differentiation in vitro. Here, we describe a method to generate iPS cells by transfection of plasmid vectors and to convert partially reprogrammed cells into fully reprogrammed iPS cells by switching from mouse ESC culture conditions to KOSR-based media with bFGF. We also describe basic methods used to characterize fully reprogrammed iPS cells.
+>>-->>Publication Journal>>
+Methods Mol Biol
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1007/7651_2014_161
+>>-->>Publication IF>>
+5.177
+>>-->>Publication Title>>
+Enhancing Mammary Differentiation by Overcoming Lineage-Specific Epigenetic Modification and Signature Gene Expression of Fibroblast-Derived Ipscs
+>>-->>Publication Content>>
+Recent studies have shown that induced pluripotent stem cells (iPSCs) retain a memory of their origin and exhibit biased differentiation potential. This finding reveals a severe limitation in the application of iPSCs to cell-based therapy because it means that certain cell types are not available for reprogramming for patients. Here we show that the iPSC differentiation process is accompanied by profound gene expression and epigenetic modifications that reflect cells' origins. Under typical conditions for mammary differentiation, iPSCs reprogrammed from tail-tip fibroblasts (TF-iPSCs) activated a fibroblast-specific signature that was not compatible with mammary differentiation. Strikingly, under optimized conditions, including coculture with iPSCs derived from the mammary epithelium or in the presence of pregnancy hormones, the fibroblast-specific signature of TF-iPSCs obtained during differentiation was erased and cells displayed a mammary-specific signature with a markedly enhanced ability for mammary differentiation. These findings provide new insights into the precise control of differentiation conditions that may have applications in personalized cell-based therapy.
+>>-->>Publication Journal>>
+Cell Death Dis
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/cddis.2014.499
+>>-->>Publication IF>>
+3.637
+>>-->>Publication Title>>
+Wnt5A and Wnt11 Inhibit the Canonical Wnt Pathway and Promote Cardiac Progenitor Development via the Caspase-Dependent Degradation of Akt
+>>-->>Publication Content>>
+Wnt proteins regulate cell behavior via a canonical signaling pathway that induces beta-catenin dependent transcription. It is now appreciated that Wnt/beta-catenin signaling promotes the expansion of the second heart field (SHF) progenitor cells that ultimately give-rise to the majority of cardiomyocytes. However, activating beta-catenin can also cause the loss of SHF progenitors, highlighting the necessity of precise control over beta-catenin signaling during heart development. We recently reported that two non-canonical Wnt ligands, Wnt5a and Wnt11, act cooperatively to attenuate canonical Wnt signaling that would otherwise disrupt the SHF. While these data reveal the essential role of this anti-canonical Wnt5a/Wnt11 signaling in SHF development, the mechanisms by which these ligands inhibit the canonical Wnt pathway are unclear. Wnt11 was previously shown to inhibit beta-catenin and promote cardiomyocyte maturation by activating a novel apoptosis-independent function of Caspases. Consistent with these data, we now show that Wnt5a and Wnt11 are capable of inducing Caspase activity in differentiating embryonic stem (ES) cells and that hearts from Wnt5a-/-; Wnt11-/- embryos have diminished Caspase 3 (Casp3) activity. Furthermore, SHF markers are reduced in Casp3 mutant ES cells while the treatment of wild type ES cells with Caspase inhibitors blocked the ability of Wnt5a and Wnt11 to promote SHF gene expression. This finding was in agreement with our in vivo studies in which injecting pregnant mice with Caspase inhibitors reduced SHF marker expression in their gestating embryos. Caspase inhibition also blocked other Wnt5a/Wnt11 induced effects, including the suppression of beta-catenin protein expression and activity. Interestingly, Wnt5a/Wnt11 treatment of differentiating ES cells reduced both phosphorylated and total Akt through a caspase dependent mechanism and phosphorylated Akt levels were increased in the hearts Caspase inhibitor treated. Surprisingly, inhibition of either Akt or PI3K in ES cells was an equally effective means of increasing SHF markers compared to treatment with Wnt5a/Wnt11. Moreover, Akt inhibition restored SHF gene expression in Casp3 mutant ES cells. Taken together, these findings suggest that Wnt5a/Wnt11 inhibit beta-catenin to promote SHF development through caspase-dependent AKT degradation.
+>>-->>Publication Journal>>
+Dev Biol
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1016/j.ydbio.2014.11.015
+>>-->>Publication IF>>
+1.29
+>>-->>Publication Title>>
+Growth of Human Pluripotent Stem Cells Using Functional Human Extracellular Matrix
+>>-->>Publication Content>>
+The use of animal products in the derivation and maintenance of human pluripotent stem cells (hPSCs) limits their possible applications in research and in clinics. Thus, one of the major goals in regenerative medicine is the establishment of animal-free conditions to support the culture and differentiation of human stem cells. Human fibroblasts produce an extracellular matrix (ECM) which can be extracted without the use of detergents, sterilized, and then used to coat tissue culture plates.We have shown that human embryonic stem cells (hESCs) grown on this matrix maintain their pluripotency in the presence of medium conditioned by fibroblast cells, and that these cells maintain expression of surface proteins (SSEA4, Tra1-60, Tra1-81), alkaline phosphatase activity, and specific intracellular markers (Nanog, Oct-4, Tert, FoxD3) in hESCs. This growth system reduces exposure of hPSCs to feeder layers and animal ingredients, thereby limiting the risk of pathogenic contamination and additionally, facilitating their manipulation. Herein we present an improved version of our previous protocol for extracting ECM from human foreskin fibroblast using a different buffer. Our new hypotonic shock method is detergent-free, reduces costs, and preserves the integrity of the extracted ECM. This improved protocol has been validated for undifferentiated-state hPSC maintenance (more than 40 passages), stem cell differentiation, and for cell migration assays.
+>>-->>Publication Journal>>
+Methods Mol Biol
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1007/7651_2014_154
+>>-->>Publication IF>>
+2.596
+>>-->>Publication Title>>
+Age Associated Communication between Cells and Matrix: a Potential Impact on Stem Cell-Based Tissue Regeneration Strategies
+>>-->>Publication Content>>
+Abstract A recent paper demonstrated that decellularized extracellular matrix (DECM) deposited by synovium-derived stem cells (SDSCs), especially from fetal donors, could rejuvenate human adult SDSCs in both proliferation and chondrogenic potential, in which expanded cells and corresponding culture substrate (such as DECM) were found to share a mutual reaction in both elasticity and protein profiles (see ref. 1). It seems that young DECM may assist in the development of culture strategies that optimize proliferation and maintain "stemness" of mesenchymal stem cells (MSCs), helping to overcome one of the primary difficulties in MSC-based regenerative therapies. In this paper, the effects of age on the proliferative capacity and differentiation potential of MSCs are reviewed, along with the ability of DECM from young cells to rejuvenate old cells. In an effort to highlight some of the potential molecular mechanisms responsible for this phenomenon, we discuss age-related changes to extracellular matrix (ECM)'s physical properties and chemical composition.
+>>-->>Publication Journal>>
+Organogenesis
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.4161/15476278.2014.970089
+>>-->>Publication IF>>
+6.273
+>>-->>Publication Title>>
+Chd1 Is Essential for the High Transcriptional Output and Rapid Growth of the Mouse Epiblast
+>>-->>Publication Content>>
+The pluripotent mammalian epiblast undergoes unusually fast cell proliferation. This rapid growth is expected to generate a high transcriptional demand, but the underlying mechanisms remain unknown. We show here that the chromatin remodeler Chd1 is required for transcriptional output and development of the mouse epiblast. Chd1-/- embryos exhibit proliferation defects and increased apoptosis, are smaller than controls by E5.5 and fail to grow, to become patterned or to gastrulate. Removal of p53 allows progression of Chd1-/- mutants only to E7.0-8.0, highlighting the crucial requirement for Chd1 during early post-implantation development. Chd1-/- embryonic stem cells (ESCs) have a self-renewal defect and a genome-wide reduction in transcriptional output at both known mRNAs and intergenic transcripts. These transcriptional defects were only uncovered when cell number-normalized approaches were used, and correlate with a lower engagement of RNAP II with transcribed genes in Chd1-/- ESCs. We further show that Chd1 directly binds to ribosomal DNA, and that both Chd1-/- epiblast cells in vivo and ESCs in vitro express significantly lower levels of ribosomal RNA. In agreement with these findings, mutant cells in vivo and in vitro exhibit smaller and more elongated nucleoli. Thus, the RNA output by both Pol I and II is reduced in Chd1-/- cells. Our data indicate that Chd1 promotes a globally elevated transcriptional output required to sustain the distinctly rapid growth of the mouse epiblast.
+>>-->>Publication Journal>>
+Development
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1242/dev.114843
+>>-->>Publication IF>>
+2.281
+>>-->>Publication Title>>
+Tt2014 Meeting Report on the 12Th Transgenic Technology Meeting in Edinburgh: New Era of Transgenic Technologies with Programmable Nucleases in the Foreground
+>>-->>Publication Content>>
+The 12th Transgenic Technology meeting was held in Edinburgh on 6th-8th October 2014 and interest to participate in the meeting overcame all expectations. The TT2014 was the largest meeting ever with more than 540 scientists, technicians, and students from all over the world. The meeting had an excellent scientific program that brought information on the latest ground-breaking technologies for gene targeting and genome editing using programmable nucleases into the foreground. These presentations were well balanced with several highlights over viewing topics in embryonic stem cell research, embryogenesis, disease models, and animals in agriculture. Ample space was reserved also for short talks presenting technical development and for highlighting posters contributions. A highlight of the meeting was the award of the 10th International Society of Transgenic Technologies Prize to Janet Rossant for her outstanding contributions in the field of mouse embryogenesis.
+>>-->>Publication Journal>>
+Transgenic Res
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1007/s11248-014-9856-2
+>>-->>Publication IF>>
+8.385
+>>-->>Publication Title>>
+miR-23A, miR-24 and miR-27A Protect Differentiating Escs from Bmp4-Induced Apoptosis
+>>-->>Publication Content>>
+Numerous studies have indicated that BMP4 signaling is involved in the regulation of the early steps of development. In mouse embryonic stem cells (ESCs), BMP4 is crucial to sustain pluripotency and blocks differentiation towards neural fate. Here, through a systematic analysis of miRNAs in ESCs, we establish that BMP4 signaling regulates miR-23a, 27a and 24-2, through the recruitment of phospho-Smads at the promoter of the gene encoding this miRNA cluster. Suppression of miR-23a/b, 27a/b and 24 does not affect self-renewal or pluripotency, but induces an evident change of ESC differentiation, with a significant increase of the cells undergoing apoptosis after the transition from ESCs to epiblast stem cells (EpiSCs). BMP4 has been previously reported to cause apoptosis during ESC differentiation. By blocking BMP4 signaling, we completely prevent the apoptosis induced by suppression of the miRs. This suggests that the effects of miR suppression are the result of enhanced BMP4 signaling. This hypothesis is further supported by the observation that Smad5, the transcription factor downstream of the BMP4 receptor, is targeted by the miRNAs of the 23a and 23b clusters. Altogether, our results highlight the existence of a regulatory loop, involving Smad5 and the miR-23a clusters, that modulates the apoptotic response of ESCs to BMP4.Cell Death and Differentiation advance online publication, 5 December 2014; doi:10.1038/cdd.2014.198.
+>>-->>Publication Journal>>
+Cell Death Differ
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/cdd.2014.198

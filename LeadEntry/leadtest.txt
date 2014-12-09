@@ -1,0 +1,3024 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1200" />
+<title>Volume 9.47 | Dec 3 - ESC &amp; iPSC News</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://www.escellnews.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://www.escellnews.com/wp-content/themes/esc/favicon.ico" />
+<!--[if lt IE 9]>
+<script src="http://www.escellnews.com/wp-content/themes/esc/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<style type='text/css'>
+					.no-break br {
+						display: none !important;
+					}
+			</style>
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.6.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="A Comparison of Non-Integrating Reprogramming Methods"/>
+<link rel="canonical" href="http://www.escellnews.com/issue/volume-9-47-dec-3/" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="ESC &amp; iPSC News &raquo; Feed" href="http://www.escellnews.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ESC &amp; iPSC News &raquo; Comments Feed" href="http://www.escellnews.com/comments/feed/" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://www.escellnews.com/wp-includes/css/dashicons.min.css?ver=4.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://www.escellnews.com/wp-includes/css/admin-bar.min.css?ver=4.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tm-lcptu-styles-css'  href='http://www.escellnews.com/wp-content/plugins/latest-custom-post-type-updates/css/tm_lcptu_basic_styles.css?ver=1.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='boxes-css'  href='http://www.escellnews.com/wp-content/plugins/wordpress-seo/css/adminbar.min.css?ver=1.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='http://www.escellnews.com/wp-content/themes/esc/style.css?ver=4.0.1' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='http://www.escellnews.com/wp-content/themes/esc/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.escellnews.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.escellnews.com/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='http://www.escellnews.com/?p=1010' />
+<script charset="utf-8" type="text/javascript">var switchTo5x=true;</script><script charset="utf-8" type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script charset="utf-8" type="text/javascript">stLight.options({publisher:"7c79251e-a83d-4262-957c-ab11bd5563ec" , doNotCopy: true, hashAddressBar: false, doNotHash: true});var st_type='wordpress3.7.1';</script><link rel="shortcut icon" type="image/x-icon" href="http://www.escellnews.com/wp-content/themes/esc/favicon.ico" /><style>#wpadminbar #wp-admin-bar-site-name>.ab-item:before { content: none !important;}li#wp-admin-bar-site-name a { background: url( "http://www.escellnews.com/wp-content/themes/esc/favicon.ico" ) left center/20px no-repeat !important; padding-left: 21px !important; background-size: 20px !important; } li#wp-admin-bar-site-name { margin-left: 5px !important; } li#wp-admin-bar-site-name {} #wp-admin-bar-site-name div a { background: none !important; }
+</style><style>#wpadminbar .quicklinks li#wp-admin-bar-blog-2 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-2 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/cscn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-18 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-18 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/ecm/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-19 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-19 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/hn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-20 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-20 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/hin/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-21 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-21 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/iidn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-22 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-22 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/pacn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-23 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-23 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/pcn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-24 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-24 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/pulcn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-25 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-25 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/ctn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-26 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-26 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/cbn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-27 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-27 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/esc/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-28 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-28 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/irn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-29 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-29 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/mcn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-30 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-30 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/mescn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+#wpadminbar .quicklinks li#wp-admin-bar-blog-31 .blavatar { font-size: 0 !important; }#wp-admin-bar-blog-31 div.blavatar { background: url( "http://www.escellnews.com/wp-content/themes/ncn/favicon.ico" ) left bottom/16px no-repeat !important; background-size: 16px !important; margin: 0 2px 0 -2px; }
+</style>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://www.escellnews.com/wp-content/themes/esc/js/imageslider.js" type="text/javascript"></script>
+<script src="http://www.escellnews.com/wp-content/themes/esc/js/accordion.js" type="text/javascript"></script>
+<script src="http://www.escellnews.com/wp-content/themes/esc/js/ticker.js" type="text/javascript"></script>
+<script src="http://www.escellnews.com/wp-content/themes/esc/js/animatedcollapse.js" type="text/javascript"></script>
+<script src="http://www.escellnews.com/wp-content/themes/esc/js/sortable.js" type="text/javascript"></script>
+<script src="http://www.escellnews.com/wp-content/themes/esc/js/jquery-ie-text-shadow.js" type="text/javascript"></script>
+<script type="text/javascript">
+   stLight.options({
+      onhover: false
+   });
+</script>
+
+<link href="http://www.escellnews.com/wp-content/themes/esc/css/theme.css" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript">
+animatedcollapse.addDiv('issue2010', 'fade=1,persist=1,hide=1')
+animatedcollapse.addDiv('issue2011', 'fade=1,persist=1,hide=1')
+animatedcollapse.addDiv('issue2012', 'fade=1,persist=1,hide=1')
+animatedcollapse.addDiv('issue2013', 'fade=1,persist=1,hide=1')
+animatedcollapse.addDiv('issue2014', 'fade=1,persist=1,hide=1')
+animatedcollapse.addDiv('issue2015', 'fade=1,persist=1,hide=1')
+animatedcollapse.addDiv('issue2016', 'fade=1,persist=1,hide=1')
+animatedcollapse.addDiv('issue2017', 'fade=1,persist=1,hide=1')
+//animatedcollapse.ontoggle=function($, divobj, state){ }
+animatedcollapse.init()
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#fade').list_ticker({
+			speed:10000,
+			effect:'fade'
+		});
+	})
+</script>
+
+<script type="text/javascript">
+	haccordion.setup({
+		accordionid: 'hc',
+		paneldimensions: {peekw:'58px', fullw:'150px', h:'65px'},
+		selectedli: [-1, true],
+		collapsecurrent: true
+	})
+</script>
+
+
+  </head>
+  <body><a name="top"></a>
+
+<div style="width:100%;background-image:url(http://www.escellnews.com/wp-content/themes/esc/img/menu_bg.png); background-repeat:repeat-x;">
+	<div id="hc" class="haccordion" style="width:1080px; margin-left: auto; margin-right: auto;">
+    	<ul>
+			<li>
+				<div class="hpanel" style="padding:10px; width:100px">
+					<a href="http://www.connexoncreative.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_1.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:8px;"><font color="#4d5d68">Connexon Creative</font></div></a>
+				</div>
+			</li>
+			<li>
+				<div class="hpanel" style="padding:10px; width:90px">
+					<a href="http://www.celltherapynews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_2.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:3px;"><font color="#4d5d68">Cell Therapy News</font></div></a>
+				</div>
+			</li>
+			<li>
+				<div class="hpanel" style="padding:10px; width:80px">
+					<a href="http://www.cordbloodresearchnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_3.png" border="0" align="left" style="padding-right:3px;;"><div style="padding-top:3px;"><font color="#4d5d68">Cord Blood News</font></div></a>
+				</div>
+			</li>
+			<div class="hpanelactive" style="padding:0px; width:58px; float:left;">
+				<a href="http://www.escellnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_4.png" align="left" style="padding:10px;" border="0"></a>
+			</div>
+    		<li>
+				<div class="hpanel" style="padding:10px; width:120px">
+					<a href="http://www.hematopoiesisnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_5.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:8px;"><font color="#4d5d68">Hematopoiesis News</font></div></a>
+				</div>
+			</li>
+        	<li>
+				<div class="hpanel" style="padding:10px; width:115px">
+					<a href="http://www.mesenchymalcellnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_6.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:8px;"><font color="#4d5d68">Mesenchymal Cell News</font></div></a>
+				</div>
+			</li>
+            <li>
+				<div class="hpanel" style="padding:10px; width:100px">
+					<a href="http://www.cancerstemcellnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_7.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:3px;"><font color="#4d5d68">Cancer Stem Cell News</font></div></a>
+				</div>
+			</li>
+			<li>
+				<div class="hpanel" style="padding:10px; width:110px">
+					<a href="http://www.extracellularmatrixnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_8.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:8px;"><font color="#4d5d68">Extracellular Matrix News</font></div></a>
+				</div>
+			</li>
+			<li>
+				<div class="hpanel" style="padding:10px; width:85px">
+					<a href="http://www.neuralcellnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_9.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:3px;"><font color="#4d5d68">Neural Cell News</font></div></a>
+				</div>
+			</li>
+			<li>
+				<div class="hpanel" style="padding:10px; width:98px">
+					<a href="http://www.mammarycellnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_10.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:8px;"><font color="#4d5d68">Mammary Cell News</font></div></a>
+				</div>
+			</li>
+			<li>
+				<div class="hpanel" style="padding:10px; width:90px">
+					<a href="http://www.prostatecellnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_11.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:3px;"><font color="#4d5d68">Prostate Cell News</font></div></a>
+				</div>
+			</li>
+			<li>
+				<div class="hpanel" style="padding:10px; width:110px">
+					<a href="http://www.pancreaticcellnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_12.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:8px;"><font color="#4d5d68">Pancreatic Cell News</font></div></a>
+				</div>
+			</li>
+			<li>
+				<div class="hpanel" style="padding:10px; width:105px">
+					<a href="http://www.pulmonarycellnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_13.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:8px;"><font color="#4d5d68">Pulmonary Cell News</font></div></a>
+				</div>
+			</li>
+			<li>
+				<div class="hpanel" style="padding:10px; width:105px">
+					<a href="http://www.immuneregulationnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_14.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:3px;"><font color="#4d5d68">Immune Regulation News</font></div></a>
+				</div>
+			</li>
+			<li>
+				<div class="hpanel" style="padding:10px; width:120px">
+					<a href="http://www.immunologyofinfectiousdiseasenews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_15.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:3px;"><font color="#4d5d68">Immunology of Infectious Disease News</font></div></a>
+				</div>
+			</li>
+ 			<li>
+				<div class="hpanel" style="padding:10px; width:110px">
+					<a href="http://www.humanimmunologynews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/menu_16.png" border="0" align="left" style="padding-right:3px;"><div style="padding-top:3px;"><font color="#4d5d68">Human Immunology News</font></div></a>
+				</div>
+			</li>
+			<li>
+			<div class="hpanel" style="padding:10px; width:5px"></div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+<div style="width:1000px; margin-left: auto; margin-right: auto;">
+	<div style="clear:both;"></div>
+	<div id="logo" style="float:left; width:250px;">
+    	<a href="http://www.escellnews.com"><img src="http://www.escellnews.com/wp-content/themes/esc/img/logo.png"></a>
+    </div>
+	<div id="mainnav" style="float:left; padding-top:55px;">
+	<ul id="nav" class="dropdown dropdown-linear dropdown-columnar">
+		<li class="dir"><div class="firstmenu"><a href="http://www.escellnews.com/issue/">Previous Issues</a></div></li>
+		<li class="dir"><div class="firstmenu"><a href="http://www.escellnews.com/reviews/">Reviews</a></div></li>
+		<li class="dir"><div class="firstmenu"><a href="http://www.escellnews.com/events/">Events</a></div></li>
+        <li class="dir"><div class="firstmenu"><a href="http://www.escellnews.com/societies/">Societies</a></div></li>
+		<li class="dir"><div class="firstmenu"><a href="http://www.connexoncreative.com/jobs/">Jobs</a></div></li>
+
+    	<li class="dir"><div style="display:inline; position:relative; top:13px; float:left;"><a href="http://www.connexoncreative.com/subscribe/"><img src="http://www.escellnews.com/wp-content/themes/esc/img/nav_subscribe.png" border="0"></a></div>
+
+        <div id="search" style="display:inline; position:relative; left:15px; float:left; top:10px;"><!--<form method="get" id="searchform" action="http://www.escellnews.com/"><input type="text" name="s" id="s" value="Search" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" style="padding: 5px; border: 1px solid silver; width:100px; background-image: url(http://www.escellnews.com/wp-content/themes/esc/img/nav_search.png); background-position: 85px 5px; background-repeat: no-repeat;"/></form>-->
+
+<div id='cse-search-form' style='width: 120px;'></div>
+<script src='//www.google.com/jsapi' type='text/javascript'></script>
+<script type='text/javascript'>
+google.load('search', '1', {language: 'en', style: google.loader.themes.V2_DEFAULT});
+google.setOnLoadCallback(function() {
+  var customSearchOptions = {};
+  var orderByOptions = {};
+  orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+  customSearchOptions['enableOrderBy'] = true;
+  customSearchOptions['orderByOptions'] = orderByOptions;
+  var customSearchControl =   new google.search.CustomSearchControl('015335102605712394959:u-7hkfvop3q', customSearchOptions);
+  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+  var options = new google.search.DrawOptions();
+  options.enableSearchboxOnly('http://www.escellnews.com/search', 'q');
+  options.setAutoComplete(true);
+  customSearchControl.draw('cse-search-form', options);
+}, true);
+</script>
+
+
+        </div></li>
+
+
+	</ul>
+	</div>
+
+<div style="clear:both;"></div>
+
+</div>
+
+
+<div id="headerFrame">
+	<div id="header">
+    <div class="dshadow headtext">Previous Issues</div>
+	<img src="http://www.escellnews.com/wp-content/themes/esc/img/site_header.png" />
+    </div>
+</div>
+
+<div style="clear:both;">&nbsp;<br />&nbsp;</div>
+
+<div style="width:1000px; margin-left: auto; margin-right: auto;">
+
+<div style="float:left; width:770px">
+<div style="padding-bottom:5px;"><span st_via='ESC_iPSC_News' st_username='ESC_iPSC_News' class='st_twitter' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span><span class='st_facebook' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span><span class='st_linkedin' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span><span class='st_email' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span><span class='st_plusone' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span><span class='st_fblike' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span></div>
+
+
+	<article id="post-1010" class="post-1010 issue type-issue status-publish hentry">
+				<header class="entry-header">
+									<h1 class="entry-title">Volume 9.47 | Dec 3</h1>
+								</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<body>
+<table class="webfix" style="border: 10px solid #b8b8b8; horizontal-align: center;" bgcolor="#b8b8b8" align="center" width="755" border="0" cellpadding="0" cellspacing="0"><tr><td width="100%"><div align="center"><font color="#666666" size="1" face="Verdana">
+
+<!-- #ISSUE Start -->
+ESC &#038; iPSC News 9.47 December 3, 2014
+<!-- #ISSUE End-->
+
+</font></div><img border="0" alt="ESC &#038; iPSC News" src="http://img.en25.com/EloquaImages/clients/StemcellTechnologiesInc/{c3e1525d-7e28-472b-90fe-2254d6bbd7ba}_NewsletterEmHeader_ESC.png" width="749" height="115"></td></tr><tr><td style="border-top: 1px solid #3366ff; border-bottom: 1px solid #3366ff; background-color: #cccccc; vertical-align: middle;" bgcolor="#cccccc" valign="middle" width="100%" height="30"><table border="0" cellspacing="0" cellpadding="0" width="100%" height="30"><tr><td valign="middle"><font size="2" face="arial" color="#666666">
+
+<!-- #MENU Start -->
+<strong>&nbsp;&nbsp;&nbsp;&nbsp; In this issue:</strong> <a href="#currentpublications" style="text-decoration: none"><font color="#3366ff"><strong>Publications</strong></font></a> | <a href="#reviews" style="text-decoration: none"><font color="#3366ff"><strong>Reviews</strong></font></a> | <a href="#industrynews" style="text-decoration: none"><font color="#3366ff"><strong>Industry News</strong></font></a> | <a href="#policynews" style="text-decoration:none"><font color="#3366ff"><strong>Policy News</strong></font></a> | <a href="#events" style="text-decoration: none"><font color="#3366ff"><strong>Events</strong></font></a> | <a href="#jobopportunities" style="text-decoration: none"><font color="#3366ff"><strong>Jobs</strong></font></a>
+<!-- #MENU End -->
+
+</font></td><td><div align="center"><a target="_blank" href="http://www.facebook.com/CellTherapyNews"><img border=0 alt="Cell Therapy News on Facebook" src="http://img.en25.com/eloquaimages/clients/stemcelltechnologiesinc/%7B5d3d9c70-66c9-4e82-b056-abd80aef045e%7D_social_default_facebook_icon.jpg" width="16" height="16"></a>&nbsp;&nbsp;<a target="_blank" href="http://twitter.com/ESC_iPSC_News"><img border="0" alt="ESC on Twitter" src="http://img.en25.com/eloquaimages/clients/stemcelltechnologiesinc/%7B361a5c5c-663f-40fa-82b7-01c545266032%7D_social_default_twitter_icon.jpg" width="16" height="16"></a></div></td></tr></table></td></tr><tr>
+<td style="padding-left: 50px; padding-right: 50px; background-color: #ffffff;" bgcolor="#ffffff">
+
+<!-- #TOPSTORY Start -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="100%" height="20">&nbsp;</td></tr><tr><td style="padding-bottom: 15px;" width="100%" height="20"><font color="#3366ff" face="Arial" size="3"><strong>TOP STORY</strong></font></td></tr><tr><td style="padding-bottom: 15px;" width="100%">
+<!-- #TOPSTORY Start -->
+<a style="text-decoration: none" href="http://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3070.html"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #PUBLICATIONS TITLE-->A Comparison of Non-Integrating Reprogramming Methods<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #PUBLICATIONS CONTENT-->Investigators compared Sendai-viral, episomal and mRNA transfection mRNA methods using a number of criteria. All methods generated high-quality human induced pluripotent stem cells, but significant differences existed in aneuploidy rates, reprogramming efficiency, reliability and workload. [<em>Nat Biotechnol</em>] <!-- End --></font><a style="text-decoration: none" href="http://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3070.html"><font color="#ff9900" size="2" face="Arial"><strong>Abstract</strong></font></a></td></tr><tr><td style="padding-bottom: 15px; border-bottom:1px solid; border-bottom-color: #808080;">
+
+<!-- #TOPSTORY BANNER Start-->
+<a style="text-decoration: none" href="http://secure.eloqua.com/e/f2.aspx?elqFormName=cxn&#038;elqSiteID=1832&#038;e=info@connexoncreative.com&#038;u=http://www.stemcell.com/en/Products/All-Products/STEMdiff-Neural-Induction-Medium.aspx?utm_source=esc%26utm_medium=banner%26utm_campaign=diftakethedif&#038;t=(Archive)ESC9.47i"><img border="0" alt="Take the &quot;if&quot; out of &quot;diff&quot;: Reduce variability when differentiating to neural progenitors" src="http://img.en25.com/EloquaImages/clients/StemcellTechnologiesInc/{35d7988a-e09f-48f2-96c5-e9573062f9dc}_ON429PSC-TakeIfOutOfDiff-NIM-645x110-A.jpg" width="645" height="110"></a>
+<!-- #TOPSTORY BANNER End-->
+</td></tr></table>
+<!-- #TOPSTORY End -->
+
+<!-- #PUBLICATIONS Start --><a name="currentpublications"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="100%" height="20">&nbsp;</td></tr><tr><td style="padding-bottom: 15px;" width="100%" height="20"><strong><font color="#3366ff" face="Arial" size="3">PUBLICATIONS</font></strong> <strong><font size="2" color="#3366ff">(<a style="text-decoration: none" href="http://thomsonreuters.com/products_services/science/free/essays/impact_factor/"><font color="#3366ff">Ranked by impact factor of the journal</font></a>)</font></strong></td></tr><tr><td style="padding-bottom: 15px; border-bottom: 1px solid; border-bottom-color: #808080;">
+
+<!-- #PUBLICATIONS SECTION Start -->
+<a style="text-decoration: none" href="http://stm.sciencemag.org/content/6/264/264ra163.abstract"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #PUBLICATIONS TITLE-->Human <em>COL7A1</em>-Corrected Induced Pluripotent Stem Cells for the Treatment of Recessive Dystrophic Epidermolysis Bullosa<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #PUBLICATIONS CONTENT-->Researchers generated patient-derived <em>COL7A1</em>-corrected epithelial keratinocyte sheets for autologous grafting. Induced pluripotent stem cell-derived keratinocytes were produced with minimal heterogeneity, and these cells secreted wild-type type VII collagen, resulting in stratified epidermis <em>in vitro</em> in organotypic cultures and <em>in vivo</em> in mice. [<em>Sci Transl Med</em>] <!-- End --></font><a style="text-decoration: none" href="http://stm.sciencemag.org/content/6/264/264ra163.abstract"><font color="#ff9900" size="2" face="Arial"><strong>Abstract</strong></font></a>
+ <font color="#ff9900" size="2" face="Arial"><strong>|</strong></font>
+ <a style="text-decoration: none" href="http://med.stanford.edu/news/all-news/2014/11/blistering-skin-disease-may-be-treatable-with-therapeutic-reprog.html"><font color="#ff9900" size="2" face="Arial"><strong>Press Release</strong></font></a><br /><br />
+<!-- #PUBLICATIONS SECTION End -->
+
+<!-- #PUBLICATIONS SECTION Start -->
+<a style="text-decoration: none" href="http://www.nature.com/ncomms/2014/141201/ncomms6629/full/ncomms6629.html"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #PUBLICATIONS TITLE-->Tolerance Induction to Human Stem Cell Transplants with Extension to Their Differentiated Progeny<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #PUBLICATIONS CONTENT-->Scientists show that brief induction with monoclonal antibody-mediated coreceptor and costimulation blockade enables long-term engraftment and tolerance towards murine ESCs, hESCs, human induced pluripotent stem cells and hESC-derived progenitors in outbred murine recipients. [<em>Nat Commun</em>] <!-- End --></font><a style="text-decoration: none" href="http://www.nature.com/ncomms/2014/141201/ncomms6629/full/ncomms6629.html"><font color="#ff9900" size="2" face="Arial"><strong>Abstract</strong></font></a>
+ <font color="#ff9900" size="2" face="Arial"><strong>|</strong></font>
+ <a style="text-decoration: none" href="http://dailynews.mcmaster.ca/article/for-stem-cells-its-a-case-of-home-sweet-home/"><font color="#ff9900" size="2" face="Arial"><strong>Press Release</strong></font></a><br /><br />
+<!-- #PUBLICATIONS SECTION End -->
+
+<!-- #PUBLICATIONS SECTION Start -->
+<a style="text-decoration: none" href="http://www.pnas.org/content/early/2014/11/26/1419553111.abstract"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #PUBLICATIONS TITLE-->Recessive Cardiac Phenotypes in Induced Pluripotent Stem Cell Models of Jervell and Lange-Nielsen Syndrome: Disease Mechanisms and Pharmacological Rescue<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #PUBLICATIONS CONTENT-->Investigators used complementary approaches, reprogramming patient cells and genetic engineering, to generate human induced pluripotent stem cell models of Jervell and Lange-Nielsen syndrome (JLNS), covering splice site and missense mutations, the two major classes of JLNS-causing defects in <em>KCNQ1</em>. [<em>Proc Natl Acad Sci USA</em>] <!-- End --></font><a style="text-decoration: none" href="http://www.pnas.org/content/early/2014/11/26/1419553111.abstract"><font color="#ff9900" size="2" face="Arial"><strong>Abstract</strong></font></a><br /><br />
+<!-- #PUBLICATIONS SECTION End -->
+
+<!-- #PUBLICATIONS SECTION Start -->
+<a style="text-decoration: none" href="http://online.liebertpub.com/doi/abs/10.1089/ten.TEC.2014.0481"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #PUBLICATIONS TITLE-->Reconstruction of Highly Proliferative Auto-Tissue-Engineered Lamellar Cornea Enhanced by Embryonic Stem Cell<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #PUBLICATIONS CONTENT-->To increase the epithelial proliferation of an auto-tissue-engineered lamellar cornea, corneal epithelial cells were combined with mouse embryonic stem cells pre-transfected with the <em>HSV-tk</em> gene, and corneal epithelial cells were seeded between the acellular porcine corneal stroma and the amniotic membrane using the centrifugal cell seeding method.  [<em>Tissue Eng Part C Methods</em>] <!-- End --></font><a style="text-decoration: none" href="http://online.liebertpub.com/doi/abs/10.1089/ten.TEC.2014.0481"><font color="#ff9900" size="2" face="Arial"><strong>Abstract</strong></font></a><br /><br />
+<!-- #PUBLICATIONS SECTION End -->
+
+<!-- #PUBLICATIONS SECTION Start -->
+<a style="text-decoration: none" href="http://online.liebertpub.com/doi/abs/10.1089/scd.2014.0353"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #PUBLICATIONS TITLE-->A 3&#8217;UTR-Associated RNA, FLJ11812 Maintains Stemness of Human Embryonic Stem Cells by Targeting miR-4459<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #PUBLICATIONS CONTENT-->miR-4459 could decrease the expression of its targets, CDC20B, LARP1 and ATG13, and thus altered stemness via cell cycle, mRNA stability and autophagy. Researchers reveal that 3’UTR-associated RNA FLJ11812 played a key role in maintenance of stemness of hESCs for the first time. [<em>Stem Cells Dev</em>] <!-- End --></font><a style="text-decoration: none" href="http://online.liebertpub.com/doi/abs/10.1089/scd.2014.0353"><font color="#ff9900" size="2" face="Arial"><strong>Abstract</strong></font></a><br /><br />
+<!-- #PUBLICATIONS SECTION End -->
+
+<!-- #PUBLICATIONS SECTION Start -->
+<a style="text-decoration: none" href="http://onlinelibrary.wiley.com/doi/10.1111/cpr.12152/abstract"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #PUBLICATIONS TITLE-->Tetraploid Complementation Proves Pluripotency of Induced Pluripotent Stem Cells Derived from Adipose Tissue<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #PUBLICATIONS CONTENT-->Scientists succeeded to the birth of viable and fertile adult mice derived entirely from reprogrammed adipose stem cells, indicating cell types other than fibroblasts can also be restored to the embryonic level of pluripotency. [<em>Cell Prolif</em>] <!-- End --></font><a style="text-decoration: none" href="http://onlinelibrary.wiley.com/doi/10.1111/cpr.12152/abstract"><font color="#ff9900" size="2" face="Arial"><strong>Abstract</strong></font></a><br /><br />
+<!-- #PUBLICATIONS SECTION End -->
+
+<!-- #PUBLICATIONS SECTION Start -->
+<a style="text-decoration: none" href="http://onlinelibrary.wiley.com/doi/10.1111/cpr.12150/abstract"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #PUBLICATIONS TITLE-->PRMT5 Enhances Generation of Induced Pluripotent Stem Cells from Dairy Goat Embryonic Fibroblasts via Down-Regulation of p53<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #PUBLICATIONS CONTENT-->Investigators explored protein arginine methyltransferase 5 (PRMT5) expression profiles in dairy goats and its consequences to derivation of induced pluripotent stem cells from dairy goat embryonic fibroblasts. [<em>Cell Prolif</em>] <!-- End --></font><a style="text-decoration: none" href="http://onlinelibrary.wiley.com/doi/10.1111/cpr.12150/abstract"><font color="#ff9900" size="2" face="Arial"><strong>Abstract</strong></font></a><br /><br />
+<!-- #PUBLICATIONS SECTION End -->
+
+<!-- #PUBLICATIONS SECTION Start -->
+<a style="text-decoration: none" href="http://www.cell.com/stem-cell-reports/abstract/S2213-6711(14)00335-X"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #PUBLICATIONS TITLE-->Precise Correction of the Dystrophin Gene in Duchenne Muscular Dystrophy Patient Induced Pluripotent Stem Cells by TALEN and CRISPR-Cas9<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #PUBLICATIONS CONTENT-->To restore dystrophin protein, scientists performed three correction methods (exon skipping, frameshifting, and exon knockin) in Duchenne muscular dystrophy-patient-derived induced pluripotent stem cells, and found that exon knockin was the most effective approach. [<em>Stem Cell Rep</em>] <!-- End --></font><br /><a style="text-decoration: none" href="http://www.cell.com/stem-cell-reports/abstract/S2213-6711(14)00335-X"><font color="#ff9900" size="2" face="Arial"><strong>Full Article</strong></font></a>
+ <font color="#ff9900" size="2" face="Arial"><strong>|</strong></font>
+ <a style="text-decoration: none" href="http://www.cell.com/cms/attachment/2021030556/2041199423/fx1.jpg"><font color="#ff9900" size="2" face="Arial"><strong>Graphical Abstract</strong></font></a>
+ <font color="#ff9900" size="2" face="Arial"><strong>|</strong></font>
+ <a style="text-decoration: none" href="http://www.icems.kyoto-u.ac.jp/e/pr/2014/11/27-nr.html"><font color="#ff9900" size="2" face="Arial"><strong>Press Release</strong></font></a><br /><br />
+<!-- #PUBLICATIONS SECTION End -->
+
+<!-- #PUBLICATIONS BANNER Start-->
+<a style="text-decoration: none" href="http://secure.eloqua.com/e/f2.aspx?elqFormName=cxn&#038;elqSiteID=1832&#038;e=info@connexoncreative.com&#038;u=http://www.stemcell.com/en/Products/Popular-Product-Lines/TeSR-E8.aspx?utm_source=esc%26utm_medium=banner%26utm_campaign=e8launch&#038;t=(Archive)ESC9.47ii"><img border="0" alt="New TeSR™-E8™ is Here For Feeder-Free Culture of Human ES Cells and iPS Cells" src="http://img.en25.com/eloquaimages/clients/StemcellTechnologiesInc/{8c4164e2-320f-458d-bb0f-ab0b9d64fa8f}_ON399-E8PSC_645x110.jpg" width="645" height="110"></a>
+<!-- #PUBLICATIONS BANNER End-->
+</td></tr></table>
+<!-- #PUBLICATIONS End -->
+
+
+<!-- #REVIEWS Start --><a name="reviews"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="100%" height="20">&nbsp;</td></tr><tr><td style="padding-bottom: 15px;" width="100%" height="20"><font color="#3366ff" face="Arial" size="3"><strong>REVIEWS</strong></font></td></tr><tr><td style="padding-bottom: 15px; border-bottom: 1px solid; border-bottom-color: #808080;">
+
+<!-- #REVIEWS SECTION Start -->
+<a style="text-decoration: none" href="http://link.springer.com/article/10.1007%2Fs12015-014-9577-1"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #REVIEWS TITLE-->Pluripotent Stem Cells for Schwann Cell Engineering<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #REVIEWS CONTENT-->The authors focus on the current <em>in vitro</em> strategies for generating Schwann cells from two sources of pluripotent stem cells, namely embryonic stem cells and induced pluripotent stem cells. [<em>Stem Cell Rev</em>] <!-- End --></font><a style="text-decoration: none" href="http://link.springer.com/article/10.1007%2Fs12015-014-9577-1"><font color="#ff9900" size="2" face="Arial"><strong>Abstract</strong></font></a><br /><br />
+<!-- #REVIEWS SECTION End -->
+
+<font color="#000000" face="Arial" size="2">Visit our <a style="text-decoration: none" href="http://www.escellnews.com/reviews/?utm_source=newsletter&#038;utm_medium=link&#038;utm_campaign=escnewsletterreviews"><font color="#3366ff"><strong>reviews page</strong></font></a> to see a complete list of reviews in the ESC &#038; iPSC research field.</font>
+
+</td></tr></table>
+<!-- #REVIEWS End -->
+
+
+<!-- #INDUSTRY Start --><a name="industrynews"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="100%" height="20">&nbsp;</td></tr><tr><td style="padding-bottom: 15px;" width="100%" height="20"><font color="#3366ff" face="Arial" size="3"><strong>INDUSTRY NEWS</strong></font></td></tr><tr><td style="padding-bottom: 15px; border-bottom: 1px solid; border-bottom-color: #808080;">
+
+<!-- #INDUSTRY SECTION Start -->
+<a style="text-decoration: none" href="http://www.cirm.ca.gov/about-cirm/newsroom/press-releases/12012014/stem-cell-agency-israel-announce-international"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #INDUSTRY TITLE-->Stem Cell Agency &#038; Israel Announce International Collaboration to Advance Stem Cell Research<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #INDUSTRY CONTENT-->California’s stem cell agency, the California Institute for Regenerative Medicine has reached a cooperation agreement with Israel’s Center for R&#038;D to help advance stem cell research and regenerative medicine. [California Institute for Regenerative Medicine] <!-- End --></font><a style="text-decoration: none" href="http://www.cirm.ca.gov/about-cirm/newsroom/press-releases/12012014/stem-cell-agency-israel-announce-international"><font color="#ff9900" size="2" face="Arial"><strong>Press Release</strong></font></a><br /><br />
+<!-- #INDUSTRY SECTION End -->
+
+<!-- #INDUSTRY SECTION Start -->
+<a style="text-decoration: none" href="http://www.prnewswire.com/news-releases/aruna-to-develop-stem-cell-based-chemical-screening-kits-that-mimic-the-human-brain-in-a-dish-300003848.html"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #INDUSTRY TITLE-->ArunA to Develop Stem Cell Based Chemical Screening Kits that Mimic the Human Brain in a Dish<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #INDUSTRY CONTENT-->U.S. Environmental Protection Agency (EPA) Administrator, Gina McCarthy, announced that ArunA Biomedical is among nine small businesses identified to share nearly $3 million in research funding to help the EPA bring green technology initiatives to the marketplace. During the award period, ArunA will expand commercial production capacity of human pluripotent stem cell derived neurons and astrocytes successfully developed through Phase I support. [ArunA Biomedical (PR Newswire Association LLC)] <!-- End --></font><a style="text-decoration: none" href="http://www.prnewswire.com/news-releases/aruna-to-develop-stem-cell-based-chemical-screening-kits-that-mimic-the-human-brain-in-a-dish-300003848.html"><font color="#ff9900" size="2" face="Arial">
+<strong>Press Release</strong></font></a><br /><br />
+<!-- #INDUSTRY SECTION End -->
+<!-- #INDUSTRY BANNER Start-->
+<a style="text-decoration: none" href="http://secure.eloqua.com/e/f2.aspx?elqFormName=cxn&#038;elqSiteID=1832&#038;e=info@connexoncreative.com&#038;u=http://www.stemcell.com/Home/Forms/Wallcharts/Wallchart%20Pluripotent%20Stem%20Cell%20Biology.aspx?utm_source=esc%26utm_medium=link%26utm_campaign=PluriWall_645x110&#038;t=(Archive)ESC9.47iiitext"><font size="2" face="Arial" color="#3366ff"><strong>From our sponsor:</strong><font size="2" face="Arial" color="#000000"> Pluripotent cell isolation for regenerative medicine.</font> <strong><font size="2" face="Arial" color="#3366ff">Request a free wallchart from <em>Nature</em>.</font></strong></font></a>
+<!-- #INDUSTRY BANNER End-->
+
+</td></tr></table>
+<!-- #INDUSTRY End -->
+
+
+<!-- #POLICY Start --><a name="policynews"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="100%" height="20">&nbsp;</td></tr><tr><td style="padding-bottom: 15px;" width="100%" height="20"><font color="#3366ff" face="Arial" size="3"><strong>POLICY NEWS</strong></font></td></tr><tr><td style="padding-bottom: 15px; border-bottom: 1px solid; border-bottom-color: #808080;">
+
+<!-- #POLICY SECTION Start -->
+<a style="text-decoration: none" href="http://news.sciencemag.org/scientific-community/2014/12/nature-publisher-hopes-end-dark-sharing-making-read-only-papers-free"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #POLICY TITLE--><em>Nature</em> Publisher Hopes to End &#8216;Dark Sharing&#8217; by Making Read-Only Papers Free<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #POLICY CONTENT-->The publisher of the prestigious <em>Nature</em> family of scientific journals unveiled a new approach to freely sharing papers that are normally protected by a paywall. The initiative seeks to provide an alternative to—and potentially end—so-called dark sharing, a practice that some scientific publishers find problematic. [<em>ScienceInsider</em>] <!-- End --></font><a style="text-decoration: none" href="http://news.sciencemag.org/scientific-community/2014/12/nature-publisher-hopes-end-dark-sharing-making-read-only-papers-free"><font color="#ff9900" size="2" face="Arial"><strong>Editorial</strong></font></a><br /><br />
+<!-- #POLICY SECTION End -->
+
+<!-- #POLICY SECTION Start -->
+<a style="text-decoration: none" href="http://news.sciencemag.org/europe/2014/11/e-u-commission-wants-divert-horizon-2020-money-new-investment-fund"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #POLICY TITLE-->E.U. Commission Wants to Divert Horizon 2020 Money into New Investment Fund<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #POLICY CONTENT-->The new boss of the European Commission has sparked criticism with plans to raid the European Union&#8217;s science budget to fodder a new investment fund aimed at boosting Europe&#8217;s sluggish economy and creating new jobs. [<em>ScienceInsider</em>] <!-- End --></font><a style="text-decoration: none" href="http://news.sciencemag.org/europe/2014/11/e-u-commission-wants-divert-horizon-2020-money-new-investment-fund"><font color="#ff9900" size="2" face="Arial"><strong>Editorial</strong></font></a>
+<!-- #POLICY SECTION End -->
+
+</td></tr></table>
+<!-- #POLICY End -->
+
+<!-- #EVENT Start --><a name="events"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="100%" height="20">&nbsp;</td></tr><tr><td style="padding-bottom: 15px;" width="100%" height="20"><font color="#3366ff" face="Arial" size="3"><strong>EVENTS</strong></font></td></tr><tr><td style="padding-bottom: 15px; border-bottom: 1px solid; border-bottom-color: #808080;">
+
+<!-- #EVENT SECTION Start -->
+<a style="text-decoration: none" href="http://bit.ly/1yhsgvW"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #EVENT TITLE--><font color="#ff9900">NEW</font> Keystone Symposium &#8211; Transcriptional and Epigenetic Influences on Stem Cell States<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #EVENT CONTENT-->March 23-28, 2015<br />Steamboat Springs, United States<!-- End --><br /><br />
+<!-- #EVENT SECTION End -->
+
+<!-- #EVENT SECTION Start -->
+<a style="text-decoration: none" href="http://www.celllineasia.com"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #EVENT TITLE--><font color="#ff9900">NEW</font> 4<sup>th</sup> Annual Cell Line Engineering &#038; Development Asia<!-- End --></font></strong></a><br /><font color="#000000" size="2" face="Arial">
+<!-- #EVENT CONTENT-->May 19-22, 2015<br />Shanghai, China<!-- End --><br /><br />
+<!-- #EVENT SECTION End -->
+
+<font face="Arial" size="2">Visit our <a style="text-decoration: none" href="http://www.escellnews.com/events/?utm_source=newsletter&#038;utm_medium=link&#038;utm_campaign=escnewsletterevents"><font color="#3366ff"><strong>events page</strong></font></a> to see a complete list of events in the ESC &#038; iPSC community.</font>
+</font></font></td></tr></table>
+<!-- #EVENT End -->
+
+
+<!-- #JOB Start --><a name="jobopportunities"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="100%" height="20">&nbsp;</td></tr><tr><td style="padding-bottom: 15px;" width="100%" height="20"><font color="#3366ff" face="Arial" size="3"><strong>JOB OPPORTUNITIES</strong></font></td></tr><tr><td style="padding-bottom: 15px; border-bottom: 1px solid; border-bottom-color: #808080;">
+
+<!-- #JOB SECTION Start -->
+<a style="text-decoration: none" href="http://www.nature.com/naturejobs/science/jobs/479107-postdoctoal-fellow-and-technician"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #JOB TITLE--><font color="#ff9900">NEW</font> Postdoctoral Fellow and Technician &#8211; Regenerative Medicine Using iPSC, Embryonic and Adult Stem Cells (University of Illinois at Chicago)
+<!-- End --></font></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a style="text-decoration: none" href="http://www.nature.com/naturejobs/science/jobs/478707-postdoctoral-position-for-pluripotent-stem-cell-biology-and-cancer-research-in-sloan-kettering-institution-cornell-univ"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #JOB TITLE--><font color="#ff9900">NEW</font> Postdoctoral Position &#8211; Pluripotent Stem Cell Biology and Cancer Research (Memorial Sloan-Kettering Cancer Center)
+<!-- End --></font></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+
+<!-- #JOB SECTION Start -->
+<a style="text-decoration: none" href="http://www.nature.com/naturejobs/science/jobs/472637-postdoctoral-research-associate-position-in-stem-cell-engineering"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #JOB TITLE-->Postdoctoral Research Associate &#8211; Stem Cell Engineering (Rensselaer Polytechnic Institute)
+<!-- End --></font></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a style="text-decoration: none" href="http://connexoncreative.com/wp-content/uploads/2014/11/2014.11.17_Postdoctoral_Position_Bursac_Lab_2.pdf"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #JOB TITLE-->Postdoctoral Fellow &#8211; <em>In Vitro</em> Modeling of Human Skeletal Muscle Disease (Duke University)
+<!-- End --></font></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<a style="text-decoration: none" href="http://connexoncreative.com/wp-content/uploads/2014/11/2014.11.07_Head_of_Lab_Leeds.pdf"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #JOB TITLE-->Head of Cellular and Molecular Therapies Laboratory (NHS Blood &#038; Transplant)
+<!-- End --></font></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a style="text-decoration: none" href="http://www.nature.com/naturejobs/science/jobs/470861-phd-studentship-dr-abdenour-soufi-centre-for-regenerative-medicine"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #JOB TITLE-->PhD Studentship &#8211; The Initial Network for Cellular Reprogramming to Pluripotency (University of Edinburgh)
+<!-- End --></font></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a style="text-decoration: none" href="http://www.nature.com/naturejobs/science/jobs/471099-post-doctoral-position-stem-cell-and-rna-biology"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #JOB TITLE-->Postdoctoral Position &#8211; Stem Cell and RNA Biology (Lund University)
+<!-- End --></font></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a style="text-decoration: none" href="http://connexoncreative.com/wp-content/uploads/2014/10/2014.10.16_PostDocPosition_Istem.pdf"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #JOB TITLE-->Postdoctoral Position &#8211; Muscle Cell Therapy (I-Stem)
+<!-- End --></font></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a style="text-decoration: none" href="http://www.stemcell.com/en/Careers/367fd/Scientist-Reprogramming-and-Pluripotent-Stem-Cell-Biology.aspx"><strong><font color="#3366ff" size="2" face="Arial">
+<!-- #JOB TITLE-->Scientist &#8211; Reprogramming and Pluripotent Stem Cell Biology (STEMCELL Technologies Inc.)
+<!-- End --></font></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a target="_blank" style="text-decoration: none" href="http://bit.ly/1jziIFZ" target="_blank"><strong><span style="color: #3366ff; font-family: Arial; font-size: small;">
+<!-- #JOB TITLE-->Scientist &#8211; Pluripotent Stem Cell Biology Endoderm Lineages (STEMCELL Technologies Inc.)<!-- End --></span></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a target="_blank" style="text-decoration: none" href="http://bit.ly/1iaGE7X" target="_blank"><strong><span style="color: #3366ff; font-family: Arial; font-size: small;">
+<!-- #JOB TITLE-->Scientist &#8211; Human Pluripotent Stem Cell Biology (STEMCELL Technologies Inc.)<!-- End --></span></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a target="_blank" style="text-decoration: none" href="http://bit.ly/1l3nPCH" target="_blank"><strong><span style="color: #3366ff; font-family: Arial; font-size: small;">
+<!-- #JOB TITLE-->Scientist &#8211; Pluripotent Stem Cell Media Development, High Throughput Screening (STEMCELL Technologies Inc.)<!-- End --></span></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a target="_blank" style="text-decoration: none" href="http://bit.ly/1soMyGv" target="_blank"><strong><span style="color: #3366ff; font-family: Arial; font-size: small;">
+<!-- #JOB TITLE-->Scientist &#8211; Cell Culture Support Products (STEMCELL Technologies Inc.)<!-- End --></span></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<!-- #JOB SECTION Start -->
+<a target="_blank" style="text-decoration: none" href="http://bit.ly/1nhngIe" target="_blank"><strong><span style="color: #3366ff; font-family: Arial; font-size: small;">
+<!-- #JOB TITLE-->Scientist &#8211; Immunology/Cell Separation (STEMCELL Technologies Inc.)<!-- End --></span></strong></a><br /><br />
+<!-- #JOB SECTION End -->
+
+<br /><font size="2" face="Arial" color="#000000"><a style="text-decoration: none" href="http://connexoncreative.com/job/?utm_source=newsletter&#038;utm_medium=link&#038;utm_campaign=escnewslettersubmitjobs"><font color="#3366ff"><strong>Recruit Top Talent</strong></font></a>: Reach more than 50,000 potential candidates by <a target="_blank" href="http://connexoncreative.com/job/?utm_source=newsletter&#038;utm_medium=link&#038;utm_campaign=escnewslettersubmitjobs"><strong><font color="#3366ff"><u>posting</u></font></strong></a>
+ your organization&#8217;s career opportunities on the Connexon Creative <a target="_blank" href="http://connexoncreative.com/jobs/?utm_source=newsletter&#038;utm_medium=link&#038;utm_campaign=escnewsletterjobs"><strong><font color="#3366ff"><u>Job Board</u></font></strong></a> at no cost.
+</font></td></tr></table>
+<!-- #JOB End -->
+
+<!-- #FOOTER Start -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="100%" height="20">&nbsp;</td></tr><tr><td style="padding-bottom: 15px;"><br /><div align="center"><font size="2" face="Arial" color="#3366ff"><strong>Have we missed an important article or publication in ESC &#038; iPSC News? <a style="text-decoration: none" href="http://connexoncreative.com/publication/"><font color="#3366ff">Click here to submit!</font></a><br /><br /><a style="text-decoration: none" href="http://www.connexoncreative.com/give-feedback/"><font color="#3366ff">Comments or suggestions? Submit your feedback here</font></a></strong></font>
+</div></td></tr></table></td></tr><tr><td style="border-top: 1px solid; border-top-color: #666666; border-bottom: 1px solid; border-bottom-color: #666666;  background-color: #cccccc; vertical-align: middle;" bgcolor="#cccccc" valign="middle" width="100%" height="30"><table width="100%" height="30"><tr><td valign="middle"><font color="#666666" size="2" face="Arial"><strong>Learn more about ESC &#038; iPSC News:  </strong><a style="text-decoration: none" href="http://www.escellnews.com/issue/"><font color="#3366ff">Archives</font></a> | <a style="text-decoration: none" href="http://www.escellnews.com/events/">
+<font color="#3366ff">Events</font></a>
+ | <a style="text-decoration: none" href=" http://connexoncreative.com/contact-us/">
+<font color="#3366ff">Contact Us</font></a></font></td></tr></table></td></tr></table>
+<!-- #FOOTER End -->
+					</div><!-- .entry-content -->
+
+	</article><!-- #post -->
+			<div style="clear:both;padding-top:5px;"><span st_via='ESC_iPSC_News' st_username='ESC_iPSC_News' class='st_twitter' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span><span class='st_facebook' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span><span class='st_linkedin' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span><span class='st_email' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span><span class='st_plusone' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span><span class='st_fblike' st_title='Volume 9.47 | Dec 3' st_url='http://www.escellnews.com/issue/volume-9-47-dec-3/'></span></div>
+</div>
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="text-11" class="widget widget_text"><h3 class="widget-title"> </h3>			<div class="textwidget">Subscribe today to receive free, weekly science newsletters delivered directly to your inbox!<br><br><a href="http://www.connexoncreative.com/subscribe/"><img src="/wp-content/themes/cscn/img/sidebar_subscribenow.png" border="0"></a></div>
+		</aside><aside id="tm_latest_cp_widget-2" class="widget tm_latest_cp_widget"><table style="border-collapse: collapse;"><tr><td width="180" style="border-top: 1px solid silver;"><a href="#" rel="toggle[issue2014]"><h3 style="font-style:normal!important">2014</h3></a></td><td style="border-top: 1px solid silver;"><a href="#" rel="toggle[issue2014]" data-openimage="http://www.escellnews.com/wp-content/themes/esc/img/issue_collapse.png" data-closedimage="http://www.escellnews.com/wp-content/themes/esc/img/issue_expand.png"><img src="http://www.escellnews.com/wp-content/themes/esc/img/issue_collapse.png" border="0" /></a></td></tr></table><div id="issue2014"><ul class="tm-latest-updates ">
+                    <li class="post-1010 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-47-dec-3/" class="tm_lcptu_post_title_link">Volume 9.47 | Dec 3</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-1003 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-46-nov-26/" class="tm_lcptu_post_title_link">Volume 9.46 | Nov 26</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-997 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-45-nov-19/" class="tm_lcptu_post_title_link">Volume 9.45 | Nov 19</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-989 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-44-nov-12/" class="tm_lcptu_post_title_link">Volume 9.44 | Nov 12</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-982 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-43-nov-5/" class="tm_lcptu_post_title_link">Volume 9.43 | Nov 5</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-977 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-42-oct-29/" class="tm_lcptu_post_title_link">Volume 9.42 | Oct 29</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-961 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-41-oct-22/" class="tm_lcptu_post_title_link">Volume 9.41 | Oct 22</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-956 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-40-oct-15/" class="tm_lcptu_post_title_link">Volume 9.40 | Oct 15</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-950 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-39-oct-8/" class="tm_lcptu_post_title_link">Volume 9.39 | Oct 8</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-948 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-38-oct-1/" class="tm_lcptu_post_title_link">Volume 9.38 | Oct 1</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-933 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-37-sep-24/" class="tm_lcptu_post_title_link">Volume 9.37 | Sep 24</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-927 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-36-sep-17/" class="tm_lcptu_post_title_link">Volume 9.36 | Sep 17</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-922 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-35-sep-10/" class="tm_lcptu_post_title_link">Volume 9.35 | Sep 10</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-916 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-34-sep-3/" class="tm_lcptu_post_title_link">Volume 9.34 | Sep 3</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-908 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-33-aug-27/" class="tm_lcptu_post_title_link">Volume 9.33 | Aug 27</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-905 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-32-aug-20/" class="tm_lcptu_post_title_link">Volume 9.32 | Aug 20</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-897 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-31-aug-13/" class="tm_lcptu_post_title_link">Volume 9.31 | Aug 13</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-885 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-30-aug-6/" class="tm_lcptu_post_title_link">Volume 9.30 | Aug 6</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-878 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-29-jul-30/" class="tm_lcptu_post_title_link">Volume 9.29 | Jul 30</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-870 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-28-jul-23/" class="tm_lcptu_post_title_link">Volume 9.28 | Jul 23</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-864 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-27-jul-16/" class="tm_lcptu_post_title_link">Volume 9.27 | Jul 16</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-856 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-26-jul-9/" class="tm_lcptu_post_title_link">Volume 9.26 | Jul 9</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-853 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-25-jul-2/" class="tm_lcptu_post_title_link">Volume 9.25 | Jul 2</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-845 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-24-jun-25/" class="tm_lcptu_post_title_link">Volume 9.24 | Jun 25</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-840 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-23-jun-18/" class="tm_lcptu_post_title_link">Volume 9.23 | Jun 18</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-835 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-22-jun-11/" class="tm_lcptu_post_title_link">Volume 9.22 | Jun 11</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-829 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-21-jun-4/" class="tm_lcptu_post_title_link">Volume 9.21 | Jun 4</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-821 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-20-may-28/" class="tm_lcptu_post_title_link">Volume 9.20 | May 28</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-816 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-19-may-21/" class="tm_lcptu_post_title_link">Volume 9.19 | May 21</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-811 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-18-may-14/" class="tm_lcptu_post_title_link">Volume 9.18 | May 14</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-801 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-17-may-7/" class="tm_lcptu_post_title_link">Volume 9.17 | May 7</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-796 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-16-apr-30/" class="tm_lcptu_post_title_link">Volume 9.16 | Apr 30</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-792 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-15-apr-23/" class="tm_lcptu_post_title_link">Volume 9.15 | Apr 23</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-786 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-14-apr-16/" class="tm_lcptu_post_title_link">Volume 9.14 | Apr 16</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-779 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-13-apr-9/" class="tm_lcptu_post_title_link">Volume 9.13 | Apr 9</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-772 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-12-apr-2/" class="tm_lcptu_post_title_link">Volume 9.12 | Apr 2</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-765 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-11-mar-26/" class="tm_lcptu_post_title_link">Volume 9.11 | Mar 26</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-760 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-10-mar-19/" class="tm_lcptu_post_title_link">Volume 9.10 | Mar 19</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-751 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-09-mar-12/" class="tm_lcptu_post_title_link">Volume 9.09 | Mar 12</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-742 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-08-mar-5/" class="tm_lcptu_post_title_link">Volume 9.08 | Mar 5</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-734 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-07-feb-26/" class="tm_lcptu_post_title_link">Volume 9.07 | Feb 26</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-729 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-06-feb-19/" class="tm_lcptu_post_title_link">Volume 9.06 | Feb 19</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-724 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-05-feb-12/" class="tm_lcptu_post_title_link">Volume 9.05 | Feb 12</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-717 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-04-feb-5/" class="tm_lcptu_post_title_link">Volume 9.04 | Feb 5</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-711 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-03-jan-29/" class="tm_lcptu_post_title_link">Volume 9.03 | Jan 29</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-706 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-02-jan-22/" class="tm_lcptu_post_title_link">Volume 9.02 | Jan 22</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-701 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-01-jan-15/" class="tm_lcptu_post_title_link">Volume 9.01 | Jan 15</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-694 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-9-00-jan-8/" class="tm_lcptu_post_title_link">Volume 9.00 | Jan 8</a></div>
+
+
+                    </li>
+
+                    </ul></div></aside><aside id="tm_latest_cp_widget-3" class="widget tm_latest_cp_widget"><table style="border-collapse: collapse;"><tr><td width="180" style="border-top: 1px solid silver;"><a href="#" rel="toggle[issue2013]"><h3 style="font-style:normal!important">2013</h3></a></td><td style="border-top: 1px solid silver;"><a href="#" rel="toggle[issue2013]" data-openimage="http://www.escellnews.com/wp-content/themes/esc/img/issue_collapse.png" data-closedimage="http://www.escellnews.com/wp-content/themes/esc/img/issue_expand.png"><img src="http://www.escellnews.com/wp-content/themes/esc/img/issue_collapse.png" border="0" /></a></td></tr></table><div id="issue2013"><ul class="tm-latest-updates ">
+                    <li class="post-681 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-50-dec-18/" class="tm_lcptu_post_title_link">Volume 8.50 | Dec 18</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-673 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-49-dec-11/" class="tm_lcptu_post_title_link">Volume 8.49 | Dec 11</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-653 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-48-dec-4/" class="tm_lcptu_post_title_link">Volume 8.48 | Dec 4</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-652 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-47-nov-27/" class="tm_lcptu_post_title_link">Volume 8.47 | Nov 27</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-56 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-46-nov-20/" class="tm_lcptu_post_title_link">Volume 8.46 | Nov 20</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-58 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-45-nov-13/" class="tm_lcptu_post_title_link">Volume 8.45 | Nov 13</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-60 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-44-nov-6/" class="tm_lcptu_post_title_link">Volume 8.44 | Nov 6</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-62 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-43-oct-30/" class="tm_lcptu_post_title_link">Volume 8.43 | Oct 30</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-64 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-42-oct-23/" class="tm_lcptu_post_title_link">Volume 8.42 | Oct 23</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-66 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-41-oct-16/" class="tm_lcptu_post_title_link">Volume 8.41 | Oct 16</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-68 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-40-oct-9/" class="tm_lcptu_post_title_link">Volume 8.40 | Oct 9</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-70 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-39-oct-2/" class="tm_lcptu_post_title_link">Volume 8.39 | Oct 2</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-72 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-38-sep-25/" class="tm_lcptu_post_title_link">Volume 8.38 | Sep 25</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-74 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-37-sep-18/" class="tm_lcptu_post_title_link">Volume 8.37 | Sep 18</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-76 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-36-sep-11/" class="tm_lcptu_post_title_link">Volume 8.36 | Sep 11</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-78 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-35-sep-4/" class="tm_lcptu_post_title_link">Volume 8.35 | Sep 4</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-80 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-34-aug-28/" class="tm_lcptu_post_title_link">Volume 8.34 | Aug 28</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-82 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-33-aug-21/" class="tm_lcptu_post_title_link">Volume 8.33 | Aug 21</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-84 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-32-aug-14/" class="tm_lcptu_post_title_link">Volume 8.32 | Aug 14</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-86 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-31-aug-7/" class="tm_lcptu_post_title_link">Volume 8.31 | Aug 7</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-88 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-30-jul-31/" class="tm_lcptu_post_title_link">Volume 8.30 | Jul 31</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-90 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-29-jul-24/" class="tm_lcptu_post_title_link">Volume 8.29 | Jul 24</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-93 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-28-jul-17/" class="tm_lcptu_post_title_link">Volume 8.28 | Jul 17</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-95 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-27-jul-10/" class="tm_lcptu_post_title_link">Volume 8.27 | Jul 10</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-97 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-26-jul-3/" class="tm_lcptu_post_title_link">Volume 8.26 | Jul 3</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-99 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-25-jun-26/" class="tm_lcptu_post_title_link">Volume 8.25 | Jun 26</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-101 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-24-jun-19/" class="tm_lcptu_post_title_link">Volume 8.24 | Jun 19</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-104 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-23-jun-12/" class="tm_lcptu_post_title_link">Volume 8.23 | Jun 12</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-106 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-22-jun-5/" class="tm_lcptu_post_title_link">Volume 8.22 | Jun 5</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-108 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-21-may-29/" class="tm_lcptu_post_title_link">Volume 8.21 | May 29</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-110 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-20-may-22/" class="tm_lcptu_post_title_link">Volume 8.20 | May 22</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-112 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-19-may-15/" class="tm_lcptu_post_title_link">Volume 8.19 | May 15</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-114 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-18-may-8/" class="tm_lcptu_post_title_link">Volume 8.18 | May 8</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-116 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-17-may-1/" class="tm_lcptu_post_title_link">Volume 8.17 | May 1</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-118 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-16-apr-24/" class="tm_lcptu_post_title_link">Volume 8.16 | Apr 24</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-120 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-15-apr-17/" class="tm_lcptu_post_title_link">Volume 8.15 | Apr 17</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-122 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-14-apr-10/" class="tm_lcptu_post_title_link">Volume 8.14 | Apr 10</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-124 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-13-apr-3/" class="tm_lcptu_post_title_link">Volume 8.13 | Apr 3</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-126 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-12-mar-27/" class="tm_lcptu_post_title_link">Volume 8.12 | Mar 27</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-128 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-11-mar-20/" class="tm_lcptu_post_title_link">Volume 8.11 | Mar 20</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-130 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-10-mar-13/" class="tm_lcptu_post_title_link">Volume 8.10 | Mar 13</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-132 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-09-mar-6/" class="tm_lcptu_post_title_link">Volume 8.09 | Mar 6</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-134 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-08-feb-27/" class="tm_lcptu_post_title_link">Volume 8.08 | Feb 27</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-136 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-07-feb-20/" class="tm_lcptu_post_title_link">Volume 8.07 | Feb 20</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-138 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-06-feb-13/" class="tm_lcptu_post_title_link">Volume 8.06 | Feb 13</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-140 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-05-feb-6/" class="tm_lcptu_post_title_link">Volume 8.05 | Feb 6</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-142 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-04-jan-30/" class="tm_lcptu_post_title_link">Volume 8.04 | Jan 30</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-144 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-03-jan-23/" class="tm_lcptu_post_title_link">Volume 8.03 | Jan 23</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-146 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-02-jan-16/" class="tm_lcptu_post_title_link">Volume 8.02 | Jan 16</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-148 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-01-jan-9/" class="tm_lcptu_post_title_link">Volume 8.01 | Jan 9</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-150 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-8-00-jan-2/" class="tm_lcptu_post_title_link">Volume 8.00 | Jan 2</a></div>
+
+
+                    </li>
+
+                    </ul></div></aside><aside id="tm_latest_cp_widget-4" class="widget tm_latest_cp_widget"><table style="border-collapse: collapse;"><tr><td width="180" style="border-top: 1px solid silver;"><a href="#" rel="toggle[issue2012]"><h3 style="font-style:normal!important">2012</h3></a></td><td style="border-top: 1px solid silver;"><a href="#" rel="toggle[issue2012]" data-openimage="http://www.escellnews.com/wp-content/themes/esc/img/issue_collapse.png" data-closedimage="http://www.escellnews.com/wp-content/themes/esc/img/issue_expand.png"><img src="http://www.escellnews.com/wp-content/themes/esc/img/issue_collapse.png" border="0" /></a></td></tr></table><div id="issue2012"><ul class="tm-latest-updates ">
+                    <li class="post-152 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-50-dec-19/" class="tm_lcptu_post_title_link">Volume 7.50 | Dec 19</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-154 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-49-dec-12/" class="tm_lcptu_post_title_link">Volume 7.49 | Dec 12</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-156 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-48-dec-5/" class="tm_lcptu_post_title_link">Volume 7.48 | Dec 5</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-158 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-47-nov-28/" class="tm_lcptu_post_title_link">Volume 7.47 | Nov 28</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-160 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-46-nov-21/" class="tm_lcptu_post_title_link">Volume 7.46 | Nov 21</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-162 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-45-nov-14/" class="tm_lcptu_post_title_link">Volume 7.45 | Nov 14</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-164 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-44-nov-7/" class="tm_lcptu_post_title_link">Volume 7.44 | Nov 7</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-166 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-43-oct-31/" class="tm_lcptu_post_title_link">Volume 7.43 | Oct 31</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-168 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-42-oct-24/" class="tm_lcptu_post_title_link">Volume 7.42 | Oct 24</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-170 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-41-oct-17/" class="tm_lcptu_post_title_link">Volume 7.41 | Oct 17</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-172 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-40-oct-10/" class="tm_lcptu_post_title_link">Volume 7.40 | Oct 10</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-174 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-39-oct-3/" class="tm_lcptu_post_title_link">Volume 7.39 | Oct 3</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-176 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-38-sep-26/" class="tm_lcptu_post_title_link">Volume 7.38 | Sep 26</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-178 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-37-sep-19/" class="tm_lcptu_post_title_link">Volume 7.37 | Sep 19</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-181 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-36-sep-12/" class="tm_lcptu_post_title_link">Volume 7.36 | Sep 12</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-183 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-35-sep-5/" class="tm_lcptu_post_title_link">Volume 7.35 | Sep 5</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-185 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-34-aug-29/" class="tm_lcptu_post_title_link">Volume 7.34 | Aug 29</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-187 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-33-aug-22/" class="tm_lcptu_post_title_link">Volume 7.33 | Aug 22</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-189 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-32-aug-15/" class="tm_lcptu_post_title_link">Volume 7.32 | Aug 15</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-192 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-31-aug-8/" class="tm_lcptu_post_title_link">Volume 7.31 | Aug 8</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-194 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-30-aug-1/" class="tm_lcptu_post_title_link">Volume 7.30 | Aug 1</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-196 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-29-jul-25/" class="tm_lcptu_post_title_link">Volume 7.29 | Jul 25</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-198 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-28-jul-18/" class="tm_lcptu_post_title_link">Volume 7.28 | Jul 18</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-200 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-27-jul-11/" class="tm_lcptu_post_title_link">Volume 7.27 | Jul 11</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-202 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-26-jul-4/" class="tm_lcptu_post_title_link">Volume 7.26 | Jul 4</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-204 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-25-jun-27/" class="tm_lcptu_post_title_link">Volume 7.25 | Jun 27</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-206 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-24-jun-20/" class="tm_lcptu_post_title_link">Volume 7.24 | Jun 20</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-208 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-23-jun-13/" class="tm_lcptu_post_title_link">Volume 7.23 | Jun 13</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-210 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-22-jun-6/" class="tm_lcptu_post_title_link">Volume 7.22 | Jun 6</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-212 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-21-may-30/" class="tm_lcptu_post_title_link">Volume 7.21 | May 30</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-214 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-20-may-23/" class="tm_lcptu_post_title_link">Volume 7.20 | May 23</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-216 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-19-may-16/" class="tm_lcptu_post_title_link">Volume 7.19 | May 16</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-218 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-18-may-9/" class="tm_lcptu_post_title_link">Volume 7.18 | May 9</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-220 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-17-may-2/" class="tm_lcptu_post_title_link">Volume 7.17 | May 2</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-222 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-16-apr-25/" class="tm_lcptu_post_title_link">Volume 7.16 | Apr 25</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-224 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-15-apr-18/" class="tm_lcptu_post_title_link">Volume 7.15 | Apr 18</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-226 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-14-apr-11/" class="tm_lcptu_post_title_link">Volume 7.14 | Apr 11</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-228 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-13-apr-4/" class="tm_lcptu_post_title_link">Volume 7.13 | Apr 4</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-230 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-12-mar-28/" class="tm_lcptu_post_title_link">Volume 7.12 | Mar 28</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-232 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-11-mar-21/" class="tm_lcptu_post_title_link">Volume 7.11 | Mar 21</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-234 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-10-mar-14/" class="tm_lcptu_post_title_link">Volume 7.10 | Mar 14</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-236 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-09-mar-7/" class="tm_lcptu_post_title_link">Volume 7.09 | Mar 7</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-238 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-08-feb-29/" class="tm_lcptu_post_title_link">Volume 7.08 | Feb 29</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-240 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-07-feb-22/" class="tm_lcptu_post_title_link">Volume 7.07 | Feb 22</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-242 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-06-feb-15/" class="tm_lcptu_post_title_link">Volume 7.06 | Feb 15</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-244 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-05-feb-8/" class="tm_lcptu_post_title_link">Volume 7.05 | Feb 8</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-246 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-04-feb-1/" class="tm_lcptu_post_title_link">Volume 7.04 | Feb 1</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-248 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-03-jan-25/" class="tm_lcptu_post_title_link">Volume 7.03 | Jan 25</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-250 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-02-jan-18/" class="tm_lcptu_post_title_link">Volume 7.02 | Jan 18</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-252 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-01-jan-11/" class="tm_lcptu_post_title_link">Volume 7.01 | Jan 11</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-254 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-7-00-jan-4/" class="tm_lcptu_post_title_link">Volume 7.00 | Jan 4</a></div>
+
+
+                    </li>
+
+                    </ul></div></aside><aside id="tm_latest_cp_widget-8" class="widget tm_latest_cp_widget"><table style="border-collapse: collapse;"><tr><td width="180" style="border-top: 1px solid silver;"><a href="#" rel="toggle[issue2011]"><h3 style="font-style:normal!important">2011</h3></a></td><td style="border-top: 1px solid silver;"><a href="#" rel="toggle[issue2011]" data-openimage="http://www.escellnews.com/wp-content/themes/esc/img/issue_collapse.png" data-closedimage="http://www.escellnews.com/wp-content/themes/esc/img/issue_expand.png"><img src="http://www.escellnews.com/wp-content/themes/esc/img/issue_collapse.png" border="0" /></a></td></tr></table><div id="issue2011"><ul class="tm-latest-updates ">
+                    <li class="post-256 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-49-dec-14/" class="tm_lcptu_post_title_link">Volume 6.49 | Dec 14</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-258 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-48-dec-7/" class="tm_lcptu_post_title_link">Volume 6.48 | Dec 7</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-260 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-47-nov-30/" class="tm_lcptu_post_title_link">Volume 6.47 | Nov 30</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-262 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-46-nov-23/" class="tm_lcptu_post_title_link">Volume 6.46 | Nov 23</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-268 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-45-nov-16/" class="tm_lcptu_post_title_link">Volume 6.45 | Nov 16</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-270 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-44-nov-9/" class="tm_lcptu_post_title_link">Volume 6.44 | Nov 9</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-272 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-43-nov-2/" class="tm_lcptu_post_title_link">Volume 6.43 | Nov 2</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-275 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-42-oct-26/" class="tm_lcptu_post_title_link">Volume 6.42 | Oct 26</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-278 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-41-oct-19/" class="tm_lcptu_post_title_link">Volume 6.41 | Oct 19</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-280 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-40-oct-12/" class="tm_lcptu_post_title_link">Volume 6.40 | Oct 12</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-282 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-39-oct-5/" class="tm_lcptu_post_title_link">Volume 6.39 | Oct 5</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-284 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-38-sep-28/" class="tm_lcptu_post_title_link">Volume 6.38 | Sep 28</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-286 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-37-sep-21/" class="tm_lcptu_post_title_link">Volume 6.37 | Sep 21</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-288 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-36-sep-14/" class="tm_lcptu_post_title_link">Volume 6.36 | Sep 14</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-292 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-35-sep-7/" class="tm_lcptu_post_title_link">Volume 6.35 | Sep 7</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-294 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-34-aug-31/" class="tm_lcptu_post_title_link">Volume 6.34 | Aug 31</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-296 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-33-aug-24/" class="tm_lcptu_post_title_link">Volume 6.33 | Aug 24</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-299 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-32-aug-17/" class="tm_lcptu_post_title_link">Volume 6.32 | Aug 17</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-301 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-31-aug-10/" class="tm_lcptu_post_title_link">Volume 6.31 | Aug 10</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-303 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-30-aug-3/" class="tm_lcptu_post_title_link">Volume 6.30 | Aug 3</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-648 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-29-jul-27/" class="tm_lcptu_post_title_link">Volume 6.29 | Jul 27</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-309 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-28-jul-20/" class="tm_lcptu_post_title_link">Volume 6.28 | Jul 20</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-311 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-27-jul-13/" class="tm_lcptu_post_title_link">Volume 6.27 | Jul 13</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-313 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-26-jul-6/" class="tm_lcptu_post_title_link">Volume 6.26 | Jul 6</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-315 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-25-jun-29/" class="tm_lcptu_post_title_link">Volume 6.25 | Jun 29</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-317 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-24-jun-22/" class="tm_lcptu_post_title_link">Volume 6.24 | Jun 22</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-321 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-22-jun-8/" class="tm_lcptu_post_title_link">Volume 6.22 | Jun 8</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-319 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-23-jun-8/" class="tm_lcptu_post_title_link">Volume 6.23 | Jun 8</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-323 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-21-jun-1/" class="tm_lcptu_post_title_link">Volume 6.21 | Jun 1</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-325 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-20-may-24/" class="tm_lcptu_post_title_link">Volume 6.20 | May 24</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-327 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-19-may-18/" class="tm_lcptu_post_title_link">Volume 6.19 | May 18</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-329 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-18-may-11/" class="tm_lcptu_post_title_link">Volume 6.18 | May 11</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-331 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-17-may-4/" class="tm_lcptu_post_title_link">Volume 6.17 | May 4</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-335 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-16-apr-27/" class="tm_lcptu_post_title_link">Volume 6.16 | Apr 27</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-337 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-15-apr-20/" class="tm_lcptu_post_title_link">Volume 6.15 | Apr 20</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-339 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-14-apr-13/" class="tm_lcptu_post_title_link">Volume 6.14 | Apr 13</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-341 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-13-apr-6/" class="tm_lcptu_post_title_link">Volume 6.13 | Apr 6</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-343 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-12-mar-30/" class="tm_lcptu_post_title_link">Volume 6.12 | Mar 30</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-345 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-11-mar-23/" class="tm_lcptu_post_title_link">Volume 6.11 | Mar 23</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-351 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-10-mar-16/" class="tm_lcptu_post_title_link">Volume 6.10 | Mar 16</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-347 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-09-mar-9/" class="tm_lcptu_post_title_link">Volume 6.09 | Mar 9</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-538 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-08-mar-2/" class="tm_lcptu_post_title_link">Volume 6.08 | Mar 2</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-495 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-07-feb-23/" class="tm_lcptu_post_title_link">Volume 6.07 | Feb 23</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-354 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-04-feb-2/" class="tm_lcptu_post_title_link">Volume 6.04 | Feb 2</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-356 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-03-jan-26/" class="tm_lcptu_post_title_link">Volume 6.03 | Jan 26</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-358 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-02-jan-19/" class="tm_lcptu_post_title_link">Volume 6.02 | Jan 19</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-380 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-01-jan-12/" class="tm_lcptu_post_title_link">Volume 6.01 | Jan 12</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-361 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-6-00-jan-4/" class="tm_lcptu_post_title_link">Volume 6.00 | Jan 4</a></div>
+
+
+                    </li>
+
+                    </ul></div></aside><aside id="tm_latest_cp_widget-9" class="widget tm_latest_cp_widget"><table style="border-collapse: collapse;"><tr><td width="180" style="border-top: 1px solid silver;"><a href="#" rel="toggle[issue2010]"><h3 style="font-style:normal!important">2010</h3></a></td><td style="border-top: 1px solid silver;"><a href="#" rel="toggle[issue2010]" data-openimage="http://www.escellnews.com/wp-content/themes/esc/img/issue_collapse.png" data-closedimage="http://www.escellnews.com/wp-content/themes/esc/img/issue_expand.png"><img src="http://www.escellnews.com/wp-content/themes/esc/img/issue_collapse.png" border="0" /></a></td></tr></table><div id="issue2010"><ul class="tm-latest-updates ">
+                    <li class="post-369 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-50-dec-22/" class="tm_lcptu_post_title_link">Volume 5.50 | Dec 22</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-373 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-49-dec-15/" class="tm_lcptu_post_title_link">Volume 5.49 | Dec 15</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-377 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-48-dec-8/" class="tm_lcptu_post_title_link">Volume 5.48 | Dec 8</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-382 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-47-dec-1/" class="tm_lcptu_post_title_link">Volume 5.47 | Dec 1</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-603 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-46-nov-24/" class="tm_lcptu_post_title_link">Volume 5.46 | Nov 24</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-387 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-45-nov-17/" class="tm_lcptu_post_title_link">Volume 5.45 | Nov 17</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-392 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-44-nov-10/" class="tm_lcptu_post_title_link">Volume 5.44 | Nov 10</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-396 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-43-nov-3/" class="tm_lcptu_post_title_link">Volume 5.43 | Nov 3</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-399 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-42-oct-27/" class="tm_lcptu_post_title_link">Volume 5.42 | Oct 27</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-402 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-41-oct-20/" class="tm_lcptu_post_title_link">Volume 5.41 | Oct 20</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-405 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-40-oct-13/" class="tm_lcptu_post_title_link">Volume 5.40 | Oct 13</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-408 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-39-oct-6/" class="tm_lcptu_post_title_link">Volume 5.39 | Oct 6</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-411 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-38-sep-29/" class="tm_lcptu_post_title_link">Volume 5.38 | Sep 29</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-414 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-37-sep-22/" class="tm_lcptu_post_title_link">Volume 5.37 | Sep 22</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-418 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-36-sep-15/" class="tm_lcptu_post_title_link">Volume 5.36 | Sep 15</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-422 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-35-sep-8/" class="tm_lcptu_post_title_link">Volume 5.35 | Sep 8</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-426 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-34-sep-1/" class="tm_lcptu_post_title_link">Volume 5.34 | Sep 1</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-430 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-33-aug-25/" class="tm_lcptu_post_title_link">Volume 5.33 | Aug 25</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-433 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-32-aug-18/" class="tm_lcptu_post_title_link">Volume 5.32 | Aug 18</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-436 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-31-aug-11/" class="tm_lcptu_post_title_link">Volume 5.31 | Aug 11</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-439 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-30-aug-4/" class="tm_lcptu_post_title_link">Volume 5.30 | Aug 4</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-442 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-29-jul-28/" class="tm_lcptu_post_title_link">Volume 5.29 | Jul 28</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-445 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-28-jul-21/" class="tm_lcptu_post_title_link">Volume 5.28 | Jul 21</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-448 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-27-jul-14/" class="tm_lcptu_post_title_link">Volume 5.27 | Jul 14</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-451 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-26-jul-7/" class="tm_lcptu_post_title_link">Volume 5.26 | Jul 7</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-454 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-25-jun-30/" class="tm_lcptu_post_title_link">Volume 5.25 | Jun 30</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-457 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-24-jun-23/" class="tm_lcptu_post_title_link">Volume 5.24 | Jun 23</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-461 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-23-jun-16/" class="tm_lcptu_post_title_link">Volume 5.23 | Jun 16</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-464 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-22-jun-9/" class="tm_lcptu_post_title_link">Volume 5.22 | Jun 9</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-468 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-21-jun-2/" class="tm_lcptu_post_title_link">Volume 5.21 | Jun 2</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-471 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-20-may-26/" class="tm_lcptu_post_title_link">Volume 5.20 | May 26</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-475 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-19-may-19/" class="tm_lcptu_post_title_link">Volume 5.19 | May 19</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-486 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-18-may-12/" class="tm_lcptu_post_title_link">Volume 5.18 | May 12</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-492 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-17-may-5/" class="tm_lcptu_post_title_link">Volume 5.17 | May 5</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-500 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-16-apr-28/" class="tm_lcptu_post_title_link">Volume 5.16 | Apr 28</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-516 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-15-apr-21/" class="tm_lcptu_post_title_link">Volume 5.15 | Apr 21</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-605 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-14-apr-14/" class="tm_lcptu_post_title_link">Volume 5.14 | Apr 14</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-521 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-13-apr-7/" class="tm_lcptu_post_title_link">Volume 5.13 | Apr 7</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-525 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-12-mar-31/" class="tm_lcptu_post_title_link">Volume 5.12 | Mar 31</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-529 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-11-mar-24/" class="tm_lcptu_post_title_link">Volume 5.11 | Mar 24</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-534 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-10-mar-17/" class="tm_lcptu_post_title_link">Volume 5.10 | Mar 17</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-558 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-09-mar-10/" class="tm_lcptu_post_title_link">Volume 5.09 | Mar 10</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-562 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-08-mar-3/" class="tm_lcptu_post_title_link">Volume 5.08 | Mar 3</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-566 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-07-feb-23/" class="tm_lcptu_post_title_link">Volume 5.07 | Feb 23</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-570 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-06-feb-16/" class="tm_lcptu_post_title_link">Volume 5.06 | Feb 16</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-574 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-05-feb-10/" class="tm_lcptu_post_title_link">Volume 5.05 | Feb 10</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-576 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-04-feb-3/" class="tm_lcptu_post_title_link">Volume 5.04 | Feb 3</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-580 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-03-jan-27/" class="tm_lcptu_post_title_link">Volume 5.03 | Jan 27</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-584 odd">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-02-jan-20/" class="tm_lcptu_post_title_link">Volume 5.02 | Jan 20</a></div>
+
+
+                    </li>
+
+
+                    <li class="post-588 even">
+
+
+                        <div class="tm_lcptu_post_title"><a href="http://www.escellnews.com/issue/volume-5-01-jan-13/" class="tm_lcptu_post_title_link">Volume 5.01 | Jan 13</a></div>
+
+
+                    </li>
+
+                    </ul></div></aside><aside id="text-10" class="widget widget_text"><h3 class="widget-title"> </h3>			<div class="textwidget"><a href="/issue/feed/"><img src="/wp-content/themes/esc/img/footer_rss.png" border="0" align="left"></a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/ESC_iPSC_News" target="_blank"><img src="/wp-content/themes/esc/img/footer_twitter.png" border="0"></a></div>
+		</aside>		</div><!-- #secondary -->
+	</div>
+
+<div style="clear:both;">&nbsp;</div>
+
+<div style="clear:both;">&nbsp;</div>
+
+
+</div>
+
+<div style="width:100%;background-image: url('http://www.escellnews.com/wp-content/themes/esc/img/footer_bg.png'); background-repeat:repeat-x; padding-top:20px;">
+
+<div class="footer">
+    <table border="0" width="100%">
+      <tr>
+         <td valign="top" style="padding-right:20px; width:110px;"><strong><a href="http://www.connexoncreative.com/about-us/">ABOUT US</a><br><br><a href="http://www.connexoncreative.com/contact-us/">CONTACT US</a><br><br><a href="http://www.connexoncreative.com/privacy-policy/">PRIVACY POLICY</a></strong></td>
+         <td valign="top" style="padding-right:20px;"><strong>PARTNER</strong><br>
+         	 <table class="footerlinks" style="border-top:1px solid silver; margin-top:10px; padding-top:10px;">
+             <tr>
+                <td width="125" style="padding-right:20px;">
+                <li><a href="http://www.connexoncreative.com/media-partnerships/">Media Partnerships</a></li>
+                <li><a href="http://www.connexoncreative.com/media-partnership/">Submit Request for Media Partnership</a></li>
+				</td>
+             </tr>
+             </table>
+         </td>
+         <td valign="top" style="padding-right:20px;"><strong>SUBMIT</strong><br>
+             <table class="footerlinks" style="border-top:1px solid silver; margin-top:10px; padding-top:10px;">
+             <tr>
+                <td width="125">
+                <li><a href="http://www.connexoncreative.com/publication/">Publication</a></li>
+                <li><a href="http://www.connexoncreative.com/press-release/">Press Release</a></li>
+                <li><a href="http://www.connexoncreative.com/event/">Event</a></li>
+                <li><a href="http://www.connexoncreative.com/job/">Job</a></li>
+                <li><a href="http://www.connexoncreative.com/media-partnership/">Submit Request for Media Partnership</a></li>
+                <li><a href="http://www.connexoncreative.com/give-feedback/">Feedback</a></li></td>
+             </tr>
+             </table>
+         </td>
+         <td valign="top" style="padding-right:20px;"><strong>PUBLICATIONS</strong><br>
+             <table class="footerlinks" style="border-top:1px solid silver; margin-top:10px; padding-top:10px;">
+             <tr>
+                <td valign="top" width="165" style="padding-right: 15px;">
+                <li><a href="http://www.cancerstemcellnews.com">Cancer Stem Cell News</a></li>
+                <li><a href="http://www.celltherapynews.com">Cell Therapy News</a></li>
+                <li><a href="http://www.cordbloodresearchnews.com">Cord Blood News</a></li>
+                <li><a href="http://www.escellnews.com">ESC & iPSC News</a></li>
+                <li><a href="http://www.extracellularmatrixnews.com">Extracellular Matrix News</a></li></td>
+                <td valign="top" width="165" style="padding-right: 15px;">
+                <li><a href="http://www.hematopoiesisnews.com">Hematopoiesis News</a></li>
+                <li><a href="http://www.humanimmunologynews.com">Human Immunology News</a></li>
+                <li><a href="http://www.immuneregulationnews.com">Immune Regulation News</a></li>
+                <li><a href="http://www.immunologyofinfectiousdiseasenews.com">Immunology of Infectious Disease News</a></li>
+                <li><a href="http://www.mammarycellnews.com">Mammary Cell News</a></li></td>
+                <td valign="top" width="165">
+                <li><a href="http://www.mesenchymalcellnews.com">Mesenchymal Cell News</a></li>
+                <li><a href="http://www.neuralcellnews.com">Neural Cell News</a></li>
+                <li><a href="http://www.pancreaticcellnews.com">Pancreatic Cell News</a></li>
+                <li><a href="http://www.prostatecellnews.com">Prostate Cell News</a></li>
+                <li><a href="http://www.pulmonarycellnews.com">Pulmonary Cell News</a></li></td>
+             </tr>
+             </table>
+    	 </td>
+      </tr>
+    </table>
+    </div>
+
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.dshadow').ieTextShadow();
+		$('.dshadow').css('z-index', 1000);
+    });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8283745-12', 'escellnews.com');
+  ga('send', 'pageview');
+
+</script>
+<link rel='stylesheet' id='nlpcss-css'  href='http://www.escellnews.com/wp-content/plugins/network-latest-posts/css/default_style.css?ver=4.0.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.escellnews.com/wp-includes/js/admin-bar.min.js?ver=4.0.1'></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs" role="navigation">
+			<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+			<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Top navigation toolbar." tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-my-sites" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.escellnews.com/wp-admin/my-sites.php">My Sites</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-my-sites-super-admin" class="ab-submenu">
+		<li id="wp-admin-bar-network-admin" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://connexoncreative.com/wp-admin/network/">Network Admin</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-network-admin-default" class="ab-submenu">
+		<li id="wp-admin-bar-network-admin-d"><a class="ab-item"  href="http://connexoncreative.com/wp-admin/network/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-network-admin-s"><a class="ab-item"  href="http://connexoncreative.com/wp-admin/network/sites.php">Sites</a>		</li>
+		<li id="wp-admin-bar-network-admin-u"><a class="ab-item"  href="http://connexoncreative.com/wp-admin/network/users.php">Users</a>		</li>
+		<li id="wp-admin-bar-network-admin-t"><a class="ab-item"  href="http://connexoncreative.com/wp-admin/network/themes.php">Themes</a>		</li>
+		<li id="wp-admin-bar-network-admin-p"><a class="ab-item"  href="http://connexoncreative.com/wp-admin/network/plugins.php">Plugins</a>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-my-sites-list" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-blog-1" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://connexoncreative.com/wp-admin/"><div class="blavatar"></div>Connexon Creative</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-1-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-1-d"><a class="ab-item"  href="http://connexoncreative.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-1-n"><a class="ab-item"  href="http://connexoncreative.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-1-v"><a class="ab-item"  href="http://connexoncreative.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-1-comments"><a class="ab-item"  href="http://connexoncreative.com/wp-admin/edit-comments.php" title="1 comment awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-1" style="margin-left:.2em">1</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-2" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.cancerstemcellnews.com/wp-admin/"><div class="blavatar"></div>Cancer Stem Cell News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-2-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-2-d"><a class="ab-item"  href="http://www.cancerstemcellnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-2-n"><a class="ab-item"  href="http://www.cancerstemcellnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-2-v"><a class="ab-item"  href="http://www.cancerstemcellnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-2-comments"><a class="ab-item"  href="http://www.cancerstemcellnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-25" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.celltherapynews.com/wp-admin/"><div class="blavatar"></div>Cell Therapy News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-25-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-25-d"><a class="ab-item"  href="http://www.celltherapynews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-25-n"><a class="ab-item"  href="http://www.celltherapynews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-25-v"><a class="ab-item"  href="http://www.celltherapynews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-25-comments"><a class="ab-item"  href="http://www.celltherapynews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-26" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.cordbloodresearchnews.com/wp-admin/"><div class="blavatar"></div>Cord Blood News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-26-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-26-d"><a class="ab-item"  href="http://www.cordbloodresearchnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-26-n"><a class="ab-item"  href="http://www.cordbloodresearchnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-26-v"><a class="ab-item"  href="http://www.cordbloodresearchnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-26-comments"><a class="ab-item"  href="http://www.cordbloodresearchnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-27" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.escellnews.com/wp-admin/"><div class="blavatar"></div>ESC &amp; iPSC News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-27-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-27-d"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-27-n"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-27-v"><a class="ab-item"  href="http://www.escellnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-27-comments"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-18" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.extracellularmatrixnews.com/wp-admin/"><div class="blavatar"></div>Extracellular Matrix News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-18-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-18-d"><a class="ab-item"  href="http://www.extracellularmatrixnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-18-n"><a class="ab-item"  href="http://www.extracellularmatrixnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-18-v"><a class="ab-item"  href="http://www.extracellularmatrixnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-18-comments"><a class="ab-item"  href="http://www.extracellularmatrixnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-19" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.hematopoiesisnews.com/wp-admin/"><div class="blavatar"></div>Hematopoiesis News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-19-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-19-d"><a class="ab-item"  href="http://www.hematopoiesisnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-19-n"><a class="ab-item"  href="http://www.hematopoiesisnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-19-v"><a class="ab-item"  href="http://www.hematopoiesisnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-19-comments"><a class="ab-item"  href="http://www.hematopoiesisnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-20" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.humanimmunologynews.com/wp-admin/"><div class="blavatar"></div>Human Immunology News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-20-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-20-d"><a class="ab-item"  href="http://www.humanimmunologynews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-20-n"><a class="ab-item"  href="http://www.humanimmunologynews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-20-v"><a class="ab-item"  href="http://www.humanimmunologynews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-20-comments"><a class="ab-item"  href="http://www.humanimmunologynews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-28" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.immuneregulationnews.com/wp-admin/"><div class="blavatar"></div>Immune Regulation News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-28-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-28-d"><a class="ab-item"  href="http://www.immuneregulationnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-28-n"><a class="ab-item"  href="http://www.immuneregulationnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-28-v"><a class="ab-item"  href="http://www.immuneregulationnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-28-comments"><a class="ab-item"  href="http://www.immuneregulationnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-21" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.immunologyofinfectiousdiseasenews.com/wp-admin/"><div class="blavatar"></div>Immunology of Infectious Disease News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-21-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-21-d"><a class="ab-item"  href="http://www.immunologyofinfectiousdiseasenews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-21-n"><a class="ab-item"  href="http://www.immunologyofinfectiousdiseasenews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-21-v"><a class="ab-item"  href="http://www.immunologyofinfectiousdiseasenews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-21-comments"><a class="ab-item"  href="http://www.immunologyofinfectiousdiseasenews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-29" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.mammarycellnews.com/wp-admin/"><div class="blavatar"></div>Mammary Cell News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-29-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-29-d"><a class="ab-item"  href="http://www.mammarycellnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-29-n"><a class="ab-item"  href="http://www.mammarycellnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-29-v"><a class="ab-item"  href="http://www.mammarycellnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-29-comments"><a class="ab-item"  href="http://www.mammarycellnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-30" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.mesenchymalcellnews.com/wp-admin/"><div class="blavatar"></div>Mesenchymal Cell News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-30-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-30-d"><a class="ab-item"  href="http://www.mesenchymalcellnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-30-n"><a class="ab-item"  href="http://www.mesenchymalcellnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-30-v"><a class="ab-item"  href="http://www.mesenchymalcellnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-30-comments"><a class="ab-item"  href="http://www.mesenchymalcellnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-31" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.neuralcellnews.com/wp-admin/"><div class="blavatar"></div>Neural Cell News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-31-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-31-d"><a class="ab-item"  href="http://www.neuralcellnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-31-n"><a class="ab-item"  href="http://www.neuralcellnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-31-v"><a class="ab-item"  href="http://www.neuralcellnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-31-comments"><a class="ab-item"  href="http://www.neuralcellnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-22" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.pancreaticcellnews.com/wp-admin/"><div class="blavatar"></div>Pancreatic Cell News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-22-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-22-d"><a class="ab-item"  href="http://www.pancreaticcellnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-22-n"><a class="ab-item"  href="http://www.pancreaticcellnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-22-v"><a class="ab-item"  href="http://www.pancreaticcellnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-22-comments"><a class="ab-item"  href="http://www.pancreaticcellnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-23" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.prostatecellnews.com/wp-admin/"><div class="blavatar"></div>Prostate Cell News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-23-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-23-d"><a class="ab-item"  href="http://www.prostatecellnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-23-n"><a class="ab-item"  href="http://www.prostatecellnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-23-v"><a class="ab-item"  href="http://www.prostatecellnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-23-comments"><a class="ab-item"  href="http://www.prostatecellnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-blog-24" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.pulmonarycellnews.com/wp-admin/"><div class="blavatar"></div>Pulmonary Cell News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-blog-24-default" class="ab-submenu">
+		<li id="wp-admin-bar-blog-24-d"><a class="ab-item"  href="http://www.pulmonarycellnews.com/wp-admin/">Dashboard</a>		</li>
+		<li id="wp-admin-bar-blog-24-n"><a class="ab-item"  href="http://www.pulmonarycellnews.com/wp-admin/post-new.php">New Post</a>		</li>
+		<li id="wp-admin-bar-blog-24-v"><a class="ab-item"  href="http://www.pulmonarycellnews.com/">Visit Site</a>		</li>
+		<li id="wp-admin-bar-blog-24-comments"><a class="ab-item"  href="http://www.pulmonarycellnews.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation">Manage Comments<span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0" style="margin-left:.2em">0</span></a>		</li></ul></div>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.escellnews.com/wp-admin/">ESC &amp; iPSC News</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/">Dashboard</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/themes.php">Themes</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/customize.php?url=http%3A%2F%2Fwww.escellnews.com%2Fissue%2Fvolume-9-47-dec-3%2F">Customize</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/widgets.php">Widgets</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/nav-menus.php">Menus</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.escellnews.com/wp-admin/post-new.php" title="Add New"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-issue"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/post-new.php?post_type=issue">Issue</a>		</li>
+		<li id="wp-admin-bar-new-feedback"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/post-new.php?post_type=feedback">Feedback</a>		</li>
+		<li id="wp-admin-bar-new-sidebar"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/post-new.php?post_type=sidebar">Sidebar</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/user-new.php">User</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-edit"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/post.php?post=1010&#038;action=edit">Edit Issue</a>		</li>
+		<li id="wp-admin-bar-wpseo-menu" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.escellnews.com/wp-admin/post.php?post=1010&#038;action=edit">SEO<div title="N/A" class="wpseo-score-icon na 0"></div></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-menu-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-kwresearch" class="menupop"><div class="ab-item ab-empty-item"  aria-haspopup="true">Keyword Research</div><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-kwresearch-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-adwordsexternal"><a class="ab-item"  href="http://adwords.google.com/keywordplanner" target="_blank">AdWords External</a>		</li>
+		<li id="wp-admin-bar-wpseo-googleinsights"><a class="ab-item"  href="http://www.google.com/insights/search/#q=&#038;cmpt=q" target="_blank">Google Insights</a>		</li>
+		<li id="wp-admin-bar-wpseo-wordtracker"><a class="ab-item"  href="http://tools.seobook.com/keyword-tools/seobook/?keyword=" target="_blank">SEO Book</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-wpseo-analysis" class="menupop"><div class="ab-item ab-empty-item"  aria-haspopup="true">Analyze this page</div><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-analysis-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-inlinks-ose"><a class="ab-item"  href="http://www.opensiteexplorer.org/www.escellnews.com%252Fissue%252Fvolume-9-47-dec-3%252F/a!links" target="_blank">Check Inlinks (OSE)</a>		</li>
+		<li id="wp-admin-bar-wpseo-kwdensity"><a class="ab-item"  href="http://www.zippy.co.uk/keyworddensity/index.php?url=http%3A%2F%2Fwww.escellnews.com%2Fissue%2Fvolume-9-47-dec-3%2F&#038;keyword=" target="_blank">Check Keyword Density</a>		</li>
+		<li id="wp-admin-bar-wpseo-cache"><a class="ab-item"  href="http://webcache.googleusercontent.com/search?strip=1&#038;q=cache:http%3A%2F%2Fwww.escellnews.com%2Fissue%2Fvolume-9-47-dec-3%2F" target="_blank">Check Google Cache</a>		</li>
+		<li id="wp-admin-bar-wpseo-header"><a class="ab-item"  href="http://quixapp.com/headers/?r=http%3A%2F%2Fwww.escellnews.com%2Fissue%2Fvolume-9-47-dec-3%2F" target="_blank">Check Headers</a>		</li>
+		<li id="wp-admin-bar-wpseo-richsnippets"><a class="ab-item"  href="http://www.google.com/webmasters/tools/richsnippets?q=http%3A%2F%2Fwww.escellnews.com%2Fissue%2Fvolume-9-47-dec-3%2F" target="_blank">Check Rich Snippets</a>		</li>
+		<li id="wp-admin-bar-wpseo-facebookdebug"><a class="ab-item"  href="https://developers.facebook.com/tools/debug/og/object?q=http%3A%2F%2Fwww.escellnews.com%2Fissue%2Fvolume-9-47-dec-3%2F" target="_blank">Facebook Debugger</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-wpseo-settings" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.escellnews.com/wp-admin/admin.php?page=wpseo_titles">SEO Settings</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-settings-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-titles"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/admin.php?page=wpseo_titles">Titles &amp; Metas</a>		</li>
+		<li id="wp-admin-bar-wpseo-social"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/admin.php?page=wpseo_social">Social</a>		</li>
+		<li id="wp-admin-bar-wpseo-xml"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/admin.php?page=wpseo_xml">XML Sitemaps</a>		</li>
+		<li id="wp-admin-bar-wpseo-permalinks"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/admin.php?page=wpseo_permalinks">Permalinks</a>		</li>
+		<li id="wp-admin-bar-wpseo-internal-links"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/admin.php?page=wpseo_internal-links">Internal Links</a>		</li>
+		<li id="wp-admin-bar-wpseo-rss"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/admin.php?page=wpseo_rss">RSS</a>		</li>
+		<li id="wp-admin-bar-wpseo-import"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/admin.php?page=wpseo_import">Import & Export</a>		</li>
+		<li id="wp-admin-bar-wpseo_bulk-editor"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/admin.php?page=wpseo_bulk-editor">Bulk Editor</a>		</li>
+		<li id="wp-admin-bar-wpseo-files"><a class="ab-item"  href="http://connexoncreative.com/wp-admin/network/admin.php?page=wpseo_files">Edit Files</a>		</li>
+		<li id="wp-admin-bar-wpseo-licenses"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/admin.php?page=wpseo_licenses">Extensions</a>		</li></ul></div>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://www.escellnews.com/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><input type="submit" class="adminbar-button" value="Search"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://www.escellnews.com/wp-admin/profile.php" title="My Account">Howdy, Matthew</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://www.escellnews.com/wp-admin/profile.php"><span class='display-name'>Matthew</span><span class='username'>memery</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item"  href="http://www.escellnews.com/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item"  href="http://www.escellnews.com/wp-login.php?action=logout&#038;_wpnonce=9337d49af2">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://www.escellnews.com/wp-login.php?action=logout&#038;_wpnonce=9337d49af2">Log Out</a>
+					</div>
+
+		</body>
+</html>

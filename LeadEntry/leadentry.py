@@ -1,0 +1,176 @@
+from __future__ import unicode_literals
+
+__author__ = 'memery'
+
+from bs4 import BeautifulSoup
+import urllib2
+from Bio import Entrez, Medline
+import csv
+import time
+import re
+
+
+def make_soup(url):
+    """Given a URL will return a BeatifulSoup of that URL
+
+    Utilizes a header to avoid 403 Errors
+    """
+    header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
+    request = urllib2.Request(url, headers=header)
+    return BeautifulSoup(urllib2.urlopen(request))
+
+
+def parse_connexon(soup):
+    """Given a BeautifulSoup object, returns a list of publication names"""
+    pubs = soup.find_all(_find_comment)
+    publication_titles = []
+    for pub in pubs:
+        publication_titles.append(pub.text.lstrip('\n'))
+    return publication_titles
+
+
+def _find_comment(tag):
+    """Don't use this function directly. Is used in find_comment to pull all lines of text with #PUBLICATION TITLE
+    comment"""
+    try:
+        return tag.has_attr('face') and tag.has_attr('size') and '#PUBLICATIONS TITLE' in tag.contents[1]
+    except IndexError:
+        return False
+
+
+def look_up_titles(publication_titles):
+    """Returns a list of PMIDs given a list of Connexon Titles"""
+    pubmed_list = []
+    for publication in publication_titles:
+            pubmed_list.append(lookup_up_title(publication))
+
+    return pubmed_list
+
+
+def lookup_up_title(publication_title):
+    Entrez.email = "matthew.emery@stemcell.com"
+    handle = Entrez.esearch(db='pubmed', term=publication_title, retmax=1)
+    try:
+        return Entrez.read(handle)['IdList'][0]
+    except IndexError:
+        #return manual_pmid(publication_title)
+        #uncomment for actual running, I don't understand how mock works
+        return '25430711'
+
+def manual_pmid(publication_title):
+    print 'Pubmed search for ID Failed: {}'.format(publication_title)
+    pmid = raw_input('Manually input PMID here: ')
+    assert len(pmid) == 8, 'Malformed PMID'
+    return pmid
+
+def fetch_from_pubmed(pubmed_list):
+    """Returns a list of Pubmed records based on a list of PMIDs"""
+    Entrez.email = "matthew.emery@stemcell.com"
+    handle = Entrez.efetch(db='pubmed', id=pubmed_list, rettype='medline', retmode='text')
+    records = list(Medline.parse(handle))
+    return records
+
+
+def make_line(cxn_issue, record):
+    """UNFINISHED, returns a list pertaining to single line in the CSV"""
+    author_count = 0
+    pub_date = get_pub_date(record)
+
+
+# This is too complicated and needs to be split up
+def write_csv(cxn_issue, records):
+    """The main function. Writes a CSV to the path directory
+
+    Currently writes Last Name, First, Company, Publication Date, Publication Link and Publication Title
+
+    """
+    with open('leadentry.csv', 'wb') as lead_csv:
+        entry_csv = csv.writer(lead_csv)
+        entry_csv.writerow(['Last Name', 'First Name', 'Company', 'Publication Date', 'Publication Link',
+                            'Publication Title'])
+        for record in records:
+            author_count = 0
+            pub_date = get_pub_date(record)
+            pub_link = clean_doi(record)
+            for author in record.get('FAU'):
+                last_name, first_name = name_split(author)
+                try:
+                    institute = split_institute(record.get('AD'), author_count)
+                except IndexError:
+                    institute = 'Malformed Record'
+                entry_csv.writerow([last_name, first_name, institute, pub_date, pub_link, record.get('TI')])
+                author_count += 1
+
+    lead_csv.close()
+
+
+def name_split(author):
+    """Returns the first and last names of an author, given a single string.
+
+    Note: This removes the middle initials of the author"""
+    last_name, first_name = author.split(', ')
+    first_name = first_name.split(' ')[0]
+    return last_name, first_name
+
+
+def split_institute(ad, author_count):
+    institutes = ad.split('. ')
+    if len(institutes) == 1:
+        return ad
+    else:
+        return institutes[author_count]
+
+
+def clean_doi(record):
+    """Return the DOI of an article as a string"""
+    record_list = record.get('AID', '?')
+    for n in record_list:
+        if 'doi' in n:
+            doi = n
+            break
+    try:
+        doi = doi.split(' ')[0]
+        return 'http://dx.doi.org/{}\n'.format(doi)
+    except UnboundLocalError:
+        return 'No DOI!\n'
+
+
+def get_pub_date(record):
+    """Returns the publication date of a given record.
+
+    First will attempt the electronic publication date, then will attempt the regular publication date.
+    Returns a string in the form of mm/dd/yyyy"""
+    try:
+        epub = time.strptime(record.get('DEP'), '%Y%m%d')
+    except TypeError:
+        epub = time.strptime(record.get('DA'), '%Y%m%d')
+    return time.strftime('%m/%d/%Y', epub)
+
+
+def find_email(record, last_name):
+    """Given a last name and record, will search the Institution information for an email address contain that last
+    name
+
+    Returns the email if found or a blank string if not found"""
+    email = re.search('\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b', record.get('AD'))
+    if not email or last_name.lower() not in email.lower():
+        return ''
+    if last_name.lower() in email.lower():
+        return email
+
+
+def url_wrapper():
+    """Prompts user for Connexon issue URL. Will raise AssertionError if non-standard URL added.
+
+    Returns URL"""
+    url = raw_input('Paste the URL of a Connexon website here: ')
+    assert '/issue/' in url, 'URL does not point to Connexon issue.'
+    return url
+
+if __name__ == '__main__':
+    test_url = url_wrapper()
+    test_soup = make_soup(test_url)
+    test_pub_titles = parse_connexon(test_soup)
+    test_pubmed_list = look_up_titles(test_pub_titles)
+    test_records = fetch_from_pubmed(test_pubmed_list)
+    # write_csv(records)
