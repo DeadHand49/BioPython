@@ -83,10 +83,6 @@ def write_record(cxn_issue, record):
 
     pub_date = get_pub_date(record)
 
-def find_company(institute):
-    pass
-
-
 # This is too complicated and needs to be split up
 def write_csv(cxn_issue, records):
     """The main function. Writes a CSV to the path directory
@@ -126,6 +122,18 @@ def split_institute(ad, author_count):
         return ad
     else:
         return institutes[author_count]
+
+def parse_institute(institute):
+    primary_institute = institute.split('; ')[0]
+    department, company, city, state_and_postal, country = primary_institute.split(', ')
+    state, postal = state_and_postal.split(' ')
+    institute_dict = {'Department': department,
+                      'Company': company,
+                      'City': city,
+                      'State': state,
+                      'Postal': postal,
+                      'Country': country.lstrip('.')}
+    return institute_dict
 
 
 def clean_doi(record):

@@ -48,4 +48,19 @@ class LeadEntryTest(unittest.TestCase):
                          leadentry.split_institute(self.record.get('AD'), 0))
 
     def test_find_company(self):
-        self.assertEqual('Yale University', leadentry.find_company(self.institute))
+        self.assertEqual('Yale University', leadentry.parse_institute(self.institute).get('Company'))
+
+    def test_find_department(self):
+        self.assertEqual('Department of Anesthesiology', leadentry.parse_institute(self.institute).get('Department'))
+
+    def test_find_city(self):
+        self.assertEqual('New Haven', leadentry.parse_institute(self.institute).get('City'))
+
+    def test_find_state(self):
+        self.assertEqual('CT', leadentry.parse_institute(self.institute).get('State'))
+
+    def test_find_postal(self):
+        self.assertEqual('06520', leadentry.parse_institute(self.institute).get('Postal'))
+
+    def test_find_country(self):
+        self.assertEqual('USA', leadentry.parse_institute(self.institute).get('Country'))
