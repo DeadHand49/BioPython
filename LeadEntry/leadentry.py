@@ -57,11 +57,13 @@ def lookup_up_title(publication_title):
         #uncomment for actual running, I don't understand how mock works
         return '25430711'
 
+
 def manual_pmid(publication_title):
     print 'Pubmed search for ID Failed: {}'.format(publication_title)
     pmid = raw_input('Manually input PMID here: ')
     assert len(pmid) == 8, 'Malformed PMID lol'
     return pmid
+
 
 def fetch_from_pubmed(pubmed_list):
     """Returns a list of Pubmed records based on a list of PMIDs"""
@@ -73,11 +75,12 @@ def fetch_from_pubmed(pubmed_list):
 
 def write_record(record):
     """Yields a list pertaining to single line in the CSV"""
-    author_count = 0
+
     pub_date = get_pub_date(record)
     pub_link = clean_doi(record)
     record_list = []
 
+    author_count = 0
     for author in record.get('FAU'):
         last_name, first_name = name_split(author)
         try:
@@ -86,6 +89,7 @@ def write_record(record):
             email = find_email(record, last_name)
         except IndexError:
             institute = 'Malformed Record'
+        author_count += 1
         record_list.append([last_name, first_name, email, idict.get('Company'), idict.get('Department'),
                             idict.get('City'), idict.get('State'), idict.get('Country'), idict.get('Postal'),
                             'Connexon', pub_date, pub_link, record.get('TI')])
@@ -93,8 +97,6 @@ def write_record(record):
     return record_list
 
 
-
-# This is too complicated and needs to be split up
 def write_csv(records):
     """The main function. Writes a CSV to the path directory
 
