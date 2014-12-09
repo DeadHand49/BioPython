@@ -76,7 +76,7 @@ def write_record(record):
     author_count = 0
     pub_date = get_pub_date(record)
     pub_link = clean_doi(record)
-
+    record_list = []
 
     for author in record.get('FAU'):
         last_name, first_name = name_split(author)
@@ -86,9 +86,12 @@ def write_record(record):
             email = find_email(record, last_name)
         except IndexError:
             institute = 'Malformed Record'
-        yield [last_name, first_name, email, idict.get('Company'), idict.get('Department'), idict.get('City'),
-               idict.get('State'), idict.get('Country'), idict.get('Postal'), 'Connexon', pub_date, pub_link,
-               record.get('TI')]
+        record_list.append([last_name, first_name, email, idict.get('Company'), idict.get('Department'),
+                            idict.get('City'), idict.get('State'), idict.get('Country'), idict.get('Postal'),
+                            'Connexon', pub_date, pub_link, record.get('TI')])
+
+    return record_list
+
 
 
 # This is too complicated and needs to be split up
@@ -104,7 +107,7 @@ def write_csv(records):
                             'State', 'Country', 'Postal Code', 'Lead Source', 'Publication Date', 'Publication Link',
                             'Publication Title'])
         for record in records:
-            entry_csv.writerow(write_record(record))
+            entry_csv.writerows(write_record(record))
 
     lead_csv.close()
 
@@ -126,15 +129,23 @@ def split_institute(ad, author_count):
         return institutes[author_count]
 
 def parse_institute(institute):
-    primary_institute = institute.split('; ')[0]
-    department, company, city, state_and_postal, country = primary_institute.split(', ')
-    state, postal = state_and_postal.split(' ')
-    institute_dict = {'Department': department,
+    try:
+        primary_institute = institute.split('; ')[0]
+        department, company, city, state_and_postal, country = primary_institute.split(', ')
+        state, postal = state_and_postal.split(' ')
+        institute_dict = {'Department': department,
                       'Company': company,
                       'City': city,
                       'State': state,
                       'Postal': postal,
                       'Country': country.lstrip('.')}
+    except ValueError:
+        institute_dict = {'Department': institute,
+                          'Company': '',
+                          'City': '',
+                          'State': '',
+                          'Postal': '',
+                          'Country': ''}
     return institute_dict
 
 
