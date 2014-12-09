@@ -159,9 +159,7 @@ def find_email(record, last_name):
     name
 
     Returns the email if found or a blank string if not found"""
-    print record.get('AD')
     email = re.search(r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}', record.get('AD'), re.I)
-    print email.groups()
     if not email or last_name.lower() not in email.group(0).lower():
         return ''
     if last_name.lower() in email.group(0):

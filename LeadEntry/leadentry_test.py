@@ -43,8 +43,8 @@ class LeadEntryTest(unittest.TestCase):
         self.assertEqual('http://dx.doi.org/10.1016/j.biomaterials.2014.11.011\n', leadentry.clean_doi(self.record))
 
     def test_split_institute(self):
-        self.assertEqual('Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; '
-                         'Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA.',
+        self.assertEqual('Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of '
+                         'Biomedical Engineering, Yale University, New Haven, CT 06520, USA',
                          leadentry.split_institute(self.record.get('AD'), 0))
 
     def test_find_company(self):
