@@ -60,7 +60,7 @@ def lookup_up_title(publication_title):
 def manual_pmid(publication_title):
     print 'Pubmed search for ID Failed: {}'.format(publication_title)
     pmid = raw_input('Manually input PMID here: ')
-    assert len(pmid) == 8, 'Malformed PMID'
+    assert len(pmid) == 8, 'Malformed PMID lol'
     return pmid
 
 def fetch_from_pubmed(pubmed_list):
@@ -152,11 +152,13 @@ def find_email(record, last_name):
     name
 
     Returns the email if found or a blank string if not found"""
-    email = re.search('\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b', record.get('AD'))
-    if not email or last_name.lower() not in email.lower():
+    print record.get('AD')
+    email = re.search(r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}', record.get('AD'), re.I)
+    print email.groups()
+    if not email or last_name.lower() not in email.group(0).lower():
         return ''
-    if last_name.lower() in email.lower():
-        return email
+    if last_name.lower() in email.group(0):
+        return email.group(0)
 
 
 def url_wrapper():

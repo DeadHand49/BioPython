@@ -39,4 +39,4 @@ class LeadEntryTest(unittest.TestCase):
         self.assertEqual('', leadentry.find_email(self.record, 'Mendez'))
 
     def test_doi_success(self):
-        self.assertEqual('http://dx.doi.org/10.1016/j.biomaterials.2014.11.011', leadentry.clean_doi(self.record))
+        self.assertEqual('http://dx.doi.org/10.1016/j.biomaterials.2014.11.011\n', leadentry.clean_doi(self.record))
