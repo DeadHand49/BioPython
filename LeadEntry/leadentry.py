@@ -53,8 +53,8 @@ def lookup_up_title(publication_title):
     try:
         return Entrez.read(handle)['IdList'][0]
     except IndexError:
-        #return manual_pmid(publication_title)
-        #uncomment for actual running, I don't understand how mock works
+        # return manual_pmid(publication_title)
+        # uncomment for actual running, I don't understand how mock works
         return '25430711'
 
 
@@ -89,6 +89,7 @@ def write_record(record):
             email = find_email(record, last_name)
         except IndexError:
             institute = 'Malformed Record'
+            email = ''
         author_count += 1
         record_list.append([last_name, first_name, email, idict.get('Company'), idict.get('Department'),
                             idict.get('City'), idict.get('State'), idict.get('Country'), idict.get('Postal'),
@@ -130,17 +131,18 @@ def split_institute(ad, author_count):
     else:
         return institutes[author_count]
 
+
 def parse_institute(institute):
     try:
         primary_institute = institute.split('; ')[0]
         department, company, city, state_and_postal, country = primary_institute.split(', ')
         state, postal = state_and_postal.split(' ')
         institute_dict = {'Department': department,
-                      'Company': company,
-                      'City': city,
-                      'State': state,
-                      'Postal': postal,
-                      'Country': country.lstrip('.')}
+                          'Company': company,
+                          'City': city,
+                          'State': state,
+                          'Postal': postal,
+                          'Country': country.lstrip('.')}
     except ValueError:
         institute_dict = {'Department': institute,
                           'Company': '',
@@ -150,17 +152,17 @@ def parse_institute(institute):
                           'Country': ''}
     return institute_dict
 
+
 def regex_search(institute, mode):
     regex_dict = {'Department': r'[A-Z ]*Department[A-Z ]*|[A-Z ]*Laboratory[A-Z ]*',
                   'Company': r'[A-Z ]*University[A-Z ]*'}
-    query = re.search(regex_dict.get[mode], institute, re=I)
+    query = re.search(regex_dict.get(mode), institute, flags=re.I)
     if query:
         return query.group(0)
     elif mode == 'Company':
         return institute
     else:
         return ''
-
 
 
 def clean_doi(record):
