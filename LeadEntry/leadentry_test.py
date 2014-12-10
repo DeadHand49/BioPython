@@ -8,18 +8,17 @@ import mock
 
 class LeadEntryTest(unittest.TestCase):
 
-    def setUp(self):
-        self.url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
-        self.soup = leadentry.make_soup(self.url)
-        self.publication_titles = leadentry.parse_connexon(self.soup)
+    @classmethod
+    def setUpClass(cls):
+        cls.url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
+        cls.soup = leadentry.make_soup(cls.url)
+        cls.publication_titles = leadentry.parse_connexon(cls.soup)
         #with mock.patch('__builtin__.raw_input', return_value='25430711') as mocked:
-        self.pubmed_list = leadentry.look_up_titles(self.publication_titles)
-        self.records = leadentry.fetch_from_pubmed(self.pubmed_list)
-        self.record = self.records[0]
-        self.institute = leadentry.split_institute(self.record.get('AD'), 0)
-
-    def tearDown(self):
-        pass
+        cls.pubmed_list = leadentry.look_up_titles(cls.publication_titles)
+        cls.records = leadentry.fetch_from_pubmed(cls.pubmed_list)
+        cls.record = cls.records[0]
+        cls.institute = leadentry.split_institute(cls.record.get('AD'), 0)
+        cls.inst_without_postal = leadentry.split_institute(cls.record.get('AD'), 4)
 
     def test_parse_connexon_proper_length(self):
         self.assertEqual(10, len(leadentry.parse_connexon(self.soup)))
@@ -65,5 +64,5 @@ class LeadEntryTest(unittest.TestCase):
     def test_find_country(self):
         self.assertEqual('USA', leadentry.parse_institute(self.institute).get('Country'))
 
-    def test_split_no_postal(self):
-        self.assertEqual()
+    def test_split_no_postal_state(self):
+        self.assertEqual('CT', leadentry.parse_institute(self.inst_without_postal).get('State'))
