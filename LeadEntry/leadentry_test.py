@@ -64,3 +64,6 @@ class LeadEntryTest(unittest.TestCase):
 
     def test_find_country(self):
         self.assertEqual('USA', leadentry.parse_institute(self.institute).get('Country'))
+
+    def test_split_no_postal(self):
+        self.assertEqual()

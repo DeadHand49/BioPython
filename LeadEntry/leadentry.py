@@ -150,6 +150,18 @@ def parse_institute(institute):
                           'Country': ''}
     return institute_dict
 
+def regex_search(institute, mode):
+    regex_dict = {'Department': r'[A-Z ]*Department[A-Z ]*|[A-Z ]*Laboratory[A-Z ]*',
+                  'Company': r'[A-Z ]*University[A-Z ]*'}
+    query = re.search(regex_dict.get[mode], institute, re=I)
+    if query:
+        return query.group(0)
+    elif mode == 'Company':
+        return institute
+    else:
+        return ''
+
+
 
 def clean_doi(record):
     """Return the DOI of an article as a string"""
