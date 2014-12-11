@@ -1,0 +1,3588 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2014//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_140101.dtd">
+<pubmedarticleset>
+ <pubmedarticle>
+  <medlinecitation owner="NLM" status="Publisher">
+   <pmid version="1">
+    25433608
+   </pmid>
+   <datecreated>
+    <year>
+     2014
+    </year>
+    <month>
+     11
+    </month>
+    <day>
+     30
+    </day>
+   </datecreated>
+   <daterevised>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     2
+    </day>
+   </daterevised>
+   <article pubmodel="Print-Electronic">
+    <journal>
+     <issn issntype="Electronic">
+      1878-5905
+     </issn>
+     <journalissue citedmedium="Internet">
+      <pubdate>
+       <year>
+        2014
+       </year>
+       <month>
+        Nov
+       </month>
+       <day>
+        26
+       </day>
+      </pubdate>
+     </journalissue>
+     <title>
+      Biomaterials
+     </title>
+     <isoabbreviation>
+      Biomaterials
+     </isoabbreviation>
+    </journal>
+    <articletitle>
+     Mesenchymal stromal cells form vascular tubes when placed in fibrin sealant and accelerate wound healing in vivo.
+    </articletitle>
+    <pagination>
+     <medlinepgn>
+     </medlinepgn>
+    </pagination>
+    <elocationid eidtype="pii">
+     S0142-9612(14)01171-5
+    </elocationid>
+    <elocationid eidtype="doi">
+     10.1016/j.biomaterials.2014.11.011
+    </elocationid>
+    <abstract>
+     <abstracttext nlmcategory="UNLABELLED">
+      Non-healing, chronic wounds are a growing public health problem and may stem from insufficient angiogenesis in affected sites. Here, we have developed a fibrin formulation that allows adipose-derived mesenchymal stromal cells (ADSCs) to form tubular structures in vitro. The tubular structures express markers of endothelium, including CD31 and VE-Cadherin, as well as the pericyte marker NG2. The ability for the MSCs to form tubular structures within the fibrin gels was directly dependent on the stoichiometric ratios of thrombin and fibrinogen and the resulting gel concentration, as well as on the presence of bFGF. Fibrin gel formulations that varied in stiffness were tested. ADSCs that are embedded in a stiff fibrin formulation express VE-cadherin and CD31 as shown by PCR, FACS and immunostaining. Confocal imaging analysis demonstrated that tubular structures formed, containing visible lumens, in the stiff fibrin gels in vitro. There was also a difference in the amounts of bFGF secreted by ADSCs grown in the stiffer gels as compared to softer gels. Additionally, hAT-MSCs gave rise to perfusable vessels that were VE-cadherin positive after subcutaneous injection into mice, whereas the softer fibrin formulation containing ADSCs did not. The application of ADSCs delivered in the stiff fibrin gels allowed for the wounds to heal more quickly, as assessed by wound size, amount of granulation tissue and collagen content. Interestingly, following 5 days of healing, the ADSCs remained within the fibrin gel and did not integrate into the granulation tissue of healing wounds in vivo. These data show that ADSCs are able to form tubular structures within fibrin gels, and may also contribute to faster wound healing, as compared with no treatment or to wounds treated with fibrin gels devoid of ADSCs.
+     </abstracttext>
+     <copyrightinformation>
+      Copyright © 2014. Published by Elsevier Ltd.
+     </copyrightinformation>
+    </abstract>
+    <authorlist>
+     <author>
+      <lastname>
+       Mendez
+      </lastname>
+      <forename>
+       Julio J
+      </forename>
+      <initials>
+       JJ
+      </initials>
+      <affiliation>
+       Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Ghaedi
+      </lastname>
+      <forename>
+       Mahboobe
+      </forename>
+      <initials>
+       M
+      </initials>
+      <affiliation>
+       Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Sivarapatna
+      </lastname>
+      <forename>
+       Amogh
+      </forename>
+      <initials>
+       A
+      </initials>
+      <affiliation>
+       Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Dimitrievska
+      </lastname>
+      <forename>
+       Sashka
+      </forename>
+      <initials>
+       S
+      </initials>
+      <affiliation>
+       Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Shao
+      </lastname>
+      <forename>
+       Zhen
+      </forename>
+      <initials>
+       Z
+      </initials>
+      <affiliation>
+       Department of Chemical and Environmental Engineering, Yale University, New Haven, CT, USA.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Osuji
+      </lastname>
+      <forename>
+       Chinedum O
+      </forename>
+      <initials>
+       CO
+      </initials>
+      <affiliation>
+       Department of Chemical and Environmental Engineering, Yale University, New Haven, CT, USA.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Steinbacher
+      </lastname>
+      <forename>
+       Derek M
+      </forename>
+      <initials>
+       DM
+      </initials>
+      <affiliation>
+       Department of Surgery, Yale University School of Medicine, New Haven, CT, USA.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Leffell
+      </lastname>
+      <forename>
+       David J
+      </forename>
+      <initials>
+       DJ
+      </initials>
+      <affiliation>
+       Department of Dermatology, Yale University School of Medicine, New Haven, CT, USA.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Niklason
+      </lastname>
+      <forename>
+       Laura E
+      </forename>
+      <initials>
+       LE
+      </initials>
+      <affiliation>
+       Department of Anesthesiology, Yale University, New Haven, CT 06520, USA; Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA. Electronic address: laura.niklason@yale.edu.
+      </affiliation>
+     </author>
+    </authorlist>
+    <language>
+     ENG
+    </language>
+    <grantlist>
+     <grant>
+      <grantid>
+       R01 HL083895
+      </grantid>
+      <acronym>
+       HL
+      </acronym>
+      <agency>
+       NHLBI NIH HHS
+      </agency>
+      <country>
+       United States
+      </country>
+     </grant>
+     <grant>
+      <grantid>
+       T32 GM086287
+      </grantid>
+      <acronym>
+       GM
+      </acronym>
+      <agency>
+       NIGMS NIH HHS
+      </agency>
+      <country>
+       United States
+      </country>
+     </grant>
+    </grantlist>
+    <publicationtypelist>
+     <publicationtype>
+      JOURNAL ARTICLE
+     </publicationtype>
+    </publicationtypelist>
+    <articledate datetype="Electronic">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      26
+     </day>
+    </articledate>
+   </article>
+   <medlinejournalinfo>
+    <medlineta>
+     Biomaterials
+    </medlineta>
+    <nlmuniqueid>
+     8100316
+    </nlmuniqueid>
+    <issnlinking>
+     0142-9612
+    </issnlinking>
+   </medlinejournalinfo>
+   <keywordlist owner="NOTNLM">
+    <keyword majortopicyn="N">
+     Adipose derived stromal cells (ADSCs)
+    </keyword>
+    <keyword majortopicyn="N">
+     Endothelial cells
+    </keyword>
+    <keyword majortopicyn="N">
+     Fibrin
+    </keyword>
+    <keyword majortopicyn="N">
+     Mesenchymal stromal cells (MSCs)
+    </keyword>
+    <keyword majortopicyn="N">
+     Stiffness
+    </keyword>
+    <keyword majortopicyn="N">
+     Wound healing
+    </keyword>
+   </keywordlist>
+  </medlinecitation>
+  <pubmeddata>
+   <history>
+    <pubmedpubdate pubstatus="received">
+     <year>
+      2014
+     </year>
+     <month>
+      8
+     </month>
+     <day>
+      1
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="revised">
+     <year>
+      2014
+     </year>
+     <month>
+      10
+     </month>
+     <day>
+      27
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="accepted">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      7
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="entrez">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      1
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="pubmed">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      1
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="medline">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      1
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+   </history>
+   <publicationstatus>
+    aheadofprint
+   </publicationstatus>
+   <articleidlist>
+    <articleid idtype="pii">
+     S0142-9612(14)01171-5
+    </articleid>
+    <articleid idtype="doi">
+     10.1016/j.biomaterials.2014.11.011
+    </articleid>
+    <articleid idtype="pubmed">
+     25433608
+    </articleid>
+   </articleidlist>
+  </pubmeddata>
+ </pubmedarticle>
+ <pubmedarticle>
+  <medlinecitation owner="NLM" status="Publisher">
+   <pmid version="1">
+    25433194
+   </pmid>
+   <datecreated>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     7
+    </day>
+   </datecreated>
+   <daterevised>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     7
+    </day>
+   </daterevised>
+   <article pubmodel="Print-Electronic">
+    <journal>
+     <issn issntype="Print">
+      0006-3002
+     </issn>
+     <journalissue citedmedium="Print">
+      <pubdate>
+       <year>
+        2014
+       </year>
+       <month>
+        Nov
+       </month>
+       <day>
+        27
+       </day>
+      </pubdate>
+     </journalissue>
+     <title>
+      Biochimica et biophysica acta
+     </title>
+     <isoabbreviation>
+      Biochim. Biophys. Acta
+     </isoabbreviation>
+    </journal>
+    <articletitle>
+     Urokinase type plasminogen activator mediates Interleukin-17-induced peripheral blood mesenchymal stem cell motility and transendothelial migration.
+    </articletitle>
+    <pagination>
+     <medlinepgn>
+     </medlinepgn>
+    </pagination>
+    <elocationid eidtype="pii">
+     S0167-4889(14)00423-6
+    </elocationid>
+    <elocationid eidtype="doi">
+     10.1016/j.bbamcr.2014.11.025
+    </elocationid>
+    <abstract>
+     <abstracttext nlmcategory="UNLABELLED">
+      Mesenchymal stem cells (MSCs) have the potential to migrate toward damaged tissues increasing tissue regeneration. Interleukin-17 (IL-17) is a proinflammatory cytokine with pleiotropic effects associated with many inflammatory diseases. Although IL-17 can modulate MSC functions, its capacity to regulate MSC migration is not well elucidated so far. Here, we studied the role of IL-17 on peripheral blood (PB) derived MSC migration and transmigration across endothelial cells. IL-17 increased PB-MSC migration in a wound healing assay as well as cell mobilization from collagen gel. Concomitantly IL-17 induced the expression of urokinase type plasminogen activator (uPA) without affecting matrix metalloproteinase expression. The incremented uPA expression mediated the capacity of IL-17 to enhance PB-MSC migration in a ERK1,2 MAPK dependent way. Also, IL-17 induced PB-MSC migration alongside with changes in cell polarization and uPA localization in cell protrusions. Moreover, IL-17 increased PB-MSC adhesion to endothelial cells and transendothelial migration, as well as increased the capacity of PB-MSC adhesion to fibronectin, in an uPA-dependent fashion. Therefore, our data suggested that IL-17 may act as chemotropic factor for PB-MSCs by incrementing cell motility and uPA expression during inflammatory development.
+     </abstracttext>
+     <copyrightinformation>
+      Copyright © 2014. Published by Elsevier B.V.
+     </copyrightinformation>
+    </abstract>
+    <authorlist>
+     <author>
+      <lastname>
+       Krstić
+      </lastname>
+      <forename>
+       Jelena
+      </forename>
+      <initials>
+       J
+      </initials>
+      <affiliation>
+       Laboratory for Experimental Hematology and Stem Cells Institute for Medical Research, University of Belgrade, Dr Subotića 4, 11129 Belgrade, Serbia.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Obradović
+      </lastname>
+      <forename>
+       Hristina
+      </forename>
+      <initials>
+       H
+      </initials>
+      <affiliation>
+       Laboratory for Experimental Hematology and Stem Cells Institute for Medical Research, University of Belgrade, Dr Subotića 4, 11129 Belgrade, Serbia.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Jauković
+      </lastname>
+      <forename>
+       Aleksandra
+      </forename>
+      <initials>
+       A
+      </initials>
+      <affiliation>
+       Laboratory for Experimental Hematology and Stem Cells Institute for Medical Research, University of Belgrade, Dr Subotića 4, 11129 Belgrade, Serbia.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Dorđević
+      </lastname>
+      <forename>
+       Ivana Okić
+      </forename>
+      <initials>
+       IO
+      </initials>
+      <affiliation>
+       Laboratory for Experimental Hematology and Stem Cells Institute for Medical Research, University of Belgrade, Dr Subotića 4, 11129 Belgrade, Serbia.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Trivanović
+      </lastname>
+      <forename>
+       Drenka
+      </forename>
+      <initials>
+       D
+      </initials>
+      <affiliation>
+       Laboratory for Experimental Hematology and Stem Cells Institute for Medical Research, University of Belgrade, Dr Subotića 4, 11129 Belgrade, Serbia.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Kukolj
+      </lastname>
+      <forename>
+       Tamara
+      </forename>
+      <initials>
+       T
+      </initials>
+      <affiliation>
+       Laboratory for Experimental Hematology and Stem Cells Institute for Medical Research, University of Belgrade, Dr Subotića 4, 11129 Belgrade, Serbia.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Mojsilović
+      </lastname>
+      <forename>
+       Slavko
+      </forename>
+      <initials>
+       S
+      </initials>
+      <affiliation>
+       Laboratory for Experimental Hematology and Stem Cells Institute for Medical Research, University of Belgrade, Dr Subotića 4, 11129 Belgrade, Serbia.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Ilić
+      </lastname>
+      <forename>
+       Vesna
+      </forename>
+      <initials>
+       V
+      </initials>
+      <affiliation>
+       Laboratory for Immunology, Institute for Medical Research, University of Belgrade, Dr Subotića 4, 11129 Belgrade, Serbia.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Santibañez
+      </lastname>
+      <forename>
+       Juan F
+      </forename>
+      <initials>
+       JF
+      </initials>
+      <affiliation>
+       Laboratory for Experimental Hematology and Stem Cells Institute for Medical Research, University of Belgrade, Dr Subotića 4, 11129 Belgrade, Serbia. Electronic address: jfsantibanez@imi.bg.ac.rs.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Bugarski
+      </lastname>
+      <forename>
+       Diana
+      </forename>
+      <initials>
+       D
+      </initials>
+      <affiliation>
+       Laboratory for Experimental Hematology and Stem Cells Institute for Medical Research, University of Belgrade, Dr Subotića 4, 11129 Belgrade, Serbia.
+      </affiliation>
+     </author>
+    </authorlist>
+    <language>
+     ENG
+    </language>
+    <publicationtypelist>
+     <publicationtype>
+      JOURNAL ARTICLE
+     </publicationtype>
+    </publicationtypelist>
+    <articledate datetype="Electronic">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      27
+     </day>
+    </articledate>
+   </article>
+   <medlinejournalinfo>
+    <medlineta>
+     Biochim Biophys Acta
+    </medlineta>
+    <nlmuniqueid>
+     0217513
+    </nlmuniqueid>
+    <issnlinking>
+     0006-3002
+    </issnlinking>
+   </medlinejournalinfo>
+   <keywordlist owner="NOTNLM">
+    <keyword majortopicyn="N">
+     Interleukin-17
+    </keyword>
+    <keyword majortopicyn="N">
+     Migration
+    </keyword>
+    <keyword majortopicyn="N">
+     Peripheral blood mesenchymal stem cells
+    </keyword>
+    <keyword majortopicyn="N">
+     Transendothelial migration
+    </keyword>
+    <keyword majortopicyn="N">
+     Urokinase type plasminogen activator
+    </keyword>
+   </keywordlist>
+  </medlinecitation>
+  <pubmeddata>
+   <history>
+    <pubmedpubdate pubstatus="received">
+     <year>
+      2014
+     </year>
+     <month>
+      7
+     </month>
+     <day>
+      2
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="revised">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      18
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="accepted">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      19
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="entrez">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      30
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="pubmed">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      30
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="medline">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      30
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+   </history>
+   <publicationstatus>
+    aheadofprint
+   </publicationstatus>
+   <articleidlist>
+    <articleid idtype="pubmed">
+     25433194
+    </articleid>
+    <articleid idtype="pii">
+     S0167-4889(14)00423-6
+    </articleid>
+    <articleid idtype="doi">
+     10.1016/j.bbamcr.2014.11.025
+    </articleid>
+   </articleidlist>
+  </pubmeddata>
+ </pubmedarticle>
+ <pubmedarticle>
+  <medlinecitation owner="NLM" status="In-Data-Review">
+   <pmid version="1">
+    25428397
+   </pmid>
+   <datecreated>
+    <year>
+     2014
+    </year>
+    <month>
+     11
+    </month>
+    <day>
+     27
+    </day>
+   </datecreated>
+   <daterevised>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     06
+    </day>
+   </daterevised>
+   <article pubmodel="Electronic">
+    <journal>
+     <issn issntype="Electronic">
+      2045-2322
+     </issn>
+     <journalissue citedmedium="Internet">
+      <volume>
+       4
+      </volume>
+      <pubdate>
+       <year>
+        2014
+       </year>
+      </pubdate>
+     </journalissue>
+     <title>
+      Scientific reports
+     </title>
+     <isoabbreviation>
+      Sci Rep
+     </isoabbreviation>
+    </journal>
+    <articletitle>
+     Licochalcone A up-regulates of FasL in mesenchymal stem cells to strengthen bone formation and increase bone mass.
+    </articletitle>
+    <pagination>
+     <medlinepgn>
+      7209
+     </medlinepgn>
+    </pagination>
+    <elocationid eidtype="doi" validyn="Y">
+     10.1038/srep07209
+    </elocationid>
+    <abstract>
+     <abstracttext>
+      The role of bone marrow-derived mesenchymal stem cells(BMSCs)in the pathogenesis and therapy of osteoporosis has drawn increasing attention in recent years. In the development of osteoporosis, it has been demonstrated that many changes occurred in the behavior of BMSCs. For example, the biological system of FasL pathways mediated differentiation of ERK and GSK-3β-catenin pathway was damaged. Here we found that 0.35 mg/L Licochalcone A (L-A) had a strong effect in increasing the osteogenic differentiation and mineralization of BMSCs both in vivo and in vitro by up-regulating FasL and further playing a role in regulating the ERK and GSK-3β-catenin systems. It has also demonstrated that the administration of L-A could restore the biological function of the damaged BMSCs differentiation by recovering or protecting bone mass in a disease state through activating the endosteal bone formation and partially inhibiting bone resorption in acute estrogen deficiency model. Results of our study suggested that careful titration of MSC was response to L-A and up-regulated FasL pathways mediating differentiation of ERK and GSK-3β-catenin biological systems under disease state in vivo, restore the impaired function, is one of the ways of L-A relieve or treatment osteoporosis.
+     </abstracttext>
+    </abstract>
+    <authorlist completeyn="Y">
+     <author validyn="Y">
+      <lastname>
+       Ming
+      </lastname>
+      <forename>
+       Leiguo
+      </forename>
+      <initials>
+       L
+      </initials>
+      <affiliation>
+       1] State Key Laboratory of Military Stomatology, Center for Tissue Engineering, School of Stomatology, The Fourth Military Medical University, Xi'an, Shaanxi 710032, China [2] State Key Laboratory of Military Stomatology, Department of Oral Histology and Pathology, School of Stomatology, Fourth Military Medical University, Xi'an, Shaanxi 710032, China [3] Institute forTissue Engineering and Regenerative Medicine Research of Xi'an, Xi'an, China.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Jin
+      </lastname>
+      <forename>
+       Fang
+      </forename>
+      <initials>
+       F
+      </initials>
+      <affiliation>
+       Department of Orthodontics, School of Stomatology, Fourth Military Medical University, Xi'an, Shaanxi, China.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Huang
+      </lastname>
+      <forename>
+       Ping
+      </forename>
+      <initials>
+       P
+      </initials>
+      <affiliation>
+       Department of Clinical Laboratory, School of Stomatology, Fourth Military Medical University, Xi'an, Shaanxi. 710032, China.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Luo
+      </lastname>
+      <forename>
+       Hailang
+      </forename>
+      <initials>
+       H
+      </initials>
+      <affiliation>
+       1] State Key Laboratory of Military Stomatology, Department of Oral Histology and Pathology, School of Stomatology, Fourth Military Medical University, Xi'an, Shaanxi 710032, China [2] Institute forTissue Engineering and Regenerative Medicine Research of Xi'an, Xi'an, China.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Liu
+      </lastname>
+      <forename>
+       Wenjia
+      </forename>
+      <initials>
+       W
+      </initials>
+      <affiliation>
+       1] Research and Development Center for Tissue Engineering, Fourth Military Medical University, Xi'an, Shaanxi 710032, China [2] State Key Laboratory of Military Stomatology, Department of Oral Histology and Pathology, School of Stomatology, Fourth Military Medical University, Xi'an, Shaanxi 710032, China [3] Institute forTissue Engineering and Regenerative Medicine Research of Xi'an, Xi'an, China.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Zhang
+      </lastname>
+      <forename>
+       Leilei
+      </forename>
+      <initials>
+       L
+      </initials>
+      <affiliation>
+       1] State Key Laboratory of Military Stomatology, Department of Oral Histology and Pathology, School of Stomatology, Fourth Military Medical University, Xi'an, Shaanxi 710032, China [2] Institute forTissue Engineering and Regenerative Medicine Research of Xi'an, Xi'an, China.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Yuan
+      </lastname>
+      <forename>
+       Wei
+      </forename>
+      <initials>
+       W
+      </initials>
+      <affiliation>
+       1] State Key Laboratory of Military Stomatology, Department of Oral Histology and Pathology, School of Stomatology, Fourth Military Medical University, Xi'an, Shaanxi 710032, China [2] Institute forTissue Engineering and Regenerative Medicine Research of Xi'an, Xi'an, China.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Zhang
+      </lastname>
+      <forename>
+       Yongjie
+      </forename>
+      <initials>
+       Y
+      </initials>
+      <affiliation>
+       1] State Key Laboratory of Military Stomatology, Center for Tissue Engineering, School of Stomatology, The Fourth Military Medical University, Xi'an, Shaanxi 710032, China [2] Research and Development Center for Tissue Engineering, Fourth Military Medical University, Xi'an, Shaanxi 710032, China [3] State Key Laboratory of Military Stomatology, Department of Oral Histology and Pathology, School of Stomatology, Fourth Military Medical University, Xi'an, Shaanxi 710032, China.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Jin
+      </lastname>
+      <forename>
+       Yan
+      </forename>
+      <initials>
+       Y
+      </initials>
+      <affiliation>
+       1] State Key Laboratory of Military Stomatology, Center for Tissue Engineering, School of Stomatology, The Fourth Military Medical University, Xi'an, Shaanxi 710032, China [2] Research and Development Center for Tissue Engineering, Fourth Military Medical University, Xi'an, Shaanxi 710032, China [3] Institute forTissue Engineering and Regenerative Medicine Research of Xi'an, Xi'an, China.
+      </affiliation>
+     </author>
+    </authorlist>
+    <language>
+     eng
+    </language>
+    <publicationtypelist>
+     <publicationtype>
+      Journal Article
+     </publicationtype>
+    </publicationtypelist>
+    <articledate datetype="Electronic">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      27
+     </day>
+    </articledate>
+   </article>
+   <medlinejournalinfo>
+    <country>
+     England
+    </country>
+    <medlineta>
+     Sci Rep
+    </medlineta>
+    <nlmuniqueid>
+     101563288
+    </nlmuniqueid>
+    <issnlinking>
+     2045-2322
+    </issnlinking>
+   </medlinejournalinfo>
+   <citationsubset>
+    IM
+   </citationsubset>
+   <otherid source="NLM">
+    PMC4245531
+   </otherid>
+  </medlinecitation>
+  <pubmeddata>
+   <history>
+    <pubmedpubdate pubstatus="received">
+     <year>
+      2014
+     </year>
+     <month>
+      2
+     </month>
+     <day>
+      13
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="accepted">
+     <year>
+      2014
+     </year>
+     <month>
+      10
+     </month>
+     <day>
+      14
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="entrez">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      28
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="pubmed">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      28
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="medline">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      28
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+   </history>
+   <publicationstatus>
+    epublish
+   </publicationstatus>
+   <articleidlist>
+    <articleid idtype="pii">
+     srep07209
+    </articleid>
+    <articleid idtype="doi">
+     10.1038/srep07209
+    </articleid>
+    <articleid idtype="pubmed">
+     25428397
+    </articleid>
+    <articleid idtype="pmc">
+     PMC4245531
+    </articleid>
+   </articleidlist>
+  </pubmeddata>
+ </pubmedarticle>
+ <pubmedarticle>
+  <medlinecitation owner="NLM" status="Publisher">
+   <pmid version="1">
+    25437011
+   </pmid>
+   <datecreated>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     1
+    </day>
+   </datecreated>
+   <daterevised>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     2
+    </day>
+   </daterevised>
+   <article pubmodel="Print-Electronic">
+    <journal>
+     <issn issntype="Electronic">
+      1557-8534
+     </issn>
+     <journalissue citedmedium="Internet">
+      <pubdate>
+       <year>
+        2014
+       </year>
+       <month>
+        Dec
+       </month>
+       <day>
+        1
+       </day>
+      </pubdate>
+     </journalissue>
+     <title>
+      Stem cells and development
+     </title>
+     <isoabbreviation>
+      Stem Cells Dev.
+     </isoabbreviation>
+    </journal>
+    <articletitle>
+     A decline in Wnt3a signaling is necessary for mesenchymal stem cells to proceed to replicative senescence.
+    </articletitle>
+    <pagination>
+     <medlinepgn>
+     </medlinepgn>
+    </pagination>
+    <abstract>
+     <abstracttext nlmcategory="UNLABELLED">
+      Umbilical cord blood-derived mesenchymal stem cells (UCB-MSCs) are a promising source of cells for regeneration therapy due to their multipotency, high proliferative capacity, relatively noninvasive collection, and ready availability. However, extended cell culture inevitably triggers cellular senescence-the irreversible arrest of cell division-thereby limiting the proliferative lifespan of adult stem cells. Wnt/β-catenin signaling plays a functional role as a key regulator of self-renewal and differentiation in MSCs, and thus Wnt/β-catenin signaling and cellular senescence might be closely connected. Here, we show that the expression levels of canonical Wnt families decrease as MSCs age during subculture. Activation of the Wnt pathway by treatment with Wnt3a-conditioned medium or glycogen synthase kinase 3β (GSK 3β) inhibitors, such as SB-216763 and BIO, delays the progression of cellular senescence as shown by the decrease in the senescence effectors p53 and pRb, lowered SA-β-gal activity, and increased telomerase activity. In contrast, suppression of the Wnt pathway by treatment with Dkk-1 (an antagonist of the Wnt coreceptor) and β-catenin siRNA transfection promotes senescence in MSCs. Interestingly, the magnitude of the response to enhanced Wnt3a/β-catenin signaling seems to depend on the senescent state during extended culture, particularly after multiple passages. These results suggest that Wnt3a signaling might be a predominant factor that could be used to overcome senescence in long-term cultured MSCs by directly intervening in the proliferative capacity and MSC senescence. The functional role of Wnt3a/β-catenin signaling in hedging cellular senescence may allow the development of new approaches for stem cell-based therapies.
+     </abstracttext>
+    </abstract>
+    <authorlist>
+     <author>
+      <lastname>
+       Jeoung
+      </lastname>
+      <forename>
+       Ji Yung
+      </forename>
+      <initials>
+       JY
+      </initials>
+      <affiliation>
+       University of Ulsan College of Medicine, Department of Biochemistry and Molecular Biology, Seoul, Korea, Republic of ; bigimsae@naver.com.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Nam
+      </lastname>
+      <forename>
+       Hae Yun
+      </forename>
+      <initials>
+       HY
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Kwak
+      </lastname>
+      <forename>
+       Jihye
+      </forename>
+      <initials>
+       J
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Jin
+      </lastname>
+      <forename>
+       Hye Jin
+      </forename>
+      <initials>
+       HJ
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Lee
+      </lastname>
+      <forename>
+       Hyang Ju
+      </forename>
+      <initials>
+       HJ
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Lee
+      </lastname>
+      <forename>
+       Byoung Wook
+      </forename>
+      <initials>
+       BW
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Baek
+      </lastname>
+      <forename>
+       Jonghyuk
+      </forename>
+      <initials>
+       J
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Eom
+      </lastname>
+      <forename>
+       Jin Sup
+      </forename>
+      <initials>
+       JS
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Chang
+      </lastname>
+      <forename>
+       Eun-Ju
+      </forename>
+      <initials>
+       EJ
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Shin
+      </lastname>
+      <forename>
+       Dong-Myung
+      </forename>
+      <initials>
+       DM
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Choi
+      </lastname>
+      <forename>
+       Soo Jin
+      </forename>
+      <initials>
+       SJ
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Kim
+      </lastname>
+      <forename>
+       Seung Who
+      </forename>
+      <initials>
+       SW
+      </initials>
+     </author>
+    </authorlist>
+    <language>
+     ENG
+    </language>
+    <publicationtypelist>
+     <publicationtype>
+      JOURNAL ARTICLE
+     </publicationtype>
+    </publicationtypelist>
+    <articledate datetype="Electronic">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      1
+     </day>
+    </articledate>
+   </article>
+   <medlinejournalinfo>
+    <medlineta>
+     Stem Cells Dev
+    </medlineta>
+    <nlmuniqueid>
+     101197107
+    </nlmuniqueid>
+    <issnlinking>
+     1547-3287
+    </issnlinking>
+   </medlinejournalinfo>
+  </medlinecitation>
+  <pubmeddata>
+   <history>
+    <pubmedpubdate pubstatus="entrez">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      2
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="pubmed">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      2
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="medline">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      2
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+   </history>
+   <publicationstatus>
+    aheadofprint
+   </publicationstatus>
+   <articleidlist>
+    <articleid idtype="doi">
+     10.1089/scd.2014.0273
+    </articleid>
+    <articleid idtype="pubmed">
+     25437011
+    </articleid>
+   </articleidlist>
+  </pubmeddata>
+ </pubmedarticle>
+ <pubmedarticle>
+  <medlinecitation owner="NLM" status="In-Data-Review">
+   <pmid version="1">
+    25436769
+   </pmid>
+   <datecreated>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     02
+    </day>
+   </datecreated>
+   <daterevised>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     06
+    </day>
+   </daterevised>
+   <article pubmodel="Electronic-eCollection">
+    <journal>
+     <issn issntype="Electronic">
+      1932-6203
+     </issn>
+     <journalissue citedmedium="Internet">
+      <volume>
+       9
+      </volume>
+      <issue>
+       12
+      </issue>
+      <pubdate>
+       <year>
+        2014
+       </year>
+      </pubdate>
+     </journalissue>
+     <title>
+      PloS one
+     </title>
+     <isoabbreviation>
+      PLoS ONE
+     </isoabbreviation>
+    </journal>
+    <articletitle>
+     Randomized Placebo-Controlled Phase II Trial of Autologous Mesenchymal Stem Cells in Multiple Sclerosis.
+    </articletitle>
+    <pagination>
+     <medlinepgn>
+      e113936
+     </medlinepgn>
+    </pagination>
+    <elocationid eidtype="doi" validyn="Y">
+     10.1371/journal.pone.0113936
+    </elocationid>
+    <abstract>
+     <abstracttext label="OBJECTIVE" nlmcategory="OBJECTIVE">
+      Uncontrolled studies of mesenchymal stem cells (MSCs) in multiple sclerosis suggested some beneficial effect. In this randomized, double-blind, placebo-controlled, crossover phase II study we investigated their safety and efficacy in relapsing-remitting multiple sclerosis patients. Efficacy was evaluated in terms of cumulative number of gadolinium-enhancing lesions (GEL) on magnetic resonance imaging (MRI) at 6 months and at the end of the study.
+     </abstracttext>
+     <abstracttext label="METHODS" nlmcategory="METHODS">
+      Patients unresponsive to conventional therapy, defined by at least 1 relapse and/or GEL on MRI scan in past 12 months, disease duration 2 to 10 years and Expanded Disability Status Scale (EDSS) 3.0-6.5 were randomized to receive IV 1-2×106 bone-marrow-derived-MSCs/Kg or placebo. After 6 months, the treatment was reversed and patients were followed-up for another 6 months. Secondary endpoints were clinical outcomes (relapses and disability by EDSS and MS Functional Composite), and several brain MRI and optical coherence tomography measures. Immunological tests were explored to assess the immunomodulatory effects.
+     </abstracttext>
+     <abstracttext label="RESULTS" nlmcategory="RESULTS">
+      At baseline 9 patients were randomized to receive MSCs (n = 5) or placebo (n = 4). One patient on placebo withdrew after having 3 relapses in the first 5 months. We did not identify any serious adverse events. At 6 months, patients treated with MSCs had a trend to lower mean cumulative number of GEL (3.1, 95% CI = 1.1-8.8 vs 12.3, 95% CI = 4.4-34.5, p = 0.064), and at the end of study to reduced mean GEL (-2.8±5.9 vs 3±5.4, p = 0.075). No significant treatment differences were detected in the secondary endpoints. We observed a non-significant decrease of the frequency of Th1 (CD4+ IFN-γ+) cells in blood of MSCs treated patients.
+     </abstracttext>
+     <abstracttext label="CONCLUSION" nlmcategory="CONCLUSIONS">
+      Bone-marrow-MSCs are safe and may reduce inflammatory MRI parameters supporting their immunomodulatory properties. ClinicalTrials.gov NCT01228266.
+     </abstracttext>
+    </abstract>
+    <authorlist completeyn="Y">
+     <author validyn="Y">
+      <lastname>
+       Llufriu
+      </lastname>
+      <forename>
+       Sara
+      </forename>
+      <initials>
+       S
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Sepúlveda
+      </lastname>
+      <forename>
+       María
+      </forename>
+      <initials>
+       M
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Blanco
+      </lastname>
+      <forename>
+       Yolanda
+      </forename>
+      <initials>
+       Y
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Marín
+      </lastname>
+      <forename>
+       Pedro
+      </forename>
+      <initials>
+       P
+      </initials>
+      <affiliation>
+       Hemotherapy Service, CDB, Hospital Clínic, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Moreno
+      </lastname>
+      <forename>
+       Beatriz
+      </forename>
+      <initials>
+       B
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Berenguer
+      </lastname>
+      <forename>
+       Joan
+      </forename>
+      <initials>
+       J
+      </initials>
+      <affiliation>
+       Service of Neurorradiology, Hospital Clinic and Institut d'Investigació Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Gabilondo
+      </lastname>
+      <forename>
+       Iñigo
+      </forename>
+      <initials>
+       I
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Martínez-Heras
+      </lastname>
+      <forename>
+       Eloy
+      </forename>
+      <initials>
+       E
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Sola-Valls
+      </lastname>
+      <forename>
+       Nuria
+      </forename>
+      <initials>
+       N
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Arnaiz
+      </lastname>
+      <forename>
+       Joan-Albert
+      </forename>
+      <initials>
+       JA
+      </initials>
+      <affiliation>
+       Department of Clinical Pharmacology, Hospital Clinic, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Andreu
+      </lastname>
+      <forename>
+       Enrique J
+      </forename>
+      <initials>
+       EJ
+      </initials>
+      <affiliation>
+       Cell Therapy Area, Clinica Universitaria de Navarra, Pamplona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Fernández
+      </lastname>
+      <forename>
+       Begoña
+      </forename>
+      <initials>
+       B
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Bullich
+      </lastname>
+      <forename>
+       Santi
+      </forename>
+      <initials>
+       S
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Sánchez-Dalmau
+      </lastname>
+      <forename>
+       Bernardo
+      </forename>
+      <initials>
+       B
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain; Service of Ophtalmology, Hospital Clinic, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Graus
+      </lastname>
+      <forename>
+       Francesc
+      </forename>
+      <initials>
+       F
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Villoslada
+      </lastname>
+      <forename>
+       Pablo
+      </forename>
+      <initials>
+       P
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Saiz
+      </lastname>
+      <forename>
+       Albert
+      </forename>
+      <initials>
+       A
+      </initials>
+      <affiliation>
+       Center of Neuroimmunology, Service of Neurology, Hospital Clinic and Institut d'Investigacions Biomèdiques August Pi i Sunyer (IDIBAPS), University of Barcelona, Barcelona, Spain.
+      </affiliation>
+     </author>
+    </authorlist>
+    <language>
+     eng
+    </language>
+    <publicationtypelist>
+     <publicationtype>
+      Journal Article
+     </publicationtype>
+    </publicationtypelist>
+    <articledate datetype="Electronic">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      01
+     </day>
+    </articledate>
+   </article>
+   <medlinejournalinfo>
+    <country>
+     United States
+    </country>
+    <medlineta>
+     PLoS One
+    </medlineta>
+    <nlmuniqueid>
+     101285081
+    </nlmuniqueid>
+    <issnlinking>
+     1932-6203
+    </issnlinking>
+   </medlinejournalinfo>
+   <citationsubset>
+    IM
+   </citationsubset>
+   <otherid source="NLM">
+    PMC4250058
+   </otherid>
+  </medlinecitation>
+  <pubmeddata>
+   <history>
+    <pubmedpubdate pubstatus="ecollection">
+     <year>
+      2014
+     </year>
+     <month>
+     </month>
+     <day>
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="received">
+     <year>
+      2014
+     </year>
+     <month>
+      6
+     </month>
+     <day>
+      23
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="accepted">
+     <year>
+      2014
+     </year>
+     <month>
+      10
+     </month>
+     <day>
+      29
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="epublish">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      1
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="entrez">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      2
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="pubmed">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      2
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="medline">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      2
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+   </history>
+   <publicationstatus>
+    epublish
+   </publicationstatus>
+   <articleidlist>
+    <articleid idtype="doi">
+     10.1371/journal.pone.0113936
+    </articleid>
+    <articleid idtype="pii">
+     PONE-D-14-21159
+    </articleid>
+    <articleid idtype="pubmed">
+     25436769
+    </articleid>
+    <articleid idtype="pmc">
+     PMC4250058
+    </articleid>
+   </articleidlist>
+  </pubmeddata>
+ </pubmedarticle>
+ <pubmedarticle>
+  <medlinecitation owner="NLM" status="In-Data-Review">
+   <pmid version="1">
+    25437001
+   </pmid>
+   <datecreated>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     02
+    </day>
+   </datecreated>
+   <daterevised>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     06
+    </day>
+   </daterevised>
+   <article pubmodel="Electronic-eCollection">
+    <journal>
+     <issn issntype="Electronic">
+      1932-6203
+     </issn>
+     <journalissue citedmedium="Internet">
+      <volume>
+       9
+      </volume>
+      <issue>
+       12
+      </issue>
+      <pubdate>
+       <year>
+        2014
+       </year>
+      </pubdate>
+     </journalissue>
+     <title>
+      PloS one
+     </title>
+     <isoabbreviation>
+      PLoS ONE
+     </isoabbreviation>
+    </journal>
+    <articletitle>
+     Tissue engineering of rat bladder using marrow-derived mesenchymal stem cells and bladder acellular matrix.
+    </articletitle>
+    <pagination>
+     <medlinepgn>
+      e111966
+     </medlinepgn>
+    </pagination>
+    <elocationid eidtype="doi" validyn="Y">
+     10.1371/journal.pone.0111966
+    </elocationid>
+    <abstract>
+     <abstracttext>
+      Bladder replacement or augmentation is required in congenital malformations or following trauma or cancer. The current surgical solution involves enterocystoplasty but is associated with high complication rates. Strategies for bladder tissue engineering are thus actively sought to address this unmet clinical need. Because of the poor efficacy of synthetic polymers, the use of bladder acellular matrix (BAM) has been proposed. Indeed when cellular components are removed from xenogenic or allogeneic bladders, the extracellular matrix scaffold thus obtained can be used alone or in combination with stem cells. In this study, we propose the use of BAM seeded with marrow-derived mesenchymal stem cells (MSCs) for bladder tissue engineering. We optimized a protocol for decellularization of bladder tissue from different species including rat, rabbit and swine. We demonstrate the use of non-ionic detergents followed by nuclease digestion results in efficient decellularization while preserving the extracellular matrix. When MSCs were seeded on acellular matrix scaffold, they remained viable and proliferative while adopting a cellular phenotype consistent with their microenvironment. Upon transplantation in rats after partial cystectomy, MSC-seeded BAM proved superior to unseeded BAM with animals recovering nearly 100% normal bladder capacity for up to six months. Histological analyses also demonstrated increased muscle regeneration.
+     </abstracttext>
+    </abstract>
+    <authorlist completeyn="Y">
+     <author validyn="Y">
+      <lastname>
+       Coutu
+      </lastname>
+      <forename>
+       Daniel L
+      </forename>
+      <initials>
+       DL
+      </initials>
+      <affiliation>
+       Department of Biosystems Science and Engineering, ETH Zürich, Basel, Switzerland.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Mahfouz
+      </lastname>
+      <forename>
+       Wally
+      </forename>
+      <initials>
+       W
+      </initials>
+      <affiliation>
+       Department of Urology, Jewish General Hospital, McGill University, Montreal, Canada; Department of Urology, Alexandria University, Alexandria, Egypt.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Loutochin
+      </lastname>
+      <forename>
+       Oleg
+      </forename>
+      <initials>
+       O
+      </initials>
+      <affiliation>
+       Department of Urology, Jewish General Hospital, McGill University, Montreal, Canada.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Galipeau
+      </lastname>
+      <forename>
+       Jacques
+      </forename>
+      <initials>
+       J
+      </initials>
+      <affiliation>
+       Department of Hematology and Medical Oncology, Pediatrics &amp; Medicine, Emory University, Atlanta, Georgia, United States of America.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Corcos
+      </lastname>
+      <forename>
+       Jacques
+      </forename>
+      <initials>
+       J
+      </initials>
+      <affiliation>
+       Department of Urology, Jewish General Hospital, McGill University, Montreal, Canada.
+      </affiliation>
+     </author>
+    </authorlist>
+    <language>
+     eng
+    </language>
+    <publicationtypelist>
+     <publicationtype>
+      Journal Article
+     </publicationtype>
+    </publicationtypelist>
+    <articledate datetype="Electronic">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      01
+     </day>
+    </articledate>
+   </article>
+   <medlinejournalinfo>
+    <country>
+     United States
+    </country>
+    <medlineta>
+     PLoS One
+    </medlineta>
+    <nlmuniqueid>
+     101285081
+    </nlmuniqueid>
+    <issnlinking>
+     1932-6203
+    </issnlinking>
+   </medlinejournalinfo>
+   <citationsubset>
+    IM
+   </citationsubset>
+   <otherid source="NLM">
+    PMC4249849
+   </otherid>
+  </medlinecitation>
+  <pubmeddata>
+   <history>
+    <pubmedpubdate pubstatus="ecollection">
+     <year>
+      2014
+     </year>
+     <month>
+     </month>
+     <day>
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="received">
+     <year>
+      2014
+     </year>
+     <month>
+      4
+     </month>
+     <day>
+      15
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="accepted">
+     <year>
+      2014
+     </year>
+     <month>
+      10
+     </month>
+     <day>
+      9
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="epublish">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      1
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="entrez">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      2
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="pubmed">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      2
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="medline">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      2
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+   </history>
+   <publicationstatus>
+    epublish
+   </publicationstatus>
+   <articleidlist>
+    <articleid idtype="doi">
+     10.1371/journal.pone.0111966
+    </articleid>
+    <articleid idtype="pii">
+     PONE-D-14-15355
+    </articleid>
+    <articleid idtype="pubmed">
+     25437001
+    </articleid>
+    <articleid idtype="pmc">
+     PMC4249849
+    </articleid>
+   </articleidlist>
+  </pubmeddata>
+ </pubmedarticle>
+ <pubmedarticle>
+  <medlinecitation owner="NLM" status="Publisher">
+   <pmid version="1">
+    25433862
+   </pmid>
+   <datecreated>
+    <year>
+     2014
+    </year>
+    <month>
+     11
+    </month>
+    <day>
+     30
+    </day>
+   </datecreated>
+   <daterevised>
+    <year>
+     2014
+    </year>
+    <month>
+     12
+    </month>
+    <day>
+     1
+    </day>
+   </daterevised>
+   <article pubmodel="Print-Electronic">
+    <journal>
+     <issn issntype="Electronic">
+      1558-6804
+     </issn>
+     <journalissue citedmedium="Internet">
+      <pubdate>
+       <year>
+        2014
+       </year>
+       <month>
+        Nov
+       </month>
+       <day>
+        30
+       </day>
+      </pubdate>
+     </journalissue>
+     <title>
+      Stem cell reviews
+     </title>
+     <isoabbreviation>
+      Stem Cell Rev
+     </isoabbreviation>
+    </journal>
+    <articletitle>
+     Ovariectomized Rats with Established Osteopenia have Diminished Mesenchymal Stem Cells in the Bone Marrow and Impaired Homing, Osteoinduction and Bone Regeneration at the Fracture Site.
+    </articletitle>
+    <pagination>
+     <medlinepgn>
+     </medlinepgn>
+    </pagination>
+    <abstract>
+     <abstracttext nlmcategory="UNLABELLED">
+      We investigated deleterious changes that take place in mesenchymal stem cells (MSC) and its fracture healing competence in ovariectomy (Ovx)-induced osteopenia. MSC from bone marrow (BM) of ovary intact (control) and Ovx rats was isolated. (99m)Tc-HMPAO (Technitium hexamethylpropylene amine oxime) labeled MSC was systemically transplanted to rats and fracture tropism assessed by SPECT/CT. PKH26 labeled MSC (PKH26-MSC) was bound in scaffold and applied to fracture site (drill-hole in femur metaphysis). Osteoinduction was quantified by calcein binding and microcomputed tomography. Estrogen receptor (ER) antagonist, fulvestrant was used to determine ER dependence of osteo-induction by MSC. BM-MSC number was strikingly reduced and doubling time increased in Ovx rats compared to control. SPECT/CT showed reduced localization of (99m)Tc-HMPAO labeled MSC to the fracture site, 3 h post-transplantation in Ovx rats as compared with controls. Post-transplantation, Ovx MSC labeled with PKH26 (Ovx PKH26-MSC) localized less to fracture site than control PKH26-MSC. Transplantation of either control or Ovx MSC enhanced calcein binding and bone volume at the callus of control rats over placebo group however Ovx MSC had lower efficacy than control MSC. Fulvestrant blocked osteoinduction by control MSC. When scaffold bound MSC was applied to fracture, osteoinduction by Ovx PKH26-MSC was less than control PKH26-MSC. In Ovx rats, control MSC/E2 treatment but not Ovx MSC showed osteoinduction. Regenerated bone was irregularly deposited in Ovx MSC group. In conclusion, Ovx is associated with diminished BM-MSC number and its growth, and Ovx MSC displays impaired engraftment to fracture and osteoinduction besides disordered bone regeneration.
+     </abstracttext>
+    </abstract>
+    <authorlist>
+     <author>
+      <lastname>
+       Tewari
+      </lastname>
+      <forename>
+       Deepshikha
+      </forename>
+      <initials>
+       D
+      </initials>
+      <affiliation>
+       Division of Endocrinology and Centre for Research in Anabolic Skeletal Targets in Health and Illness (ASTHI), CSIR-Central Drug Research Institute, B.S. 10/1, Sector-10, Jankipuram Extension, Lucknow, India.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Khan
+      </lastname>
+      <forename>
+       Mohd Parvez
+      </forename>
+      <initials>
+       MP
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Sagar
+      </lastname>
+      <forename>
+       Nitin
+      </forename>
+      <initials>
+       N
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       China
+      </lastname>
+      <forename>
+       Shyamsundar P
+      </forename>
+      <initials>
+       SP
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Singh
+      </lastname>
+      <forename>
+       Atul K
+      </forename>
+      <initials>
+       AK
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Kheruka
+      </lastname>
+      <forename>
+       Subhash C
+      </forename>
+      <initials>
+       SC
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Barai
+      </lastname>
+      <forename>
+       Sukanta
+      </forename>
+      <initials>
+       S
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Tewari
+      </lastname>
+      <forename>
+       Mahesh C
+      </forename>
+      <initials>
+       MC
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Nagar
+      </lastname>
+      <forename>
+       Geet K
+      </forename>
+      <initials>
+       GK
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Vishwakarma
+      </lastname>
+      <forename>
+       Achchhe L
+      </forename>
+      <initials>
+       AL
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Ogechukwu
+      </lastname>
+      <forename>
+       Omeje E
+      </forename>
+      <initials>
+       OE
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Bellare
+      </lastname>
+      <forename>
+       Jayesh R
+      </forename>
+      <initials>
+       JR
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Gambhir
+      </lastname>
+      <forename>
+       Sanjay
+      </forename>
+      <initials>
+       S
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Chattopadhyay
+      </lastname>
+      <forename>
+       Naibedya
+      </forename>
+      <initials>
+       N
+      </initials>
+     </author>
+    </authorlist>
+    <language>
+     ENG
+    </language>
+    <publicationtypelist>
+     <publicationtype>
+      JOURNAL ARTICLE
+     </publicationtype>
+    </publicationtypelist>
+    <articledate datetype="Electronic">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      30
+     </day>
+    </articledate>
+   </article>
+   <medlinejournalinfo>
+    <medlineta>
+     Stem Cell Rev
+    </medlineta>
+    <nlmuniqueid>
+     101255952
+    </nlmuniqueid>
+    <issnlinking>
+     1550-8943
+    </issnlinking>
+   </medlinejournalinfo>
+  </medlinecitation>
+  <pubmeddata>
+   <history>
+    <pubmedpubdate pubstatus="entrez">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      1
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="pubmed">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      1
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="medline">
+     <year>
+      2014
+     </year>
+     <month>
+      12
+     </month>
+     <day>
+      1
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+   </history>
+   <publicationstatus>
+    aheadofprint
+   </publicationstatus>
+   <articleidlist>
+    <articleid idtype="doi">
+     10.1007/s12015-014-9573-5
+    </articleid>
+    <articleid idtype="pubmed">
+     25433862
+    </articleid>
+   </articleidlist>
+  </pubmeddata>
+ </pubmedarticle>
+ <pubmedarticle>
+  <medlinecitation owner="NLM" status="Publisher">
+   <pmid version="1">
+    25431112
+   </pmid>
+   <datecreated>
+    <year>
+     2014
+    </year>
+    <month>
+     11
+    </month>
+    <day>
+     28
+    </day>
+   </datecreated>
+   <daterevised>
+    <year>
+     2014
+    </year>
+    <month>
+     11
+    </month>
+    <day>
+     29
+    </day>
+   </daterevised>
+   <article pubmodel="Print-Electronic">
+    <journal>
+     <issn issntype="Electronic">
+      1099-0844
+     </issn>
+     <journalissue citedmedium="Internet">
+      <pubdate>
+       <year>
+        2014
+       </year>
+       <month>
+        Nov
+       </month>
+       <day>
+        28
+       </day>
+      </pubdate>
+     </journalissue>
+     <title>
+      Cell biochemistry and function
+     </title>
+     <isoabbreviation>
+      Cell Biochem. Funct.
+     </isoabbreviation>
+    </journal>
+    <articletitle>
+     Effect of T3 hormone on neural differentiation of human adipose derived stem cells.
+    </articletitle>
+    <pagination>
+     <medlinepgn>
+     </medlinepgn>
+    </pagination>
+    <elocationid eidtype="doi">
+     10.1002/cbf.3074
+    </elocationid>
+    <abstract>
+     <abstracttext nlmcategory="UNLABELLED">
+      Human adult stem cells, which are capable of self-renewal and differentiation into other cell types, can be isolated from various tissues. There are no ethical and rejection problems as in the case of embryonic stem cells, so they are a promising source for cell therapy. The human body contains a great amount of adipose tissue that contains high numbers of mesenchymal stem cells. Human adipose-derived stem cells (hADSCs) could be easily induced to form neuron-like cells, and because of its availability and abundance, we can use it for clinical cell therapy. On the other hand, T3 hormone as a known neurotropic factor has important impressions on the nervous system. The aim of this study was to explore the effects of T3 treatment on neural differentiation of hADSCs. ADSCs were harvested from human adipose tissue, after neurosphere formation, and during final differentiation, treatment with T3 was performed. Immunocytochemistry, real-time RT-PCR, Western blotting techniques were used for detection of nestin, MAP2, and GFAP markers in order to confirm the effects of T3 on neural differentiation of hADSCs. Our results showed an increase in the number of glial cells but reduction in neuronal cells number fallowing T3 treatment. Copyright © 2014 John Wiley &amp; Sons, Ltd.
+     </abstracttext>
+     <copyrightinformation>
+      Copyright © 2014 John Wiley &amp; Sons, Ltd.
+     </copyrightinformation>
+    </abstract>
+    <authorlist>
+     <author>
+      <lastname>
+       Razavi
+      </lastname>
+      <forename>
+       Shahnaz
+      </forename>
+      <initials>
+       S
+      </initials>
+      <affiliation>
+       Department of Anatomical Sciences and Molecular Biology, School of Medicine, Isfahan University of Medical Sciences, Isfahan, Iran.
+      </affiliation>
+     </author>
+     <author>
+      <lastname>
+       Mostafavi
+      </lastname>
+      <forename>
+       Fatemeh Sadat
+      </forename>
+      <initials>
+       FS
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Mardani
+      </lastname>
+      <forename>
+       Mohammad
+      </forename>
+      <initials>
+       M
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Zarkesh Esfahani
+      </lastname>
+      <forename>
+       Hamid
+      </forename>
+      <initials>
+       H
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Kazemi
+      </lastname>
+      <forename>
+       Mohammad
+      </forename>
+      <initials>
+       M
+      </initials>
+     </author>
+     <author>
+      <lastname>
+       Esfandiari
+      </lastname>
+      <forename>
+       Ebrahim
+      </forename>
+      <initials>
+       E
+      </initials>
+     </author>
+    </authorlist>
+    <language>
+     ENG
+    </language>
+    <publicationtypelist>
+     <publicationtype>
+      JOURNAL ARTICLE
+     </publicationtype>
+    </publicationtypelist>
+    <articledate datetype="Electronic">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      28
+     </day>
+    </articledate>
+   </article>
+   <medlinejournalinfo>
+    <medlineta>
+     Cell Biochem Funct
+    </medlineta>
+    <nlmuniqueid>
+     8305874
+    </nlmuniqueid>
+    <issnlinking>
+     0263-6484
+    </issnlinking>
+   </medlinejournalinfo>
+   <keywordlist owner="NOTNLM">
+    <keyword majortopicyn="N">
+     GFAP
+    </keyword>
+    <keyword majortopicyn="N">
+     MAP-2
+    </keyword>
+    <keyword majortopicyn="N">
+     T3
+    </keyword>
+    <keyword majortopicyn="N">
+     hADSCs
+    </keyword>
+    <keyword majortopicyn="N">
+     neural induction
+    </keyword>
+   </keywordlist>
+  </medlinecitation>
+  <pubmeddata>
+   <history>
+    <pubmedpubdate pubstatus="received">
+     <year>
+      2014
+     </year>
+     <month>
+      8
+     </month>
+     <day>
+      12
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="revised">
+     <year>
+      2014
+     </year>
+     <month>
+      10
+     </month>
+     <day>
+      11
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="accepted">
+     <year>
+      2014
+     </year>
+     <month>
+      10
+     </month>
+     <day>
+      13
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="entrez">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      29
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="pubmed">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      29
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="medline">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      29
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+   </history>
+   <publicationstatus>
+    aheadofprint
+   </publicationstatus>
+   <articleidlist>
+    <articleid idtype="doi">
+     10.1002/cbf.3074
+    </articleid>
+    <articleid idtype="pubmed">
+     25431112
+    </articleid>
+   </articleidlist>
+  </pubmeddata>
+ </pubmedarticle>
+ <pubmedarticle>
+  <medlinecitation owner="NLM" status="In-Data-Review">
+   <pmid version="1">
+    25430711
+   </pmid>
+   <datecreated>
+    <year>
+     2014
+    </year>
+    <month>
+     11
+    </month>
+    <day>
+     28
+    </day>
+   </datecreated>
+   <article pubmodel="Print">
+    <journal>
+     <issn issntype="Electronic">
+      1757-7861
+     </issn>
+     <journalissue citedmedium="Internet">
+      <volume>
+       6
+      </volume>
+      <issue>
+       4
+      </issue>
+      <pubdate>
+       <year>
+        2014
+       </year>
+       <month>
+        Nov
+       </month>
+      </pubdate>
+     </journalissue>
+     <title>
+      Orthopaedic surgery
+     </title>
+     <isoabbreviation>
+      Orthop Surg
+     </isoabbreviation>
+    </journal>
+    <articletitle>
+     Effects of Cartilage Oligomeric Matrix Protein on Bone Morphogenetic Protein-2-induced Differentiation of Mesenchymal Stem Cells.
+    </articletitle>
+    <pagination>
+     <medlinepgn>
+      280-7
+     </medlinepgn>
+    </pagination>
+    <elocationid eidtype="doi" validyn="Y">
+     10.1111/os.12135
+    </elocationid>
+    <abstract>
+     <abstracttext label="OBJECTIVE" nlmcategory="OBJECTIVE">
+      To investigate the effect of overexpression of cartilage oligomeric matrix protein (COMP) on bone morphogenetic protein-2 (BMP-2) induced osteogenic and chondrogenic differentiation of mesenchymal stem cells (MSCs). In this study, we used liposomes to transfect MSCs with plasmid encoding COMP and then induced the transfected MSCs to differentiate in osteogenic and chondrogenic differentiation media containing BMP-2.
+     </abstracttext>
+     <abstracttext label="METHODS" nlmcategory="METHODS">
+      MSCs transfected with plasmid DNA encoding recombinant human COMP were induced to differentiate into osteocytes and chondrocytes by BMP-2. Real-time polymerase chain reaction (PCR) assays of osteogenesis-related markers (collagen type I alpha 1, runt-related transcription factor 2, osteopontin, bone gla protein) and chondrogenesis-related markers (collagen type II alpha 1, sry-related high-mobility group box 9, Aggrecan) was performed to evaluate the process of cell differentiation. Cell differentiation was evaluated by alkaline phosphatase (ALP) and Alizarin red S stains for osteogenic differentiation and alcian blue staining for chondrogenic differentiation.
+     </abstracttext>
+     <abstracttext label="RESULTS" nlmcategory="RESULTS">
+      Real-time PCR assay showed significantly greater COMP expression by MSCs when COMP gene had been transfected into the cells (P &lt; 0.01). Overexpression of COMP down-regulated expression of osteogenesis-related markers and up-regulated expression of chondrogenesis-related markers. ALP staining and Alizarin red S staining were weakened, whereas alcian blue staining was enhanced.
+     </abstracttext>
+     <abstracttext label="CONCLUSION" nlmcategory="CONCLUSIONS">
+      Overexpression of COMP inhibits BMP-2-induced osteogenic differentiation and promotes BMP-2-induced chondrogenic differentiation. These findings may provide new insights for cartilage tissue engineering. The experiments in the present study were all in vitro, which has potential limitations. Further in vivo studies to investigate the effects of COMP in animal models are necessary, which will be the next step in our research.
+     </abstracttext>
+     <copyrightinformation>
+      © 2014 Chinese Orthopaedic Association and Wiley Publishing Asia Pty Ltd.
+     </copyrightinformation>
+    </abstract>
+    <authorlist completeyn="Y">
+     <author validyn="Y">
+      <lastname>
+       Guo
+      </lastname>
+      <forename>
+       Peng
+      </forename>
+      <initials>
+       P
+      </initials>
+      <affiliation>
+       Department of Orthopaedic Surgery, The Second Affiliated Hospital, Medical College of Zhejiang University, Hangzhou, China.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Shi
+      </lastname>
+      <forename>
+       Zhong-Li
+      </forename>
+      <initials>
+       ZL
+      </initials>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Liu
+      </lastname>
+      <forename>
+       An
+      </forename>
+      <initials>
+       A
+      </initials>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Lin
+      </lastname>
+      <forename>
+       Tiao
+      </forename>
+      <initials>
+       T
+      </initials>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Bi
+      </lastname>
+      <forename>
+       Fanggang
+      </forename>
+      <initials>
+       F
+      </initials>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Shi
+      </lastname>
+      <forename>
+       Mingmin
+      </forename>
+      <initials>
+       M
+      </initials>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Yan
+      </lastname>
+      <forename>
+       Shi-Gui
+      </forename>
+      <initials>
+       SG
+      </initials>
+     </author>
+    </authorlist>
+    <language>
+     eng
+    </language>
+    <publicationtypelist>
+     <publicationtype>
+      Journal Article
+     </publicationtype>
+    </publicationtypelist>
+   </article>
+   <medlinejournalinfo>
+    <country>
+     Australia
+    </country>
+    <medlineta>
+     Orthop Surg
+    </medlineta>
+    <nlmuniqueid>
+     101501666
+    </nlmuniqueid>
+    <issnlinking>
+     1757-7853
+    </issnlinking>
+   </medlinejournalinfo>
+   <citationsubset>
+    IM
+   </citationsubset>
+   <keywordlist owner="NOTNLM">
+    <keyword majortopicyn="N">
+     Bone morphogenetic protein-2
+    </keyword>
+    <keyword majortopicyn="N">
+     Cartilage oligomeric matrix protein
+    </keyword>
+    <keyword majortopicyn="N">
+     Chondrogenic differentiation
+    </keyword>
+    <keyword majortopicyn="N">
+     Mesenchymal stem cells
+    </keyword>
+    <keyword majortopicyn="N">
+     Osteogenic differentiation
+    </keyword>
+   </keywordlist>
+  </medlinecitation>
+  <pubmeddata>
+   <history>
+    <pubmedpubdate pubstatus="received">
+     <year>
+      2013
+     </year>
+     <month>
+      9
+     </month>
+     <day>
+      25
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="accepted">
+     <year>
+      2014
+     </year>
+     <month>
+      5
+     </month>
+     <day>
+      27
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="entrez">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      29
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="pubmed">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      29
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="medline">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      29
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+   </history>
+   <publicationstatus>
+    ppublish
+   </publicationstatus>
+   <articleidlist>
+    <articleid idtype="doi">
+     10.1111/os.12135
+    </articleid>
+    <articleid idtype="pubmed">
+     25430711
+    </articleid>
+   </articleidlist>
+  </pubmeddata>
+ </pubmedarticle>
+ <pubmedarticle>
+  <medlinecitation owner="NLM" status="In-Process">
+   <pmid version="1">
+    25412928
+   </pmid>
+   <datecreated>
+    <year>
+     2014
+    </year>
+    <month>
+     11
+    </month>
+    <day>
+     27
+    </day>
+   </datecreated>
+   <article pubmodel="Electronic">
+    <journal>
+     <issn issntype="Electronic">
+      1756-0500
+     </issn>
+     <journalissue citedmedium="Internet">
+      <volume>
+       7
+      </volume>
+      <pubdate>
+       <year>
+        2014
+       </year>
+      </pubdate>
+     </journalissue>
+     <title>
+      BMC research notes
+     </title>
+     <isoabbreviation>
+      BMC Res Notes
+     </isoabbreviation>
+    </journal>
+    <articletitle>
+     Gene expression of tendon markers in mesenchymal stromal cells derived from different sources.
+    </articletitle>
+    <pagination>
+     <medlinepgn>
+      826
+     </medlinepgn>
+    </pagination>
+    <elocationid eidtype="doi" validyn="Y">
+     10.1186/1756-0500-7-826
+    </elocationid>
+    <abstract>
+     <abstracttext label="BACKGROUND" nlmcategory="BACKGROUND">
+      Multipotent mesenchymal stromal cells (MSC) can be recovered from a variety of tissues in the body. Yet, their functional properties were shown to vary depending on tissue origin. While MSC have emerged as a favoured cell type for tendon regenerative therapies, very little is known about the influence of the MSC source on their properties relevant to tendon regeneration.The aim of this study was to assess and compare the expression of tendon extracellular matrix proteins and tendon differentiation markers in MSC derived from different sources as well as in native tendon tissue. MSC isolated from equine bone marrow, adipose tissue, umbilical cord tissue, umbilical cord blood and tendon tissue were characterized and then subjected to mRNA analysis by real-time polymerase chain reaction.
+     </abstracttext>
+     <abstracttext label="RESULTS" nlmcategory="RESULTS">
+      MSC derived from adipose tissue displayed the highest expression of collagen 1A2, collagen 3A1 and decorin compared to MSC from all other sources and native tendon tissue (p &lt; 0.01). Tenascin-C and scleraxis expressions were highest in MSC derived from cord blood compared to MSC derived from other sources, though both tenascin-C and scleraxis were expressed at significantly lower levels in all MSC compared to native tendon tissue (p &lt; 0.01).
+     </abstracttext>
+     <abstracttext label="CONCLUSIONS" nlmcategory="CONCLUSIONS">
+      These findings demonstrate that the MSC source impacts the cell properties relevant to tendon regeneration. Adipose derived MSC might be superior regarding their potential to positively influence tendon matrix reorganization.
+     </abstracttext>
+    </abstract>
+    <authorlist completeyn="Y">
+     <author validyn="Y">
+      <lastname>
+       Burk
+      </lastname>
+      <forename>
+       Janina
+      </forename>
+      <initials>
+       J
+      </initials>
+      <affiliation>
+       Translational Centre for Regenerative Medicine (TRM), University of Leipzig, Philipp-Rosenthal-Strasse 55, 04103 Leipzig, Germany. burk@rz.uni-leipzig.de.
+      </affiliation>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Gittel
+      </lastname>
+      <forename>
+       Claudia
+      </forename>
+      <initials>
+       C
+      </initials>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Heller
+      </lastname>
+      <forename>
+       Sandra
+      </forename>
+      <initials>
+       S
+      </initials>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Pfeiffer
+      </lastname>
+      <forename>
+       Bastian
+      </forename>
+      <initials>
+       B
+      </initials>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Paebst
+      </lastname>
+      <forename>
+       Felicitas
+      </forename>
+      <initials>
+       F
+      </initials>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Ahrberg
+      </lastname>
+      <forename>
+       Annette B
+      </forename>
+      <initials>
+       AB
+      </initials>
+     </author>
+     <author validyn="Y">
+      <lastname>
+       Brehm
+      </lastname>
+      <forename>
+       Walter
+      </forename>
+      <initials>
+       W
+      </initials>
+     </author>
+    </authorlist>
+    <language>
+     eng
+    </language>
+    <publicationtypelist>
+     <publicationtype>
+      Journal Article
+     </publicationtype>
+     <publicationtype>
+      Research Support, Non-U.S. Gov't
+     </publicationtype>
+    </publicationtypelist>
+    <articledate datetype="Electronic">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      20
+     </day>
+    </articledate>
+   </article>
+   <medlinejournalinfo>
+    <country>
+     England
+    </country>
+    <medlineta>
+     BMC Res Notes
+    </medlineta>
+    <nlmuniqueid>
+     101462768
+    </nlmuniqueid>
+    <issnlinking>
+     1756-0500
+    </issnlinking>
+   </medlinejournalinfo>
+   <citationsubset>
+    IM
+   </citationsubset>
+   <commentscorrectionslist>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Stem Cells. 2006 May;24(5):1294-301
+     </refsource>
+     <pmid version="1">
+      16410387
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      J Musculoskelet Neuronal Interact. 2005 Mar;5(1):22-34
+     </refsource>
+     <pmid version="1">
+      15788868
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Cell Tissue Res. 2007 Mar;327(3):449-62
+     </refsource>
+     <pmid version="1">
+      17053900
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Development. 2007 Jul;134(14):2697-708
+     </refsource>
+     <pmid version="1">
+      17567668
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Nat Clin Pract Rheumatol. 2008 Feb;4(2):82-9
+     </refsource>
+     <pmid version="1">
+      18235537
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Tissue Eng Part A. 2008 Oct;14(10):1615-27
+     </refsource>
+     <pmid version="1">
+      18759661
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      BMC Musculoskelet Disord. 2009;10:27
+     </refsource>
+     <pmid version="1">
+      19245707
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Am J Sports Med. 2009 Jun;37(6):1223-34
+     </refsource>
+     <pmid version="1">
+      19417123
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      J Mol Cell Cardiol. 2009 Aug;47(2):188-95
+     </refsource>
+     <pmid version="1">
+      19362560
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Scand J Med Sci Sports. 2009 Aug;19(4):511-9
+     </refsource>
+     <pmid version="1">
+      19422658
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      J Orthop Res. 2009 Oct;27(10):1392-8
+     </refsource>
+     <pmid version="1">
+      19350658
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Equine Vet J. 2010 Mar;42(2):174-80
+     </refsource>
+     <pmid version="1">
+      20156256
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Cell Transplant. 2010;19(6):667-79
+     </refsource>
+     <pmid version="1">
+      20525442
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      CMAJ. 2011 Jul 12;183(10):1159-65
+     </refsource>
+     <pmid version="1">
+      21670110
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Equine Vet J. 2012 Jan;44(1):25-32
+     </refsource>
+     <pmid version="1">
+      21615465
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Stem Cells Dev. 2012 Jan 20;21(2):273-83
+     </refsource>
+     <pmid version="1">
+      21410356
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Tissue Eng Part A. 2012 Apr;18(7-8):840-51
+     </refsource>
+     <pmid version="1">
+      22011320
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Reproduction. 2012 Apr;143(4):455-68
+     </refsource>
+     <pmid version="1">
+      22274885
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Vet J. 2013 Jan;195(1):98-106
+     </refsource>
+     <pmid version="1">
+      22841420
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Cell Tissue Res. 2013 Jun;352(3):509-21
+     </refsource>
+     <pmid version="1">
+      23430474
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      J Orthop Res. 2013 Sep;31(9):1475-83
+     </refsource>
+     <pmid version="1">
+      23653374
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Cytometry A. 2014 Aug;85(8):678-87
+     </refsource>
+     <pmid version="1">
+      24894974
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Trends Mol Med. 2001 Jun;7(6):259-64
+     </refsource>
+     <pmid version="1">
+      11378515
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Development. 2001 Oct;128(19):3855-66
+     </refsource>
+     <pmid version="1">
+      11585810
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      FASEB J. 2002 Feb;16(2):270-2
+     </refsource>
+     <pmid version="1">
+      11772952
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Br J Sports Med. 2002 Aug;36(4):239-49
+     </refsource>
+     <pmid version="1">
+      12145112
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Nucleic Acids Res. 2001 May 1;29(9):e45
+     </refsource>
+     <pmid version="1">
+      11328886
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      Am J Pathol. 1996 Sep;149(3):933-43
+     </refsource>
+     <pmid version="1">
+      8780397
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      J Orthop Res. 1998 Jul;16(4):406-13
+     </refsource>
+     <pmid version="1">
+      9747780
+     </pmid>
+    </commentscorrections>
+    <commentscorrections reftype="Cites">
+     <refsource>
+      J Cell Sci. 2006 Jun 1;119(Pt 11):2204-13
+     </refsource>
+     <pmid version="1">
+      16684817
+     </pmid>
+    </commentscorrections>
+   </commentscorrectionslist>
+   <otherid source="NLM">
+    PMC4247609
+   </otherid>
+  </medlinecitation>
+  <pubmeddata>
+   <history>
+    <pubmedpubdate pubstatus="received">
+     <year>
+      2014
+     </year>
+     <month>
+      10
+     </month>
+     <day>
+      25
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="accepted">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      12
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="aheadofprint">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      20
+     </day>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="entrez">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      22
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="pubmed">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      22
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+    <pubmedpubdate pubstatus="medline">
+     <year>
+      2014
+     </year>
+     <month>
+      11
+     </month>
+     <day>
+      22
+     </day>
+     <hour>
+      6
+     </hour>
+     <minute>
+      0
+     </minute>
+    </pubmedpubdate>
+   </history>
+   <publicationstatus>
+    epublish
+   </publicationstatus>
+   <articleidlist>
+    <articleid idtype="pii">
+     1756-0500-7-826
+    </articleid>
+    <articleid idtype="doi">
+     10.1186/1756-0500-7-826
+    </articleid>
+    <articleid idtype="pubmed">
+     25412928
+    </articleid>
+    <articleid idtype="pmc">
+     PMC4247609
+    </articleid>
+   </articleidlist>
+  </pubmeddata>
+ </pubmedarticle>
+</pubmedarticleset>

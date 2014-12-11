@@ -9,6 +9,15 @@ import csv
 import time
 import re
 
+class Newsletter(object):
+
+    def __init__(self):
+        pass
+
+class Article(object):
+
+    def __init__(self):
+        pass
 
 def make_soup(url):
     """Given a URL will return a BeatifulSoup of that URL
@@ -72,6 +81,30 @@ def fetch_from_pubmed(pubmed_list):
     return BeautifulSoup(handle.read()).prettify()
 
 
+def parse_pubmed_soup(soup):
+    for article in soup('pubmedarticle'):
+        authors = parse_authors(article)
+        articletitle = article.find('articletitle')
+        doi = article.find(eidtype="doi").strip()
+
+def parse_authors(article):
+    author_list = []
+    prev_affiliation = ''
+    for author in article('author'):
+        email = ''
+        lastname = author.find('lastname').string.strip()
+        forename = author.find('forename').string.strip()
+        try:
+            affiliation = author.find('affiliation').string.strip()
+            email_search = re.search(r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}', affiliation)
+            if email_search:
+                email = email_search.group(0)
+            prev_affiliation = affiliation[:]
+        except AttributeError:
+            affiliation = prev_affiliation
+        author_list.append([lastname, forename, email, affiliation])
+
+    return author_list
 
 def write_record(record):
     """Yields a list pertaining to single line in the CSV"""
@@ -214,10 +247,12 @@ def url_wrapper():
 
 if __name__ == '__main__':
     # test_url = url_wrapper()
-    test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
-    test_soup = make_soup(test_url)
-    test_pub_titles = parse_connexon(test_soup)
-    test_pubmed_list = look_up_titles(test_pub_titles)
+    # test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
+    # test_soup = make_soup(test_url)
+    # test_pub_titles = parse_connexon(test_soup)
+    # test_pubmed_list = look_up_titles(test_pub_titles)
     # test_records = fetch_from_pubmed(test_pubmed_list)
     # write_csv(test_records)
-    print fetch_from_pubmed(test_pubmed_list)
+    # test_soup = fetch_from_pubmed(test_pubmed_list)
+    test_soup = BeautifulSoup(open('leadentry_test.xml'))
+    parse_pubmed_soup(test_soup)
