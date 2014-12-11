@@ -11,22 +11,25 @@ import re
 
 class Newsletter(object):
 
-    def __init__(self):
-        pass
+    def __init__(self, url):
+        self.url = url
+        self.connexon_soup = make_soup()
+
+    def make_soup(self):
+    """Given a URL will return a BeatifulSoup of that URL
+
+    Utilizes a header to avoid 403 Errors
+    """
+        header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
+        request = urllib2.Request(self.url, headers=header)
+        return BeautifulSoup(urllib2.urlopen(request))
 
 class Article(object):
 
     def __init__(self):
         pass
 
-def make_soup(url):
-    """Given a URL will return a BeatifulSoup of that URL
 
-    Utilizes a header to avoid 403 Errors
-    """
-    header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
-    request = urllib2.Request(url, headers=header)
-    return BeautifulSoup(urllib2.urlopen(request))
 
 
 def parse_connexon(soup):
