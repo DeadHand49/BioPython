@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import urllib2
 from Bio import Entrez
 import csv
+import datetime
 import time
 import re
 
@@ -76,11 +77,19 @@ class Article(object):
                 month = self.tag.pubdate.month.text.strip()
                 day = self.tag.pubdate.day.text.strip()
             except AttributeError:
-                if self.tag.articledate['datetype'] == 'Electronic':
-                    year = self.tag.articledate.year.text.strip()
-                    month = self.tag.articledate.month.text.strip()
-                    day = self.tag.articledate.day.text.strip()
-            self.info['PubDate'] = year, month, day
+                    if self.tag.articledate and self.tag.articledate['datetype'] == 'Electronic':
+                        year = self.tag.articledate.year.text.strip()
+                        month = self.tag.articledate.month.text.strip()
+                        day = self.tag.articledate.day.text.strip()
+                    else:
+                        year = self.tag.find(pubstatus='medline').year.text.strip()
+                        month = self.tag.find(pubstatus='medline').month.text.strip()
+                        day = self.tag.find(pubstatus='medline').day.text.strip()
+        if month.isdigit():
+            pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%b%Y')
+        else:
+            pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%m%Y')
+        self.info['PubDate'] = pubdate
 
 
     def csv_output(self):
