@@ -108,8 +108,8 @@ class Article(object):
             except (TypeError, AttributeError):
                 obj_author.set_institute(prev_institute)
             print obj_author.info['Aff']
-            obj_author.find_company()
-            print obj_author.info['Company']
+            obj_author.find_email()
+            print obj_author.info['Email']
 
     def csv_output(self):
         """Adds line to a CSV contain all the information contained in self.article_info"""
@@ -161,6 +161,7 @@ def regex_search(institute, mode):
     else:
         return ''
 
+
 def _find_comment(tag):
     """Don't use this function directly. Is used in find_comment to pull all lines of text with #PUBLICATION TITLE
     comment"""
@@ -189,27 +190,6 @@ def manual_pmid(publication_title):
     pmid = raw_input('Manually input PMID here: ')
     assert len(pmid) == 8, 'Malformed PMID lol'
     return pmid
-
-def parse_authors(article):
-    """Returns list of authors for a given article with entry in the list as:
-    (Last Name, First Name, Email, Affliation)"""
-    author_list = []
-    prev_affiliation = ''
-    for author in article('author'):
-        email = ''
-        lastname = author.find('lastname').string.strip()
-        forename = author.find('forename').string.strip()
-        try:
-            affiliation = author.find('affiliation').string.strip()
-            email_search = re.search(r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}', affiliation)
-            if email_search:
-                email = email_search.group(0)
-            prev_affiliation = affiliation[:]
-        except AttributeError:
-            affiliation = prev_affiliation
-        author_list.append([lastname, forename, email, affiliation])
-
-    return author_list
 
 
 def write_record(record):
@@ -252,74 +232,12 @@ def write_csv(records):
 
     lead_csv.close()
 
-
-def name_split(author):
-    """Returns the first and last names of an author, given a single string.
-
-    Note: This removes the middle initials of the author"""
-    last_name, first_name = author.split(', ')
-    first_name = first_name.split(' ')[0]
-    return last_name, first_name
-
-
 def split_institute(ad, author_count):
     institutes = ad.split('. ')
     if len(institutes) == 1:
         return ad
     else:
         return institutes[author_count]
-
-
-def parse_institute(institute):
-    """Returns a dictionary of objects or pertaining to Department, Company, City, State, Postal Code and Country
-    If parsing fails because of non-standard formatting, a dictionary with the full institute heading under department
-    and empty keys for all other entries will be returned."""
-
-    try:
-        primary_institute = institute.split('; ')[0]
-        department, company, city, state_and_postal, country = primary_institute.split(', ')
-        state, postal = state_and_postal.split(' ')
-        institute_dict = {'Department': department,
-                          'Company': company,
-                          'City': city,
-                          'State': state,
-                          'Postal': postal,
-                          'Country': country.lstrip('.')}
-    except ValueError:
-        institute_dict = {'Department': institute,
-                          'Company': '',
-                          'City': '',
-                          'State': '',
-                          'Postal': '',
-                          'Country': ''}
-    return institute_dict
-
-
-
-
-def get_pub_date(record):
-    """Returns the publication date of a given record.
-
-    First will attempt the electronic publication date, then will attempt the regular publication date.
-    Returns a string in the form of mm/dd/yyyy"""
-    try:
-        epub = time.strptime(record.get('DEP'), '%Y%m%d')
-    except TypeError:
-        epub = time.strptime(record.get('DA'), '%Y%m%d')
-    return time.strftime('%m/%d/%Y', epub)
-
-
-def find_email(record, last_name):
-    """Given a last name and record, will search the Institution information for an email address contain that last
-    name
-
-    Returns the email if found or a blank string if not found"""
-    email = re.search(r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}', record.get('AD'), re.I)
-    if not email or last_name.lower() not in email.group(0).lower():
-        return ''
-    if last_name.lower() in email.group(0):
-        return email.group(0)
-
 
 def url_wrapper():
     """Prompts user for Connexon issue URL. Will raise AssertionError if non-standard URL added.
