@@ -107,4 +107,4 @@ def emphasize_latin(text, title=True):
 
 
 if __name__ == '__main__':
-    fetch_ids('("embryonic stem" OR "induced pluripotent stem" OR transdifferentiation OR dedifferentiation OR reprogramming) AND "last 14 days"[EPDAT]')
+    fetch_ids('stem cell transplant AND "last 6 days"[EPDAT]')

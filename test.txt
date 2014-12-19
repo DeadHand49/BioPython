@@ -1,650 +1,247 @@
-Int J Mol Sci: 2.339
-Cell Prolif: 3.28
-Int J Mol Med: 1.88
-Sci Rep: 5.078
-Proc Natl Acad Sci U S A: 9.809
-Nat Biotechnol: 39.08
-J Biol Chem: 4.6
-Cell Death Dis: 5.177
-Nat Commun: 10.742
-Chem Biol Drug Des: 2.507
-Cell Death Differ: 8.385
-Funct Integr Genomics: 2.691
-PLoS One: 3.524
-Mol Cell Biol: 5.036
-Epigenetics: 5.108
-Prog Lipid Res: 12.963
-Nat Rev Endocrinol: 12.958
-Nature: 42.351
+Pediatr Transplant: 1.63
+Tissue Antigens: 2.35
+Ann Hematol: 2.396
+Pediatr Transplant: 1.63
+Australas J Dermatol: 0.982
+J Transl Med: 3.991
+Clin Exp Med: 2.824
+Expert Rev Clin Immunol: 3.342
+Virulence: 3.319
+J Clin Pharmacol: Not in database
 Stem Cells Dev: 4.202
-In Vitro Cell Dev Biol Anim: 1
-Protein Cell: 2.851
-Stem Cells Dev: 4.202
-PLoS One: 3.524
-PLoS One: 3.524
-Gene: 2.082
-Sci Rep: 5.078
-Methods Mol Biol: 1.29
-Cell Death Dis: 5.177
-Nat Neurosci: 14.976
-Cell Mol Neurobiol: 2.201
-Stem Cell Rev: 3.214
-PLoS One: 3.524
-PLoS One: 3.524
-Cell Tissue Res: 3.333
-EMBO J: 10.748
-PLoS Genet: 8.167
-Cell Rep: 7.207
-Cell Oncol (Dordr): 2.124
-Angew Chem Int Ed Engl: 11.336
-Biochim Biophys Acta: 5.387
-BMC Genomics: 4.04
-Nat Med: 28.054
-Stem Cell Reports: 0
-Kidney Int: 8.52
-Methods Mol Biol: 1.29
-Nano Lett: 12.94
-Proc Natl Acad Sci U S A: 9.809
-Nat Commun: 10.742
-Arch Immunol Ther Exp (Warsz): 2.818
-Cochlear Implants Int: Not in database
+Haematologica: 5.868
+Cell Mol Life Sci: 5.856
+Cytotechnology: 1.449
+Nat Rev Clin Oncol: 15.696
+J Leukoc Biol: 4.304
+Eur J Clin Microbiol Infect Dis: 2.544
+Bone Marrow Transplant: 3.466
+Blood: 9.775
 >>-->>Publication IF>>
-2.339
+1.63
 >>-->>Publication Title>>
-Pluripotent State Induction in Mouse Embryonic Fibroblast Using Mrnas of Reprogramming Factors
+a Successful Unrelated Peripheral Blood Stem Cell Transplantation with Reduced Intensity-Conditioning Regimen in a Patient with Late-Onset Purine Nucleoside Phosphorylase Deficiency
 >>-->>Publication Content>>
-Reprogramming of somatic cells has great potential to provide therapeutic treatments for a number of diseases as well as provide insight into mechanisms underlying early embryonic development. Improvement of induced Pluripotent Stem Cells (iPSCs) generation through mRNA-based methods is currently an area of intense research. This approach provides a number of advantages over previously used methods such as DNA integration and insertional mutagenesis. Using transfection of specifically synthesized mRNAs of various pluripotency factors, we generated iPSCs from mouse embryonic fibroblast (MEF) cells. The genetic, epigenetic and functional properties of the iPSCs were evaluated at different times during the reprogramming process. We successfully introduced synthesized mRNAs, which localized correctly inside the cells and exhibited efficient and stable translation into proteins. Our work demonstrated a robust up-regulation and a gradual promoter de-methylation of the pluripotency markers, including non-transfected factors such as Nanog, SSEA-1 (stage-specific embryonic antigen 1) and Rex-1 (ZFP-42, zinc finger protein 42). Using embryonic stem cells (ESCs) conditions to culture the iPS cells resulted in formation of ES-like colonies after approximately 12 days with only five daily repeated transfections. The colonies were positive for alkaline phosphatase and pluripotency-specific markers associated with ESCs. This study revealed the ability of pluripotency induction and generation of mouse mRNA induced pluripotent stem cells (mRNA iPSCs) using transfection of specifically synthesized mRNAs of various pluripotency factors into mouse embryonic fibroblast (MEF) cells. These generated iPSCs exhibited molecular and functional properties similar to ESCs, which indicate that this method is an efficient and viable alternative to ESCs and can be used for further biological, developmental and therapeutic investigations.
+PNP deficiency is a rare combined immunodeficiency with autosomal recessive mode of inheritance. The immunodeficiency is progressive with normal immune functions at birth, but then, T-cell deficiency with variable B-cell functions usually presents by the age of two yr. The only curative treatment for PNP deficiency is hematopoietic stem cell transplantation. Here, we present a 13-yr-old girl with late-onset PNP deficiency. Despite many complications of infections, she was successfully transplanted with a reduced intensity-conditioning regimen from an HLA-identical unrelated donor.
 >>-->>Publication Journal>>
-Int J Mol Sci
+Pediatr Transplant
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.3390/ijms151221840
+http://dx.doi.org/10.1111/petr.12413
 >>-->>Publication IF>>
-3.28
+2.35
 >>-->>Publication Title>>
-Tetraploid Complementation Proves Pluripotency of Induced Pluripotent Stem Cells Derived from Adipose Tissue
+Methodological and Clinical Aspects of Alloimmunization after Granulocyte Transfusion in Patients Undergoing Allogeneic Stem Cell Transplantation
 >>-->>Publication Content>>
-OBJECTIVES: Recently, pluripotency of induced pluripotent stem (iPS) cells has been displayed after producing adult mice, in tetraploid complementation assays. These studies lead us to the last piece of the puzzle for reprogramming somatic cells into fully pluripotent cells which function as embryonic stem cells in most applications. However, in all of previous studies, skin fibroblasts were used as the starting population for reprogramming, raising questions as to whether the pluripotency of the iPS cells was dependent on the particular starting cell type. MATERIALS AND METHODS: Our iPS cell lines were prepared from murine adipose stem cells (ASCs). Their multi-potency was first tested by teratoma formation in nude mice. Then, tetraploid complementation was performed to generate progeny from them. RESULTS: We succeeded to the birth of viable and fertile adult mice derived entirely from reprogrammed ASC, indicating cell types other than fibroblasts can also be restored to the embryonic level of pluripotency. CONCLUSIONS: We also directed differentiation of iPS cells into chondrocytes, thus adipose-derived iPS cells can be used as models to study chondrogenic differentiation and cartilage regeneration.
+In allogeneic hematopoietic stem cell transplantation (HSCT), granulocyte transfusions (GT) may be required in immunocompromised, neutropenic patients. In this context, alloimmunization against alloantigens may occur and affect HSCT outcome. Anti-human leukocyte antigen (HLA) and -MHC class I chain related antigens A (MICA) antibody response after the administration of GT in 29 patients undergoing allogeneic HSCT (n = 27) encompassing 109 sera was investigated by multianalyte microbead assay before and up to 6 month after HSCT. Anti-HLA class I and II antibodies emerged de novo in 11 (38%) and 4 (14%) patients, respectively. Similarly, preformed antibodies were observed in four cases (14%) for anti-HLA class I and also four patients for anti-HLA class II antibodies. Anti-MICA antibodies were observed in eight granulocyte recipients of which three patients developed anti-MICA antibodies after GT, whereas preformed antibodies were seen in five patients. The conversion to positivity for any of the investigated antibodies did not significantly affect overall survival or the incidence of GVHD. GT-associated alloantibody conversion observed did not significantly correlate with outcome. Thus, surveillance of anti-HLA antibodies in the course of GT in the context of HSCT may not be required routinely. The role of MICA antibodies in HSCT and GT, however, requires further study.
 >>-->>Publication Journal>>
-Cell Prolif
+Tissue Antigens
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1111/cpr.12152
+http://dx.doi.org/10.1111/tan.12487
 >>-->>Publication IF>>
-1.88
+2.396
 >>-->>Publication Title>>
-the Thymoquinone-Induced Production of Reactive Oxygen Species Promotes Dedifferentiation through the Erk Pathway and Inflammation through the P38 and Pi3K Pathways in Rabbit Articular Chondrocytes
+Reduced Il-35 Levels Are Associated with Increased Platelet Aggregation and Activation in Patients with Acute Graft-versus-Host Disease after Allogeneic Hematopoietic Stem Cell Transplantation
 >>-->>Publication Content>>
-Dedifferentiation and inflammation are major features of cartilage degeneration during the pathogenesis of osteoarthritis (OA). Thymoquinone (TQ) is the major compound of black seed oil isolated from Nigella sativa with various beneficial or harmful effects on several diseases; however, its effects on the dedifferentiation and inflammation of chondrocytes have not yet been characterized. In the present study, we investigated whether TQ regulates the dedifferentiation and inflammation of rabbit articular chondrocytes, focusing on the production of reactive oxygen species (ROS) in rabbit articular chondrocytes. TQ induced the generation of ROS in a dose-dependent manner, as shown by staining with the fluorescent probe, 2'-7'-dichlorofluorescein diacetate. We confirmed that TQ induced dedifferentiation by measuring the loss of type II collagen and the reduction in chondroitin sulfate proteoglycan levels. TQ also caused inflammation by inducing the expression of cyclooxygenase-2 (COX-2) and prostaglandin E2 (PGE2). The antioxidant, N-acetyl cysteine (NAC), prevented the dedifferentiation and inflammation which was generated by the TQ-induced production of ROS. Furthermore, TQ caused a dose-dependent increase in p38, phosphorylated extracellular signal-regulated kinase (p-ERK) and phosphoinositide 3-kinase (PI3K) expression. NAC abrogated this effect and attenuated the dedifferentiation and inflammation which was generated by the TQ-induced production of ROS. To identify the ROS-regulated pathways, we treated the chondrocytes with the p38 inhibitor, SB203580, the MEK inhibitor, PD98059, and the PI3K inhibitor, LY294002. PD98059 inhibited the TQ-induced dedifferentiation and SB203580 and LY294002 prevented the TQ-induced inflammation. These findings suggest that the TQ-induced production of ROS causes dedifferentiation through the ERK pathway and inflammation through the PI3K and p38 pathways in rabbit articular chondrocytes.
+Acute graft-versus-host disease (aGVHD) is a major complication associated with allogeneic hematopoietic stem cell transplantation (allo-HSCT). Interleukin (IL)-35 is a novel anti-inflammatory cytokine that suppresses the immune response. This prospective study explored IL-35 plasma levels in 65 patients after HSCT. The results revealed that the peripheral blood of patients with grades III-IV aGVHD (23.46 ng/ml) had reduced IL-35 compared to transplanted patients with grades I-II aGVHD (40.26 ng/ml, p < 0.01) or patients without aGVHD (41.40 ng/ml, p < 0.05). Allografts, including granulocyte colony-stimulating factor (G-CSF)-mobilized peripheral blood progenitor cell (PBPC) and G-CSF-primed bone marrow (GBM), from 38 patients were analyzed for IL-35 levels with respect to aGVHD. The patients who received lower levels of IL-35 cells in the GBM (28.0 ng/ml, p = 0.551) or lower levels of IL-35 in PBPC (53.46 ng/ml, p = 0.03) exhibited a higher incidence of aGVHD. Patients with aGVHD have increased platelet aggregation. IL-35 was added to patient blood in vitro, and platelet aggregation was inhibited by IL-35 in a dose-dependent manner. The markers of platelet activation (CD62P/PAC-1) can also be inhibited by IL-35. The results indicate that IL-35 may affect the development of aGVHD by inhibiting platelet activation and aggregation. Our data suggests that IL-35 represents a potentially effective therapeutic agent against aGVHD after allo-HSCT.
 >>-->>Publication Journal>>
-Int J Mol Med
+Ann Hematol
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.3892/ijmm.2014.2014
+http://dx.doi.org/10.1007/s00277-014-2278-7
 >>-->>Publication IF>>
-5.078
+1.63
 >>-->>Publication Title>>
-The Homeobox Gene Dlx4 Promotes Generation of Human Induced Pluripotent Stem Cells
+Bone Marrow Engraftment and Associated Dermatologic Sequelae in a Three-Yr-Old after Liver Transplantation
 >>-->>Publication Content>>
-The reprogramming of somatic cells into induced pluripotent stem cells (iPSCs) by defined transcription factors has been a well-established technique and will provide an invaluable resource for regenerative medicine. However, the low reprogramming efficiency of human iPSC is still a limitation for clinical application. Here we showed that the reprogramming potential of human dental pulp cells (DPCs) obtained from immature teeth is much higher than those of mature teeth DPCs. Furthermore, immature teeth DPCs can be reprogrammed by OCT3/4 and SOX2, conversely these two factors are insufficient to convert mature teeth DPCs to pluripotent states. Using a gene expression profiles between these two DPC groups, we identified a new transcript factor, distal-less homeobox 4 (DLX4), which was highly expressed in immature teeth DPCs and significantly promoted human iPSC generation in combination with OCT3/4, SOX2, and KLF4. We further show that activation of TGF-beta signaling suppresses the expression of DLX4 in DPCs and impairs the iPSC generation of DPCs. Our findings indicate that DLX4 can functionally replace c-MYC and supports efficient reprogramming of immature teeth DPCs.
+We present a case of a three-yr-old child with a history of multisystem Langerhans cell histiocytosis treated with systemic chemotherapy, who developed progressive liver failure and received an orthotopic split liver transplant while continuing on chemotherapy. One month following transplant, he developed acute graft-vs.-host disease of the skin and gastrointestinal tract. Peripheral blood chimerism studies post-transplant demonstrated an increasing predominance of donor lymphocytes and granulocytes. Shortly after, the patient developed vitiligo, and two yr after transplantation, the patient developed skin manifestations of psoriasis. We discuss and review the current literature, which demonstrates that chimerism following liver transplantation is rare and in our patient may be related to his profound immunosuppression around the time of liver transplant as well the development of acute graft-versus-host disease. While autoimmune disease can occur after solid organ and stem cell transplant, our patient developed skin manifestations of autoimmunity after liver transplantation, which is also rarely described.
 >>-->>Publication Journal>>
-Sci Rep
+Pediatr Transplant
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/srep07283
+http://dx.doi.org/10.1111/petr.12412
 >>-->>Publication IF>>
-9.809
+0.982
 >>-->>Publication Title>>
-Recessive Cardiac Phenotypes in Induced Pluripotent Stem Cell Models of Jervell and Lange-Nielsen Syndrome: Disease Mechanisms and Pharmacological Rescue
+Cutaneous Non-Tuberculous Mycobacterial Infection in Patients with Chronic Graft-versus-Host Disease: a Case Series
 >>-->>Publication Content>>
-Jervell and Lange-Nielsen syndrome (JLNS) is one of the most severe life-threatening cardiac arrhythmias. Patients display delayed cardiac repolarization, associated high risk of sudden death due to ventricular tachycardia, and congenital bilateral deafness. In contrast to the autosomal dominant forms of long QT syndrome, JLNS is a recessive trait, resulting from homozygous (or compound heterozygous) mutations in KCNQ1 or KCNE1. These genes encode the alpha and beta subunits, respectively, of the ion channel conducting the slow component of the delayed rectifier K+ current, IKs. We used complementary approaches, reprogramming patient cells and genetic engineering, to generate human induced pluripotent stem cell (hiPSC) models of JLNS, covering splice site (c.478-2A>T) and missense (c.1781G>A) mutations, the two major classes of JLNS-causing defects in KCNQ1. Electrophysiological comparison of hiPSC-derived cardiomyocytes (CMs) from homozygous JLNS, heterozygous, and wild-type lines recapitulated the typical and severe features of JLNS, including pronounced action and field potential prolongation and severe reduction or absence of IKs. We show that this phenotype had distinct underlying molecular mechanisms in the two sets of cell lines: the previously unidentified c.478-2A>T mutation was amorphic and gave rise to a strictly recessive phenotype in JLNS-CMs, whereas the missense c.1781G>A lesion caused a gene dosage-dependent channel reduction at the cell membrane. Moreover, adrenergic stimulation caused action potential prolongation specifically in JLNS-CMs. Furthermore, sensitivity to proarrhythmic drugs was strongly enhanced in JLNS-CMs but could be pharmacologically corrected. Our data provide mechanistic insight into distinct classes of JLNS-causing mutations and demonstrate the potential of hiPSC-CMs in drug evaluation.
+We report the first case series of allogeneic haematopoietic stem-cell transplant patients with graft versus host disease who developed cutaneous non-tuberculous mycobacteria infection. A multidisciplinary approach, reduction of immunosuppressive medications, combination of antibiotics, close skin surveillance and excision of suitable lesions are recommended in this specific subgroup.
 >>-->>Publication Journal>>
-Proc Natl Acad Sci U S A
+Australas J Dermatol
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1073/pnas.1419553111
+http://dx.doi.org/10.1111/ajd.12269
 >>-->>Publication IF>>
-39.08
+3.991
 >>-->>Publication Title>>
-A Comparison of Non-Integrating Reprogramming Methods
+Rapid Generation of Clinical-Grade Antiviral T Cells: Selection of Suitable T-Cell Donors and Gmp-Compliant Manufacturing of Antiviral T Cells
 >>-->>Publication Content>>
-Human induced pluripotent stem cells (hiPSCs) are useful in disease modeling and drug discovery, and they promise to provide a new generation of cell-based therapeutics. To date there has been no systematic evaluation of the most widely used techniques for generating integration-free hiPSCs. Here we compare Sendai-viral (SeV), episomal (Epi) and mRNA transfection mRNA methods using a number of criteria. All methods generated high-quality hiPSCs, but significant differences existed in aneuploidy rates, reprogramming efficiency, reliability and workload. We discuss the advantages and shortcomings of each approach, and present and review the results of a survey of a large number of human reprogramming laboratories on their independent experiences and preferences. Our analysis provides a valuable resource to inform the use of specific reprogramming methods for different laboratories and different applications, including clinical translation.
+BackgroundThe adoptive transfer of allogeneic antiviral T lymphocytes derived from seropositive donors can safely and effectively reduce or prevent the clinical manifestation of viral infections or reactivations in immunocompromised recipients after hematopoietic stem cell (HSCT) or solid organ transplantation (SOT). Allogeneic third party T-cell donors offer an alternative option for patients receiving an allogeneic cord blood transplant or a transplant from a virus-seronegative donor and since donor blood is generally not available for solid organ recipients. Therefore we established a registry of potential third-party T-cell donors (allogeneic cell registry, alloCELL) providing detailed data on the assessment of a specific individual memory T-cell repertoire in response to antigens of cytomegalovirus (CMV), Epstein-Barr virus (EBV), adenovirus (ADV), and human herpesvirus (HHV) 6.MethodsTo obtain a manufacturing license according to the German Medicinal Products Act, the enrichment of clinical-grade CMV-specific T cells from three healthy CMV-seropositive donors was performed aseptically under GMP conditions using the CliniMACS cytokine capture system (CCS) after restimulation with an overlapping peptide pool of the immunodominant CMVpp65 antigen. Potential T-cell donors were selected from alloCELL and defined as eligible for clinical-grade antiviral T-cell generation if the peripheral fraction of IFN- inverted question mark+ T cells exceeded 0.03% of CD3+ lymphocytes as determined by IFN- inverted question mark cytokine secretion assay.ResultsStarting with low concentration of IFN- inverted question mark+ T cells (0.07-1.11%) we achieved 81.2%, 19.2%, and 63.1% IFN- inverted question mark+CD3+ T cells (1.42x106, 0.05x106, and 1.15x106) after enrichment. Using the CMVpp65 peptide pool for restimulation resulted in the activation of more CMV-specific CD8+ than CD4+ memory T cells, both of which were effectively enriched to a total of 81.0% CD8+IFN- inverted question mark+ and 38.4% CD4+IFN- inverted question mark+ T cells. In addition to T cells and NKT cells, all preparations contained acceptably low percentages of contaminating B cells, granulocytes, monocytes, and NK cells. The enriched T-cell products were stable over 72 h with respect to viability and ratio of T lymphocytes.ConclusionsThe generation of antiviral CD4+ and CD8+ T cells by CliniMACS CCS can be extended to a broad spectrum of common pathogen-derived peptide pools in single or multiple applications to facilitate and enhance the efficacy of adoptive T-cell immunotherapy.
 >>-->>Publication Journal>>
-Nat Biotechnol
+J Transl Med
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/nbt.3070
+http://dx.doi.org/10.1186/s12967-014-0336-5
 >>-->>Publication IF>>
-4.6
+2.824
 >>-->>Publication Title>>
-Pompe Disease Results in a Golgi-Based Glycosylation Deficit in Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes
+Stem Cell Autograft and Allograft in Autoimmune Diseases
 >>-->>Publication Content>>
-Infantile onset Pompe disease is an autosomal recessive disorder caused by the complete loss of lysosomal glycogen hydrolyzing enzyme acid alpha-glucosidase (GAA) activity, which results in lysosomal glycogen accumulation and prominent cardiac and skeletal muscle pathology. The mechanism by which loss of GAA activity causes cardiomyopathy is poorly understood. We reprogrammed fibroblasts from patients with infantile-onset Pompe disease to generate induced pluripotent stem (iPS) cells that were differentiated to cardiomyocytes (iPSC-CM). Pompe iPSC-CMs had undetectable GAA activity and pathognomonic glycogen-filled lysosomes; nonetheless, Pompe and Control iPSC-CMs exhibited comparable contractile properties in engineered cardiac tissue. Impaired autophagy has been implicated in Pompe skeletal muscle; however, Control and Pompe iPSC-CMs had comparable clearance rates of LC3II-detected autophagosomes. Unexpectedly, the lysosomal associated membrane proteins, LAMP1 and LAMP2, from Pompe iPSC-CMs demonstrated higher electrophoretic mobilities compared to control iPSC-CMs. Brefeldin A induced disruption of the golgi in Control iPSC-CMs reproduced the higher mobility forms of the LAMPs, suggesting that Pompe iPSC-CMs produce LAMPs lacking appropriate glycosylation. Isoelectric focusing studies revealed that LAMP2 has a more alkaline pI in Pompe compared to control iPSC-CMs due largely to hypo-sialylation. MALDI-TOF-MS analysis of N-linked glycans demonstrated reduced diversity of multi-antennary structures and the major presence of a tri-mannose complex glycan precursor for Pompe iPSC-CMs. These data suggest that Pompe cardiomyopathy has a glycan processing abnormality and thus shares features with hypertrophic cardiomyopathies observed in the congenital disorders of glycosylation.
+Autoimmune diseases are characterized by an insufficiency of immune tolerance and, although treated with a number of useful drugs, may need more unconventional therapeutic strategies for their more severe presentations. Among such unconventional therapeutic approaches, stem cell autograft and allograft have been used, with the aim of stimulating disease remission by modifying the pathogenic mechanisms that induce anomalous responses against self-antigens. Autologous transplantation is performed with the purpose of retuning autoimmune cells, whereas allogeneic transplantation is performed with the purpose of replacing anomalous immune effectors and mediators. In this article, we comprehensively review up-to-date information on the autoimmune diseases for which the transplantation of stem cells is indicated.
 >>-->>Publication Journal>>
-J Biol Chem
+Clin Exp Med
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1074/jbc.M114.628628
+http://dx.doi.org/10.1007/s10238-014-0330-5
 >>-->>Publication IF>>
-5.177
+3.342
 >>-->>Publication Title>>
-Ionizing Radiations Sustain Glioblastoma Cell Dedifferentiation to a Stem-Like Phenotype through Survivin: Possible Involvement in Radioresistance
+Primary Immunodeficiencies: a Decade of Shifting Paradigms, the Current Status and the Emergence of Cutting-Edge Therapies and Diagnostics
 >>-->>Publication Content>>
-Glioblastomas (GBM) are some bad prognosis brain tumors despite a conventional treatment associating surgical resection and subsequent radio-chemotherapy. Among these heterogeneous tumors, a subpopulation of chemo- and radioresistant GBM stem-like cells appears to be involved in the systematic GBM recurrence. Moreover, recent studies showed that differentiated tumor cells may have the ability to dedifferentiate and acquire a stem-like phenotype, a phenomenon also called plasticity, in response to microenvironment stresses such as hypoxia. We hypothesized that GBM cells could be subjected to a similar dedifferentiation process after ionizing radiations (IRs), then supporting the GBM rapid recurrence after radiotherapy. In the present study we demonstrated that subtoxic IR exposure of differentiated GBM cells isolated from patient resections potentiated the long-term reacquisition of stem-associated properties such as the ability to generate primary and secondary neurospheres, the expression of stemness markers and an increased tumorigenicity. We also identified during this process an upregulation of the anti-apoptotic protein survivin and we showed that its specific downregulation led to the blockade of the IR-induced plasticity. Altogether, these results demonstrated that irradiation could regulate GBM cell dedifferentiation via a survivin-dependent pathway. Targeting the mechanisms associated with IR-induced plasticity will likely contribute to the development of some innovating pharmacological strategies for an improved radiosensitization of these aggressive brain cancers.
+A shift has occurred in the diagnostic and therapeutic modalities considered for patients with primary immunodeficiency diseases (PIDs). Early diagnosis remains the mainstay in appropriate management and remarkably influences the prognosis. More specific diagnostic tests as well as therapeutic modalities have been introduced in the last few decades. Nonetheless, the importance of a thorough history taking and physical examination should not be neglected. Novel diagnostic modalities including genetic sequencing have led to the recognition of previously unknown defects underlying PIDs. In addition, newborn screening is being advocated as an imperative diagnostic test. In terms of treatment, hematopoietic stem cell transplantation is considered the optimal treatment modality for many cases and has dramatically improved the outcome. Gene transfer into hematopoietic stem cells prior to transplantation has improved the efficacy of hematopoietic stem cell transplantation. In this article, the latest advances made in terms of diagnosis and treatment of PIDs are reviewed.
 >>-->>Publication Journal>>
-Cell Death Dis
+Expert Rev Clin Immunol
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/cddis.2014.509
+http://dx.doi.org/10.1586/1744666X.2015.995096
 >>-->>Publication IF>>
-10.742
+3.319
 >>-->>Publication Title>>
-Somatic Transcriptome Priming Gates Lineage-Specific Differentiation Potential of Human-Induced Pluripotent Stem Cell States
+Replication of Influenza Virus a in Swine Umbilical Cord Epithelial Stem-Like Cells
 >>-->>Publication Content>>
-Human-induced pluripotent stem cells (hiPSCs) provide an invaluable source for regenerative medicine, but are limited by proficient lineage-specific differentiation. Here we reveal that hiPSCs derived from human fibroblasts (Fibs) versus human cord blood (CB) exhibit indistinguishable pluripotency, but harbour biased propensities for differentiation. Genes associated with germ layer specification were identical in Fib- or CB-derived iPSCs, whereas lineage-specific marks emerge upon differentiation induction of hiPSCs that were correlated to the cell of origin. Differentiation propensities come at the expense of other lineages and cannot be overcome with stimuli for alternative cell fates. Although incomplete DNA methylation and distinct histone modifications of lineage-specific loci correlate to lineage-specific transcriptome priming, transitioning hiPSCs into naive state of pluripotency removes iPSC-memorized transcriptome. Upon re-entry to the primed state, transcriptome memory is restored, indicating a human-specific phenomenon whereby lineage gated developmental potential is not permanently erased, but can be modulated by the pluripotent state.
+ABSTRACT In this study, we describe the isolation and characterization of epithelial stem-like cells from the swine umbilical cord and their susceptibility to influenza virus infection. Swine umbilical cord epithelial stem cells (SUCECs) expressed stem cell and pluripotency associated markers such as SSEA-1, SSEA-4, TRA 1-60 and TRA 1-81 and Oct4. Morphologically, cells displayed polygonal morphology and were found to express epithelial markers; pancytokeratin, cytokeratin-18 and occludin; mesenchymal cell markers CD44, CD90 and hematopoietic cell marker CD45 were not detected on these cells. The cells had extensive proliferation and self- renewal properties. The cells also possessed immunomodulatory activity and inhibited the proliferation of T cells. Also, higher levels of anti-inflammatory cytokine IL-10 were detected in SUCEC-T cell co-cultures. The cells were multipotent and differentiated into lung epithelial cells when cultured in epithelial differentiation media. We also examined if SUCECs are susceptible to infection with influenza virus. SUCECs expressed sialic acid receptors, used by influenza virus for binding to cells. The 2009 pandemic influenza virus and swine influenza virus replicated in these cells. SUCECs due to their differentiation and immunoregulatory properties will be useful as cellular therapy in a pig model for human diseases. Additionally, our data indicate that influenza virus can infect SUCECs and may transmit influenza virus from mother to fetus through umbilical cord and transplantation of influenza virus-infected stem cells may transmit infection to recipients. Therefore, we propose that umbilical cord cells, in addition to other agents, should also be tested for influenza virus before cryopreservation for future use as a cell therapy for disease conditions.
 >>-->>Publication Journal>>
-Nat Commun
+Virulence
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/ncomms6605
->>-->>Publication IF>>
-2.507
->>-->>Publication Title>>
-a Novel Protocol to Differentiate Induced Pluripotent Stem Cells by Neuronal Micrornas to Provide a Suitable Cellular Model
->>-->>Publication Content>>
-Neurodegenerative diseases are one of the most challenging subjects in medicine. Investigation of their underlying genetic or epigenetic factors is hampered by lack of suitable models. Patient-specific induced pluripotent stem cells (iPS cells) represent a valuable approach to provide a proper model for poorly understood mechanisms of neuronal diseases and the related drug screenings. miR-124 and miR-128 are two brain-enriched miRNAs with different time points of expression during neuronal development. Herein we transduced human iPS cells with miR-124 and miR-128 harboring lentiviruses sequentially. The transduced plasmids contained GFP and puromycin antibiotic resistant genes for easier selection and identification.. Morphological assessment and immunocytochemistry (overexpressions of beta-tubulin and neuron specific enolase) confirmed that induced hiPScells by miR124 and miR128 represent similar characteristics to those of mature nuerons. In addition, the upregulation of neuron specific enolase, beta-tubulin, Map2, GFAP and BDNF were detected by quantitative real-time PCR. In conclusion, it seems that our novel protocol remarks the combinatorial effect of miR-124 and miR-128 on nueral differentiation in the absence of any extrinsic factor. Moreover such cellular models could be used in personalized drug screening and applied for more effective therapies. This article is protected by copyright. All rights reserved.
->>-->>Publication Journal>>
-Chem Biol Drug Des
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1111/cbdd.12485
->>-->>Publication IF>>
-8.385
->>-->>Publication Title>>
-Reprogramming of Human Pancreatic Exocrine Cells to Beta-Like Cells
->>-->>Publication Content>>
-Rodent acinar cells exhibit a remarkable plasticity as they can transdifferentiate to duct-, hepatocyte- and islet beta-like cells. We evaluated whether exocrine cells from adult human pancreas can similarly respond to proendocrine stimuli. Exocrine cells from adult human pancreas were transduced directly with lentiviruses expressing activated MAPK (mitogen-activated protein kinase) and STAT3 (signal transducer and activator of transcription 3) and cultured as monolayers or as 3D structures. Expression of STAT3 and MAPK in human exocrine cells activated expression of the proendocrine factor neurogenin 3 in 50% to 80% of transduced exocrine cells. However, the number of insulin-positive cells increased only in the exocrine cells grown initially in suspension before 3D culture. Lineage tracing identified human acinar cells as the source of Ngn3- and insulin-expressing cells. Long-term engraftment into immunocompromised mice increased the efficiency of reprogramming to insulin-positive cells. Our data demonstrate that exocrine cells from human pancreas can be reprogrammed to transplantable insulin-producing cells that acquire functionality. Given the large number of exocrine cells in a donor pancreas, this approach presents a novel strategy to expand cell therapy in type 1 diabetes.Cell Death and Differentiation advance online publication, 5 December 2014; doi:10.1038/cdd.2014.193.
->>-->>Publication Journal>>
-Cell Death Differ
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/cdd.2014.193
->>-->>Publication IF>>
-2.691
->>-->>Publication Title>>
-Stage-Specific Reprogramming of Gene Expression Characterizes Lr48-Mediated Adult Plant Leaf Rust Resistance in Wheat
->>-->>Publication Content>>
-Wheat genotype CSP44 carrying a recessive gene Lr48 exhibits adult plant resistance (APR; incompatible reaction) but gives a compatible reaction (susceptibility) at the seedling stage against leaf rust. A comparative gene expression analysis involving cDNA-amplified fragment length polymorphism (cDNA-AFLP) and quantitative PCR (qPCR) was carried out for incompatible and compatible reactions in the genotype CSP44. cDNA-AFLP analysis was conducted using RNA samples that were isolated from flag leaves following inoculation with leaf rust race 77-5 (the most virulent race) and also after mock inoculation. As many as 298 of a total of 493 expressed transcript-derived fragments (TDFs) exhibited differential expression (262 upregulated and 36 downregulated). Of these 298 TDFs, 48 TDFs were eluted from gels, re-amplified, cloned, and sequenced. Forty two of these 48 TDFs had homology with known genes involved in the following biological processes: energy production, metabolism, transport, signaling, defense response, plant-pathogen interaction, transcriptional regulation, translation, and proteolysis. The functions of the remaining six TDFs could not be determined; apparently, these represented some novel genes. The qPCR analysis for 18 TDFs (with known and unknown functions, but showing major differences in expression) was conducted using RNA isolated from the seedlings as well as from the adult plants. The expression of at least 11 TDFs was induced and that of 4 other TDFs attenuated or remained near normal in adult plants following leaf rust inoculations. The remaining three TDFs had non-specific/developmental stage-specific expression. Functional annotation of TDFs that were upregulated suggest that the APR was supported by transient recruitment and reprogramming of processes like perception and recognition of pathogen effector by receptors, followed by CDPK and MAPK signaling, transport, metabolism, and energy release.
->>-->>Publication Journal>>
-Funct Integr Genomics
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s10142-014-0416-x
->>-->>Publication IF>>
-3.524
->>-->>Publication Title>>
-Correction: Dose-Dependent Effect of Estrogen Suppresses the Osteo-Adipogenic Transdifferentiation of Osteoblasts via Canonical Wnt Signaling Pathway
->>-->>Publication Content>>
-[This corrects the article DOI: 10.1371/journal.pone.0099137.].
->>-->>Publication Journal>>
-PLoS One
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1371/journal.pone.0114981
->>-->>Publication IF>>
-5.036
->>-->>Publication Title>>
-Calcineurin-Nfat Axis Controls Allograft Immunity in Myeloid-Derived Suppressor Cells through Reprogramming T Cell Differentiation
->>-->>Publication Content>>
-While cyclosporine A (CsA) inhibits calcineurin and is highly effective to prolong rejection for transplantation patients, the immunological mechanisms remain unknown. Herein, the role of calcineurin signaling was investigated in a mouse allogeneic skin transplantation model. The calcineurin inhibitor CsA significantly ameliorated allograft rejection. In CsA-treated allograft recipient mice, CD11b+Gr1+myeloid-derived suppressor cells (MDSCs) were functional suppressive immune modulators that resulted in fewer IFN-gamma producing CD8+ T cells and CD4+ T cells (TH1) and more IL-4-producing CD4+ T cells (TH2) in prolonging allogeneic skin graft survival. Importantly, the NFATc1 expression is significantly diminished in the CsA-induced MDSCs. Blocking NFAT with VIVIT phenocopied the CsA effects in MDSCs and increased the suppressive activities and the recruitment of CD11b+Gr1+ MDSCs in allograft recipient mice. Mechanistically, CsA treatment enhanced the indoleamine 2, 3-dioxygenase (IDO) expression and suppressive activities of MDSCs in allograft recipient. Inhibition of IDO nearly completely recovered the increased MDSC suppressive activities and the effects on T cell differentiation. This study indicates MDSCs to be an essential component in controlling allograft survival following CsA or VIVIT treatment, validating the calcineurin-NFAT-IDO signaling axis as a potential therapeutic target in transplantation.
->>-->>Publication Journal>>
-Mol Cell Biol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1128/MCB.01251-14
->>-->>Publication IF>>
-5.108
->>-->>Publication Title>>
-An Integrative Analysis Reveals Coordinated Reprogramming of the Epigenome and the Transcriptome in Human Skeletal Muscle after Training
->>-->>Publication Content>>
-ABSTRACT Regular endurance exercise training induces beneficial functional and health effects in human skeletal muscle. The putative contribution to the training response of the epigenome as a mediator between genes and environment has not been clarified. Here we investigated the contribution of DNA methylation and associated transcriptomic changes in a well-controlled human intervention study. Training effects were mirrored by significant alterations in DNA methylation and gene expression in regions with a homogeneous muscle energetics and remodeling ontology. Moreover, a signature of DNA methylation and gene expression separated the samples based on training and gender. Differential DNA methylation was predominantly observed in enhancers, gene bodies and intergenic regions and less in CpG islands or promoters. We identified transcriptional regulator binding motifs of MRF, MEF2 and ETS proteins in the proximity of the changing sites. A transcriptional network analysis revealed modules harboring distinct ontologies and, interestingly, the overall direction of the changes of methylation within each module was inversely correlated to expression changes. In conclusion, we show that highly consistent and associated modifications in methylation and expression, concordant with observed health-enhancing phenotypic adaptations, are induced by a physiological stimulus.
->>-->>Publication Journal>>
-Epigenetics
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.4161/15592294.2014.982445
->>-->>Publication IF>>
-12.963
->>-->>Publication Title>>
-Metabolic Reprogramming of the Heart through Stearoyl-Coa Desaturase
->>-->>Publication Content>>
-Stearoyl-CoA desaturase (SCD), a central enzyme in lipid metabolism that synthesizes monounsaturated fatty acids, has been linked to tissue metabolism and body adiposity regulation. Recent studies showed that SCD has the ability to reprogram cardiac metabolism, thereby regulating heart function. In the heart, the lack of SCD1 enhances glucose transport and metabolism at the expense of fatty acid (FA) uptake and oxidation. The metabolic changes associated with SCD1 deficiency protect cardiac myocytes against both necrotic and apoptotic cell death and improve heart function. Furthermore, SCD4, a heart-specific isoform of SCD, is specifically repressed by leptin and the lack of SCD1 function in leptin-deficient ob/ob mice results in a decrease in the accumulation of neutral lipids and ceramide and improves the systolic and diastolic function of a failing heart. Large-population human studies showed that the plasma SCD desaturation index is positively associated with heart rate, and cardiometabolic risk factors are modulated by genetic variations in SCD1. The current findings indicate that SCD may be used to reprogram myocardial metabolism to improve cardiac function. Here, we review recent advances in understanding the role of SCD in the control of heart metabolism and its involvement in the pathogenesis of lipotoxic cardiomyopathies.
->>-->>Publication Journal>>
-Prog Lipid Res
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1016/j.plipres.2014.11.003
->>-->>Publication IF>>
-12.958
->>-->>Publication Title>>
-Diabetes: Acinar-Cell Reprogramming Generates Functional Beta Cells that Persist for a Long Time
->>-->>Publication Content>>
-?
->>-->>Publication Journal>>
-Nat Rev Endocrinol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/nrendo.2014.213
->>-->>Publication IF>>
-42.351
->>-->>Publication Title>>
-Intracellular Alpha-Ketoglutarate Maintains the Pluripotency of Embryonic Stem Cells
->>-->>Publication Content>>
-The role of cellular metabolism in regulating cell proliferation and differentiation remains poorly understood. For example, most mammalian cells cannot proliferate without exogenous glutamine supplementation even though glutamine is a non-essential amino acid. Here we show that mouse embryonic stem (ES) cells grown under conditions that maintain naive pluripotency are capable of proliferation in the absence of exogenous glutamine. Despite this, ES cells consume high levels of exogenous glutamine when the metabolite is available. In comparison to more differentiated cells, naive ES cells utilize both glucose and glutamine catabolism to maintain a high level of intracellular alpha-ketoglutarate (alphaKG). Consequently, naive ES cells exhibit an elevated alphaKG to succinate ratio that promotes histone/DNA demethylation and maintains pluripotency. Direct manipulation of the intracellular alphaKG/succinate ratio is sufficient to regulate multiple chromatin modifications, including H3K27me3 and ten-eleven translocation (Tet)-dependent DNA demethylation, which contribute to the regulation of pluripotency-associated gene expression. In vitro, supplementation with cell-permeable alphaKG directly supports ES-cell self-renewal while cell-permeable succinate promotes differentiation. This work reveals that intracellular alphaKG/succinate levels can contribute to the maintenance of cellular identity and have a mechanistic role in the transcriptional and epigenetic state of stem cells.
->>-->>Publication Journal>>
-Nature
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/nature13981
->>-->>Publication IF>>
-4.202
->>-->>Publication Title>>
-Cell Polarity and Neurogenesis in Embryonic Stem Cell-Derived Neural Rosettes
->>-->>Publication Content>>
-Embryonic stem cells (ESCs) undergoing neural differentiation form radial arrays of neural stem cells, termed neural rosettes. These structures manifest many of the properties associated with embryonic and adult neurogenesis, including cell polarization, interkinetic nuclear migration (INM), and a gradient of neuronal differentiation. We now identify novel rosette structural features that serve to localize key regulators of neurogenesis. Cells within neural rosettes have specialized basal as well as apical surfaces, based on localization of the extracellular matrix receptor beta1 integrin. Apical processes of cells in mature rosettes terminate at the lumen, where adherens junctions are apparent. Primary cilia are randomly distributed in immature rosettes and tightly associated with the neural stem cell's apical domain as rosettes mature. Components of two signaling pathways known to regulate neurogenesis in vivo and in rosettes, Hedgehog and Notch, are apically localized, with the Hedgehog effector Smoothened (Smo) associated with primary cilia and the Notch pathway gamma-secretase subunit Presenilin 2 associated with the adherens junction. Increased neuron production upon treatment with the Notch inhibitor DAPT suggests a major role for Notch signaling in maintaining the neural stem cell state, as previously described. A less robust outcome was observed with manipulation of Hedgehog levels, though consistent with a role in neural stem cell survival or proliferation. Inhibition of both pathways resulted in an additive effect. These data support a model whereby cells extending a process to the rosette lumen maintain neural stem cell identity whereas release from this association, either through asymmetric cell division or apical abscission, promotes neuronal differentiation.
->>-->>Publication Journal>>
-Stem Cells Dev
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1089/scd.2014.0415
->>-->>Publication IF>>
-1
->>-->>Publication Title>>
-Generation of Eye Field/Optic Vesicle-Like Structures from Human Embryonic Stem Cells Under Two-Dimensional and Chemically Defined Conditions
->>-->>Publication Content>>
-Despite the enormous progress in studying retinal cell differentiation from human embryonic stem cells (hESCs), none of the reported protocols have produced a cost-effective eye field cells with the capability to further differentiate into retinal derivatives. In this study, by drawing chemicals on our four-step differentiation strategy, we demonstrated the ability of hESCs in assembling such qualifications to follow human retinogenesis in a serum- and feeder-free adherent condition. Two-dimensional (2D) populations of eye field cells arose within early forebrain progeny upon hESCs differentiation. Gene expression analysis showed that the treatment of hESCs with a combination of selected small molecules (SMs) gave rise to the higher expressions of eye field-specific genes, PAX6, RX, and SIX3. Thereafter, a subset of cells gained the transient features of advancing retinal differentiation, including optic vesicle (OV)-like structures, which expressed MITF and CHX10 in a manner imitated in vivo human retinal development. The competency of derived cells in differentiation to retinal derivatives was further investigated. The gene analysis of the cells showed more propensity for generating retinal pigment epithelial (RPE) than neural retina (NR). The generation of OV-like structures in 2D cultures can shed light on molecular events governing retinal specification. It can also facilitate the study of human retinal development.
->>-->>Publication Journal>>
-In Vitro Cell Dev Biol Anim
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s11626-014-9835-1
->>-->>Publication IF>>
-2.851
->>-->>Publication Title>>
-Overexpression of Hdac6 Enhances Resistance to Virus Infection in Embryonic Stem Cells and in Mice
->>-->>Publication Content>>
-?
->>-->>Publication Journal>>
-Protein Cell
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s13238-014-0120-6
->>-->>Publication IF>>
-4.202
->>-->>Publication Title>>
-A 3'Utr-Associated Rna, Flj11812 Maintains Stemness of Human Embryonic Stem Cells by Targeting miR-4459
->>-->>Publication Content>>
-The 3'UTR-associated RNAs (uaRNAs) have important roles in various biological processes, especially in development. However, because they overlap with protein-coding mRNAs, uaRNAs are difficult to study by RNA interference techniques. We recently identified a chemical molecule, 3BDO, that could induce hESCs differentiation, meanwhile selectively and efficiently downregulate the uaRNA FLJ11812. By acting as a competing endogenous RNA, downregulated FLJ11812 by 3BDO further increased miR-4459 level in hESCs. miR-4459 could decrease the expression of its targets, CDC20B, LARP1 and ATG13, and thus altered stemness via cell cycle, mRNA stability and autophagy. Our results revealed that FLJ11812 played a key role in maintenance of stemness of hESCs for the first time. The findings provide new clues and a powerful tool for investigating the action mechanism of FLJ11812 in early development.
->>-->>Publication Journal>>
-Stem Cells Dev
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1089/scd.2014.0353
->>-->>Publication IF>>
-3.524
->>-->>Publication Title>>
-Crispr Reveals a Distal Super-Enhancer Required for Sox2 Expression in Mouse Embryonic Stem Cells
->>-->>Publication Content>>
-The pluripotency of embryonic stem cells (ESCs) is maintained by a small group of master transcription factors including Oct4, Sox2 and Nanog. These core factors form a regulatory circuit controlling the transcription of a number of pluripotency factors including themselves. Although previous studies have identified transcriptional regulators of this core network, the cis-regulatory DNA sequences required for the transcription of these key pluripotency factors remain to be defined. We analyzed epigenomic data within the 1.5 Mb gene-desert regions around the Sox2 gene and identified a 13kb-long super-enhancer (SE) located 100kb downstream of Sox2 in mouse ESCs. This SE is occupied by Oct4, Sox2, Nanog, and the mediator complex, and physically interacts with the Sox2 locus via DNA looping. Using a simple and highly efficient double-CRISPR genome editing strategy we deleted the entire 13-kb SE and characterized transcriptional defects in the resulting monoallelic and biallelic deletion clones with RNA-seq. We showed that the SE is responsible for over 90% of Sox2 expression, and Sox2 is the only target gene along the chromosome. Our results support the functional significance of a SE in maintaining the pluripotency transcription program in mouse ESCs.
->>-->>Publication Journal>>
-PLoS One
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1371/journal.pone.0114485
->>-->>Publication IF>>
-3.524
->>-->>Publication Title>>
-Talen/Crispr-Mediated Egfp Knock-in Add-on at the Oct4 Locus Does Not Impact Differentiation of Human Embryonic Stem Cells towards Endoderm
->>-->>Publication Content>>
-Human embryonic stem cells (hESCs) have great promise as a source of unlimited transplantable cells for regenerative medicine. However, current progress on producing the desired cell type for disease treatment has been limited due to an insufficient understanding of the developmental processes that govern their differentiation, as well as a paucity of tools to systematically study differentiation in the lab. In order to overcome these limitations, cell-type reporter hESC lines will be required. Here we outline two strategies using Transcription Activator Like Effector Nucleases (TALENs) and Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-CRISPR-Associated protein (Cas) to create OCT4-eGFP knock-in add-on hESC lines. Thirty-one and forty-seven percent of clones were correctly modified using the TALEN and CRISPR-Cas9 systems, respectively. Further analysis of three correctly targeted clones demonstrated that the insertion of eGFP in-frame with OCT4 neither significantly impacted expression from the wild type allele nor did the fusion protein have a dramatically different biological stability. Importantly, the OCT4-eGFP fusion was easily detected using microscopy, flow cytometry and western blotting. The OCT4 reporter lines remained equally competent at producing CXCR4+ definitive endoderm that expressed a panel of endodermal genes. Moreover, the genomic modification did not impact the formation of NKX6.1+/SOX9+ pancreatic progenitor cells following directed differentiation. In conclusion, these findings demonstrate for the first time that CRISPR-Cas9 can be used to modify OCT4 and highlight the feasibility of creating cell-type specific reporter hESC lines utilizing genome-editing tools that facilitate homologous recombination.
->>-->>Publication Journal>>
-PLoS One
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1371/journal.pone.0114275
->>-->>Publication IF>>
-2.082
->>-->>Publication Title>>
-Expression of Tat Recombinant Oct4, Sox2, Lin28, and Nanog Proteins from Baculovirus-Infected Sf9 Insect Cells
->>-->>Publication Content>>
-Somatic cell reprogramming has generated enormous interest, following the first report of generation of induced pluripotent stem cells (iPSCs) from mouse fibroblasts, but the integration of viral transgenes into the genome is unlikely to be accepted. Given these safety considerations, a method for virus-free transient gene expression from suspension-adapted Sf9 insect cells was developed. Here, we expressed transactivator of transcription (TAT)-fused proteins, Sox2, Oct4, Lin28, and Nanog in Sf9 cells using the baculovirus expression vector system (BEVS). The molecular weights of the TAT-Sox2, TAT-Oct4, TAT-Lin28, and TAT-Nanog fusion proteins were 36kD, 40kD, 24kD, and 36kD, respectively. Further investigation indicated that most of the recombinant proteins remained in the nuclei of the Sf9 insect cells and were therefore unavailable for purification and cellular reprogramming. Once this problem has been solved, it seems likely that protein expressed from baculovirus-infected Sf9 insect cells will be the method of choice for cellular reprogramming.
->>-->>Publication Journal>>
-Gene
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1016/j.gene.2014.11.061
->>-->>Publication IF>>
-5.078
->>-->>Publication Title>>
-Combining Tgf-Beta Signal Inhibition and Connexin43 Silencing for Ipsc Induction from Mouse Cardiomyocytes
->>-->>Publication Content>>
-The reprogramming of differentiated cells into induced pluripotent stem cells (iPSCs) can be achieved by ectopic expression of defined transcription factors (Oct3/4, Sox2, Klf4 and c-Myc). However, to date, some iPSCs have been generated using viral vectors; thus, unexpected insertional mutagenesis in the target cells would be a potential risk. Here we report reprogramming of siPSCs (gene silencing-induced pluripotent stem cells) from mouse neonatal cardiomyocytes (CMs) by combining TGF-beta signal inhibition and connexin43 (Cx43) silencing, and show that siPSCs show pluripotency in vitro and in vivo. Our novel non-insertional mutagenesis technique may provide a means for iPSC generation.
->>-->>Publication Journal>>
-Sci Rep
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/srep07323
->>-->>Publication IF>>
-1.29
->>-->>Publication Title>>
-Generation of Partially Reprogrammed Cells and Fully Reprogrammed Ips Cells by Plasmid Transfection
->>-->>Publication Content>>
-Induced pluripotent stem (iPS) cells can be directly generated from somatic cells by overexpression of defined transcription factors. iPS cells can perpetually self-renew and differentiate into all cell types of an organism. iPS cells were first generated through infection with retroviruses that contain reprogramming factors. However, development of an exogene-free iPS cell generation method is crucial for future therapeutic applications, because integrated exogenes result in the formation of tumors in chimeras and regain pluripotency after differentiation in vitro. Here, we describe a method to generate iPS cells by transfection of plasmid vectors and to convert partially reprogrammed cells into fully reprogrammed iPS cells by switching from mouse ESC culture conditions to KOSR-based media with bFGF. We also describe basic methods used to characterize fully reprogrammed iPS cells.
->>-->>Publication Journal>>
-Methods Mol Biol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/7651_2014_161
->>-->>Publication IF>>
-5.177
->>-->>Publication Title>>
-Enhancing Mammary Differentiation by Overcoming Lineage-Specific Epigenetic Modification and Signature Gene Expression of Fibroblast-Derived Ipscs
->>-->>Publication Content>>
-Recent studies have shown that induced pluripotent stem cells (iPSCs) retain a memory of their origin and exhibit biased differentiation potential. This finding reveals a severe limitation in the application of iPSCs to cell-based therapy because it means that certain cell types are not available for reprogramming for patients. Here we show that the iPSC differentiation process is accompanied by profound gene expression and epigenetic modifications that reflect cells' origins. Under typical conditions for mammary differentiation, iPSCs reprogrammed from tail-tip fibroblasts (TF-iPSCs) activated a fibroblast-specific signature that was not compatible with mammary differentiation. Strikingly, under optimized conditions, including coculture with iPSCs derived from the mammary epithelium or in the presence of pregnancy hormones, the fibroblast-specific signature of TF-iPSCs obtained during differentiation was erased and cells displayed a mammary-specific signature with a markedly enhanced ability for mammary differentiation. These findings provide new insights into the precise control of differentiation conditions that may have applications in personalized cell-based therapy.
->>-->>Publication Journal>>
-Cell Death Dis
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/cddis.2014.499
->>-->>Publication IF>>
-14.976
->>-->>Publication Title>>
-Piezo2 Is Required for Mechanotransduction in Human Stem Cell-Derived Touch Receptors
->>-->>Publication Content>>
-Human sensory neurons are inaccessible for functional examination, and thus little is known about the mechanisms mediating touch sensation in humans. Here we demonstrate that the mechanosensitivity of human embryonic stem (hES) cell-derived touch receptors depends on PIEZO2. To recapitulate sensory neuron development in vitro, we established a multistep differentiation protocol and generated sensory neurons via the intermediate production of neural crest cells derived from hES cells or human induced pluripotent stem (hiPS) cells. The generated neurons express a distinct set of touch receptor-specific genes and convert mechanical stimuli into electrical signals, their most salient characteristic in vivo. Strikingly, mechanosensitivity is lost after CRISPR/Cas9-mediated PIEZO2 gene deletion. Our work establishes a model system that resembles human touch receptors, which may facilitate mechanistic analysis of other sensory subtypes and provide insight into developmental programs underlying sensory neuron diversity.
->>-->>Publication Journal>>
-Nat Neurosci
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/nn.3894
->>-->>Publication IF>>
-2.201
->>-->>Publication Title>>
-Time Course of Spinal Doublecortin Expression in Developing Rat and Porcine Spinal Cord: Implication in <em>In Vivo</em> Neural Precursor Grafting Studies
->>-->>Publication Content>>
-Expression of doublecortin (DCX), a 43-53 kDa microtubule binding protein, is frequently used as (i) an early neuronal marker to identify the stage of neuronal maturation of in vivo grafted neuronal precursors (NSCs), and (ii) a neuronal fate marker transiently expressed by immature neurons during development. Reliable identification of the origin of DCX-immunoreactive cells (i.e., host vs. graft) requires detailed spatial and temporal mapping of endogenous DCX expression at graft-targeted brain or spinal cord regions. Accordingly, in the present study, we analyzed (i) the time course of DCX expression in pre- and postnatal rat and porcine spinal cord, and (ii) the DCX expression in spinally grafted porcine-induced pluripotent stem cells (iPS)-derived NSCs and human embryonic stem cell (ES)-derived NSCs. In addition, complementary temporospatial GFAP expression study in porcine spinal cord was also performed. In 21-day-old rat fetuses, an intense DCX immunoreactivity distributed between the dorsal horn (DH) and ventral horn was seen and was still present in the DH neurons on postnatal day 20. In animals older than 8 weeks, no DCX immunoreactivity was seen at any spinal cord laminae. In contrast to rat, in porcine spinal cord (gestational period 113-114 days), DCX was only expressed during the pre-natal period (up to 100 days) but was no longer present in newborn piglets or in adult animals. Immunohistochemical analysis was confirmed with a comparable expression profile by western blot analysis. Contrary, the expression of porcine GFAP started within 70-80 days of the pre-natal period. Spinally grafted porcine iPS-NSCs and human ES-NSCs showed clear DCX expression at 3-4 weeks postgrafting. These data indicate that in spinal grafting studies which employ postnatal or adult porcine models, the expression of DCX can be used as a reliable marker of grafted neurons. In contrast, if grafted neurons are to be analyzed during the first 4 postnatal weeks in the rat spinal cord, additional markers or grafted cell-specific labeling techniques need to be employed to reliably identify grafted early postmitotic neurons and to differentiate the DCX expression from the neurons of the host.
->>-->>Publication Journal>>
-Cell Mol Neurobiol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s10571-014-0145-7
->>-->>Publication IF>>
-3.214
->>-->>Publication Title>>
-Pluripotent Stem Cells for Schwann Cell Engineering
->>-->>Publication Content>>
-Tissue engineering of Schwann cells (SCs) can serve a number of purposes, such as in vitro SC-related disease modeling, treatment of peripheral nerve diseases or peripheral nerve injury, and, potentially, treatment of CNS diseases. SCs can be generated from autologous stem cells in vitro by recapitulating the various stages of in vivo neural crest formation and SC differentiation. In this review, we survey the cellular and molecular mechanisms underlying these in vivo processes. We then focus on the current in vitro strategies for generating SCs from two sources of pluripotent stem cells, namely embryonic stem cells (ESCs) and induced pluripotent stem cells (iPSCs). Different methods for SC engineering from ESCs and iPSCs are reviewed and suggestions are proposed for optimizing the existing protocols. Potential safety issues regarding the clinical application of iPSC-derived SCs are discussed as well. Lastly, we will address future aspects of SC engineering.
->>-->>Publication Journal>>
-Stem Cell Rev
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s12015-014-9577-1
->>-->>Publication IF>>
-3.524
->>-->>Publication Title>>
-Derivation of Mesenchymal Stromal Cells from Pluripotent Stem Cells through a Neural Crest Lineage Using Small Molecule Compounds with Defined Media
->>-->>Publication Content>>
-Neural crest cells (NCCs) are an embryonic migratory cell population with the ability to differentiate into a wide variety of cell types that contribute to the craniofacial skeleton, cornea, peripheral nervous system, and skin pigmentation. This ability suggests the promising role of NCCs as a source for cell-based therapy. Although several methods have been used to induce human NCCs (hNCCs) from human pluripotent stem cells (hPSCs), such as embryonic stem cells (ESCs) and induced pluripotent stem cells (iPSCs), further modifications are required to improve the robustness, efficacy, and simplicity of these methods. Chemically defined medium (CDM) was used as the basal medium in the induction and maintenance steps. By optimizing the culture conditions, the combination of the GSK3beta inhibitor and TGFbeta inhibitor with a minimum growth factor (insulin) very efficiently induced hNCCs (70-80%) from hPSCs. The induced hNCCs expressed cranial NCC-related genes and stably proliferated in CDM supplemented with EGF and FGF2 up to at least 10 passages without changes being observed in the major gene expression profiles. Differentiation properties were confirmed for peripheral neurons, glia, melanocytes, and corneal endothelial cells. In addition, cells with differentiation characteristics similar to multipotent mesenchymal stromal cells (MSCs) were induced from hNCCs using CDM specific for human MSCs. Our simple and robust induction protocol using small molecule compounds with defined media enabled the generation of hNCCs as an intermediate material producing terminally differentiated cells for cell-based innovative medicine.
->>-->>Publication Journal>>
-PLoS One
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1371/journal.pone.0112291
->>-->>Publication IF>>
-3.524
->>-->>Publication Title>>
-New Type of Sendai Virus Vector Provides Transgene-Free Ips Cells Derived from Chimpanzee Blood
->>-->>Publication Content>>
-Induced pluripotent stem cells (iPSCs) are potentially valuable cell sources for disease models and future therapeutic applications; however, inefficient generation and the presence of integrated transgenes remain as problems limiting their current use. Here, we developed a new Sendai virus vector, TS12KOS, which has improved efficiency, does not integrate into the cellular DNA, and can be easily eliminated. TS12KOS carries KLF4, OCT3/4, and SOX2 in a single vector and can easily generate iPSCs from human blood cells. Using TS12KOS, we established iPSC lines from chimpanzee blood, and used DNA array analysis to show that the global gene-expression pattern of chimpanzee iPSCs is similar to those of human embryonic stem cell and iPSC lines. These results demonstrated that our new vector is useful for generating iPSCs from the blood cells of both human and chimpanzee. In addition, the chimpanzee iPSCs are expected to facilitate unique studies into human physiology and disease.
->>-->>Publication Journal>>
-PLoS One
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1371/journal.pone.0113052
->>-->>Publication IF>>
-3.333
->>-->>Publication Title>>
-Expression of Pluripotency Factors in Echinoderm Regeneration
->>-->>Publication Content>>
-Cell dedifferentiation is an integral component of post-traumatic regeneration in echinoderms. As dedifferentiated cells become multipotent, we asked if this spontaneous broadening of developmental potential is associated with the action of the same pluripotency factors (known as Yamanaka factors) that were used to induce pluripotency in specialized mammalian cells. In this study, we investigate the expression of orthologs of the four Yamanaka factors in regeneration of two different organs, the radial nerve cord and the digestive tube, in the sea cucumber Holothuria glaberrima. All four pluripotency factors are expressed in uninjured animals, although their expression domains do not always overlap. In regeneration, the expression levels of the four genes were not regulated in a coordinated way, but instead showed different dynamics for individual genes and also were different between the radial nerve and the gut. SoxB1, the ortholog of the mammalian Sox2, was drastically downregulated in the regenerating intestine, suggesting that this factor is not required for dedifferentiation/regeneration in this organ. On the other hand, during the early post-injury stage, Myc, the sea cucumber ortholog of c-Myc, was significantly upregulated in both the intestine and the radial nerve cord and is therefore hypothesized to play a central role in dedifferentiation/regeneration of various tissue types.
->>-->>Publication Journal>>
-Cell Tissue Res
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s00441-014-2040-4
->>-->>Publication IF>>
-10.748
->>-->>Publication Title>>
-Pluripotent Stem Cell Energy Metabolism: an Update
->>-->>Publication Content>>
-Recent studies link changes in energy metabolism with the fate of pluripotent stem cells (PSCs). Safe use of PSC derivatives in regenerative medicine requires an enhanced understanding and control of factors that optimize in vitro reprogramming and differentiation protocols. Relative shifts in metabolism from naive through "primed" pluripotent states to lineage-directed differentiation place variable demands on mitochondrial biogenesis and function for cell types with distinct energetic and biosynthetic requirements. In this context, mitochondrial respiration, network dynamics, TCA cycle function, and turnover all have the potential to influence reprogramming and differentiation outcomes. Shifts in cellular metabolism affect enzymes that control epigenetic configuration, which impacts chromatin reorganization and gene expression changes during reprogramming and differentiation. Induced PSCs (iPSCs) may have utility for modeling metabolic diseases caused by mutations in mitochondrial DNA, for which few disease models exist. Here, we explore key features of PSC energy metabolism research in mice and man and the impact this work is starting to have on our understanding of early development, disease modeling, and potential therapeutic applications.
->>-->>Publication Journal>>
-EMBO J
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.15252/embj.201490446
->>-->>Publication IF>>
-8.167
->>-->>Publication Title>>
-Chondrocytes Transdifferentiate into Osteoblasts in Endochondral Bone during Development, Postnatal Growth and Fracture Healing in Mice
->>-->>Publication Content>>
-One of the crucial steps in endochondral bone formation is the replacement of a cartilage matrix produced by chondrocytes with bone trabeculae made by osteoblasts. However, the precise sources of osteoblasts responsible for trabecular bone formation have not been fully defined. To investigate whether cells derived from hypertrophic chondrocytes contribute to the osteoblast pool in trabecular bones, we genetically labeled either hypertrophic chondrocytes by Col10a1-Cre or chondrocytes by tamoxifen-induced Agc1-CreERT2 using EGFP, LacZ or Tomato expression. Both Cre drivers were specifically active in chondrocytic cells and not in perichondrium, in periosteum or in any of the osteoblast lineage cells. These in vivo experiments allowed us to follow the fate of cells labeled in Col10a1-Cre or Agc1-CreERT2 -expressing chondrocytes. After the labeling of chondrocytes, both during prenatal development and after birth, abundant labeled non-chondrocytic cells were present in the primary spongiosa. These cells were distributed throughout trabeculae surfaces and later were present in the endosteum, and embedded within the bone matrix. Co-expression studies using osteoblast markers indicated that a proportion of the non-chondrocytic cells derived from chondrocytes labeled by Col10a1-Cre or by Agc1-CreERT2 were functional osteoblasts. Hence, our results show that both chondrocytes prior to initial ossification and growth plate chondrocytes before or after birth have the capacity to undergo transdifferentiation to become osteoblasts. The osteoblasts derived from Col10a1-expressing hypertrophic chondrocytes represent about sixty percent of all mature osteoblasts in endochondral bones of one month old mice. A similar process of chondrocyte to osteoblast transdifferentiation was involved during bone fracture healing in adult mice. Thus, in addition to cells in the periosteum chondrocytes represent a major source of osteoblasts contributing to endochondral bone formation in vivo.
->>-->>Publication Journal>>
-PLoS Genet
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1371/journal.pgen.1004820
->>-->>Publication IF>>
-7.207
->>-->>Publication Title>>
-Direct Neural Conversion from Human Fibroblasts Using Self-Regulating and Nonintegrating Viral Vectors
->>-->>Publication Content>>
-Recent findings show that human fibroblasts can be directly programmed into functional neurons without passing via a proliferative stem cell intermediate. These findings open up the possibility of generating subtype-specific neurons of human origin for therapeutic use from fetal cell, from patients themselves, or from matched donors. In this study, we present an improved system for direct neural conversion of human fibroblasts. The neural reprogramming genes are regulated by the neuron-specific microRNA, miR-124, such that each cell turns off expression of the reprogramming genes once the cell has reached a stable neuronal fate. The regulated system can be combined with integrase-deficient vectors, providing a nonintegrative and self-regulated conversion system that rids problems associated with the integration of viral transgenes into the host genome. These modifications make the system suitable for clinical use and therefore represent a major step forward in the development of induced neurons for cell therapy.
->>-->>Publication Journal>>
-Cell Rep
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1016/j.celrep.2014.11.017
->>-->>Publication IF>>
-2.124
->>-->>Publication Title>>
-Somatic Mutations of Amino Acid Metabolism-Related Genes in Gastric and Colorectal Cancers and Their Regional Heterogeneity - a Short Report
->>-->>Publication Content>>
-BACKGROUND: Metabolic reprogramming is an emerging topic in cancer research. However, genetic alterations in genes encoding enzymes involved in amino acid metabolism are largely unknown. The aim of this study was to explore whether genes known to be involved in amino acid metabolism are mutated in gastric cancer (GC) and/or colorectal cancer (CRC). METHODS: Through a public database search, we found that a number of genes known to be involved in amino acid metabolism, i.e., AGXT, ALDH2, APIP, MTR, DNMT1, ASH1L, ASPA, CAD, DDC, GCDH, DLD, LAP3, MCEE and MUT, harbor mononucleotide repeats that may serve as mutation targets in cancers exhibiting microsatellite instability (MSI). We assessed these genes for the presence of the mutations in 79 GCs and 124 CRCs using single-strand conformation polymorphism (SSCP) and direct sequencing analyses. RESULTS: Using SSCP in conjunction with DNA sequencing we detected frameshift mutations in AGXT (17 cases), ALDH2 (3 cases), APIP (4 cases), MTR (5 cases), DNMT1 (1 case), ASH1L (1 case), ASPA (2 cases), CAD (2 cases), DDC (1 case), GCDH (3 cases), DLD (1 case), LAP3 (1 case), MCEE (5 cases) and MUT (1 case). These mutations were exclusively detected in MSI-high (MSI-H), and not in MSI-low or MSI-stable (MSI-L/MSS) cases. In addition, we analyzed 16 CRCs for the presence of intra-tumor heterogeneity (ITH) and found that two CRCs harbored regional ITH for GCDH frameshift mutations. CONCLUSIONS: Our data indicate that genes known to be involved in amino acid metabolism recurrently acquire somatic mutations in MSH-H GCs and MSH-H CRCs and that, in addition, mutation ITH does occur in at least some of these tumors. Together, these data suggest that metabolic reprogramming may play a role in the etiology of MSI-H GCs and CRCs. Our data also suggest that ultra-regional mutation analysis is required for a more comprehensive evaluation of the mutation status in these tumors.
->>-->>Publication Journal>>
-Cell Oncol (Dordr)
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s13402-014-0209-1
->>-->>Publication IF>>
-11.336
->>-->>Publication Title>>
-Long-Lived Engineering of Glycans to Direct Stem Cell Fate
->>-->>Publication Content>>
-Glycans mediate many critical, long-term biological processes, such as stem cell differentiation. However, few methods are available for the sustained remodeling of cells with specific glycan structures. A new strategy that enables the long-lived presentation of defined glycosaminoglycans on cell surfaces using HaloTag proteins (HTPs) as anchors is reported. By controlling the sulfation patterns of heparan sulfate (HS) on pluripotent embryonic stem cell (ESC) membranes, it is demonstrated that specific glycans cause ESCs to undergo accelerated exit from self-renewal and differentiation into neuronal cell types. Thus, the stable display of glycans on HTP scaffolds provides a powerful, versatile means to direct key signaling events and biological outcomes such as stem cell fate.
->>-->>Publication Journal>>
-Angew Chem Int Ed Engl
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1002/anie.201409258
->>-->>Publication IF>>
-5.387
->>-->>Publication Title>>
-Ctgf/Ccn2 Exerts Profibrotic Action in Myoblasts via the Up-Regulation of Sphingosine Kinase-1/S1P Signaling Axis: Implications in the Action Mechanism of Tgfbeta
->>-->>Publication Content>>
-The matricellular protein connective tissue growth factor (CTGF/CCN2) is recognized as key player in the onset of fibrosis in various tissues, including skeletal muscle. In many circumstances, CTGF has been shown to be induced by transforming growth factor beta (TGFbeta) and accounting, at least in part, for its biological action. In this study, it was verified that in cultured myoblasts CTGF/CCN2 causes their transdifferentiation into myofibroblasts by up-regulating the expression of fibrosis marker proteins alpha-smooth muscle actin and transgelin. Interestingly, it was also found that the profibrotic effect exerted by CTGF/CCN2 was mediated by the sphingosine kinase (SK)-1/S1P3 signaling axis specifically induced by the treatment with the profibrotic cue. Following CTGF/CCN2-induced up-regulation, S1P3 became the S1P receptor subtype expressed at the highest degree, at least at mRNA level, and was thus capable of readdressing the sphingosine 1-phosphate signaling towards fibrosis rather than myogenic differentiation. Another interesting finding is that CTGF/CCN2 silencing prevented the TGFbeta-dependent up-regulation of SK1/S1P3 signaling axis and strongly reduced the profibrotic effect exerted by TGFbeta, pointing at a crucial role of endogenous CTGF/CCN2 generated following TGFbeta challenge in the transmission of at least part of its profibrotic effect. These results provide new insights into the molecular mechanism by which CTGF/CCN2 drives its biological action and strengthen the concept that SK1/S1P3 axis plays a critical role in the onset of fibrotic cell phenotype.
->>-->>Publication Journal>>
-Biochim Biophys Acta
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1016/j.bbalip.2014.11.011
->>-->>Publication IF>>
-4.04
->>-->>Publication Title>>
-Role of Chromatin and Transcriptional Co-Regulators in Mediating P63-Genome Interactions in Keratinocytes
->>-->>Publication Content>>
-BACKGROUND: The Transcription Factor (TF) p63 is a master regulator of epidermal development and differentiation as evident from the remarkable skin phenotype of p63 mouse knockouts. Furthermore, ectopic expression of p63 alone is sufficient to convert simple epithelium into stratified epithelial tissues in vivo and p63 is required for efficient transdifferentiation of fibroblasts into keratinocytes. However, little is known about the molecular mechanisms of p63 function, in particular how it selects its target sites in the genome. p63, which acts both as an activator and repressor of transcription, recognizes a canonical binding motif that occurs over 1 million times in the human genome. But, in human keratinocytes less than 12,000 of these sites are bound in vivo suggesting that underlying chromatin architecture and cooperating TFs mediate p63-genome interactions. RESULTS: We find that the chromatin architecture at p63-bound targets possess distinctive features and can be used to categorize p63 targets into proximal promoters (1%), enhancers (59%) and repressed or inactive (40%) regulatory elements. Our analysis shows that the chromatin modifications H3K4me1, H3K27me3, along with overall chromatin accessibility status can accurately predict bonafide p63-bound sites without a priori DNA sequence information. Interestingly, however there exists a qualitative correlation between the p63 binding motif and accessibility and H3K4me1 levels. Furthermore, we use a comprehensive in silico approach that leverages ENCODE data to identify several known TFs such as AP1, AP2 and novel TFs (RFX5 for e.g.) that can potentially cooperate with p63 to modulate its myriad biological functions in keratinocytes. CONCLUSIONS: Our analysis shows that p63 bound genomic locations in keratinocytes are accessible, marked by active histone modifications, and co-targeted by other developmentally important transcriptional regulators. Collectively, our results suggest that p63 might actively remodel and /or influence chromatin dynamics at its target sites and in the process dictate its own DNA binding and possibly that of adjacent TFs.
->>-->>Publication Journal>>
-BMC Genomics
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1186/1471-2164-15-1042
->>-->>Publication IF>>
-28.054
->>-->>Publication Title>>
-Defective Fatty Acid Oxidation in Renal Tubular Epithelial Cells Has a Key Role in Kidney Fibrosis Development
->>-->>Publication Content>>
-Renal fibrosis is the histological manifestation of a progressive, usually irreversible process causing chronic and end-stage kidney disease. We performed genome-wide transcriptome studies of a large cohort (n = 95) of normal and fibrotic human kidney tubule samples followed by systems and network analyses and identified inflammation and metabolism as the top dysregulated pathways in the diseased kidneys. In particular, we found that humans and mouse models with tubulointerstitial fibrosis had lower expression of key enzymes and regulators of fatty acid oxidation (FAO) and higher intracellular lipid deposition compared to controls. In vitro experiments indicated that inhibition of FAO in tubule epithelial cells caused ATP depletion, cell death, dedifferentiation and intracellular lipid deposition, phenotypes observed in fibrosis. In contrast, restoring fatty acid metabolism by genetic or pharmacological methods protected mice from tubulointerstitial fibrosis. Our results raise the possibility that correcting the metabolic defect in FAO may be useful for preventing and treating chronic kidney disease.
->>-->>Publication Journal>>
-Nat Med
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/nm.3762
->>-->>Publication IF>>
-0
->>-->>Publication Title>>
-Molecular Mechanisms Regulating the Defects in Fragile X Syndrome Neurons Derived from Human Pluripotent Stem Cells
->>-->>Publication Content>>
-Fragile X syndrome (FXS) is caused by the absence of the fragile X mental retardation protein (FMRP). We have previously generated FXS-induced pluripotent stem cells (iPSCs) from patients' fibroblasts. In this study, we aimed at unraveling the molecular phenotype of the disease. Our data revealed aberrant regulation of neural differentiation and axon guidance genes in FXS-derived neurons, which are regulated by the RE-1 silencing transcription factor (REST). Moreover, we found REST to be elevated in FXS-derived neurons. As FMRP is involved in the microRNA (miRNA) pathway, we employed miRNA-array analyses and uncovered several miRNAs dysregulated in FXS-derived neurons. We found hsa-mir-382 to be downregulated in FXS-derived neurons, and introduction of mimic-mir-382 into these neurons was sufficient to repress REST and upregulate its axon guidance target genes. Our data link FMRP and REST through the miRNA pathway and show a new aspect in the development of FXS.
->>-->>Publication Journal>>
-Stem Cell Reports
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1016/j.stemcr.2014.10.015
->>-->>Publication IF>>
-8.52
->>-->>Publication Title>>
-Nephron Reconstitution from Pluripotent Stem Cells
->>-->>Publication Content>>
-It has been a challenge in developmental biology and regenerative medicine to generate nephron progenitors that reconstitute the three-dimensional (3D) nephron structure in vitro. Many studies have tried to induce nephron progenitors from pluripotent stem cells by mimicking the developmental processes in vivo. However, the current developmental model does not precisely address the spatiotemporal origin of nephron progenitors, hampering our understanding of cell fate decisions in the kidney. Here, we present a revised model of early-stage kidney specification, suggesting distinct origins of the two major kidney components: the ureteric bud and metanephric mesenchyme. This model enables the induction of metanephric nephron progenitors from both mouse and human pluripotent stem cells. The induced cells self-organize in the presence of Wnt signaling and reconstitute 3D nephron structures including both nephric tubules with a clear lumina and glomeruli with podocytes. The engrafted kidney tissue develops vascularized glomeruli and nephric tubules, but it does not produce urine, suggesting the requirement for further maturation. Nevertheless, the generation of nephron components from human-induced pluripotent stem cells will be useful for future application in regenerative therapy and modeling of congenital kidney diseases in vitro. This review discusses the possibility of de novo organogenesis of a functional kidney from pluripotent stem cells and the future direction toward clinical applications.Kidney International advance online publication, 3 December 2014; doi:10.1038/ki.2014.358.
->>-->>Publication Journal>>
-Kidney Int
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/ki.2014.358
->>-->>Publication IF>>
-1.29
->>-->>Publication Title>>
-Differentiation of Ipsc to Mesenchymal Stem-Like Cells and Their Characterization
->>-->>Publication Content>>
-Mesenchymal stem cells (MSC) are a unique population of adult stem cells that have the capacity to differentiate into numerous cell types as well as the ability to modulate the immune system. As such, MSC represent a promising stem cell population for use in the clinical treatment of a range of disorders involving tissue regeneration as well as the immune system. The lack of accessibility to MSC is currently limiting the use of MSC in mainstream clinical treatment strategies. It is therefore imperative for the future success of stem cell-based treatment approaches that are more reliable, and accessible sources of MSC are identified. The present chapter describes a method for generating MSC-like cells from induced pluripotent stem cells (iPSC), with equivalent growth and functional properties to parental MSC populations.
->>-->>Publication Journal>>
-Methods Mol Biol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/7651_2014_142
->>-->>Publication IF>>
-12.94
->>-->>Publication Title>>
-Untangling the Effects of Peptide Sequences and Nanotopographies in a Biomimetic Niche for Directed Differentiation of Ipscs by Assemblies of Genetically Engineered Viral Nanofibers
->>-->>Publication Content>>
-Here we report the design of a unique matrix, assembled from engineered M13 phage bionanofibers with specific cues of nanotopographies and versatile signal peptides to simulate native niche for directing the fate of induced pluripotent stem cells (iPSCs). By independently varying the peptide sequences and nanotopographies, we find that the resident iPSCs on the phage matrix are first differentiated into mesenchymal progenitor cells (MPCs), which are further differentiated into osteoblasts in the absence of osteogenic supplements due to the elongation induced by phage nanofibers. The phage-based matrix represents not only a biomimetic stem cell niche enabling independently varying biochemical and biophysical cues in one system but also a substrate for generating a safe and efficient cell source for tissue engineering.
->>-->>Publication Journal>>
-Nano Lett
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1021/nl504358j
->>-->>Publication IF>>
-9.809
->>-->>Publication Title>>
-Herg 1B Is Critical for Human Cardiac Repolarization
->>-->>Publication Content>>
-The human ether-a-go-go-related gene (hERG; or KCNH2) encodes the voltage-gated potassium channel underlying IKr, a repolarizing current in the heart. Mutations in KCNH2 or pharmacological agents that reduce IKr slow action potential (AP) repolarization and can trigger cardiac arrhythmias associated with long QT syndrome. Two channel-forming subunits encoded by KCNH2 (hERG 1a and 1b) are expressed in cardiac tissue. In heterologous expression systems, these subunits avidly coassemble and exhibit biophysical and pharmacological properties distinct from those of homomeric hERG 1a channels. Despite these findings, adoption of hERG 1a/1b heteromeric channels as a model for cardiac IKr has been hampered by the lack of evidence for a direct functional role for the 1b subunit in native tissue. In this study, we measured IKr and APs at physiological temperature in cardiomyocytes derived from human induced pluripotent stem cells (iPSC-CMs). We found that specific knockdown of the 1b subunit using shRNA caused reductions in 1b mRNA, 1b protein levels, and IKr magnitude by roughly one-half. AP duration was increased and AP variability was enhanced relative to controls. Early afterdepolarizations, considered cellular substrates for arrhythmia, were also observed in cells with reduced 1b expression. Similar behavior was elicited when channels were effectively converted from heteromers to 1a homomers by expressing a fragment corresponding to the 1a-specific N-terminal Per-Arnt-Sim domain, which is omitted from hERG 1b by alternate transcription. These findings establish that hERG 1b is critical for normal repolarization and that loss of 1b is proarrhythmic in human cardiac cells.
->>-->>Publication Journal>>
-Proc Natl Acad Sci U S A
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1073/pnas.1414945111
->>-->>Publication IF>>
-10.742
->>-->>Publication Title>>
-Tolerance Induction to Human Stem Cell Transplants with Extension to Their Differentiated Progeny
->>-->>Publication Content>>
-There is increasing interest in transplantation of human stem cells for therapeutic purposes. It would benefit future application if one could achieve their long-term acceptance and functional differentiation in allogeneic hosts using minimal immunosuppression. Allogeneic stem cell transplants differ from conventional tissue transplants insofar as not all alloantigens are revealed during tolerance induction. This risks that the immune system tolerized to antigens expressed by progenitors may still remain responsive to antigens expressed later during differentiation. Here we show that brief induction with monoclonal antibody-mediated coreceptor and costimulation blockade enables long-term engraftment and tolerance towards murine ESCs, hESCs, human induced pluripotent stem cells (iPSCs) and hESC-derived progenitors in outbred murine recipients. Tolerance induced to PSC-derived progenitors extends to their differentiated progenies, and sometimes even to different tissues derived from the same donor. Global gene expression profiling identifies clear features in T cells from tolerized grafts that are distinct from those involved in rejection.
->>-->>Publication Journal>>
-Nat Commun
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/ncomms6629
->>-->>Publication IF>>
-2.818
->>-->>Publication Title>>
-Stem Cell-Based Approaches to Improve Nerve Regeneration: Potential Implications for Reconstructive Transplantation?
->>-->>Publication Content>>
-Reconstructive transplantation has become a viable option to restore form and function after devastating tissue loss. Functional recovery is a key determinant of overall success and critically depends on the quality and pace of nerve regeneration. Several molecular and cell-based therapies have been postulated and tested in pre-clinical animal models to enhance nerve regeneration. Schwann cells remain the mainstay of research focus providing neurotrophic support and signaling cues for regenerating axons. Alternative cell sources such as mesenchymal stem cells and adipose-derived stromal cells have also been tested in pre-clinical animal models and in clinical trials due to their relative ease of harvest, rapid expansion in vitro, minimal immunogenicity, and capacity to integrate and survive within host tissues, thereby overcoming many of the challenges faced by culturing of human Schwann cells and nerve allografting. Induced pluripotent stem cell-derived Schwann cells are of particular interest since they can provide abundant, patient-specific autologous Schwann cells. The majority of experimental evidence on cell-based therapies, however, has been generated using stem cell-seeded nerve guides that were developed to enhance nerve regeneration across "gaps" in neural repair. Although primary end-to-end repair is the preferred method of neurorrhaphy in reconstructive transplantation, mechanistic studies elucidating the principles of cell-based therapies from nerve guidance conduits will form the foundation of further research employing stem cells in end-to-end repair of donor and recipient nerves. This review presents key components of nerve regeneration in reconstructive transplantation and highlights the pre-clinical studies that utilize stem cells to enhance nerve regeneration.
->>-->>Publication Journal>>
-Arch Immunol Ther Exp (Warsz)
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s00005-014-0323-9
+http://dx.doi.org/10.4161/21505594.2014.983020
 >>-->>Publication IF>>
 Not in database
 >>-->>Publication Title>>
-Cochlear Implantation in Patients with Meniere'S Disease
+The Evaluation of Thioridazine as a Hematopoietic Progenitor Cell Mobilizing Agent in Healthy Human Subjects
 >>-->>Publication Content>>
-Objectives Few studies have addressed the benefits of cochlear implantation for the small group of patients with bilateral, end-stage Meniere's disease, or unilateral disease with contralateral hearing loss from another cause. Our retrospective study evaluates the effectiveness and post-operative performance in these Meniere's disease patients and discusses these findings relative to other post-lingually deafened adults. Methods Among 456 adults who received cochlear implants, we identified eight (1.7%) patients with Meniere's disease who met clinical indications for implantation and a control group of seven non-Meniere's patients of comparable age and deafness. Data gathered included demographics, auditory and vestibular symptoms pre-implantation, and clinical course after implantation, including audiometric scores (consonant-nucleus-consonant (CNC), hearing-in-noise testing (HINT), and AzBio score) and audiologic evaluations. Results Comparing the Meniere's and non-Meniere's patients, pre- to post-implant scores averaged 15 and 16%-57 and 76% for CNC; and 4.5 and 40.5%-78 and 81% for AzBio and/or HINT tests, respectively; scores between groups did not statistically differ. Of note, five of eight patients had 0% word recognition scores pre-operatively. Fluctuations in CI performance were seen in five patients with Meniere's disease but not for those without the disease. Conclusions Audiologic testing found a strong likelihood that CIs did benefit our subset of Meniere's patients with severe to profound sensorineural hearing loss. Fluctuations in hearing sensitivity (perhaps owing to physical changes relative to the implant array with the spiral ganglion neurons during an acute attack or changes in spiral ganglion neurons because of the hydropic state) can often be resolved by subsequent reprogramming.
+Adhesion molecules comprise a large class of proteins that control the trafficking of hematopoietic progenitor cells between the bone marrow compartment and peripheral blood. The normal trafficking of blood-forming cells is dependent upon the controlled regulation of CXCR4, LFA-1 and VLA-4-mediated binding and unbinding events involving stromal elements.1, 2 The mobilization of hematopoietic progenitor cells has been exploited for numerous medical conditions, including the use of erythropoietin for the harvest of autologous red cells transfusions, granulocyte colony stimulating factor (G-CSF) for the release of granulocytes to treat chemotherapy-induced myelosuppression, and plerixafor for the mobilization of CD34 + HPCs cells in autologous stem cell transplantation.3.
 >>-->>Publication Journal>>
-Cochlear Implants Int
+J Clin Pharmacol
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1179/1754762814Y.0000000104
+http://dx.doi.org/10.1002/jcph.448
+>>-->>Publication IF>>
+4.202
+>>-->>Publication Title>>
+Improved Hematopoietic Differentiation Efficiency of Gene-Corrected Beta-Thalassemia Induced Pluripotent Stem Cells by Crispr/Cas9 System
+>>-->>Publication Content>>
+The generation of beta-thalassemia (beta-Thal) patient-specific induced pluripotent stem cells (iPSCs), subsequent homologous recombination-based gene correction of disease-causing mutations/deletions in the beta-globin gene (HBB) and their derived hematopoietic stem cells (HSCs) transplantation offers an ideal therapeutic solution for treating this disease. However, the hematopoietic differentiation efficiency of gene-corrected beta-Thal iPSCs has not been well evaluated in the previous studies. In this study, we used the latest gene-editing tool CRISPR/Cas9 to correct beta-Thal iPSCs, gene-corrected cells exhibit normal karyotypes and fully pluripotency as hES, showed no off-targeting effects. Then we evaluated the differentiation efficiency of the gene corrected beta-Thal iPSCs. We found that during hematopoietic differentiation, gene-corrected beta-Thal iPSCs showed increased embryoid body (EB) ratio and various hematopoietic progenitor cells percentages. More importantly, the gene-corrected beta-Thal iPS cell lines restored HBB expression and reduced reactive oxygen species (ROS) production compared to un-corrected group. Our study suggested that hematopoietic differentiation efficiency of beta-Thal iPSCs were greatly improved once corrected by CRISPR/Cas9 system. And the information gained from our study would greatly promote the clinical application of beta-Thal iPSCs-derived HSCs in transplantation.
+>>-->>Publication Journal>>
+Stem Cells Dev
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1089/scd.2014.0347
+>>-->>Publication IF>>
+5.868
+>>-->>Publication Title>>
+Trends in Incidence, Treatment and Survival of Aggressive B-Cell Lymphoma, in the Netherlands, 1989-2010
+>>-->>Publication Content>>
+Only a small number of patients with aggressive B-cell lymphoma participates in clinical trials, particularly elderly patients are underrepresented. Therefore, we studied data of the population-based nationwide Netherlands Cancer Registry to determine trends in incidence, treatment and survival in an unselected patient population. We included all patients aged 15 years and older with newly diagnosed diffuse large B-cell lymphoma, and Burkitt lymphoma in the period 1989-2010 and mantle cell lymphoma in 2001-2010, with follow-up until February 2013. We examined incidence, first-line treatment and survival. We calculated annual percentage of change in incidence and carried out relative survival analyses. Incidence remained stable for diffuse large B-cell lymphoma (n=23,527), while for mantle cell lymphoma (n=1,634) and Burkitt lymphoma (n=724) it increased for men and remained stable for women. No rise in survival for patients with aggressive B-cell lymphoma was observed during 1989-1993 and 1994-1998 (5-year relative survival 42% [95%CI 39-45%] and 41% [38-44%], respectively), but increased to 46% (43-48%) in 1999-2004 and to 58% (56-61%) in 2005-2010. The rise in survival was most prominent in patients <65 years, while in patients >75 years this was smaller. However, when untreated patients were excluded, in patients >75 years the rise in survival was similar to younger patients. In the Netherlands, survival for patients with aggressive B-cell lymphoma increased over time, particularly in younger patients, but also in elderly patients when treatment had been initiated. The improvement in survival coincided with the introduction of rituximab therapy and stem cell transplantation into clinical practice.
+>>-->>Publication Journal>>
+Haematologica
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.3324/haematol.2014.107300
+>>-->>Publication IF>>
+5.856
+>>-->>Publication Title>>
+Are Stem Cells a Potential Therapeutic Tool in Coeliac Disease?
+>>-->>Publication Content>>
+Despite the growing understanding of its pathogenesis, the treatment of coeliac disease is still based on a lifelong gluten-free diet that, although efficacious, is troublesome for affected patients, and a definitive cure is still an unmet need. In this regard, the development of new chemical- and biological-derived agents has often resulted in unsatisfactory effects when tested in vivo, probably because of their ability to target only a single pathway, whilst the immunological cascade responsible for tissue injury is complex and redundant. The advent of cellular therapies, mainly based on the use of stem cells, is an emerging area of interest since it has the advantage of a multi-target strategy. Both haematopoietic and mesenchymal stem cells have been employed in the treatment of refractory patients suffering from autoimmune diseases, with promising results. However, the lack of immunogenicity makes mesenchymal stem cells more suitable than their haematopoietic counterpart, since their transplantation may be performed in the absence of a myeloablative conditioning regimen. In addition, mesenchymal stem cells have been shown to harbour strong modulatory effects on almost all cells involved in immune response, together with a potent regenerative action. It is therefore conceivable that over the next few years their therapeutic use will increase as their biological interactions with injured tissues become clearer.
+>>-->>Publication Journal>>
+Cell Mol Life Sci
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1007/s00018-014-1797-7
+>>-->>Publication IF>>
+1.449
+>>-->>Publication Title>>
+Autologous Transplantation of Cd34 Bone Marrow Derived Mononuclear Cells in Management of Non-Reconstructable Critical Lower Limb Ischemia
+>>-->>Publication Content>>
+Patients with a decrease in limb perfusion with a potential threat to limb viability manifested by ischemic rest pain, ischemic ulcers, and/or gangrene are considered to have critical limb ischemia (CLI). Because of this generally poor outcome, there is a strong need for attempting any procedure to save the affected limb. The aim of this work is to evaluate the possibility to use stem cell therapy as a treatment option for patients with chronic critical lower limb ischemia with no distal run off. This study includes 20 patients with chronic critical lower limb ischemia with no distal run off who are unsuitable for vascular or endovascular option. These patients underwent stem cell therapy (SCT) by autologous transplantation of bone marrow derived mononuclear cells. 55 % of patients treated with SCT showed improvement of the rest pain after the first month, 60 % continued improvement of the rest pain after 6 months, 75 % after 1 year and 80 % after 2 years and continued without any deterioration till the third year. Limb salvage rate after STC was 80 % after the first year till the end of the second and third years. SCT can result in angiogenesis in patients with no-option CLI, providing a foundation for the application of this therapy to leg ischemia.
+>>-->>Publication Journal>>
+Cytotechnology
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1007/s10616-014-9828-7
+>>-->>Publication IF>>
+15.696
+>>-->>Publication Title>>
+Advances in Umbilical Cord Blood Manipulation-from Niche to Bedside
+>>-->>Publication Content>>
+The use of umbilical cord blood (UCB) as an alternative haematopoietic cell source in lieu of bone marrow for haematopoietic reconstitution is increasingly becoming a mainstay treatment for both malignant and nonmalignant diseases, as most individuals will have at least one available, suitably HLA-matched unit of blood. The principal limitation of UCB is the low and finite number of haematopoietic stem and progenitor cells (HSPC) relative to the number found in a typical bone marrow or mobilized peripheral blood allograft, which leads to prolonged engraftment times. In an attempt to overcome this obstacle, strategies that are often based on native processes occurring in the bone marrow microenvironment or 'niche' have been developed with the goal of accelerating UCB engraftment. In broad terms, the two main approaches have been either to expand UCB HSPC ex vivo before transplantation, or to modulate HSPC functionality to increase the efficiency of HSPC homing to the bone marrow niche after transplant both of which enhance the biological activities of the engrafted HSPC. Several early phase clinical trials of these approaches have reported promising results.
+>>-->>Publication Journal>>
+Nat Rev Clin Oncol
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/nrclinonc.2014.215
+>>-->>Publication IF>>
+4.304
+>>-->>Publication Title>>
+Langerin-Expressing Dendritic Cells in Human Tissues Are Related to Cd1C+ Dendritic Cells and Distinct from Langerhans Cells and Cd141High Xcr1+ Dendritic Cells
+>>-->>Publication Content>>
+Langerin is a C-type lectin expressed at high level by LCs of the epidermis. Langerin is also expressed by CD8+/CD103+ XCR1+ cross-presenting DCs of mice but is not found on the homologous human CD141high XCR1+ myeloid DC. Here, we show that langerin is expressed at a low level on DCs isolated from dermis, lung, liver, and lymphoid tissue and that langerin+ DCs are closely related to CD1c+ myeloid DCs. They are distinguishable from LCs by the level of expression of CD1a, EpCAM, CD11b, CD11c, CD13, and CD33 and are found in tissues and tissue-draining LNs devoid of LCs. They are unrelated to CD141high XCR1+ myeloid DCs, lacking the characteristic expression profile of cross-presenting DCs, conserved between mammalian species. Stem cell transplantation and DC deficiency models confirm that dermal langerin+ DCs have an independent homeostasis to LCs. Langerin is not expressed by freshly isolated CD1c+ blood DCs but is rapidly induced on CD1c+ DCs by serum or TGF-beta via an ALK-3-dependent pathway. These results show that langerin is expressed outside of the LC compartment of humans and highlight a species difference: langerin is expressed by the XCR1+ "DC1" population of mice but is restricted to the CD1c+ "DC2" population of humans (homologous to CD11b+ DCs in the mouse).
+>>-->>Publication Journal>>
+J Leukoc Biol
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1189/jlb.1HI0714-351R
+>>-->>Publication IF>>
+2.544
+>>-->>Publication Title>>
+Efficacy and Safety of Echinocandins versus Triazoles for the Prophylaxis and Treatment of Fungal Infections: a Meta-Analysis of Rcts
+>>-->>Publication Content>>
+Echinocandins and triazoles were proven to be effective antifungal drugs against invasive fungal infections (IFI), which may cause significant morbidity and mortality in immunocompromised patients. The aim of this study was to compare the efficacy and safety between echinocandins and triazoles for the prophylaxis and treatment of fungal infections. PubMed, Embase, and the Cochrane Library were searched to identify relevant randomized controlled trials (RCTs) up to July 2014. The quality of trials was assessed with the Jadad scoring system. The primary outcomes of interest were treatment success, microbiological success, breakthrough infection, drug-related adverse events (AEs), withdrawals due to AEs, and all-cause mortality. Ten RCTs, involving 2,837 patients, were included, as follows: caspofungin versus fluconazole (n = 1), caspofungin versus itraconazole (n = 1), anidulafungin versus fluconazole (n = 1), micafungin versus fluconazole (n = 4), micafungin versus voriconazole (n = 2), and micafungin versus itraconazole (n = 1). Echinocandins and triazoles showed similar effects in terms of favorable treatment success rate [relative risk (RR) = 1.02, 95 % confidence interval (CI), 0.97-1.08], microbiological success rate (RR = 0.98, 95 % CI, 0.90-1.15), breakthrough infection (RR = 1.09; 95 % CI, 0.59-2.01), drug-related AEs (RR = 0.94; 95 % CI, 0.71-1.15), and all-cause mortality (RR = 0.85; 95 % CI, 0.66-1.10) in the prophylaxis and treatment of fungal infections. Additionally, echinocandins were more effective than triazoles for prophylaxis in patients undergoing hematologic malignancies or those who received hematopoietic stem cell transplantation (HSCT; RR = 1.08; 95 % CI, 1.02-1.15). Echinocandins significantly decreased the AE-related withdrawals rate compared with triazoles (RR = 0.47; 95 % CI, 0.33-0.67). This meta-analysis revealed that echinocandins are as effective and safe as triazoles for the prophylaxis and treatment of patients with fungal infections.
+>>-->>Publication Journal>>
+Eur J Clin Microbiol Infect Dis
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1007/s10096-014-2287-4
+>>-->>Publication IF>>
+3.466
+>>-->>Publication Title>>
+Regulation of Advanced Therapy Medicinal Products Will Affect the Practice of Haematopoietic Sct in the Near Future: a Perspective from the Ebmt Cell-Processing Committee
+>>-->>Publication Content>>
+?
+>>-->>Publication Journal>>
+Bone Marrow Transplant
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/bmt.2014.271
+>>-->>Publication IF>>
+9.775
+>>-->>Publication Title>>
+Affinity of Fviii-Specific Antibodies Reveals Major Differences between Neutralizing and Non-Neutralizing Antibodies
+>>-->>Publication Content>>
+Recently, we reported that distinct isotypes and IgG subclasses of FVIII-specific antibodies are found in different cohorts of patients with hemophilia A and in healthy individuals. Led by these findings, we further investigated the distinguishing properties among the different populations of FVIII-specific antibodies. We hypothesized that the affinity of antibodies would discriminate between the neutralizing and non-neutralizing antibodies found in different study cohorts. To test this idea, we established a competition-based ELISA technology to assess the apparent affinities for each isotype and IgG subclass of FVIII-specific antibodies without the need for antibody purification. We present a unique data set of apparent affinities of FVIII-specific antibodies found in healthy individuals, patients with congenital hemophilia A with and without FVIII inhibitors and patients with acquired hemophilia A. Our data indicate FVIII-specific antibodies found in patients with FVIII inhibitors have an up to 100-fold higher apparent affinity than that of antibodies found in patients without inhibitors and in healthy individuals. High-affinity FVIII-specific antibodies could be retrospectively detected in longitudinal samples of an individual patient with FVIII inhibitors as long as 543 days before the first positive Bethesda assay. This suggests that these antibodies might serve as potential biomarkers for evolving FVIII inhibitor responses.
+>>-->>Publication Journal>>
+Blood
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1182/blood-2014-09-598268
