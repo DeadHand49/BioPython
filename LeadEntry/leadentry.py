@@ -86,9 +86,9 @@ class Article(object):
                         month = self.tag.find(pubstatus='medline').month.text.strip()
                         day = self.tag.find(pubstatus='medline').day.text.strip()
         if month.isdigit():
-            pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%b%Y')
-        else:
             pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%m%Y')
+        else:
+            pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%b%Y')
         self.info['PubDate'] = pubdate
 
 
