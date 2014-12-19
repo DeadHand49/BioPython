@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 import urllib2
 from Bio import Entrez
 import csv
-import pycountry
 import time
 import re
 
@@ -15,8 +14,10 @@ class Newsletter(object):
 
     def __init__(self, url):
         self.list_of_articles = []
+        self.lead_source = 'Connexon'
         self.url = url
         self.soup = self.make_soup()
+        self.specific_lead_source = self.find_specific_lead_source()
         self.publication_titles = self.parse_connexon()
         self.pubmed_list = self.look_up_titles()
         self.records = self.fetch_from_pubmed()
@@ -53,6 +54,12 @@ class Newsletter(object):
         Entrez.email = "matthew.emery@stemcell.com"
         handle = Entrez.efetch(db='pubmed', id=self.pubmed_list, retmode='xml')
         return BeautifulSoup(handle.read())
+
+    def find_specific_lead_source(self):
+        title = self.soup.find('title').text
+        title_split = title.split(' - ')
+        vol = re.findall('\d+.\d+', title_split[0])
+        return '{} {}'.format(title_split[1], vol[0])
 
     def parse_pubmed_soup(self):
         """Appends to self.list_of_articles Article objects"""
@@ -174,6 +181,10 @@ def _find_comment(tag):
         return False
 
 
+def _find_lead_source(tag):
+    return '#ISSUE Start' in tag.contents
+
+
 def lookup_up_title(publication_title):
     """Returns Entrez entry for a search of the publication title. If publication title does not return result,
     input PMID manually to continue to retrieve entry"""
@@ -246,16 +257,15 @@ def url_wrapper():
 
 if __name__ == '__main__':
     # test_url = url_wrapper()
-    # test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
-    # write_csv(test_records)
+    test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
+    news = Newsletter(test_url)
     # test_soup = fetch_from_pubmed(test_pubmed_list)
-    test_soup = BeautifulSoup(open('leadentry_test.xml'))
-    for article in test_soup('pubmedarticle'):
-        obj_article = Article(article)
-        obj_article.find_title()
-        print obj_article.info['ArticleTitle']
+    # test_soup = BeautifulSoup(open('leadentry_test.xml'))
+    # for article in test_soup('pubmedarticle'):
+    #     obj_article = Article(article)
+    #     obj_article.find_title()
+    #     print obj_article.info['ArticleTitle']
     # parse_pubmed_soup(test_soup)
-    # news = Newsletter(test_url)
     # print news.records
 
 # TODO: UTF encoding not working on Name Dictionary
