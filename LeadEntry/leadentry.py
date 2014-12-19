@@ -9,50 +9,27 @@ import csv
 import time
 import re
 
-class Newsletter(object):
 
-    def __init__(self, url):
-        self.url = url
-        self.connexon_soup = self.make_soup()
-        self.pub_titles = self.parse_connexon()
+def make_soup(url):
+    """Given a URL will return a BeatifulSoup of that URL
 
-    def make_soup(self):
-        """Given a URL will return a BeatifulSoup of that URL
-
-        Utilizes a header to avoid 403 Errors
-        """
-        header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04"
-                                " Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
-        request = urllib2.Request(self.url, headers=header)
-        return BeautifulSoup(urllib2.urlopen(request))
+    Utilizes a header to avoid 403 Errors
+    """
+    header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
+    request = urllib2.Request(url, headers=header)
+    return BeautifulSoup(urllib2.urlopen(request))
 
 
-    def parse_connexon(self):
-        """Given a BeautifulSoup object, returns a list of publication names"""
-        pubs = self.conenxon_soup.find_all(self._find_comment)
-        publication_titles = []
-        for pub in pubs:
-            publication_titles.append(pub.text.lstrip('\n'))
-        return publication_titles
-
-    def look_up_titles(self):
-        """Returns a list of PMIDs given a list of Connexon Titles"""
-        pubmed_list = []
-        for publication in self.pub_titles:
-                pubmed_list.append(lookup_up_title(publication))
-
-        return pubmed_list
+def parse_connexon(soup):
+    """Given a BeautifulSoup object, returns a list of publication names"""
+    pubs = soup.find_all(_find_comment)
+    publication_titles = []
+    for pub in pubs:
+        publication_titles.append(pub.text.lstrip('\n'))
+    return publication_titles
 
 
-class Article(object):
-
-    def __init__(self):
-        pass
-
-
-
-
-def _find_comment(self, tag):
+def _find_comment(tag):
     """Don't use this function directly. Is used in find_comment to pull all lines of text with #PUBLICATION TITLE
     comment"""
     try:
@@ -61,9 +38,13 @@ def _find_comment(self, tag):
         return False
 
 
+def look_up_titles(publication_titles):
+    """Returns a list of PMIDs given a list of Connexon Titles"""
+    pubmed_list = []
+    for publication in publication_titles:
+            pubmed_list.append(lookup_up_title(publication))
 
-
-
+    return pubmed_list
 
 
 def lookup_up_title(publication_title):
