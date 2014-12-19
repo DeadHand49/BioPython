@@ -97,7 +97,7 @@ class Article(object):
             self.info['DOI'] = 'DOI not found'
 
     def find_authors(self):
-        for author in self.tags('author'):
+        for author in self.tag('author'):
             obj_author = Author(author)
             obj_author.find_last_name()
             obj_author.find_first_name()
@@ -114,20 +114,15 @@ class Author(object):
         self.info = {}
 
     def find_last_name(self):
-        self.info['LastName'] = self.tag.lastname.text.strip()
+        self.info['LastName'] = unicode(self.tag.lastname.text.strip())
 
     def find_first_name(self):
         forename = self.tag.forename.text.strip()
         if forename.split(' '):
-            self.info['FirstName'] = forename.split(' ')[0]
+            self.info['FirstName'] = unicode(forename.split(' ')[0])
         else:
-            self.info['FirstName'] = forename
+            self.info['FirstName'] = unicode(forename)
 
-
-class Affiliation(object):
-
-    def __init__(self):
-        pass
 
 def find_author(tag):
     pass
@@ -320,8 +315,9 @@ if __name__ == '__main__':
     test_soup = BeautifulSoup(open('leadentry_test.xml'))
     for article in test_soup('pubmedarticle'):
         obj_article = Article(article)
-        obj_article.find_doi()
-        print obj_article.info
+        obj_article.find_authors()
     # parse_pubmed_soup(test_soup)
     # news = Newsletter(test_url)
     # print news.records
+
+# TODO: UTF encoding not working on Name Dictionary
