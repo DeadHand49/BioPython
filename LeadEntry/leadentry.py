@@ -69,19 +69,17 @@ class Article(object):
         self.info = {}
 
     def find_date(self):
+        year, month, day = None, None, None
         if self.tag.pubdate:
-            if self.tag.pubdate.year:
-                year = self.tag.pubdate.year.stripped_string
-            else:
-                year = None
-            if self.tag.pubdate.month:
-                month = self.tag.pubdate.month.stripped_string
-            else:
-                month = None
-            if self.tag.pubdate.day:
-                day = self.tag.pubdate.day.stripped_string
-            else:
-                day = None
+            try:
+                year = self.tag.pubdate.year.text.strip()
+                month = self.tag.pubdate.month.text.strip()
+                day = self.tag.pubdate.day.text.strip()
+            except AttributeError:
+                if self.tag.articledate['datetype'] == 'Electronic':
+                    year = self.tag.articledate.year.text.strip()
+                    month = self.tag.articledate.month.text.strip()
+                    day = self.tag.articledate.day.text.strip()
             self.info['PubDate'] = year, month, day
 
 
