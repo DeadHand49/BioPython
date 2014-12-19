@@ -70,7 +70,6 @@ class Article(object):
         self.info = {}
 
     def find_date(self):
-        year, month, day = None, None, None
         if self.tag.pubdate:
             try:
                 year = self.tag.pubdate.year.text.strip()
@@ -90,6 +89,13 @@ class Article(object):
         else:
             pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%b%Y')
         self.info['PubDate'] = pubdate
+
+    def find_doi(self):
+        """Return the DOI of an article as a string"""
+        if self.tag.find(idtype='doi'):
+            self.info['DOI'] = 'http://dx.doi.org/{}'.format(self.tag.find(idtype='doi').text.strip())
+        else:
+            self.info['DOI'] = 'DOI not found'
 
 
     def csv_output(self):
@@ -252,18 +258,7 @@ def regex_search(institute, mode):
         return ''
 
 
-def clean_doi(record):
-    """Return the DOI of an article as a string"""
-    record_list = record.get('AID', '?')
-    for n in record_list:
-        if 'doi' in n:
-            doi = n
-            break
-    try:
-        doi = doi.split(' ')[0]
-        return 'http://dx.doi.org/{}'.format(doi)
-    except UnboundLocalError:
-        return 'No DOI!'
+
 
 
 def get_pub_date(record):
