@@ -111,6 +111,9 @@ class Article(object):
             obj_author.find_email()
             print obj_author.info['Email']
 
+    def find_title(self):
+        self.info['ArticleTitle'] = self.tag.articletitle.text.strip().strip('.')
+
     def csv_output(self):
         """Adds line to a CSV contain all the information contained in self.article_info"""
 
@@ -144,7 +147,7 @@ class Author(object):
         self.info['Company'] = regex_search(self.info['Aff'], 'Company')
 
     def find_email(self):
-        self.info['Email'] = regex_search(self.info['Aff'], 'Email')
+        self.info['Email'] = self.tagregex_search(self.info['Aff'], 'Email')
 
 
 def regex_search(institute, mode):
@@ -232,12 +235,6 @@ def write_csv(records):
 
     lead_csv.close()
 
-def split_institute(ad, author_count):
-    institutes = ad.split('. ')
-    if len(institutes) == 1:
-        return ad
-    else:
-        return institutes[author_count]
 
 def url_wrapper():
     """Prompts user for Connexon issue URL. Will raise AssertionError if non-standard URL added.
@@ -255,7 +252,8 @@ if __name__ == '__main__':
     test_soup = BeautifulSoup(open('leadentry_test.xml'))
     for article in test_soup('pubmedarticle'):
         obj_article = Article(article)
-        obj_article.find_authors()
+        obj_article.find_title()
+        print obj_article.info['ArticleTitle']
     # parse_pubmed_soup(test_soup)
     # news = Newsletter(test_url)
     # print news.records
