@@ -4,7 +4,7 @@ __author__ = 'memery'
 
 from bs4 import BeautifulSoup
 import urllib2
-from Bio import Entrez, Medline
+from Bio import Entrez
 import csv
 import time
 import re
@@ -13,11 +13,13 @@ import re
 class Newsletter(object):
 
     def __init__(self, url):
+        self.list_of_articles = []
         self.url = url
         self.soup = self.make_soup()
         self.publication_titles = self.parse_connexon()
         self.pubmed_list = self.look_up_titles()
         self.records = self.fetch_from_pubmed()
+        self.parse_pubmed_soup()
 
     def make_soup(self):
         """Given a URL will return a BeatifulSoup of that URL
@@ -45,21 +47,53 @@ class Newsletter(object):
 
         return pubmed_list
 
-
     def fetch_from_pubmed(self):
         """Returns a list of Pubmed records based on a list of PMIDs"""
         Entrez.email = "matthew.emery@stemcell.com"
         handle = Entrez.efetch(db='pubmed', id=self.pubmed_list, retmode='xml')
-        return BeautifulSoup(handle.read()).prettify()
+        return BeautifulSoup(handle.read())
+
+    def parse_pubmed_soup(self):
+        """Appends to self.list_of_articles Article objects"""
+        for article in self.records('pubmedarticle'):
+            article = Article(article)
+            authors = parse_authors(article)
+            articletitle = article.find('articletitle')
+            doi = article.find(eidtype="doi").strip()
 
 
 class Article(object):
 
-    def __init__(self):
-        self.article_info = constructor
+    def __init__(self, tag):
+        self.tag = tag
+        self.info = {}
+
+    def find_date(self):
+        if self.tag.pubdate:
+            if self.tag.pubdate.year:
+                year = self.tag.pubdate.year.stripped_string
+            else:
+                year = None
+            if self.tag.pubdate.month:
+                month = self.tag.pubdate.month.stripped_string
+            else:
+                month = None
+            if self.tag.pubdate.day:
+                day = self.tag.pubdate.day.stripped_string
+            else:
+                day = None
+            self.info['PubDate'] = year, month, day
+
 
     def csv_output(self):
         """Adds line to a CSV contain all the information contained in self.article_info"""
+
+
+class Author(object):
+
+    def __init__(self):
+        pass
+
 
 def _find_comment(tag):
     """Don't use this function directly. Is used in find_comment to pull all lines of text with #PUBLICATION TITLE
@@ -91,16 +125,6 @@ def manual_pmid(publication_title):
     return pmid
 
 
-
-
-#This is why we want an Article object
-def parse_pubmed_soup(soup):
-    for article in soup('pubmedarticle'):
-        authors = parse_authors(article)
-        articletitle = article.find('articletitle')
-        doi = article.find(eidtype="doi").strip()
-
-
 def parse_authors(article):
     """Returns list of authors for a given article with entry in the list as:
     (Last Name, First Name, Email, Affliation)"""
@@ -121,6 +145,7 @@ def parse_authors(article):
         author_list.append([lastname, forename, email, affiliation])
 
     return author_list
+
 
 def write_record(record):
     """Returns a list pertaining to single line in the CSV"""
@@ -268,14 +293,14 @@ def url_wrapper():
 
 if __name__ == '__main__':
     # test_url = url_wrapper()
-    test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
-    # test_soup = make_soup(test_url)
-    # test_pub_titles = parse_connexon(test_soup)
-    # test_pubmed_list = look_up_titles(test_pub_titles)
-    # test_records = fetch_from_pubmed(test_pubmed_list)
+    # test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
     # write_csv(test_records)
     # test_soup = fetch_from_pubmed(test_pubmed_list)
-    # test_soup = BeautifulSoup(open('leadentry_test.xml'))
+    test_soup = BeautifulSoup(open('leadentry_test.xml'))
+    for article in test_soup('pubmedarticle'):
+        obj_article = Article(article)
+        obj_article.find_date()
+        print obj_article.info
     # parse_pubmed_soup(test_soup)
-    news = Newsletter(test_url)
-    print news.records
+    # news = Newsletter(test_url)
+    # print news.records
