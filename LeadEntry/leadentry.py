@@ -97,11 +97,18 @@ class Article(object):
             self.info['DOI'] = 'DOI not found'
 
     def find_authors(self):
+        prev_institute = ''
         for author in self.tag('author'):
             obj_author = Author(author)
-            obj_author.find_last_name()
-            obj_author.find_first_name()
-            print obj_author.info
+            # obj_author.find_last_name()
+            # obj_author.find_first_name()
+            try:
+                obj_author.find_institute()
+                prev_institute = obj_author.info['Aff']
+            except (TypeError, AttributeError):
+                obj_author.set_institute(prev_institute)
+
+            print obj_author.info['Aff']
 
     def csv_output(self):
         """Adds line to a CSV contain all the information contained in self.article_info"""
@@ -123,9 +130,27 @@ class Author(object):
         else:
             self.info['FirstName'] = unicode(forename)
 
+    def find_institute(self):
+        self.info['Aff'] = self.tag.affiliation.text.strip()
 
-def find_author(tag):
-    pass
+    def set_institute(self, aff):
+        self.info['Aff'] = aff
+
+    def find_department(self):
+        self.info['Department'] = regex_search(self.info['Aff'], 'Department')
+
+
+
+def regex_search(institute, mode):
+    """INCOMPLETE. An attempt to parse the institute entry using regular expressions"""
+    regex_dict = {'Department': r'[A-Z ]*Department[A-Z ]*|[A-Z ]*Laboratory[A-Z ]*',
+                  'Company': r'[A-Z ]*University[A-Z ]*',
+                  }
+    query = re.search(regex_dict.get(mode), institute, flags=re.I)
+    if query:
+        return query.group(0)
+    else:
+        return ''
 
 def _find_comment(tag):
     """Don't use this function directly. Is used in find_comment to pull all lines of text with #PUBLICATION TITLE
@@ -155,7 +180,6 @@ def manual_pmid(publication_title):
     pmid = raw_input('Manually input PMID here: ')
     assert len(pmid) == 8, 'Malformed PMID lol'
     return pmid
-
 
 def parse_authors(article):
     """Returns list of authors for a given article with entry in the list as:
@@ -262,18 +286,7 @@ def parse_institute(institute):
     return institute_dict
 
 
-def regex_search(institute, mode):
-    """INCOMPLETE. An attempt to parse the institute entry using regular expressions"""
-    regex_dict = {'Department': r'[A-Z ]*Department[A-Z ]*|[A-Z ]*Laboratory[A-Z ]*',
-                  'Company': r'[A-Z ]*University[A-Z ]*',
-                  }
-    query = re.search(regex_dict.get(mode), institute, flags=re.I)
-    if query:
-        return query.group(0)
-    elif mode == 'Company':
-        return institute
-    else:
-        return ''
+
 
 def get_pub_date(record):
     """Returns the publication date of a given record.
@@ -321,3 +334,4 @@ if __name__ == '__main__':
     # print news.records
 
 # TODO: UTF encoding not working on Name Dictionary
+# TODO: How to get previous Affliation without breaking OOP?
