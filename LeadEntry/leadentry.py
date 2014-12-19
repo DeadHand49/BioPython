@@ -60,7 +60,6 @@ class Newsletter(object):
             article = Article(article)
             authors = parse_authors(article)
             articletitle = article.find('articletitle')
-            doi = article.find(eidtype="doi").strip()
 
 
 class Article(object):
@@ -97,6 +96,12 @@ class Article(object):
         else:
             self.info['DOI'] = 'DOI not found'
 
+    def find_authors(self):
+        for author in self.tags('author'):
+            obj_author = Author(author)
+            obj_author.find_last_name()
+            obj_author.find_first_name()
+            print obj_author.info
 
     def csv_output(self):
         """Adds line to a CSV contain all the information contained in self.article_info"""
@@ -104,9 +109,28 @@ class Article(object):
 
 class Author(object):
 
+    def __init__(self, tag):
+        self.tag = tag
+        self.info = {}
+
+    def find_last_name(self):
+        self.info['LastName'] = self.tag.lastname.text.strip()
+
+    def find_first_name(self):
+        forename = self.tag.forename.text.strip()
+        if forename.split(' '):
+            self.info['FirstName'] = forename.split(' ')[0]
+        else:
+            self.info['FirstName'] = forename
+
+
+class Affiliation(object):
+
     def __init__(self):
         pass
 
+def find_author(tag):
+    pass
 
 def _find_comment(tag):
     """Don't use this function directly. Is used in find_comment to pull all lines of text with #PUBLICATION TITLE
@@ -164,7 +188,6 @@ def write_record(record):
     """Returns a list pertaining to single line in the CSV"""
 
     pub_date = get_pub_date(record)
-    pub_link = clean_doi(record)
     record_list = []
 
     author_count = 0
@@ -257,10 +280,6 @@ def regex_search(institute, mode):
     else:
         return ''
 
-
-
-
-
 def get_pub_date(record):
     """Returns the publication date of a given record.
 
@@ -301,7 +320,7 @@ if __name__ == '__main__':
     test_soup = BeautifulSoup(open('leadentry_test.xml'))
     for article in test_soup('pubmedarticle'):
         obj_article = Article(article)
-        obj_article.find_date()
+        obj_article.find_doi()
         print obj_article.info
     # parse_pubmed_soup(test_soup)
     # news = Newsletter(test_url)
