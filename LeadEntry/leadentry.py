@@ -9,6 +9,13 @@ import csv
 import time
 import re
 
+class Article(object):
+
+    def __init__(self):
+        #self.article_info = constructor
+
+    def csv_output(self):
+        """Adds line to a CSV contain all the information contained in self.article_info"""
 
 def make_soup(url):
     """Given a URL will return a BeatifulSoup of that URL
@@ -48,6 +55,8 @@ def look_up_titles(publication_titles):
 
 
 def lookup_up_title(publication_title):
+    """Returns Entrez entry for a search of the publication title. If publication title does not return result,
+    input PMID manually to continue to retrieve entry"""
     Entrez.email = "matthew.emery@stemcell.com"
     handle = Entrez.esearch(db='pubmed', term=publication_title, retmax=1)
     try:
@@ -59,6 +68,7 @@ def lookup_up_title(publication_title):
 
 
 def manual_pmid(publication_title):
+    """Warns that there was no return for publication title and prompts user to enter PMID"""
     print 'Pubmed search for ID Failed: {}'.format(publication_title)
     pmid = raw_input('Manually input PMID here: ')
     assert len(pmid) == 8, 'Malformed PMID lol'
@@ -71,14 +81,17 @@ def fetch_from_pubmed(pubmed_list):
     handle = Entrez.efetch(db='pubmed', id=pubmed_list, retmode='xml')
     return BeautifulSoup(handle.read()).prettify()
 
-
+#This is why we want an Article object
 def parse_pubmed_soup(soup):
     for article in soup('pubmedarticle'):
         authors = parse_authors(article)
         articletitle = article.find('articletitle')
         doi = article.find(eidtype="doi").strip()
 
+
 def parse_authors(article):
+    """Returns list of authors for a given article with entry in the list as:
+    (Last Name, First Name, Email, Affliation)"""
     author_list = []
     prev_affiliation = ''
     for author in article('author'):
@@ -98,7 +111,7 @@ def parse_authors(article):
     return author_list
 
 def write_record(record):
-    """Yields a list pertaining to single line in the CSV"""
+    """Returns a list pertaining to single line in the CSV"""
 
     pub_date = get_pub_date(record)
     pub_link = clean_doi(record)
@@ -157,6 +170,10 @@ def split_institute(ad, author_count):
 
 
 def parse_institute(institute):
+    """Returns a dictionary of objects or pertaining to Department, Company, City, State, Postal Code and Country
+    If parsing fails because of non-standard formatting, a dictionary with the full institute heading under department
+    and empty keys for all other entries will be returned."""
+
     try:
         primary_institute = institute.split('; ')[0]
         department, company, city, state_and_postal, country = primary_institute.split(', ')
@@ -178,6 +195,7 @@ def parse_institute(institute):
 
 
 def regex_search(institute, mode):
+    """INCOMPLETE. An attempt to parse the institute entry using regular expressions"""
     regex_dict = {'Department': r'[A-Z ]*Department[A-Z ]*|[A-Z ]*Laboratory[A-Z ]*',
                   'Company': r'[A-Z ]*University[A-Z ]*',
                   }
