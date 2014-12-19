@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import urllib2
 from Bio import Entrez
 import csv
-import datetime
+import pycountry
 import time
 import re
 
@@ -107,8 +107,9 @@ class Article(object):
                 prev_institute = obj_author.info['Aff']
             except (TypeError, AttributeError):
                 obj_author.set_institute(prev_institute)
-
             print obj_author.info['Aff']
+            obj_author.find_company()
+            print obj_author.info['Company']
 
     def csv_output(self):
         """Adds line to a CSV contain all the information contained in self.article_info"""
@@ -139,11 +140,14 @@ class Author(object):
     def find_department(self):
         self.info['Department'] = regex_search(self.info['Aff'], 'Department')
 
+    def find_company(self):
+        self.info['Company'] = regex_search(self.info['Aff'], 'Company')
 
 
 def regex_search(institute, mode):
     """INCOMPLETE. An attempt to parse the institute entry using regular expressions"""
-    regex_dict = {'Department': r'[A-Z ]*Department[A-Z ]*|[A-Z ]*Laboratory[A-Z ]*',
+    regex_dict = {'Department': r'[A-Z ]*Department[A-Z ]*|[A-Z ]*Laboratory[A-Z ]*|'
+                                r'[A-Z ]*Cent[er|re][A-Z ]*|[A-Z ]*Service[A-Z ]*|',
                   'Company': r'[A-Z ]*University[A-Z ]*',
                   }
     query = re.search(regex_dict.get(mode), institute, flags=re.I)
