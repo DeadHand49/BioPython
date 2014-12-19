@@ -9,32 +9,57 @@ import csv
 import time
 import re
 
+
+class Newsletter(object):
+
+    def __init__(self, url):
+        self.url = url
+        self.soup = self.make_soup()
+        self.publication_titles = self.parse_connexon()
+        self.pubmed_list = self.look_up_titles()
+        self.records = self.fetch_from_pubmed()
+
+    def make_soup(self):
+        """Given a URL will return a BeatifulSoup of that URL
+
+        Utilizes a header to avoid 403 Errors
+        """
+        header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 "
+                                "Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
+        request = urllib2.Request(self.url, headers=header)
+        return BeautifulSoup(urllib2.urlopen(request))
+
+    def parse_connexon(self):
+        """Given a BeautifulSoup object, returns a list of publication names"""
+        pubs = self.soup.find_all(_find_comment)
+        publication_titles = []
+        for pub in pubs:
+            publication_titles.append(pub.text.lstrip('\n'))
+        return publication_titles
+
+    def look_up_titles(self):
+        """Returns a list of PMIDs given a list of Connexon Titles"""
+        pubmed_list = []
+        for publication in self.publication_titles:
+                pubmed_list.append(lookup_up_title(publication))
+
+        return pubmed_list
+
+
+    def fetch_from_pubmed(self):
+        """Returns a list of Pubmed records based on a list of PMIDs"""
+        Entrez.email = "matthew.emery@stemcell.com"
+        handle = Entrez.efetch(db='pubmed', id=self.pubmed_list, retmode='xml')
+        return BeautifulSoup(handle.read()).prettify()
+
+
 class Article(object):
 
     def __init__(self):
-        #self.article_info = constructor
+        self.article_info = constructor
 
     def csv_output(self):
         """Adds line to a CSV contain all the information contained in self.article_info"""
-
-def make_soup(url):
-    """Given a URL will return a BeatifulSoup of that URL
-
-    Utilizes a header to avoid 403 Errors
-    """
-    header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
-    request = urllib2.Request(url, headers=header)
-    return BeautifulSoup(urllib2.urlopen(request))
-
-
-def parse_connexon(soup):
-    """Given a BeautifulSoup object, returns a list of publication names"""
-    pubs = soup.find_all(_find_comment)
-    publication_titles = []
-    for pub in pubs:
-        publication_titles.append(pub.text.lstrip('\n'))
-    return publication_titles
-
 
 def _find_comment(tag):
     """Don't use this function directly. Is used in find_comment to pull all lines of text with #PUBLICATION TITLE
@@ -43,15 +68,6 @@ def _find_comment(tag):
         return tag.has_attr('face') and tag.has_attr('size') and '#PUBLICATIONS TITLE' in tag.contents[1]
     except IndexError:
         return False
-
-
-def look_up_titles(publication_titles):
-    """Returns a list of PMIDs given a list of Connexon Titles"""
-    pubmed_list = []
-    for publication in publication_titles:
-            pubmed_list.append(lookup_up_title(publication))
-
-    return pubmed_list
 
 
 def lookup_up_title(publication_title):
@@ -75,11 +91,7 @@ def manual_pmid(publication_title):
     return pmid
 
 
-def fetch_from_pubmed(pubmed_list):
-    """Returns a list of Pubmed records based on a list of PMIDs"""
-    Entrez.email = "matthew.emery@stemcell.com"
-    handle = Entrez.efetch(db='pubmed', id=pubmed_list, retmode='xml')
-    return BeautifulSoup(handle.read()).prettify()
+
 
 #This is why we want an Article object
 def parse_pubmed_soup(soup):
@@ -256,12 +268,14 @@ def url_wrapper():
 
 if __name__ == '__main__':
     # test_url = url_wrapper()
-    # test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
+    test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
     # test_soup = make_soup(test_url)
     # test_pub_titles = parse_connexon(test_soup)
     # test_pubmed_list = look_up_titles(test_pub_titles)
     # test_records = fetch_from_pubmed(test_pubmed_list)
     # write_csv(test_records)
     # test_soup = fetch_from_pubmed(test_pubmed_list)
-    test_soup = BeautifulSoup(open('leadentry_test.xml'))
-    parse_pubmed_soup(test_soup)
+    # test_soup = BeautifulSoup(open('leadentry_test.xml'))
+    # parse_pubmed_soup(test_soup)
+    news = Newsletter(test_url)
+    print news.records
