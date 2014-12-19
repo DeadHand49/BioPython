@@ -143,15 +143,19 @@ class Author(object):
     def find_company(self):
         self.info['Company'] = regex_search(self.info['Aff'], 'Company')
 
+    def find_email(self):
+        self.info['Email'] = regex_search(self.info['Aff'], 'Email')
+
 
 def regex_search(institute, mode):
     """INCOMPLETE. An attempt to parse the institute entry using regular expressions"""
-    regex_dict = {'Department': r'[A-Z ]*Department[A-Z ]*|[A-Z ]*Laboratory[A-Z ]*|'
-                                r'[A-Z ]*Cent[er|re][A-Z ]*|[A-Z ]*Service[A-Z ]*',
-                  'Company': r'[A-Z ]*Universit[y|aria][A-Z ]*|[A-Z ]*Institute[A-Z ]*|'
-                             r'[A-Z ]*ETH[A-Z ]*|[A-Z ]*Hospital[A-Z ]*',
+    regex_dict = {'Department': r'[\w ]*Department[\w ]*|[\w ]*Laboratory[A-Z ]*|'
+                                r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*',
+                  'Company': r'[\w ]*Universit[y|aria][\w ]*|[\w \']*Institut[e]?[\w \']*|'
+                             r'[\w ]*ETH[\w ]*',
+                  'Email': r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}'
                   }
-    query = re.search(regex_dict.get(mode), institute, flags=re.I)
+    query = re.search(regex_dict.get(mode), institute, flags=re.I|re.U)
     if query:
         return query.group(0).strip()
     else:
