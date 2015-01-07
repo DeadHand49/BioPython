@@ -8,6 +8,7 @@ from Bio import Entrez
 import csv
 import time
 import re
+from collections import OrderedDict
 
 
 class Newsletter(object):
@@ -65,9 +66,6 @@ class Newsletter(object):
         """Appends to self.list_of_articles Article objects"""
         for article in self.records('pubmedarticle'):
             article = Article(article)
-            authors = article.find_authors()
-            articletitle = article.find_title()
-            articledate = article.find_date()
 
     def write_csv(self, csv_file):
         """Adds line to a CSV contain all the information contained in self.article_info"""
@@ -76,7 +74,7 @@ class Newsletter(object):
                        'Publication Link', 'Article Title')
         csv_writer = csv.DictWriter(csv_file, fieldnames=field_names)
         csv_writer.writeheader()
-        for article in
+        #for article in
 
 
 
@@ -85,6 +83,14 @@ class Article(object):
     def __init__(self, tag):
         self.tag = tag
         self.info = {}
+        self.authors = []
+        self.find_title()
+        self.find_date()
+        self.find_doi()
+        self.find_authors()
+
+    def find_title(self):
+        self.info['Article Title'] = self.tag.articletitle.text.strip().strip('.')
 
     def find_date(self):
         if self.tag.pubdate:
@@ -115,21 +121,15 @@ class Article(object):
             self.info['DOI'] = 'DOI not found'
 
     def find_authors(self):
-        prev_institute = ''
+        prev_aff = ''
+
         for author in self.tag('author'):
             obj_author = Author(author)
-            # obj_author.find_last_name()
-            # obj_author.find_first_name()
-            try:
-                obj_author.find_institute()
-                prev_institute = obj_author.info['Aff']
-            except (TypeError, AttributeError):
-                obj_author.set_institute(prev_institute)
-            obj_author.find_email()
-
-    def find_title(self):
-        self.info['ArticleTitle'] = self.tag.articletitle.text.strip().strip('.')
-
+            if obj_author.info['Aff'] == '':
+                obj_author.set_institute(prev_aff)
+            else:
+                prev_aff = obj_author.info['Aff']
+            self.authors.append(author)
 
 
 class Author(object):
@@ -137,6 +137,12 @@ class Author(object):
     def __init__(self, tag):
         self.tag = tag
         self.info = {}
+        self.find_first_name()
+        self.find_last_name()
+        self.find_institute()
+        self.find_department()
+        self.find_company()
+        self.find_email()
 
     def find_last_name(self):
         self.info['Last Name'] = unicode(self.tag.lastname.text.strip())
@@ -149,10 +155,10 @@ class Author(object):
             self.info['First Name'] = unicode(forename)
 
     def find_institute(self):
-        self.info['Aff'] = self.tag.affiliation.text.strip()
-
-    def set_institute(self, aff):
-        self.info['Aff'] = aff
+        try:
+            self.info['Aff'] = self.tag.affiliation.text.strip()
+        except AttributeError:
+            self.info['Aff'] = ''
 
     def find_department(self):
         self.info['Department'] = regex_search(self.info['Aff'], 'Department')
@@ -163,9 +169,15 @@ class Author(object):
     def find_email(self):
         self.info['Email'] = regex_search(self.info['Aff'], 'Email')
 
+    def set_institute(self, aff):
+        self.info['Aff'] = aff
+        self.find_company()
+        self.find_department()
+        self.find_email()
+
 
 def regex_search(institute, mode):
-    """INCOMPLETE. An attempt to parse the institute entry using regular expressions"""
+    """Attempt to parse the institute entry using regular expressions"""
     regex_dict = {'Department': r'[\w ]*Department[\w ]*|[\w ]*Laboratory[A-Z ]*|'
                                 r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*',
                   'Company': r'[\w ]*Universit[y|aria][\w ]*|[\w \']*Institut[e]?[\w \']*|'
@@ -209,7 +221,7 @@ def manual_pmid(publication_title):
     """Warns that there was no return for publication title and prompts user to enter PMID"""
     print 'Pubmed search for ID Failed: {}'.format(publication_title)
     pmid = raw_input('Manually input PMID here: ')
-    assert len(pmid) == 8, 'Malformed PMID lol'
+    assert len(pmid) == 8, 'Malformed PMID'
     return pmid
 
 
