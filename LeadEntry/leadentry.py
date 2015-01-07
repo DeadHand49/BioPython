@@ -69,6 +69,15 @@ class Newsletter(object):
             articletitle = article.find_title()
             articledate = article.find_date()
 
+    def write_csv(self, csv_file):
+        """Adds line to a CSV contain all the information contained in self.article_info"""
+        field_names = ('First Name', 'Last Name', 'Email', 'Company', 'Department', 'Lead Source',
+                       'Specific Lead Source', 'Newsletter Archived Link', 'Search Term', 'Publication Date',
+                       'Publication Link', 'Article Title')
+        csv_writer = csv.DictWriter(csv_file, fieldnames=field_names)
+        csv_writer.writeheader()
+        for article in
+
 
 
 class Article(object):
@@ -116,15 +125,11 @@ class Article(object):
                 prev_institute = obj_author.info['Aff']
             except (TypeError, AttributeError):
                 obj_author.set_institute(prev_institute)
-            print obj_author.info['Aff']
             obj_author.find_email()
-            print obj_author.info['Email']
 
     def find_title(self):
         self.info['ArticleTitle'] = self.tag.articletitle.text.strip().strip('.')
 
-    def csv_output(self):
-        """Adds line to a CSV contain all the information contained in self.article_info"""
 
 
 class Author(object):
@@ -134,14 +139,14 @@ class Author(object):
         self.info = {}
 
     def find_last_name(self):
-        self.info['LastName'] = unicode(self.tag.lastname.text.strip())
+        self.info['Last Name'] = unicode(self.tag.lastname.text.strip())
 
     def find_first_name(self):
         forename = self.tag.forename.text.strip()
         if forename.split(' '):
-            self.info['FirstName'] = unicode(forename.split(' ')[0])
+            self.info['First Name'] = unicode(forename.split(' ')[0])
         else:
-            self.info['FirstName'] = unicode(forename)
+            self.info['First Name'] = unicode(forename)
 
     def find_institute(self):
         self.info['Aff'] = self.tag.affiliation.text.strip()
