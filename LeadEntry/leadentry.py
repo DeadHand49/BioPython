@@ -8,14 +8,13 @@ from Bio import Entrez
 import csv
 import time
 import re
-from collections import OrderedDict
 
 
 class Newsletter(object):
 
     def __init__(self, url):
         self.list_of_articles = []
-        self.lead_source = 'Connexon'
+        self.articles = []
         self.url = url
         self.soup = self.make_soup()
         self.specific_lead_source = self.find_specific_lead_source()
@@ -23,6 +22,11 @@ class Newsletter(object):
         self.pubmed_list = self.look_up_titles()
         self.records = self.fetch_from_pubmed()
         self.parse_pubmed_soup()
+        self.info = {'Lead Source': 'Connexon',
+                     'Specific Lead Source': self.find_specific_lead_source(),
+                     'Newsletter Archived Link': self.url,
+                     'Search Term': 'Connexon; {}'.format(self.find_specific_lead_source())}
+
 
     def make_soup(self):
         """Given a URL will return a BeatifulSoup of that URL
@@ -65,7 +69,7 @@ class Newsletter(object):
     def parse_pubmed_soup(self):
         """Appends to self.list_of_articles Article objects"""
         for article in self.records('pubmedarticle'):
-            article = Article(article)
+            self.articles.append((Article(article)))
 
     def write_csv(self, csv_file):
         """Adds line to a CSV contain all the information contained in self.article_info"""
@@ -74,7 +78,12 @@ class Newsletter(object):
                        'Publication Link', 'Article Title')
         csv_writer = csv.DictWriter(csv_file, fieldnames=field_names)
         csv_writer.writeheader()
-        #for article in
+        for article in self.articles:
+            for author in article.authors:
+                full_dict = dict(author.info.items() + article.info.items() + self.info.items())
+                csv_writer.writerow(full_dict)
+
+        csv_file.close()
 
 
 
@@ -111,14 +120,14 @@ class Article(object):
             pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%m%Y')
         else:
             pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%b%Y')
-        self.info['PubDate'] = pubdate
+        self.info['Publication Date'] = pubdate
 
     def find_doi(self):
         """Return the DOI of an article as a string"""
         if self.tag.find(idtype='doi'):
-            self.info['DOI'] = 'http://dx.doi.org/{}'.format(self.tag.find(idtype='doi').text.strip())
+            self.info['Publication Link'] = 'http://dx.doi.org/{}'.format(self.tag.find(idtype='doi').text.strip())
         else:
-            self.info['DOI'] = 'DOI not found'
+            self.info['Publication Link'] = 'DOI not found'
 
     def find_authors(self):
         prev_aff = ''
@@ -129,7 +138,7 @@ class Article(object):
                 obj_author.set_institute(prev_aff)
             else:
                 prev_aff = obj_author.info['Aff']
-            self.authors.append(author)
+            self.authors.append(obj_author)
 
 
 class Author(object):
@@ -275,17 +284,9 @@ def url_wrapper():
     return url
 
 if __name__ == '__main__':
-    # test_url = url_wrapper()
     test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
     news = Newsletter(test_url)
-    # test_soup = fetch_from_pubmed(test_pubmed_list)
-    # test_soup = BeautifulSoup(open('leadentry_test.xml'))
-    # for article in test_soup('pubmedarticle'):
-    #     obj_article = Article(article)
-    #     obj_article.find_title()
-    #     print obj_article.info['ArticleTitle']
-    # parse_pubmed_soup(test_soup)
-    # print news.records
+    news.write_csv(open('leadentry.csv', 'ab'))
 
 # TODO: UTF encoding not working on Name Dictionary
 # TODO: How to get previous Affliation without breaking OOP?
