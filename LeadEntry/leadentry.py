@@ -1,13 +1,14 @@
 from __future__ import unicode_literals
+# -*- coding: utf-8 -*-
 
 __author__ = 'memery'
 
 from bs4 import BeautifulSoup
 import urllib2
 from Bio import Entrez
-import csv
 import time
 import re
+import unicodecsv as csv
 
 
 class Newsletter(object):
@@ -17,7 +18,6 @@ class Newsletter(object):
         self.articles = []
         self.url = url
         self.soup = self.make_soup()
-        self.specific_lead_source = self.find_specific_lead_source()
         self.publication_titles = self.parse_connexon()
         self.pubmed_list = self.look_up_titles()
         self.records = self.fetch_from_pubmed()
@@ -81,10 +81,10 @@ class Newsletter(object):
         for article in self.articles:
             for author in article.authors:
                 full_dict = dict(author.info.items() + article.info.items() + self.info.items())
+                del full_dict['Aff']
                 csv_writer.writerow(full_dict)
 
         csv_file.close()
-
 
 
 class Article(object):
@@ -120,7 +120,7 @@ class Article(object):
             pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%m%Y')
         else:
             pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%b%Y')
-        self.info['Publication Date'] = pubdate
+        self.info['Publication Date'] = time.strftime('%d/%m/%Y', pubdate)
 
     def find_doi(self):
         """Return the DOI of an article as a string"""
@@ -286,7 +286,4 @@ def url_wrapper():
 if __name__ == '__main__':
     test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
     news = Newsletter(test_url)
-    news.write_csv(open('leadentry.csv', 'ab'))
-
-# TODO: UTF encoding not working on Name Dictionary
-# TODO: How to get previous Affliation without breaking OOP?
+    news.write_csv(open('leadentry.csv', 'wb'))
