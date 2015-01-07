@@ -65,8 +65,10 @@ class Newsletter(object):
         """Appends to self.list_of_articles Article objects"""
         for article in self.records('pubmedarticle'):
             article = Article(article)
-            authors = parse_authors(article)
-            articletitle = article.find('articletitle')
+            authors = article.find_authors()
+            articletitle = article.find_title()
+            articledate = article.find_date()
+
 
 
 class Article(object):
@@ -154,7 +156,7 @@ class Author(object):
         self.info['Company'] = regex_search(self.info['Aff'], 'Company')
 
     def find_email(self):
-        self.info['Email'] = self.tagregex_search(self.info['Aff'], 'Email')
+        self.info['Email'] = regex_search(self.info['Aff'], 'Email')
 
 
 def regex_search(institute, mode):
