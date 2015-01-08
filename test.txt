@@ -1,554 +1,10 @@
-Transpl Infect Dis: 2.25
-Platelets: 2.627
-Biol Blood Marrow Transplant: 3.348
-Ann Hematol: 2.396
-Health Psychol: 3.954
-Haematologica: 5.868
-Eur J Haematol: 2.414
-Pediatr Blood Cancer: 2.562
-Transpl Immunol: 1.832
-J Clin Oncol: 17.879
-J Clin Oncol: 17.879
-Joint Bone Spine: Not in database
-Cancer Chemother Pharmacol: 2.571
-Support Care Cancer: 2.495
-BMJ: Not in database
-JAMA Neurol: 0
-J Clin Apher: 1.579
-JAMA Neurol: 0
-Pediatr Transplant: 1.63
-Cell Transplant: 3.57
-Rejuvenation Res: 3.931
-Eur Cell Mater: 4.887
-Stem Cell Res Ther: 4.634
-J Extracell Vesicles: Not in database
-PLoS One: 3.524
-Theranostics: 7.843
-Int J Cancer: 5.007
-Neurosci Lett: 2.055
 Stem Cells Transl Med: 3.596
-Ann Dermatol Venereol: 0.669
-Cell Transplant: 3.57
-PLoS One: 3.524
-Blood Cancer J: 2.884
-Cell Physiol Biochem: 3.55
-Front Biosci (Elite Ed): Not in database
-J Clin Apher: 1.579
-Ann Hematol: 2.396
-Br J Haematol: 4.959
-Pediatr Dermatol: 1.52
-Cancer Chemother Pharmacol: 2.571
-Inflamm Res: 2.143
-J Biomed Mater Res B Appl Biomater: 2.328
-Stem Cells Transl Med: 3.596
-J Cardiovasc Transl Res: 2.691
-Immunol Res: 3.525
-J Cancer: Not in database
-Cancer: 4.901
->>-->>Publication IF>>
-2.25
->>-->>Publication Title>>
-Fecal Colonization and Infection with Pseudomonas Aeruginosa in Recipients of Allogeneic Hematopoietic Stem Cell Transplantation
->>-->>Publication Content>>
-BACKGROUND: Pseudomonas aeruginosa, especially multidrug-resistant (MDR) isolates, is an important pathogen in allogeneic hematopoietic stem cell transplant (HCT) recipients. The ability to identify patients at risk for these infections and administer appropriate empiric therapy, particularly during episodes of neutropenia, may improve outcomes and also direct infection control and antimicrobial stewardship efforts. Many transplant centers obtain routine surveillance stool cultures (SSCs) from HCT recipients to test for colonization with vancomycin-resistant enterococci, and extended-spectrum beta lactamase-producing Enterobacteriaceae. Our center initiated the performance of SSCs for P. aeruginosa, because of a perceived increase in the frequency of infection with MDR strains. The aim of this study was to determine the utility of this practice. METHODS: We conducted a 2-year (2010-2011) retrospective review of the medical records of all patients who underwent allogeneic HCT at our cancer center to (a) determine the frequency of fecal colonization with P. aeruginosa, including MDR strains; (b) to determine the overall frequency of subsequent P. aeruginosa infection, as well as the frequency of infection with MDR strains; (c) to ascertain the proportion of subsequent infections likely arising from the intestinal tract; and (d) to determine risk factors for progression from colonization to infection. RESULTS: Of 794 study patients, 58 (7.3%) had at least 1 positive SSC for P. aeruginosa; 19/58 (32.8%) developed a subsequent pseudomonal infection (11 with matching antimicrobial resistance patterns). On the other hand, 37/736 (5%) of the patients who were not colonized, developed a pseudomonal infection. The type of infection observed was pneumonia in 26 (46%) patients, bloodstream infection in 20 (36%), urinary tract infection in 8 (14%), and infections at other sites in 2 (4%). The incidence of MDR P. aeruginosa in the entire cohort was 2.2% (18 of 794): 12 had positive SSCs and 7 of these patients later developed MDR P. aeruginosa infections. Patients with acute myelogenous leukemia were more likely to be colonized and to develop subsequent infection. No infection-related deaths were observed during the first 30 days after infection. CONCLUSIONS: The incidence of P. aeruginosa colonization and subsequent infection was low. Patients who were not colonized had a low chance of developing P. aeruginosa infection. Most patients who developed infection did not have fecal colonization, suggesting a different source of infection. SSCs for P. aeruginosa provide incomplete information regarding the source of infection.
->>-->>Publication Journal>>
-Transpl Infect Dis
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1111/tid.12323
->>-->>Publication IF>>
-2.627
->>-->>Publication Title>>
-Use of Allogeneic Stem Cell Transplantation for Moderate-Severe Glanzmann Thrombasthenia
->>-->>Publication Content>>
-Abstract Glanzmann thrombasthenia (GT) is a rare, autosomal recessive coagulopathy characterized by either qualitative or quantitative abnormalities of the membrane glycoprotein alphaIIbbeta3 complex leading to bleeding tendencies, ranging from purpura to life-threatening hemorrhage. Although patients can be managed with supportive measures including platelet transfusions, complications such as alloimmunization are possible. Allogeneic stem cell transplantation (ASCT) can be indicated in severe cases of GT. We report the case of an eight-month-old girl diagnosed with moderate-severe GT, who was successfully treated with a reduced-intensity, human leukocyte antigen (HLA)-identical ASCT.
->>-->>Publication Journal>>
-Platelets
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.3109/09537104.2014.987225
->>-->>Publication IF>>
-3.348
->>-->>Publication Title>>
-Health Related Quality of Life following Allogeneic Hematopoietic Stem Cell Transplantation for Sickle Cell Disease
->>-->>Publication Content>>
-BACKGROUND: Sickle Cell Disease (SCD) is a hereditary hemoglobinopathy that affects over 100,000 people in the United States. Patients with SCD are known to experience suboptimal Health-Related Quality of Life (HRQoL). In addition to the physical manifestations of SCD, patients experience psychological and social stress, along with academic difficulties, secondary to the chronicity of the disease and its complications. While medical therapy of SCD has improved, allogeneic hematopoietic cell transplantation (allo-HCT) remains the only curative therapy. OBJECTIVES: To measure HRQoL pre- and post-allo-HCT by assessing physical, psychological and social functioning in patients with SCD who have undergone reduced toxicity conditioning (Busulfan/Fludarabine/ Alemtuzumab) followed by allo-HCT. METHODS: Patients < 21 years of age undergoing allo-HCT (matched siblings and unrelated donors) for SCD and their primary caregiver were enrolled using either the English or Spanish version of the PedsQoL 4.0. Data were collected at three time points: pre-allo-HCT and days 180 and 365 post-allo-HCT. The change in HRQoL from baseline was assessed with unadjusted and adjusted mixed effects models in which subjects were treated as random effects, and variance component structure was used. RESULTS: Seventeen patients and twenty-three primary caregivers were enrolled and reported a mean overall HRQoL of 66.05 (SD=15.62) and 72.20 (SD=15.50) at baseline, respectively. In the patient-reported analysis with adjusted mixed effects models, the estimated improvements in Overall HRQoL were 4.45 (SE=4.98, p=.380) 16.58 (SE=5.06, p=0.003) at 180 and 365 days post allo-HCT, respectively. For parent-reported Overall HRQoL, the estimated improvements were 1.57 (SE=4.82, p=0.747) and 9.28 (SE=4.62, p=0.053) at 180 and 365 days post-allo-HCT, respectively. Similar results were found across the Physical, Social, and Emotional HRQoL domains with mixed effects models after adjustment of demographic and medical variables. CONCLUSIONS: In addition to the alleviation of clinical manifestations of SCD, these patients demonstrated significant improvement by one year in most aspects of HRQoL post-allo-HCT. These data represent the trajectory of HRQoL during the initial year of follow-up within this population and should be integrated into the decision-making process when considering allo-HCT in patients with SCD.
->>-->>Publication Journal>>
-Biol Blood Marrow Transplant
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1016/j.bbmt.2014.12.007
->>-->>Publication IF>>
-2.396
->>-->>Publication Title>>
-Patterns of Monocyte Subpopulations and Their Surface Expression of Hla-Dr during Adverse Events after Hematopoietic Stem Cell Transplantation
->>-->>Publication Content>>
-Human leukocyte antigen DR surface expression in "classical" CD14++CD16- (M1), "intermediate" CD14++CD16+ (M2), and "non-classical" CD14+CD16++ (M3) monocytes reflects the activation state of these cells. The full spectrum of monocyte and its function is still unknown. The present pilot study describes the monocyte subpopulations and their human leukocyte antigen DR expression during the post-transplant period as well as during transplant-related adverse events of 30 pediatric patients and young adults with hemato-oncological malignancies and immunodeficiency disorders in comparison to healthy children and young adults. A significant change of the human leukocyte antigen DR expression in all three monocyte subpopulations during the period after bone marrow transplantation depending on the time after transplantation and adverse events could be recognized. Prior to and during sepsis or bacterial infection, a significant decrease in human leukocyte antigen DR expression occurred. A significant increase on CD14++CD16- monocytes could be observed during graft-versus-host disease. The alterations of human leukocyte antigen DR expression on the monocyte subpopulations during adverse events after hematopoietic stem cell transplantation may be a sign of changes in the capacity of these subpopulations. Moreover, human leukocyte antigen DR expression in monocyte subpopulations may be used to monitor treatment responses in these entities.
->>-->>Publication Journal>>
-Ann Hematol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s00277-014-2287-6
->>-->>Publication IF>>
-3.954
->>-->>Publication Title>>
-Spirituality and the Recovery of Quality of Life following Hematopoietic Stem Cell Transplantation
->>-->>Publication Content>>
-Objective: Spirituality has been linked to improved adjustment and functioning in individuals with cancer; however, its effect on quality of life following hematopoietic stem cell transplantation (HSCT) has not been well-studied. This study investigated changes in spirituality in hematologic cancer patients recovering from HSCT and relationships between spirituality and dimensions of quality of life following HSCT. Methods: Participants (N = 220) completed measures of two dimensions of spirituality (meaning/peace and religious faith), depression, anxiety, fatigue, pain, and physical and functional well-being prior to transplant and at 1-, 3-, 6-, and 12-months posttransplant. Results: Meaning/peace declined at 1-month posttransplant and returned to pretransplant levels by 6-months posttransplant, and faith increased from pretransplant to 6-months posttransplant. Mixed-effects linear regression models indicated that greater pretransplant meaning/peace, but not religious faith, predicted less depression, anxiety, and fatigue, and better physical and functional well-being during the 12-months following transplant. Conclusions: The capacity to find meaning and peace may facilitate recovery following HSCT. Results suggest that spirituality may be a resilience factor that could be targeted to improve quality of life for HSCT recipients. (PsycINFO Database Record (c) 2014 APA, all rights reserved).
->>-->>Publication Journal>>
-Health Psychol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1037/hea0000196
->>-->>Publication IF>>
-5.868
->>-->>Publication Title>>
-Impact of the Revised International Prognostic Scoring System Cytogenetics and Monosomal Karyotype on Outcome after Allogeneic Stem Cell Transplantation for Myelodysplastic Syndromes and Secondary Acute Myeloid Leukemia Evolving from Myelodysplastic Syndromes: a Retrospective Multicenter Study of the European Society of Blood and Marrow Transplantation
->>-->>Publication Content>>
-The aim of this study was to determine the impact of the 5-group-revised International Prognostic Scoring System-cytogenetic classification on outcome after allogeneic stem cell transplantation in patients with myelodysplastic syndromes or secondary acute myeloid leukemia who were reported to the European Society for Blood and Marrow Transplantation database. 903 patients had sufficient cytogenetic information available at stem cell transplantation to be classified according to the 5-group classification. Poor and very poor risk according to this classification was an independent predictor of shorter relapse-free survival (hazard ratio 1.40 and 2.14), overall survival (hazard ratio 1.38 and 2.14) and significantly higher cumulative incidence of relapse (hazard ratio 1.64 and 2.76), compared to patients with very good, good or intermediate risk. When comparing the predictive performance of a series of Cox models both for relapse-free survival and for overall survival, a model with simplified 5-group-cytogenetics (merging very good, good and intermediate cytogenetics) performed best. Furthermore, monosomal karyotype is an additional negative predictor for outcome within patients of the poor, but not the very poor risk group of the 5-group classification. In conclusion, the revised International Prognostic Scoring System-cytogenetic classification allows separating patients with myelodysplastic syndromes into three groups with clearly different outcomes after stem cell transplantation. Poor and very poor risk cytogenetics were strong predictors of poor patient outcome. The new cytogenetic classification added value in the prediction of patient outcome compared to prediction-models with only traditional risk factors or the 3-group International Prognostic Scoring System-cytogenetic classification.
->>-->>Publication Journal>>
-Haematologica
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.3324/haematol.2014.116715
->>-->>Publication IF>>
-2.414
->>-->>Publication Title>>
-Haematopoietic Stem Cell Transplantation for Treatment of Primary Cns Lymphoma: Single Centre Experience and Literature Review
->>-->>Publication Content>>
-Primary central nervous system lymphoma (PCNSL) is a rare and malignant tumour type. Established treatment approaches include high-dose methotrexate (HD-MTX) -based chemotherapy and whole-brain radiotherapy (WBRT). WBRT is associated with significant neurotoxicity and autologous haematopoietic stem cell transplantation (ASCT) has been proposed as an alternative treatment - either in the 1st line setting after HD-MTX based chemotherapy or as salvage treatment for relapsed/refractory PCNSL. We here report our single centre experience with five PCNSL patients, who had achieved an objective response after a high-dose methotrexate based induction therapy and consecutively received a high-dose chemotherapy, consisting of carmustine and thiotepa, followed by ASCT. We also provide a literature review on ASCL for PCNSL. Our data, with three out of five patients in continuous complete remission and four out of five patients alive after a median follow-up time of 8 months, as well as previously published results, show that ASCT is a safe treatment option that is able to induce tumour remissions in patients with PCNSL. However, controlled trials are needed to compare the long-term efficacy and tolerability of ASCT with other treatment approaches and also to establish the optimal sequence of treatment regimens in PCNSL patients. This article is protected by copyright. All rights reserved.
->>-->>Publication Journal>>
-Eur J Haematol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1111/ejh.12482
->>-->>Publication IF>>
-2.562
->>-->>Publication Title>>
-Haploidentical Stem Cell Transplantation Augmented by Cd45Ra Negative Lymphocytes Provides Rapid Engraftment and Excellent Tolerability
->>-->>Publication Content>>
-BACKGROUND: Haploidentical donors are being increasingly used for allogeneic hematopoietic cell transplantation (HCT). However, the requisite T-cell depletion results in a profound and often long-lasting immunocompromised state, and donor lymphocyte infusions bring a risk of graft-versus-host disease (GVHD). Naive T-cells are believed to be among the most alloreactive T-cell subset and can be identified by CD45RA expression. Allogeneic HCT using CD45RA depletion has not been previously described for haploidentical donors. PROCEDURE: Eight children with relapsed or refractory solid tumors were transplanted following myeloablative conditioning. Each patient received two cell products, one created by CD3 depletion and the other through CD45RA depletion. RESULTS: Median CD34 recovery was 59.2% with CD45RA depletion, compared to 82.4% using CD3 depletion. Median CD3+ T-cell dose after CD45RA reduction was 99.2 x 106 cells/kg, yet depletion of CD3+ CD45RA+ cells exceeded 4.5 log. CD45RA depletion also resulted in substantial depletion of B-cells (median 2.45 log). All eight patients engrafted within 14 days and rapidly achieved 100% donor chimerism. No acute GVHD or secondary graft failure was observed. CONCLUSIONS: CD45RA depletion is a novel approach to haploidentical HCT that offers rapid engraftment with minimal risk of GVHD. Pediatr Blood Cancer (c) 2015 Wiley Periodicals, Inc.
->>-->>Publication Journal>>
-Pediatr Blood Cancer
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1002/pbc.25352
->>-->>Publication IF>>
-1.832
->>-->>Publication Title>>
-Donors with Hla-B*58:01/Tnfalpha -308A Haplotype Are Unfavorable to Haploidentical Hematopoietic Stem Cell Transplantation in Acute Lymphoblastic Leukemia
->>-->>Publication Content>>
-We investigated the clinical characteristics of acute lymphoblastic leukemia (ALL) patients undergoing allogeneic hematopoietic stem cell transplantation (allo-HSCT) using haploidentical donors carrying HLA-B*58:01/TNFalpha -308A (B*58:01-TNF2) haplotype. A total of 136 B-ALL and 29T/NK-ALL cases were recruited. DNA samples from the patients and their family members were assayed for HLA typing and genotyping of TNFalpha -308 (rs1800629). The B*58:01-TNF2 haplotype in related donors was determined by their family relationships. Outcomes within 2years, disease course, and complications within 100days were compared among patients using haploidentical donors carrying B*58:01-TNF2 haplotype (21 cases), those using haploidentical donors without B*58:01-TNF2 haplotype (100 cases), and those using HLA-identical sibling donors with or without B*58:01-TNF2 haplotype (44 cases). Compared with the other two groups, patients using haploidentical donors carrying B*58:01-TNF2 haplotype had higher overall mortality (adjusted P=0.039) and non-relapse mortality (adjusted P=0.001) within 2years, delayed platelet engraftment (adjusted P<0.0001), higher incidences of severe acute graft-versus-host disease (aGVHD) (P=0.007), severe late-onset hemorrhagic cystitis (P=0.002), blood stream infection (P=0.017), and invasive fungal disease (P=0.004) within 100days. Therefore, donors carrying the B*58:01-TNF2 haplotype may cause more serious complications and poorer outcomes to ALL recipients.
->>-->>Publication Journal>>
-Transpl Immunol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1016/j.trim.2014.12.003
->>-->>Publication IF>>
-17.879
->>-->>Publication Title>>
-Bronchoalveolar Lavage and Lung Biopsy in Patients with Cancer and Hematopoietic Stem-Cell Transplantation Recipients: a Systematic Review and Meta-Analysis
->>-->>Publication Content>>
-PURPOSE: The objective of this study was to describe the diagnostic yield and complication rate of bronchoalveolar lavage (BAL) and lung biopsy in the evaluation of pulmonary lesions in patients with cancer and recipients of hematopoietic stem-cell transplantation (HSCT). METHODS: We conducted a systematic literature review and performed electronic searches of Ovid MEDLINE, EMBASE, and Cochrane Central Register of Controlled Trials. Studies were included if patients had cancer or were recipients of HSCT, and if they underwent BAL or lung biopsy for the evaluation of pulmonary lesions. Only English language publications were included. RESULTS: In all, 14,148 studies were screened; 72 studies of BAL and 31 of lung biopsy were included. The proportion of procedures leading to any diagnosis was similar by procedure type (0.53 v 0.54; P = .94) but an infectious diagnosis was more common with BAL compared with lung biopsy (0.49 v 0.34; P < .001). Lung biopsy more commonly led to a noninfectious diagnosis (0.43 v 0.07; P < .001) and was more likely to change how the patient was managed (0.48 v 0.31; P = .002) compared with BAL. However, complications were more common with lung biopsy (0.15 v 0.08; P = .006), and procedure-related mortality was four-fold higher for lung biopsy (0.0078) compared with BAL (0.0018). CONCLUSION: BAL may be the preferred diagnostic modality for the evaluation of potentially infectious pulmonary lesions because of lower complication and mortality rates; thus, choice of procedure depends on clinical suspicion of infection. Guidelines to promote consistency in the approach to the evaluation of lung infiltrates may improve clinical care of patients.
->>-->>Publication Journal>>
-J Clin Oncol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1200/JCO.2014.58.0480
->>-->>Publication IF>>
-17.879
->>-->>Publication Title>>
-Allogeneic Stem-Cell Transplantation in Patients with Npm1-Mutated Acute Myeloid Leukemia: Results from a Prospective Donor versus No-Donor Analysis of Patients after Upfront Hla Typing Within the Sal-Aml 2003 Trial
->>-->>Publication Content>>
-PURPOSE: The presence of a mutated nucleophosmin-1 gene (NPM1mut) in acute myeloid leukemia (AML) is associated with a favorable prognosis. To assess the predictive value with regard to allogeneic stem-cell transplantation (SCT), we compared the clinical course of patients with NPM1mut AML eligible for allogeneic SCT in a donor versus no-donor analysis. PATIENTS AND METHODS: Of 1,179 patients with AML (age 18 to 60 years) treated in the Study Alliance Leukemia AML 2003 trial, we identified all NPM1mut patients with an intermediate-risk karyotype. According to the trial protocol, patients were intended to receive an allogeneic SCT if an HLA-identical sibling donor was available. Patients with no available donor received consolidation or autologous SCT. We compared relapse-free survival (RFS) and overall survival (OS) depending on the availability of a suitable donor. RESULTS: Of 304 eligible patients, 77 patients had a sibling donor and 227 had no available matched family donor. The 3-year RFS rates in the donor and no-donor groups were 71% and 47%, respectively (P = .005); OS rates were 70% and 60%, respectively (P = .114). In patients with normal karyotype and no FLT3 internal tandem duplication (n = 148), the 3-year RFS rates in the donor and no-donor groups were 83% and 53%, respectively (P = .004); and the 3-year OS rates were 81% and 75%, respectively (P = .300). CONCLUSION: Allogeneic SCT led to a significantly prolonged RFS in patients with NPM1mut AML. The absence of a statistically significant difference in OS is most likely a result of the fact that NPM1mut patients who experienced relapse responded well to salvage treatment. Allogeneic SCT in first remission has potent antileukemic efficacy and is a valuable treatment option in patients with NPM1mut AML with a sibling donor.
->>-->>Publication Journal>>
-J Clin Oncol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1200/JCO.2013.54.4973
->>-->>Publication IF>>
-Not in database
->>-->>Publication Title>>
-Complete and Sustained Remission of Spondyloarthritis after Allogeneic Hematopoietic Stem Cell Transplantation for Myelodysplastic Syndrome
->>-->>Publication Content>>
-?
->>-->>Publication Journal>>
-Joint Bone Spine
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1016/j.jbspin.2014.10.011
->>-->>Publication IF>>
-2.571
->>-->>Publication Title>>
-Prevalence and Clinical Significance of Potential Drug-Drug Interaction in Hematopoietic Stem Cell Transplantation
->>-->>Publication Content>>
-Patients undergoing hematopoietic stem cell transplantation (HSCT) are at risk of developing potential drug-drug interactions (PDDIs). The aim of this study was to assess the prevalence of PDDIs that occur in HSCT patients on the day of hematopoietic stem cell infusion. We performed a cross-sectional study based on the evaluation of prescriptions to HSCT patients on the day of infusion (day 0). The PDDIs were analyzed using the DRUG-REAX(R) system and classified according to the severity level, available scientific evidence, time of onset, and potential clinical impact. Forty patients undergoing HSCT were included in this study; 33 patients (82.5 %) were exposed to at least one major and one contraindicated PDDI in a concomitant manner. All patients exposed to PDDIs had an increased risk of cardiotoxicity. Most cases of PDDIs were classified as being of major severity (80.9 %), with time of onset not specified (61.9 %), and with good or excellent scientific evidence (52.4 %). HSCT patients have a high prevalence of clinically significant PDDIs. The management of PDDIs requires an approach that includes biochemical tests, installation of cardiac monitors, periodic electrocardiograms, implementation of electronic prescriptions with a PDDI alert system, and availability of the PDDI databases.
->>-->>Publication Journal>>
-Cancer Chemother Pharmacol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s00280-014-2657-8
->>-->>Publication IF>>
-2.495
->>-->>Publication Title>>
-Quality of Life in Arab Muslim Cancer Survivors following Hematopoietic Stem Cell Transplantation: Comparison with Matched Healthy Group
->>-->>Publication Content>>
-PURPOSE: The aims of this study were to determine if quality of life (QOL) among Arab Muslim hematopoietic stem cell transplantation (HSCT) survivors differs from that of a healthy matched comparison group and to examine the relationships of demographic and medical variables and perceived social support with post-HSCT QOL. METHODS: HSCT survivors (n = 63) were recruited from the King Hussein Cancer Center outpatient clinic. A matched (age, gender, education), healthy comparison group (n = 63) was recruited through public advertisements. Participants completed the EORTC-30 QOL scale and the Medical Outcomes Study Social Support Survey. RESULTS: Differences were found between the Arab Muslim HSCT survivor and healthy comparison groups for physical functioning (p < .0001), role functioning (p < .01), social functioning (p < .0001) QOL domains, and an overall symptom score (p = .003) with the HSCT group reporting poorer status than the healthy comparison group. Effect sizes for the three QOL domains ranged from .50 (role functioning) to 1.20 (social functioning). No significant difference was noted between the Arab Muslim HSCT and comparison groups in emotional and cognitive QOL domains. Higher overall symptom scores were significantly associated with poorer QOL across all QOL domains. CONCLUSION: Similar to prior research with HSCT survivors, results suggest that HSCT has a significant negative impact on QOL. However, despite this general similarity, results suggest that the needs and experience of Muslim Arab HSCT survivors might differ from those of Western HSCT survivors in the social and emotional QOL domains. Given growing numbers of Arab and Muslim cancer survivors in the USA and other Western countries, future research is warranted.
->>-->>Publication Journal>>
-Support Care Cancer
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s00520-014-2583-7
->>-->>Publication IF>>
-Not in database
->>-->>Publication Title>>
-Ms Patients Are in Sustained Remission after Stem Cell Transplantation, Small Study Finds
->>-->>Publication Content>>
-?
->>-->>Publication Journal>>
-BMJ
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-No DOI!
->>-->>Publication IF>>
-0
->>-->>Publication Title>>
-Moving Targets for Hematopoietic Stem Cell Transplantation for Multiple Sclerosis
->>-->>Publication Content>>
-?
->>-->>Publication Journal>>
-JAMA Neurol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1001/jamaneurol.2014.3831
->>-->>Publication IF>>
-1.579
->>-->>Publication Title>>
-Effective Collection of Peripheral Blood Stem Cells in Children Weighing 20 Kilogram or Less in a Single Large-Volume Apheresis Procedure
->>-->>Publication Content>>
-Introduction: Peripheral blood stem cell (PBSC) transplantation has become a routine procedure in pediatric oncology. A special group of PBSC donors are children weighing 20 kg or less. Limited vascular access and low blood volume puts them at a higher risk. Central line placement and a priming apheresis machine are recommended to avoid these complications. Patients and Methods: PBSC collections performed from July 2006 to May 2013 in children weighing less than 20 kg were included. All donors had a central venous catheter (CVC). An apheresis machine was primed with packet red blood cells. Results: Twenty-seven PBSC collections were performed in 22 children weighing 20 kg or less, 14 for allogeneic and 8 for autologous transplantation, in order to collect at least 2 x 106 CD34+ cells/kg. In the allogeneic group, median age and weight were 3 years (0.8-7) and 15.5 kg (8-20). In the autologous group, median age and weight were 3 years (2-7) and 15.35 kg (12.5-19.5). A single large-volume apheresis was sufficient to obtain the CD34+ cells needed in 78.5% and 75% of the allogeneic and autologous groups, respectively, with a median 11.84 x 106 and 5.79 x 106 CD34+ cells collected per kilogram of weight of the recipient. No serious complications related to the apheresis procedure or CVC placement occurred. Conclusion: PBSC collection in a single large-volume apheresis for allogeneic and autologous transplants in children weighing 20 kg or less is a safe and effective procedure when based on standardized protocols. J. Clin. Apheresis, 2014. (c) 2014 Wiley Periodicals, Inc.
->>-->>Publication Journal>>
-J Clin Apher
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1002/jca.21375
->>-->>Publication IF>>
-0
->>-->>Publication Title>>
-High-Dose Immunosuppressive Therapy and Autologous Hematopoietic Cell Transplantation for Relapsing-Remitting Multiple Sclerosis (Halt-Ms): a 3-Year Interim Report
->>-->>Publication Content>>
-Importance: Most patients with relapsing-remitting (RR) multiple sclerosis (MS) who receive approved disease-modifying therapies experience breakthrough disease and accumulate neurologic disability. High-dose immunosuppressive therapy (HDIT) with autologous hematopoietic cell transplant (HCT) may, in contrast, induce sustained remissions in early MS. Objective: To evaluate the safety, efficacy, and durability of MS disease stabilization through 3 years after HDIT/HCT. Design, Setting, and Participants: Hematopoietic Cell Transplantation for Relapsing-Remitting Multiple Sclerosis (HALT-MS) is an ongoing, multicenter, single-arm, phase 2 clinical trial of HDIT/HCT for patients with RRMS who experienced relapses with loss of neurologic function while receiving disease-modifying therapies during the 18 months before enrolling. Participants are evaluated through 5 years after HCT. This report is a prespecified, 3-year interim analysis of the trial. Thirty-six patients with RRMS from referral centers were screened; 25 were enrolled. Interventions: Autologous peripheral blood stem cell grafts were CD34+ selected; the participants then received high-dose treatment with carmustine, etoposide, cytarabine, and melphalan as well as rabbit antithymocyte globulin before autologous HCT. Main Outcomes and Measures: The primary end point of HALT-MS is event-free survival defined as survival without death or disease activity from any one of the following outcomes: (1) confirmed loss of neurologic function, (2) clinical relapse, or (3) new lesions observed on magnetic resonance imaging. Toxic effects are reported using National Cancer Institute Common Terminology Criteria for Adverse Events. Results: Grafts were collected from 25 patients, and 24 of these individuals received HDIT/HCT. The median follow-up period was 186 weeks (interquartile range, 176-250) weeks). Overall event-free survival was 78.4% (90% CI, 60.1%-89.0%) at 3 years. Progression-free survival and clinical relapse-free survival were 90.9% (90% CI, 73.7%-97.1%) and 86.3% (90% CI, 68.1%-94.5%), respectively, at 3 years. Adverse events were consistent with expected toxic effects associated with HDIT/HCT, and no acute treatment-related neurologic adverse events were observed. Improvements were noted in neurologic disability, quality-of-life, and functional scores. Conclusions and Relevance: At 3 years, HDIT/HCT without maintenance therapy was effective for inducing sustained remission of active RRMS and was associated with improvements in neurologic function. Treatment was associated with few serious early complications or unexpected adverse events.
->>-->>Publication Journal>>
-JAMA Neurol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1001/jamaneurol.2014.3780
->>-->>Publication IF>>
-1.63
->>-->>Publication Title>>
-<em>In Vivo</em> T-Cell Depletion Using Alemtuzumab in Family and Unrelated Donor Transplantation for Pediatric Non-Malignant Disease Achieves Engraftment with Low Incidence of Graft vs. Host Disease
->>-->>Publication Content>>
-In vivo T-cell depletion, using alemtuzumab therapy prior to SCT, can reduce the incidence of GVHD. This treatment has a potential to delay immune reconstitution resulting in increased morbidity due to viral illnesses. We retrospectively analyzed data on all pediatric patients with non-malignant disorders who received alemtuzumab-based conditioning regimens in our center over the last 10 yr (n = 91). Our data show an OS of 91.2%. The incidence of acute (grade 2-4) GVHD was 18.7% and that of chronic GVHD 5.5%. Viremia due to adenovirus, EBV and CMV was seen in 19.8%, 64.8% and 39.6% patients, respectively, with only two deaths attributed to viral infection (adenovirus). Chimerism level at three month was predictive of graft outcome. Nine patients, who had graft failure after first SCT, were salvaged with a second SCT using RIC and same donor (if available). Based on these results, we conclude that the use of in vivo T-cell depletion is safe, achieves good chimerism and does not lead to increased morbidity and mortality due to viral infections. It is associated with a reduced incidence of chronic GVHD.
->>-->>Publication Journal>>
-Pediatr Transplant
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1111/petr.12416
->>-->>Publication IF>>
-3.57
->>-->>Publication Title>>
-Adipose-Derived Stem Cells from Both Visceral and Subcutaneous Fat Deposits Significantly Improve Contractile Function of Infarcted Rat Hearts
->>-->>Publication Content>>
-BACKGROUND: Adipose-derived stem cells (ASCs) from subcutaneous and visceral adipose tissues have been studied individually. No studies have compared their abilities in treatment of heart failure. This study was designed to evaluate whether ASCs from the two sources could provide a long-term improvement of cardiac function in infarcted hearts. METHODS: Rat subcutaneous and visceral adipose tissues were excised for isolation of ASCs. Morphology, yield, proliferation, surface markers, differentiation, and cytokine secretion of the subcutaneous ASCs (S-ASCs) and visceral ASCs (V-ASCs) were analyzed. Then, a rat model of myocardial infarction (MI) was established by a coronary occlusion. Seven days after occlusion, S-ASCs (n=22), V-ASCs (n=22), and Dulbecco's Modified Eagle Medium (DMEM, n=20) were injected into the infarct rim, respectively. Cardiac function was then monitored with MRI for up to six months. The hearts were then removed for histological assessments. RESULTS: The yield of V-ASCs per gram of the visceral adipose depot was significantly greater than that of S-ASCs in one gram of the subcutaneous adipose depot. On the other hand, the S-ASCs showed a greater proliferation rate and colony-forming unit relative to the V-ASCs. In addition, the infarcted hearts treated with either S-ASCs or VASCs showed a significantly greater left ventricular ejection fraction (LVEF) than those treated with DMEM at four weeks and six months following the cell/DMEM transplantation. Moreover, the infarct sizes of both S-ASCs- and V-ASCs-treated hearts were significantly smaller than that in the DMEM-treated hearts. MRI showed the implanted ASCs at the end of six months of recovery. CONCLUSIONS: Despite the differences in cell yield, proliferation and colony formation capacity, both S-ASCs and V-ASCs provide a long-lasting improvement of cardiac contractile function in infarcted hearts. We conclude that the subcutaneous and visceral adipose tissues are equally effective cell sources for cell therapy of heart failure.
->>-->>Publication Journal>>
-Cell Transplant
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.3727/096368914X685780
->>-->>Publication IF>>
-3.931
->>-->>Publication Title>>
-Embryonic Stem Cells Derived Neuron Transplantation Recovery in Models of Parkinsonism in Relation to Severity of the Disorder in Rats
->>-->>Publication Content>>
-6-Hydroxydopamine (6-OHDA)-, and 1-methyl-4-phenylpyridinium (MPP+)-induced hemiparkinsonism is investigated in relation to the severity of the disorder in terms of behavioral disability and nigral neuronal loss, and recovery in regard to the number of stem cell derived neurons transplanted in the striatum. Intra-median forebrain bundle infusion of the parkinsonian neurotoxins, and intra-striatal transplantation of differentiated embryonic stem cells (ESC) were carried out by rat brain stereotaxic surgery. The severity of the disease was determined using the number of amphetamine- or apomorphine-induced rotations, striatal dopamine levels as estimated by HPLC-electrochemistry, and the number of surviving tyrosine hydroxylase immunoreactive dopaminergic neurons in the substantia nigra pars compacta. Rats that received unilateral infusion of 6-OHDA or MPP+, responded with dose-dependent, unilateral bias in turning behavior when amphetamine or apomorphine is administered. Rotational asymmetry in both the models correlated significantly well with the loss in the number of nigral dopaminergic neurons, and striatal dopamine depletion. Transplantation of 2 x 105 differentiated murine ESC revealed remarkably similar kind of recovery in both the animal models. The survival of the grafted dopaminergic cells in the striatum was better in animals with low severity, but poor in the animals with severe parkinsonism. Amphetamine-induced rotational recovery positively correlated with increasing number of cells transplanted in animals with uniform nigral neuronal lesion. These results suggest that disease severity is an important factor for determining the number of cells to be transplanted in parkinsonian rats for desirable recovery, which may be true in clinical conditions too.
->>-->>Publication Journal>>
-Rejuvenation Res
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1089/rej.2014.1626
->>-->>Publication IF>>
-4.887
->>-->>Publication Title>>
-Systemic Mesenchymal Stem Cell Administration Enhances Bone Formation in Fracture Repair but Not Load-Induced Bone Formation
->>-->>Publication Content>>
-Mesenchymal stem cells (MSC) were shown to support bone regeneration, when they were locally transplanted into poorly healing fractures. The benefit of systemic MSC transplantation is currently less evident. There is consensus that systemically applied MSC are recruited to the site of injury, but it is debated whether they actually support bone formation. Furthermore, the question arises as to whether circulating MSC are recruited only in case of injury or whether they also participate in mechanically induced bone formation. To answer these questions we injected green fluorescent protein (GFP)-labelled MSC into C57BL/6J mice, which were subjected either to a femur osteotomy or to non-invasive mechanical ulna loading to induce bone formation. We detected GFP-labelled MSC in the early (day 10) and late fracture callus (day 21) by immunohistochemistry. Stromal cell-derived factor 1 (SDF-1 or CXCL-12), a key chemokine for stem cell attraction, was strongly expressed by virtually all cells near the osteotomy - indicating that SDF-1 may mediate cell migration to the site of injury. We found no differences in SDF-1 expression between the groups. Micro-computed tomography (microCT) revealed significantly more bone in the callus of the MSC treated mice compared to untreated controls. The bending stiffness of callus was not significantly altered after MSC-application. In contrast, we failed to detect GFP-labelled MSC in the ulna after non-invasive mechanical loading. Histomorphometry and microCT revealed a significant load-induced increase in bone formation; however, no further increase was found after MSC administration. Concluding, our results suggest that systemically administered MSC are recruited and support bone formation only in case of injury but not in mechanically induced bone formation.
->>-->>Publication Journal>>
-Eur Cell Mater
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-No DOI!
->>-->>Publication IF>>
-4.634
->>-->>Publication Title>>
-Loss of Non-Coding Rna Expression from the Dlk1-Dio3 Imprinted Locus Correlates with Reduced Neural Differentiation Potential in Human Embryonic Stem Cell Lines
->>-->>Publication Content>>
-INTRODUCTION: Pluripotent stem cells are increasingly used to build therapeutic models, including the transplantation of neural progenitors derived from human embryonic stem cells (hESCs). Recently, long non-coding RNAs (lncRNAs), including delta-like homolog 1 gene and the type III iodothyronine deiodinase gene (DLK1-DIO3) imprinted locus-derived Maternally Expressed Gene 3 (MEG3), were found to be expressed during neural development. The deregulation of these lncRNAs is associated with various neurological diseases. The imprinted locus DLK1-DIO3 encodes abundant non-coding RNAs (ncRNAs) that are regulated by differential methylation of the locus. We aim to study the correlation between the DLK1-DIO3-derived ncRNAs and the capacity of hESCs to differentiate into neural lineages. METHODS: We classified hESC sublines into MEG3-ON and MEG3-OFF based on the expression levels of MEG3 and its downstream microRNAs, as detected by quantitative RT-PCR (qRT-PCR). A cDNA microarray was used to analyze the gene expression profiles of hESCs. To investigate the capacity of neural differentiation in MEG3-ON and MEG3-OFF hESCs, we performed neural lineage differentiation, followed by neural lineage marker expression and neurite formation analyses via qRT-PCR and immunocytochemistry, respectively. MEG3-knockdown via small interfering RNA (siRNA) and small hairpin RNA (shRNA) was used to investigate the potential causative effect of MEG3 in regulating neural lineage-related gene expression. RESULTS: DLK1-DIO3-derived ncRNAs were repressed in MEG3-OFF hESCs compared with those in the MEG3-ON hESCs. The transcriptome profile indicated that many genes related to nervous system development and neural-type tumors were differentially expressed in MEG3-OFF hESCs. Three independent MEG3-knockdown assays using different siRNA and shRNA constructs consistently resulted in downregulation of some neural lineage genes. Lower expression levels of stage-specific neural lineage markers and reduced neurite formation were observed in neural lineage-like cells derived from MEG3-OFF-associated hESCs compared with those in the MEG3-ON groups at the same time points after differentiation. CONCLUSIONS: Repression of ncRNAs derived from the DLK1-DIO3 imprinted locus is associated with reduced neural lineage differentiation potential in hESCs.
->>-->>Publication Journal>>
-Stem Cell Res Ther
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1186/scrt535
->>-->>Publication IF>>
-Not in database
->>-->>Publication Title>>
-Tumour Cell-Derived Extracellular Vesicles Interact with Mesenchymal Stem Cells to Modulate the Microenvironment and Enhance Cholangiocarcinoma Growth
->>-->>Publication Content>>
-The contributions of mesenchymal stem cells (MSCs) to tumour growth and stroma formation are poorly understood. Tumour cells can transfer genetic information and modulate cell signalling in other cells through the release of extracellular vesicles (EVs). We examined the contribution of EV-mediated inter-cellular signalling between bone marrow MSCs and tumour cells in human cholangiocarcinoma, highly desmoplastic cancers that are characterized by tumour cells closely intertwined within a dense fibrous stroma. Exposure of MSCs to tumour cell-derived EVs enhanced MSC migratory capability and expression of alpha-smooth muscle actin mRNA, in addition to mRNA expression and release of CXCL-1, CCL2 and IL-6. Conditioned media from MSCs exposed to tumour cell-derived EVs increased STAT-3 phosphorylation and proliferation in tumour cells. These effects were completely blocked by anti-IL-6R antibody. In conclusion, tumour cell-derived EVs can contribute to the generation of tumour stroma through fibroblastic differentiation of MSCs, and can also selectively modulate the cellular release of soluble factors such as IL-6 by MSCs that can, in turn, alter tumour cell proliferation. Thus, malignant cells can "educate" MSCs to induce local microenvironmental changes that enhance tumour cell growth.
->>-->>Publication Journal>>
-J Extracell Vesicles
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-No DOI!
->>-->>Publication IF>>
-3.524
->>-->>Publication Title>>
-Sodium Butyrate Promotes the Differentiation of Rat Bone Marrow Mesenchymal Stem Cells to Smooth Muscle Cells through Histone Acetylation
->>-->>Publication Content>>
-Establishing an effective method to improve stem cell differentiation is crucial in stem cell transplantation. Here we aimed to explore whether and how sodium butyrate (NaB) induces rat bone marrow mesenchymal stem cells (MSCs) to differentiate into bladder smooth muscle cells (SMCs). We found that NaB significantly suppressed MSC proliferation and promoted MSCs differentiation into SMCs, as evidenced by the enhanced expression of SMC specific genes in the MSCs. Co-culturing the MSCs with SMCs in a transwell system promoted the differentiation of MSCs into SMCs. NaB again promoted MSC differentiation in this system. Furthermore, NaB enhanced the acetylation of SMC gene-associated H3K9 and H4, and decreased the expression of HDAC2 and down-regulated the recruitment of HDAC2 to the promoter regions of SMC specific genes. Finally, we found that NaB significantly promoted MSC depolarization and increased the intracellular calcium level of MSCs upon carbachol stimulation. These results demonstrated that NaB effectively promotes MSC differentiation into SMCs, possibly by the marked inhibition of HDAC2 expression and disassociation of HDAC2 recruitment to SMC specific genes in MSCs, which further induces high levels of H3K9ace and H4ace and the enhanced expression of target genes, and this strategy could potentially be applied in clinical tissue engineering and cell transplantation.
->>-->>Publication Journal>>
-PLoS One
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1371/journal.pone.0116183
->>-->>Publication IF>>
-7.843
->>-->>Publication Title>>
-(52)Mn Production for Pet/Mri Tracking of Human Stem Cells Expressing Divalent Metal Transporter 1 (Dmt1)
->>-->>Publication Content>>
-There is a growing demand for long-term in vivo stem cell imaging for assessing cell therapy techniques and guiding therapeutic decisions. This work develops the production of (52)Mn and establishes proof of concept for the use of divalent metal transporter 1 (DMT1) as a positron emission tomography (PET) and magnetic resonance imaging (MRI) reporter gene for stem cell tracking in the rat brain. (52)Mn was produced via proton irradiation of a natural chromium target. In a comparison of two (52)Mn separation methods, solvent-solvent extraction was preferred over ion exchange chromatography because of reduced chromium impurities and higher (52)Mn recovery. In vitro uptake of Mn-based PET and MRI contrast agents ((52)Mn(2+) and Mn(2+), respectively) was enhanced in DMT1 over-expressing human neural progenitor cells (hNPC-DMT1) compared to wild-type control cells (hNPC-WT). After cell transplantation in the rat striatum, increased uptake of Mn-based contrast agents in grafted hNPC-DMT1 was detected in in vivo manganese-enhanced MRI (MEMRI) and ex vivo PET and autoradiography. These initial studies indicate that this approach holds promise for dual-modality PET/MR tracking of transplanted stem cells in the central nervous system and prompt further investigation into the clinical applicability of this technique.
->>-->>Publication Journal>>
-Theranostics
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.7150/thno.10185
->>-->>Publication IF>>
-5.007
->>-->>Publication Title>>
-the Rarity of Aldh Cells Is the Key to Separation of Normal versus Leukemia Stem Cells by Aldh Activity in Aml Patients
->>-->>Publication Content>>
-In order to understand the precise disease driving mechanisms in acute myeloid leukemia (AML), comparison of patient matched hematopoietic stem cells (HSC) and leukemia stem cells (LSC) is essential. In this analysis we have examined the value of aldehyde dehydrogenase (ALDH) activity in combination with CD34 expression for the separation of HSC from LSC in 104 patients with de novo AML. The majority of AML patients (80 out of 104) had low percentages of cells with high ALDH activity (ALDH+ cells) (<1.9%; ALDH-rare AML), whereas 24 patients had relatively numerous ALDH+ cells (>/=1.9%; ALDH-numerous AML). In patients with ALDH-rare AML, normal HSC could be separated by their CD34+ ALDH+ phenotype, whereas LSC were exclusively detected among CD34+ ALDH- cells. For patients with ALDH-numerous AML, the CD34+ ALDH+ subset consisted mainly of LSC and separation from HSC was not feasible. Functional analyses further showed that ALDH+ cells from ALDH-numerous AML were quiescent, refractory to ARA-C treatment and capable of leukemic engraftment in a xenogenic mouse transplantation model. Clinically, resistance to chemotherapy and poor long-term outcome were also characteristic for patients with ALDH-numerous AML providing an additional risk-stratification tool. The difference in spectrum and relevance of ALDH activity in the putative LSC populations demonstrates, in addition to phenotypic and genetic, also functional heterogeneity of leukemic cells and suggests divergent roles for ALDH activity in normal HSC versus LSC. By acknowledging these differences our study provides a new and useful tool for prospective identification of AML cases in which separation of HSC from LSC is possible. This article is protected by copyright. All rights reserved.
->>-->>Publication Journal>>
-Int J Cancer
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1002/ijc.29410
->>-->>Publication IF>>
-2.055
->>-->>Publication Title>>
-<em>In Vitro</em> Transdifferentiation of Human Cultured Cd34+ Stem Cells into Oligodendrocyte Precursors Using Thyroid Hormones
->>-->>Publication Content>>
-The extent of myelination on the axon promotes transmission of impulses in the neural network, any disturbances in this process results in the neurodegenerative condition. Transplantation of oligodendrocyte precursors that supports in the regeneration of axons through myelination is an important step in the restoration of damaged neurons. Therefore, in the present study, the differentiation of human CD34+ stem cells into oligodendrocytes was carried out. The pure human CD34+ culture developed from the stem cells obtained from a peripheral blood of a donor were subjected to oligodendrocyte differentiation medium (ODM). The ODM at a concentration of 40ng/ml thyroxine, 40ng/ml 3,3',5-tri-iodo-thyronine showed distinct morphological changes from day 6 to 9 with cells exhibiting conspicuous stellate morphology and extensive foot processes. The real-time PCR analysis showed prominent expression of Olig2, CNPase, PDGFRalpha and PLP1/DM20 in the differentiated cells confirming the formed cells are oligodendrocyte precursors. The expression of these genes increased from days 6 to 9 corresponding to the morphological changes observed with almost no expression of GFAP+ cells. The distinct CNPase activity was observed in these differentiated cells compared to normal CD34+ stem cells correlating with results of real-time PCR conclusively explains the development of oligodendrocytes from human CD34+ stem cells.
->>-->>Publication Journal>>
-Neurosci Lett
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1016/j.neulet.2014.12.050
->>-->>Publication IF>>
-3.596
->>-->>Publication Title>>
-Therapeutic Potential of Adipose-Derived Ssea-3-Positive Muse Cells for Treating Diabetic Skin Ulcers
->>-->>Publication Content>>
-Stage-specific embryonic antigen-3 (SSEA-3)-positive multipotent mesenchymal cells (multilineage differentiating stress-enduring [Muse] cells) were isolated from cultured human adipose tissue-derived stem/stromal cells (hASCs) and characterized, and their therapeutic potential for treating diabetic skin ulcers was evaluated. Cultured hASCs were separated using magnetic-activated cell sorting into positive and negative fractions, a SSEA-3+ cell-enriched fraction (Muse-rich) and the remaining fraction (Muse-poor). Muse-rich hASCs showed upregulated and downregulated pluripotency and cell proliferation genes, respectively, compared with Muse-poor hASCs. These cells also released higher amounts of certain growth factors, particularly under hypoxic conditions, compared with Muse-poor cells. Skin ulcers were generated in severe combined immunodeficiency (SCID) mice with type 1 diabetes, which showed delayed wound healing compared with nondiabetic SCID mice. Treatment with Muse-rich cells significantly accelerated wound healing compared with treatment with Muse-poor cells. Transplanted cells were integrated into the regenerated dermis as vascular endothelial cells and other cells. However, they were not detected in the surrounding intact regions. Thus, the selected population of ASCs has greater therapeutic effects to accelerate impaired wound healing associated with type 1 diabetes. These cells can be achieved in large amounts with minimal morbidity and could be a practical tool for a variety of stem cell-depleted or ischemic conditions of various organs and tissues.
->>-->>Publication Journal>>
-Stem Cells Transl Med
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.5966/sctm.2014-0181
->>-->>Publication IF>>
-0.669
->>-->>Publication Title>>
-[Extranodal Nk/T-Cell Lymphoma, Nasal-Type, Revealed by Cutaneous Breast Involvement.]
->>-->>Publication Content>>
-BACKGROUND: Extranodal NK/T-cell lymphoma (ENKTL) is a rare form of non-Hodgkin's lymphoma and carries a poor prognosis. Depending on the primary sites of anatomical involvement, it is subcategorized into nasal or extra-nasal ENKTL. Cutaneous involvement is the second localization reported for these lymphomas. PATIENTS AND METHODS: A woman was admitted for erythematous infiltrative patches on the breasts having an ulcerative course. Cutaneous histopathology showed a dense, diffuse infiltrate of atypical lymphocytes. Immunohistochemistry revealed expression of specific markers for NK-cells and of cytotoxic molecules (TIA-1, granzyme B and perforin), lack of expression of T-cell markers (except positivity of cytoplasmic CD3 and CD2), and the presence of EBV-DNA in lymphoma cells. Positron emission tomography-computed tomography revealed sub- and supra-diaphragmatic multi-organ involvement (kidneys, breasts, stomach, duodenum, lungs, pleural cavity, uterus, bones). No bone marrow infiltration was noted. PCR (polymerase chain reaction) showed high circulating levels of EBV-DNA in peripheral blood. A systemic nasal-type ENKTL was diagnosed. A chemotherapy regimen including high-dose methotrexate, oxaliplatin, gemcitabine, L-asparaginase and dexamethasone was started. Despite good initial therapeutic response, the outcome was rapidly fatal with bone marrow involvement and multi-organ failure. DISCUSSION: Major cutaneous manifestations of ENKTL comprise erythematous infiltrative patches mimicking panniculitis or cellulitis and evolving towards ulceration or necrosis. Subcutaneous nodules may also be noted. Late diagnosis at an advanced stage accounts for the poorer prognosis in extra-nasal ENKTL. In the advanced stages, treatment is based on a chemotherapy regimen including L-asparaginase, possibly followed by autologous or allogeneic hematopoietic stem cell transplantation.
->>-->>Publication Journal>>
-Ann Dermatol Venereol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1016/j.annder.2014.11.007
->>-->>Publication IF>>
-3.57
->>-->>Publication Title>>
-Comparison of Cardiomycyte Differentiation Potential between Type 1 Diabetic Donor- and Non-Diabetic Donor-Derived Induced Pluripotent Stem Cells
->>-->>Publication Content>>
-Type 1 diabetes mellitus (T1DM) is the most common type of diabetes in children and adolescents. Diabetic subjects are more likely to experience a myocardial infarction compared to non-diabetic subjects. In recent years, induced pluripotent stem cells (iPSCs) have received increasing attention from basic scientists and clinicians and hold promise for myocardial regeneration due to their unlimited proliferation potential and differentiation capacity. However, cardiomyogenesis of type 1 diabetic donor-derived iPSCs (T1DM-iPSCs) has not been investigated yet. The aim of the study was to comparatively analyze cardiomyocyte (CM) differentiation capacity of non-diabetic donor-derived iPSCs (N-iPSCs) and T1DM-iPSCs. The differentiated CMs were confirmed by both expression of cardiac-specific markers and presence of cardiac action potential. Since mitochondrial bioenergetics is vital to every aspect of CM function, extracellular acidification rates and oxygen consumption rates were measured using Seahorse extracellular flux analyzer. The results showed that N-iPSCs and T1DM-iPSCs demonstrated similar capacity of differentiation into spontaneously contracting CMs exhibiting nodal-, atrial-, or ventricular-like action potentials. Differentiation efficiency was up to 90%. In addition, the CMs differentiated from N-iPSCs and T1DMiPSCs (N-iPSC-CMs and T1DM-iPSC-CMs, respectively) showed 1) the well-regulated glucose utilization at the level of glycolysis and mitochondrial oxidative phosphorylation and 2) the ability to switch metabolic pathways independent of extracellular glucose concentration. Collectively, we demonstrate for the first time that T1DM-iPSCs can differentiate into functional CMs with well-regulated glucose utilization as shown in N-iPSCs, suggesting that T1DM-iPSC-CMs might be a promising autologous cell source for myocardial regeneration in type I diabetes patients.
->>-->>Publication Journal>>
-Cell Transplant
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.3727/096368914X685762
->>-->>Publication IF>>
-3.524
->>-->>Publication Title>>
-Ccr7 Expressing Mesenchymal Stem Cells Potently Inhibit Graft-versus-Host Disease by Spoiling the Fourth Supplemental Billingham'S Tenet
->>-->>Publication Content>>
-The clinical acute graft-versus-host disease (GvHD)-therapy of mesenchymal stem cells (MSCs) is not as satisfactory as expected. Secondary lymphoid organs (SLOs) are the major niches serve to initiate immune responses or induce tolerance. Our previous study showed that CCR7 guide murine MSC line C3H10T1/2 migrating to SLOs. In this study, CCR7 gene was engineered into murine MSCs by lentivirus transfection system (MSCs/CCR7). The immunomodulatory mechanism of MSCs/CCR7 was further investigated. Provoked by inflammatory cytokines, MSCs/CCR7 increased the secretion of nitric oxide and calmed down the T cell immune response in vitro. Immunofluorescent staining results showed that transfused MSCs/CCR7 can migrate to and relocate at the appropriate T cell-rich zones within SLOs in vivo. MSCs/CCR7 displayed enhanced effect in prolonging the survival and alleviating the clinical scores of the GvHD mice than normal MSCs. Owing to the critical relocation sites, MSCs/CCR7 co-infusion potently made the T cells in SLOs more naive like, thus control T cells trafficking from SLOs to the target organs. Through spoiling the fourth supplemental Billingham's tenet, MSCs/CCR7 potently inhibited the development of GvHD. The study here provides a novel therapeutic strategy of MSCs/CCR7 infusion at a low dosage to give potent immunomodulatory effect for clinical immune disease therapy.
->>-->>Publication Journal>>
-PLoS One
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1371/journal.pone.0115720
->>-->>Publication IF>>
-2.884
->>-->>Publication Title>>
-Chronic Myelomonocytic Leukemia in Younger Patients: Molecular and Cytogenetic Predictors of Survival and Treatment Outcome
->>-->>Publication Content>>
-In patients with chronic myelomonocytic leukemia (CMML), age>65 years is an adverse prognostic factor. Our objective in the current study was to examine risk factors for survival and treatment outcome in 261 'young' adults with CMML, as defined by age 65 years. In multivariable analysis, lower HB (P=0.01), higher circulating blast % (P=0.002), ASXL1 (P=0.0007) and SRSF2 mutations (P=0.008) and Mayo-French cytogenetic stratification (P=0.04) negatively impacted survival. Similarly, leukemia-free survival was independently affected by higher circulating blast % (P<0.0001), higher bone marrow blast % (P=0.0007) and the presence of circulating immature myeloid cells (P=0.0002). Seventy-five (29%) patients received hypomethylating agents (HMA), with the median number of cycles being 5, and the median duration of therapy being 5 months. The over-all response rate was 40% for azacitidine and 30% for decitabine. Fifty-three (24%) patients underwent an allogeneic hematopoietic stem cell transplant (AHSCT), with a response rate of 56% and a non-relapse mortality of 19%. Survival in young adults with CMML, although higher than in older patients, is poor and even worse in the presence of ASXL1 and SRSF2 mutations. Treatment outcome was more impressive with AHSCT than with HMA and neither was influenced by ASXL1/SRSF2 mutations or karyotype.
->>-->>Publication Journal>>
-Blood Cancer J
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1038/bcj.2014.90
->>-->>Publication IF>>
-3.55
->>-->>Publication Title>>
-Growth and Differentiation Factor-5 Contributes to the Structural and Functional Maintenance of the Intervertebral Disc
->>-->>Publication Content>>
-Intervertebral disc degeneration (IDD) is a widely recognized contributor to low back pain (LBP). The Prevention or reversal of IDD is a potential treatment for LBP. Unfortunately, current treatments for IDD are aimed at relieving symptoms rather than regenerating disc structure or function. Recently, the injection of growth factors and mesenchymal stem cell (MSC) transplantation have been shown to be promising biological therapies for IDD. Growth factors stimulate the proliferation of and matrix synthesis by intervertebral disc (IVD) cells, leading to the regeneration of degenerative discs. Growth factors, hypoxia and co-culture with nucleus pulposus (NP) cells induce MSCs to differentiate toward an NP-like phenotype, which can increase the number of functional cells in the IVD or enhance the function of endogenous disc cells to facilitate IVD regeneration. Therefore, the emerging roles of growth factors in IVD regeneration have piqued the interest of researchers. Growth factors including transforming growth factor-beta (TGF-beta), fibroblast growth factor (FGF), insulin-like growth factor-1 (IGF-1) and growth and differentiation factor-5 (GDF-5), among others, have been demonstrated to enhance anabolism in IVD cells and to induce NP-like differentiation of MSCs. However, the injection of TGF, IGF and FGF into human IVDs may induce unwanted blood vessel ingrowth, which accelerates the process of IDD, the injection of GDF-5 may not have the same effect. This finding suggests that GDF-5 is a preferable growth factor for use in IDD treatment compared with TGF, IGF and FGF. The GDF-5 gene is one of the few growth factor genes that have been found to be associated with IDD thus far; moreover, the GDF-5 gene defects lead to collagen and proteoglycan abnormalities in discs in mice, suggesting that GDF-5 contributes to the structural and functional maintenance of the IVD. This review is focused on the functions of GDF-5 in the IVD and on the association between GDF-5 and a genetic predisposition to IDD. The effects of GDF-5 on IVD regeneration and on MSC differentiation are also discussed. GDF-5 plays a crucial role in the pathogenesis of IDD and is a promising therapeutic agent for IDD. Additionally, stem cell transplantation has been shown to be a promising biological therapy for IDD. (c) 2015 S. Karger AG, Basel.
->>-->>Publication Journal>>
-Cell Physiol Biochem
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1159/000369670
->>-->>Publication IF>>
-Not in database
->>-->>Publication Title>>
-Surgical Aspects of Live Kidney Donation: an Updated Review
->>-->>Publication Content>>
-In the early 1990s, live kidney donation regained popularity to meet the demand of kidney transplantation. Significant developments in the field of live kidney donation have established live donation as the prime source of kidney transplants. Nowadays, management is focused on logistic and immunological innovations, and improvements in care of the live donor. However, a flawless surgical procedure in both donor and recipient is a prerequisite for further expansion of live kidney donor transplantation. From a surgical perspective, the introduction of the laparoscopic approach has been a major breakthrough. Less invasive techniques to procure live donor kidneys have been held responsible for a steep increase in the number of live donors. In addition, less invasive imaging, improvements in perioperative care, and novel insights in the follow-up have all improved the care of the live donor. Live kidney donation is developing as the most promising source of renal organs since artificial kidneys, xenografts and stem cell therapy for restoring intrinsic kidney function will probably not find application on a large scale in the near future.
->>-->>Publication Journal>>
-Front Biosci (Elite Ed)
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-No DOI!
->>-->>Publication IF>>
-1.579
->>-->>Publication Title>>
-Extracorporeal Photopheresis as a Therapy for Autoimmune Diseases
->>-->>Publication Content>>
-Systemic autoimmune diseases (AID) have multiorgan, heterogeneous clinical presentations and are characterized by dysregulation of the immune system, immunodeficiency, irreversible organ damage and increased morbidity and mortality. Preventing or decreasing flares of AID correlate with durable disease control, significant reduction of inflammation and prevention of disability or therapy-related toxicity. There is an urgent need for better treatment of severe, therapy-refractory AID. Extracorporeal photopheresis (ECP) is a cell-based immunomodulatory treatment which has been extensively used in variety of autoimmune disorders for the last two decades. ECP treatment is FDA approved for the treatment of cutaneous T-cell lymphoma (CTCL) with particularly promising results seen in graft-versus-host disease (GVHD) after allogeneic hematopoietic stem cell transplantation (HCT). Prolonged therapy is safe, well tolerated and allows reduction of systemic immunosuppression in therapy-refractory patients. Both clinical and experimental evidence suggest that ECP mechanism of action is characterized by apoptosis and phagocytosis of activated cells by antigen-presenting cells (APC), secretion of anti-inflammatory cytokines and stimulation of regulatory T cells (Tregs). The focus of this paper is to review the current evidence of ECP use in the treatment of AID. Here, we summarize the experience of nine major AID from 65 published reports. The key findings demonstrate substantial evidence of ECP feasibility, safety and in some AID also promising efficacy. However, the role of ECP in AID therapy is not established as most published studies are retrospective with limited number of patients and the trials are small or poorly standardized. The available data support future investigations of ECP as a therapeutic modality for the treatment of AID in well-designed prospective clinical studies. J. Clin. Apheresis, 2014. (c) 2014 Wiley Periodicals, Inc.
->>-->>Publication Journal>>
-J Clin Apher
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1002/jca.21367
->>-->>Publication IF>>
-2.396
->>-->>Publication Title>>
-Applicability of the Eortc/Msg Criteria for Ifd in Clinical Practice
->>-->>Publication Content>>
-Invasive fungal disease (IFD) is a feared complication in patients with hematological malignancies. In 2008, the European Organization for Research and Treatment of Cancer/Invasive Fungal Infections Cooperative Group and the National Institute of Allergy and Infectious Diseases Mycosis Study Group (EORTC/MSG) published updated criteria for the diagnostic workup within clinical studies for immunosuppressed patients with suspected fungal infection. We applied these criteria in a routine clinical setting with regard to their feasibility for bedside practice at our institution in a 1-year period. One hundred seventy consecutive patients with a recent history of chemotherapy-induced neutropenia (n = 100) or allogeneic stem cell recipients (n = 70) who had received a CT scan of the chest in search of pulmonary IFD were examined. We analyzed all available radiological and microbiological data according to the EORTC/MSG criteria. The quality of images was good in 94.7 %, microbiological diagnostics performed in 94.1 % patients. Five patients had histopathologic-proven IFD, 18 patients were classified as "probable," 55 patients as "possible" IFD, and 92 patients did not fulfill any criteria ("no IFD"). Microbiology revealed suggestive findings in 29 patients. These were either galactomannan antigen (Gm-AG) in serum (n = 18) and/or broncho-alveolar lavage (BAL) (n = 5). CT scan showed pulmonary infiltrates in 106 patients; 78 were classified as typical for IPA, further discriminated by morphology and number of nodules, as well as additional signs (halo, air crescent, cavity). We observed a better overall survival in patients without infiltrates compared to those with any type of infiltrate (p = 0.042) and a trend toward favorable survival in patients who had micronodular lesions (p = 0.058). We also found a higher probability of Gm-AG positivity in the group of allogeneic stem cell transplantation (allo-SCT) patients (p = 0.001) and a trend toward an association of Gm-AG positivity and positive findings on CT (p = 0.054). The applicability of criteria was good, both with regard to radiological and mycological evidence and sufficient for the categorization of IFD according to EORTC/MSG in the clinical setting. However, our findings suggest that feasibility improves with stringency of mycological workup, which is reflected in the two subgroups. Radiology harvests by far more suggestive findings which can only partly be correlated with mycological evidence. Although feasible, whether the EORTC/MSG criteria are the appropriate tool for early identification of IFD remains open for discussion.
->>-->>Publication Journal>>
-Ann Hematol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s00277-014-2282-y
->>-->>Publication IF>>
-4.959
->>-->>Publication Title>>
-Rituximab Combined with Dexabeam followed by High Dose Therapy as Salvage Therapy in Patients with Relapsed or Refractory B-Cell Lymphoma: Mature Results of a Phase Ii Multicentre Study
->>-->>Publication Content>>
-Salvage therapy followed by high-dose therapy (HDT) remains a mainstay for patients with relapsed lymphoma, however no optimal regimen has been defined. Here we report on the results of R-DexaBEAM (rituximab, dexamethasone, carmustine, etoposide, cytarabine, melphalan) followed by HDT. Patients aged 18-65 years, Eastern Cooperative Oncology Group performance score 0-2, with relapsed/refractory B-cell non-Hodgkin lymphoma (NHL) were eligible. R-Dexa-BEAM was given for two cycles followed by stem cell mobilization and HDT. Primary endpoint of the trial was progression-free-survival (PFS). One hundred and three patients were included: aggressive NHL (aNHL): diffuse large B-cell lymphoma 55, mantle cell lymphoma 7, follicular lymphoma (FL) grade 3: 5, indolent Lymphoma (iNHL): FL grade 1-2: 29, marginal zone lymphoma 6, Immunocytoma 1. The overall response rate after salvage therapy was 62% for aNHL and 78% for iNHL patients. 66% of patients with aNHL and 86% with iNHL underwent HDT. Treatment-related mortality for HDT was 1.3%. For aNHL patients, the median PFS was 0.83 years with 44% alive at the median follow-up of 7.3 years. Corresponding figures for iNHL were: median PFS 3.7 years and 72% alive after 8 years. The combination of rituximab with DexaBEAM followed by HDT resulted in high response rates and sustained remissions in responders. R-DexaBEAM followed by HDT can be considered a valid salvage option for NHL.
->>-->>Publication Journal>>
-Br J Haematol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1111/bjh.13234
->>-->>Publication IF>>
-1.52
->>-->>Publication Title>>
-Autologous Graft-versus-Host Disease in a Child with Stage Iv Neuroblastoma
->>-->>Publication Content>>
-Graft-versus-host disease (GVHD) is an underappreciated complication of autologous hematopoietic stem cell transplantation (AHSCT) that can affect the skin, gastrointestinal tract, and liver. The development of this rare condition is probably due to an impairment of immunologic tolerance that can occur spontaneously through T-cell dysregulation, possibly from intensive conditioning chemotherapy regimens, or intentionally through administration of cyclosporine in the hopes of promoting an antitumor response. We present the case of a 2-year-old boy with metastatic neuroblastoma who spontaneously developed autologous GVHD after AHSCT. Severe pruritus and an inability to taper his oral steroids without a disease flare marked his disease. Eventually partial relief was achieved with initiation of cyclosporine and a strict soak and smear protocol using topical triamcinolone 0.1% ointment.
->>-->>Publication Journal>>
-Pediatr Dermatol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1111/pde.12407
->>-->>Publication IF>>
-2.571
->>-->>Publication Title>>
-Dosing Algorithm Revisit for Busulfan following Iv Infusion
->>-->>Publication Content>>
-PURPOSE: Busulfan (Bu) exposure is critical for efficacy and safety. Body weight (BW), or adjusted ideal body weight (AIBW)-based dosing (WBD) algorithm, has been used in hematopoietic stem cell transplantation (HSCT). A recently completed phase 2 study revealed that 33.6 % of the subjects were under-, or over-exposed, with this WBD algorithm. This paper was to investigate Bu dosing algorithm in an attempt to improve the suboptimal Bu exposure. METHODS: Population PK modeling was conducted using the data from 207 patients. Dosing algorithm was developed based on derived covariate model of CL. Model-based simulation was conducted to assist test PK study design. A simplified CL estimation method was proposed based on the PK structure model for Bu. RESULTS: A one-compartment structure model adequately described the PK profile of Bu following an IV infusion. BSA best described the inter-individual variability of CL. The proposed dosing algorithm was dose (mg) = (31.7 x BSA - 11.6) x target AUC [microM min]/1,000. With this dosing algorithm, 14.3 % patients could be under- or over-exposed. A test PK study with reduced study duration and three PK samples can provide as nearly as good an estimate of CL compared to 12 PK samples on two different occasions. CONCLUSION: The proposed dosing algorithm can significantly improve the sub-exposure of Bu. A shortened test PK study duration with reduced PK samples can provide as near as good estimate for Bu CL. A simplified CL estimation method is valid.
->>-->>Publication Journal>>
-Cancer Chemother Pharmacol
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s00280-014-2660-0
->>-->>Publication IF>>
-2.143
->>-->>Publication Title>>
-Prophylaxis of Acute Graft-versus-Host Disease by Ccr5 Blockade Combined with Cyclosporine a in a Murine Model
->>-->>Publication Content>>
-OBJECTIVE: One characteristic feature of graft-versus-host disease (GVHD) is lymphocytes' trafficking and recruitment to target tissues, and CCR5 plays a key role in the process. Thus, blockade of lymphocytes' chemotaxis may attenuate GVHD. METHODS: We tested the effects of CCR5 blockade using an established murine model. The mean survival time, body weight change, and clinical GVHD scores were assessed. Concentrations of cytokines and chemokines, the CCR5, CXCR3, and CCR7 expressions on T lymphocytes, and histological changes of visceral organs were also evaluated. Additionally, we assessed the immunophenotype of infiltration cells in liver and intestine. RESULTS: Mice undergoing total body irradiation and allogenic hematopoietic stem cell transplantation (allo-HSCT) developed typical GVHD. MVC increased CCR5 expression whereas CCR7 and CXCR3 expression were unaffected. MVC also increased plasma levels of the ligands of CCR5. A combination of MVC with CsA significantly alleviated the degree of visceral injuries and prolonged survival time. CONCLUSION: MVC has a synergistic effect with CsA. It can attenuate the severity of GVHD and increase survival rate of mice in our murine model. This may offer a novel therapeutic perspective for clinical GVHD after allo-HSCT.
->>-->>Publication Journal>>
-Inflamm Res
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s00011-014-0793-6
->>-->>Publication IF>>
-2.328
->>-->>Publication Title>>
-Gene Delivery in Tissue Engineering and Regenerative Medicine
->>-->>Publication Content>>
-As a promising strategy to aid or replace tissue/organ transplantation, gene delivery has been used for regenerative medicine applications to create or restore normal function at the cell and tissue levels. Gene delivery has been successfully performed ex vivo and in vivo in these applications. Excellent proliferation capabilities and differentiation potentials render certain cells as excellent candidates for ex vivo gene delivery for regenerative medicine applications, which is why multipotent and pluripotent cells have been intensely studied in this vein. In this review, gene delivery is discussed in detail, along with its applications to tissue engineering and regenerative medicine. A definition of a stem cell is compared to a definition of a stem property, and both provide the foundation for an in-depth look at gene delivery investigations from a germ lineage angle. (c) 2014 Wiley Periodicals, Inc. J Biomed Mater Res Part B: Appl Biomater, 2014.
->>-->>Publication Journal>>
-J Biomed Mater Res B Appl Biomater
->>-->>Publication Link Names>>
-Abstract
->>-->>Publication Link URLs>>
-http://dx.doi.org/10.1002/jbm.b.33354
+Expert Opin Biol Ther: 3.653
+Transfusion: 3.568
+J Biomed Sci: 2.736
+Stem Cells: 7.133
+Mutagenesis: 3.497
+Cardiovasc Res: 5.808
 >>-->>Publication IF>>
 3.596
 >>-->>Publication Title>>
@@ -562,50 +18,74 @@ Abstract
 >>-->>Publication Link URLs>>
 http://dx.doi.org/10.5966/sctm.2014-0195
 >>-->>Publication IF>>
-2.691
+3.653
 >>-->>Publication Title>>
-Statins Impair Survival of Primary Human Mesenchymal Progenitor Cells via Mevalonate Depletion, Nf-Kappab Signaling, and Bnip3
+How Far Are We from the Clinical Use of Placental-Derived Mesenchymal Stem Cells?
 >>-->>Publication Content>>
-Circulating progenitor cells of bone marrow origin have been implicated in transplant cardiac allograft vasculopathy (CAV) and cardiac fibrosis. HMG-CoA reductase inhibitors, called "statins," have been shown to impair the progression of CAV and improve patient survival. We examined the in vitro effects of three HMG-CoA reductase inhibitors atorvastatin, simvastatin, and pravastatin on the viability of MSCs and expression of nuclear factor kappa B (NF-kappaB). Mesenchymal stem cells (MSCs) isolated from human patients were treated with atorvastatin, simvastatin, and pravastatin at 0.1, 1.0, or 10 muM +/- mevalonate. Human MSC treatment with 1 and 10 muM simvastatin or atorvastatin resulted in progressively reduced cell viability, which was associated with a decline in NF-kappaB p65. Viability was rescued by co-incubation with mevalonate or by pretreatment with Inhibitor of nuclear factor kappa-B kinase subunit beta (Ikappakappa-beta). Pravastatin did not affect MSC viability or NF-kappaB expression. Mevalonate depletion through HMG-CoA reductase inhibition impairs the viability of primary human MSC through down-regulating NF-kappaB.
+In recent years, multiple studies have investigated the biology and clinical applications of mesenchymal stem cells (MSCs), trying to define their markers, and elucidate their effects in animal models. MSCs are available from different tissues, and the use of placental-derived MSCs (PMSCs) for treating a variety of disorders is on the forefront. Herein, we discuss the most recent findings regarding the standardization of their isolation procedure and phenotype, along with advantages and limitations of their use. We also discuss the safety of the placental cell products, including the issue of senescence and mutagenesis of PMSCs, and efficacy from preclinical studies.
 >>-->>Publication Journal>>
-J Cardiovasc Transl Res
+Expert Opin Biol Ther
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s12265-014-9603-3
+http://dx.doi.org/10.1517/14712598.2015.1000856
 >>-->>Publication IF>>
-3.525
+3.568
 >>-->>Publication Title>>
-The Roles of Il-2 and Il-10 Enhance Anti-Cd45Rbmab Immune Inhibition in Allograft Skin
+Optimal Method for Collection of Umbilical Cord Blood: an Egyptian Trial for a Public Cord Blood Bank
 >>-->>Publication Content>>
-As a new type of immune tolerance inducer, anti-CD45RB monoclonal antibodies (anti-CD45RBmAb) can prolong the graft survival time of animal organs or cell transplantation as well as induce stable immune tolerance. Both interleukin (IL)-2 and IL-10 have important roles in the induction and maintenance of immunological tolerance. However, whether these cytokines combined with anti-CD45RBmAb can promote immune tolerance is poorly understood. Therefore, we investigated the effect of IL-2 and IL-10 in vitro and in vivo on the tolerance induction by anti-CD45RBmAb. The changes of Treg and Th17 cells and Th1/Th2 cytokines in anti-CD45RBmAb induced prolongation of skin allograft survival in mice. The finding of a role for IL-2 is novel, of interest, IL-2 promoted anti-CD45RBmAb-induced CD4+ T cell differentiation into Treg and Th2 cells and suppressed Th17 and Th1 cells. IL-2 enhanced the induction of immune tolerance by anti-CD45RBmAb and significantly prolonged skin graft survival time in vivo. In contrast, this effect should be demonstrated experimentally by neutralizing IL-2 and inhibition of the effect of anti-CD45RBmAb, and neutralizing IL-10 showed no effect for anti-CD45RBmAb-induced tolerance. These data reveal that IL-2 significantly enhances anti-CD45RBmAb-induced immune tolerance via up-regulated T regulatory (Treg) cells and the balance of Th1/Th2 shifts. Conversely, IL-10 showed no effect on anti-CD45RBmAb-induced tolerance.
+BACKGROUND: Umbilical cord blood (UCB) contains stem cells and can be used as an alternative to bone marrow transplantation. Engraftment is dependent on the total nucleated cell (TNC) and CD34+ cell counts of the cord blood units. This study was designed to evaluate the effect of the method of collection of the UCB on the yield of the cord blood units. STUDY DESIGN AND METHODS: Informed consent was obtained from 100 eligible mothers for donation of cord blood. Both in utero and ex utero methods were used for collection. The cord blood volume was measured. The TNC and the CD34+ cell counts were enumerated. RESULTS: We have found that in utero collection gave significantly larger volumes of cord blood and higher TNC counts than ex utero collection. There was no significant difference between both methods regarding the CD34+ cell counts. This study revealed a significant correlation between the volume of the collected cord blood and both TNC and CD34+ cell counts. CONCLUSION: It is better to collect cord blood in utero before placental delivery to optimize the quality of the cord blood unit.
 >>-->>Publication Journal>>
-Immunol Res
+Transfusion
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1007/s12026-014-8618-9
+http://dx.doi.org/10.1111/trf.12978
 >>-->>Publication IF>>
-Not in database
+2.736
 >>-->>Publication Title>>
-the Analysis of the Relationship between Multiple Myeloma Cells and Their Microenvironment
+Effects of Tobacco Smoking during Pregnancy on Oxidative Stress in the Umbilical Cord and Mononuclear Blood Cells of Neonates
 >>-->>Publication Content>>
-The bone marrow microenvironment plays a key role in the stimulation of growth and survival of multiple myeloma (MM) cells. We investigated whether membrane microfragments (MFBs) exert a stimulatory effect on mesenchymal stem cell (MSC) gene expression or differentiation. MSCs from patients with multiple myeloma (MMBM-MSCs) proliferated at a slower rate than MSCs from healthy volunteers (BM-MSCs), and fewer MMBM-MSCs adhered to the substrate as compared to BM-MSCs. Phenotypic analysis revealed that MMBM-MSCs and BM-MSCs differed significantly in terms of their CD166 and CXCR4 expressions. In conclusion, our comparative analysis of mesenchymal cells from MM patients and healthy volunteers revealed differences in the genetic and phenotypic profiles of these two populations, their potential for osteodifferentiation, and expression of surface antigens. Moreover, we showed that membrane MFBs may alter the genetic profile of MSCs, leading to disorders of their osteodifferentiation, and interact with the WNT pathway via presentation of the DKK-1 protein.
+BackgroundAlthough cigarette smoke is known to be a complex mixture of over 4000 substances that can lead to damage through active or passive smoking, its mechanisms and biochemical consequences in pregnancy and neonates are not yet fully understood. Therefore, in the present study, we propose to study the impact of smoking during gestation on the viability of blood mononuclear cells (MNC) from umbilical cords of newborns to assess the degree of oxidative stress and cell viability. Moreover, we aim to investigate possible biochemical and morphological changes in the umbilical cord.MethodsAfter childbirth, the cord blood and the umbilical cord were immediately collected in public hospitals in Greater Vitoria, ES, Brazil. Flow cytometry was used to analyze the cord blood and biochemical and histological tests were used to analyze the umbilical cord.ResultsPregnant smokers had a reduction of MNC viability from the umbilical cord (10%), an increase in the production of reactive oxygen species (ROS) and an increase in cell apoptosis (~2-fold) compared to pregnant non-smokers. In the umbilical cord, it was observed an increase of advanced oxidation protein products - AOPP (~2.5-fold) and a loss of the typical architecture and disposition of endothelial cells from the umbilical artery.ConclusionsThese data suggest that maternal cigarette smoking during pregnancy (even in small amounts) may compromise the viability of MNC cells and damage the umbilical cord structure, possibly by excessive ROS bioavailability.
 >>-->>Publication Journal>>
-J Cancer
+J Biomed Sci
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.7150/jca.10873
+http://dx.doi.org/10.1186/s12929-014-0105-z
 >>-->>Publication IF>>
-4.901
+7.133
 >>-->>Publication Title>>
-Improving Our Understanding of the Use of Traditional Complementary/Alternative Medicine in Children with Cancer
+The Runx1 +24 Enhancer and P1 Promoter Identify a Unique Subpopulation of Hematopoietic Progenitor Cells Derived from Human Pluripotent Stem Cells
 >>-->>Publication Content>>
-BACKGROUND: Children with cancer in high-income and low-income countries often use traditional complementary/alternative medicine (TCAM). With efforts by the World Health Organization and international twinning programs improving access to conventional care for patients with childhood cancer, understanding the global use of TCAM is important because reliance on TCAM may affect time to presentation, adherence, and abandonment of care. In the current study, the authors describe the process and validation of an international survey documenting the use of TCAM among children with cancer. METHODS: The survey was designed to collect information on TCAM use and associated factors through both open-ended and close-ended questions. During the period between June 2012 and December 2013, the survey was administered to 300 children and adolescents (or their parents) who were undergoing treatment for cancer at a collaborating institution located in Mexico, Uruguay, and Nicaragua. RESULTS: For the majority of constructs, the survey demonstrated strong test-retest reliability as evidenced by an intraclass correlation of at least >/=0.79 in each of the participating countries. The survey demonstrated good internal consistency and reliability across countries (alpha range from. 77 to. 85 for the belief scale; and an alpha range from. 60 to. 86 for the cause scale) and convergent validity between TCAM beliefs and behavior constructs (adjusted correlation range, 0.35-0.60). CONCLUSIONS: The results of the current study demonstrate the successful development of a cross-cultural survey that produced results that were reliable and valid. These findings will aid investigators in providing guidelines concerning TCAM, support the development of education and research priorities, and identify variables associated with TCAM that are region-specific. Cancer 2014. (c) 2014 American Cancer Society.
+Derivation of hematopoietic stem cells from human pluripotent stem cells remains a key goal for the fields of developmental biology and regenerative medicine. Here, we use a novel genetic reporter system to prospectively identify and isolate early hematopoietic cells derived from human embryonic stem cells (hESCs) and human induced pluripotent cells (iPSCs). Cloning the human RUNX1c P1 promoter and +24 enhancer to drive expression of tdTomato (tdTom) in hESCs and iPSCs, we demonstrate that tdTom expression faithfully enriches for RUNX1c-expressing hematopoietic progenitor cells. Time-lapse microscopy demonstrated the tdTom+ hematopoietic cells to emerge from adherent cells. Furthermore, inhibition of primitive hematopoiesis by blocking Activin/Nodal signaling promoted the expansion and/or survival of tdTom+ population. Notably, RUNX1c/tdTom+ cells represent only a limited subpopuation of CD34+ CD45+ and CD34+ CD43+ cells with a unique genetic signature. Using gene array analysis, we find significantly lower expression of Let-7 and mir181a microRNAs in the RUNX1c/tdTom+ cell population. These phenotypic and genetic analyses comparing the RUNX1c/tdTom+ population to CD34+ CD45+ umbilical cord blood and fetal liver demonstrate several key differences that likely impact the development of HSCs capable of long-term multilineage engraftment from hESCs and iPSCs. This article is protected by copyright. All rights reserved.
 >>-->>Publication Journal>>
-Cancer
+Stem Cells
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1002/cncr.29212
+http://dx.doi.org/10.1002/stem.1940
+>>-->>Publication IF>>
+3.497
+>>-->>Publication Title>>
+Human Mesenchymal Stem Cells as a Novel Platform for Simultaneous Evaluation of Cytotoxicity and Genotoxicity of Pharmaceuticals
+>>-->>Publication Content>>
+The in vitro micronucleus test is a well-known test for the screening of genotoxic compounds. However until now, most studies have been performed on either human peripheral lymphocytes or established cancer cell lines. This study provides human mesenchymal stem cells as an alternative to the conventional micronucleus test. We grew umbilical cord mesenchymal stem cells (UC-MSCs) on coverslips eliminating the cumbersome technique involving hypotonic treatment, fixation and preparing smears required for suspension culture (lymphocytes). The background frequency of nuclear blebs and micronuclei in UC-MSCs was found to be 7+/-5, in lymphocytes 16+/-3.5 and 9+/-3 and that for A549 cell line was 65+/-5 and 15+/-5 per 1000 cells, respectively, suggesting differences in the repair mechanism of normal and cancer cell lines. We inspected the cytotoxic and genotoxic effects of two known mutagens, mitomycin-C and hydrogen peroxide (H2O2), on UC-MSCs, lymphocytes and A549 cells. Treatment with mitomycin-C and H2O2 demonstrated drastic differences in the degree of cytotoxicity and genotoxicity suggesting a constitutional difference between normal and cancer cells. In addition we tested two solvents, dimethyl sulfoxide (DMSO) and ethanol, and two drugs, metformin and rapamycin. DMSO above 1% was found to be cytotoxic and genotoxic, whereas ethanol at same concentration was neither cytotoxic nor genotoxic indicating the minimal non-toxic level of the solvents. This study thus offers UC-MSCs as a better substitute to peripheral lymphocytes and cancer cell lines for high throughput screening of compounds and reducing the animal studies.
+>>-->>Publication Journal>>
+Mutagenesis
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1093/mutage/geu086
+>>-->>Publication IF>>
+5.808
+>>-->>Publication Title>>
+Extracardiac Control of Embryonic Cardiomyocyte Proliferation and Ventricular Wall Expansion
+>>-->>Publication Content>>
+AIMS: The strategies that control formation of the ventricular wall during heart development are not well understood. In previous studies, we documented IGF2 as a major mitogenic signal that controls ventricular cardiomyocyte proliferation and chamber wall expansion. Our objective in this study was to define the tissue source of IGF2 in heart development and the upstream pathways that control its expression. METHODS AND RESULTS: Using a number of mouse genetic tools, we confirm that the critical source of IGF2 is the epicardium. We find that epicardial Igf2 expression is controlled in a biphasic manner, first induced by erythropoietin, and then regulated by oxygen and glucose with onset of placental function. Both processes are independently controlled by retinoic acid signaling. CONCLUSIONS: Our results demonstrate that ventricular wall cardiomyocyte proliferation is subdivided into distinct regulatory phases. Each involves instructive cues that originate outside the heart and thereby act on the epicardium in an endocrine manner, a mode of regulation that is mostly unknown in embryogenesis.
+>>-->>Publication Journal>>
+Cardiovasc Res
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1093/cvr/cvu269

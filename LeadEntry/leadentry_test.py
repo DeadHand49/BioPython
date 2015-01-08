@@ -1,10 +1,10 @@
+# coding=utf-8
 from __future__ import unicode_literals
 
 __author__ = 'memery'
 
 import leadentry
 import unittest
-import mock
 
 
 class LeadEntryTest(unittest.TestCase):
