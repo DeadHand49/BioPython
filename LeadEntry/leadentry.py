@@ -103,28 +103,23 @@ class Article(object):
     def find_date(self):
         year, month, date = None, None, None
         if self.tag.find('pubmedpubdate', {'pubstatus': 'aheadofprint'}):
-            year = self.tag.pubdate.year.text.strip()
-            month = self.tag.pubdate.month.text.strip()
-            day = self.tag.pubdate.day.text.strip()
-        if self.tag.pubdate:
+            year = self.tag.find(pubstatus='aheadofprint').year.text.strip()
+            month = self.tag.find(pubstatus='aheadofprint').month.text.strip()
+            day = self.tag.find(pubstatus='aheadofprint').day.text.strip()
+        elif self.tag.pubdate:
             try:
                 year = self.tag.pubdate.year.text.strip()
                 month = self.tag.pubdate.month.text.strip()
                 day = self.tag.pubdate.day.text.strip()
             except AttributeError:
-                    if self.tag.articledate and self.tag.articledate['datetype'] == 'Electronic':
-                        year = self.tag.articledate.year.text.strip()
-                        month = self.tag.articledate.month.text.strip()
-                        day = self.tag.articledate.day.text.strip()
-                    else:
-                        year = self.tag.find(pubstatus='medline').year.text.strip()
-                        month = self.tag.find(pubstatus='medline').month.text.strip()
-                        day = self.tag.find(pubstatus='medline').day.text.strip()
+                year = self.tag.find(pubstatus='medline').year.text.strip()
+                month = self.tag.find(pubstatus='medline').month.text.strip()
+                day = self.tag.find(pubstatus='medline').day.text.strip()
         if month.isdigit():
-            pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%m%Y')
+            pubdate = time.strptime('{}{}{}'.format(month, day, year), '%m%d%Y')
         else:
-            pubdate = time.strptime('{}{}{}'.format(day, month, year), '%d%b%Y')
-        self.info['Publication Date'] = time.strftime('%d/%m/%Y', pubdate)
+            pubdate = time.strptime('{}{}{}'.format(month, day, year), '%b%d%Y')
+        self.info['Publication Date'] = time.strftime('%m/%d/%Y', pubdate)
 
     def find_doi(self):
         """Return the DOI of an article as a string"""

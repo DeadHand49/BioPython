@@ -32,6 +32,9 @@ class LeadEntryTest(unittest.TestCase):
     def test_get_publication_date(self):
         self.assertEqual('11/10/2014', self.article.info['Publication Date'])
 
+    def test_get_publication_date_no_day(self):
+        self.assertEqual('11/29/2014', self.newsletter.articles[8].info['Publication Date'])
+
     def test_publication_link(self):
         self.assertEqual('http://www.pnas.org/content/early/2014/11/06/1416121111.abstract',
                          self.article.info['Publication Link'])
