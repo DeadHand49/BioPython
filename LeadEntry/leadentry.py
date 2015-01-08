@@ -23,7 +23,7 @@ class Newsletter(object):
         self.parse_pubmed_soup()
         self.info = {'Lead Source': 'Connexon',
                      'Specific Lead Source': self.find_specific_lead_source(),
-                     'Newsletter Archived Link': self.url,
+                     'Newsletter Archived Link': self.url.lstrip('http://www.'),
                      'Search Term': 'Connexon; {}'.format(self.find_specific_lead_source())}
 
     def make_soup(self):
@@ -101,7 +101,7 @@ class Article(object):
         self.info['Article Title'] = self.tag.articletitle.text.strip().strip('.')
 
     def find_date(self):
-        year, month, date = None, None, None
+        year, month, day = None, None, None
         if self.tag.find('pubmedpubdate', {'pubstatus': 'aheadofprint'}):
             year = self.tag.find(pubstatus='aheadofprint').year.text.strip()
             month = self.tag.find(pubstatus='aheadofprint').month.text.strip()
@@ -124,7 +124,12 @@ class Article(object):
     def find_doi(self):
         """Return the DOI of an article as a string"""
         if self.tag.find(idtype='doi'):
-            self.info['Publication Link'] = 'http://dx.doi.org/{}'.format(self.tag.find(idtype='doi').text.strip())
+            try:
+                article_url = urllib2.urlopen('http://dx.doi.org/{}'.format(self.tag.find(idtype='doi').text.strip()))
+                self.info['Publication Link'] = article_url.url
+            except urllib2.HTTPError:
+                self.info['Publication Link'] = 'DOI cannot be resolved: ' \
+                                                'http://dx.doi.org/{}'.format(self.tag.find(idtype='doi').text.strip())
         else:
             self.info['Publication Link'] = 'DOI not found'
 

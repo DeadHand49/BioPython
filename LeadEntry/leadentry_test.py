@@ -17,7 +17,7 @@ class LeadEntryTest(unittest.TestCase):
         cls.author = cls.article.authors[-1]
 
     def test_parse_connexon_proper_length(self):
-        self.assertEqual(10, len(self.newsletter.articles))
+        self.assertEqual(12, len(self.newsletter.articles))
 
     def test_newsletter_specific_lead_source(self):
         self.assertEqual('Mesenchymal Cell News 6.43', self.newsletter.info['Specific Lead Source'])
@@ -38,6 +38,10 @@ class LeadEntryTest(unittest.TestCase):
     def test_publication_link(self):
         self.assertEqual('http://www.pnas.org/content/early/2014/11/06/1416121111.abstract',
                          self.article.info['Publication Link'])
+
+    def test_publication_link_no_resolve(self):
+        self.assertEqual('DOI cannot be resolved: http://dx.doi.org/10.1002/stem.1902',
+                         self.newsletter.articles[2].info['Publication Link'])
 
     def test_article_title(self):
         self.assertEqual('TSG-6 as a Biomarker to Predict Efficacy of Human Mesenchymal '
