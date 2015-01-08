@@ -102,6 +102,10 @@ class Article(object):
 
     def find_date(self):
         year, month, date = None, None, None
+        if self.tag.find('pubmedpubdate', {'pubstatus': 'aheadofprint'}):
+            year = self.tag.pubdate.year.text.strip()
+            month = self.tag.pubdate.month.text.strip()
+            day = self.tag.pubdate.day.text.strip()
         if self.tag.pubdate:
             try:
                 year = self.tag.pubdate.year.text.strip()

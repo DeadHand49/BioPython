@@ -30,7 +30,7 @@ class LeadEntryTest(unittest.TestCase):
         self.assertEqual('Connexon', self.newsletter.info['Lead Source'])
 
     def test_get_publication_date(self):
-        self.assertEqual('10/10/2014', self.article.info['Publication Date'])
+        self.assertEqual('11/10/2014', self.article.info['Publication Date'])
 
     def test_publication_link(self):
         self.assertEqual('http://www.pnas.org/content/early/2014/11/06/1416121111.abstract',
@@ -38,13 +38,13 @@ class LeadEntryTest(unittest.TestCase):
 
     def test_article_title(self):
         self.assertEqual('TSG-6 as a Biomarker to Predict Efficacy of Human Mesenchymal '
-                         'Stem/Progenitor Cells (hMSCs) in Modulating Sterile Inflammation In Vivo',
-                         self.article.info['Article Title'])
+                         'Stem/Progenitor Cells (hMSCs) in Modulating Sterile Inflammation In Vivo'.lower(),
+                         self.article.info['Article Title'].lower())
 
     def test_author_first_name(self):
         self.assertEqual('Darwin', self.author.info['First Name'])
 
-    def test_author_first_name(self):
+    def test_author_last_name(self):
         self.assertEqual('Prockop', self.author.info['Last Name'])
 
     def test_author_email(self):
