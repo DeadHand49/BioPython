@@ -14,7 +14,6 @@ import unicodecsv as csv
 class Newsletter(object):
 
     def __init__(self, url):
-        self.list_of_articles = []
         self.articles = []
         self.url = url
         self.soup = self.make_soup()
@@ -27,11 +26,10 @@ class Newsletter(object):
                      'Newsletter Archived Link': self.url,
                      'Search Term': 'Connexon; {}'.format(self.find_specific_lead_source())}
 
-
     def make_soup(self):
         """Given a URL will return a BeatifulSoup of that URL
 
-        Utilizes a header to avoid 403 Errors
+        Utilizes a header to avoid 503 Errors
         """
         header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 "
                                 "Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
@@ -61,6 +59,7 @@ class Newsletter(object):
         return BeautifulSoup(handle.read())
 
     def find_specific_lead_source(self):
+        """Returns the name of the specific lead source."""
         title = self.soup.find('title').text
         title_split = title.split(' - ')
         vol = re.findall('\d+.\d+', title_split[0])
@@ -72,7 +71,7 @@ class Newsletter(object):
             self.articles.append((Article(article)))
 
     def write_csv(self, csv_file):
-        """Adds line to a CSV contain all the information contained in self.article_info"""
+        """Adds line to a CSV contain all the information contained in self.articles"""
         field_names = ('First Name', 'Last Name', 'Email', 'Company', 'Department', 'Lead Source',
                        'Specific Lead Source', 'Newsletter Archived Link', 'Search Term', 'Publication Date',
                        'Publication Link', 'Article Title')
@@ -102,6 +101,7 @@ class Article(object):
         self.info['Article Title'] = self.tag.articletitle.text.strip().strip('.')
 
     def find_date(self):
+        year, month, date = None, None, None
         if self.tag.pubdate:
             try:
                 year = self.tag.pubdate.year.text.strip()
@@ -188,12 +188,12 @@ class Author(object):
 def regex_search(institute, mode):
     """Attempt to parse the institute entry using regular expressions"""
     regex_dict = {'Department': r'[\w ]*Department[\w ]*|[\w ]*Laboratory[A-Z ]*|'
-                                r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*',
+                                r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*|[\w ]*Service[A-Z ]*',
                   'Company': r'[\w ]*Universit[y|aria][\w ]*|[\w \']*Institut[e]?[\w \']*|'
-                             r'[\w ]*ETH[\w ]*',
+                             r'[\w ]*ETH[\w ]*|[\w \']*Academy[\w \']*',
                   'Email': r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}'
                   }
-    query = re.search(regex_dict.get(mode), institute, flags=re.I|re.U)
+    query = re.search(regex_dict.get(mode), institute, flags=re.I | re.U)
     if query:
         return query.group(0).strip()
     else:
@@ -208,11 +208,6 @@ def _find_comment(tag):
     except IndexError:
         return False
 
-
-def _find_lead_source(tag):
-    return '#ISSUE Start' in tag.contents
-
-
 def lookup_up_title(publication_title):
     """Returns Entrez entry for a search of the publication title. If publication title does not return result,
     input PMID manually to continue to retrieve entry"""
@@ -226,55 +221,6 @@ def lookup_up_title(publication_title):
         return '25430711'
 
 
-def manual_pmid(publication_title):
-    """Warns that there was no return for publication title and prompts user to enter PMID"""
-    print 'Pubmed search for ID Failed: {}'.format(publication_title)
-    pmid = raw_input('Manually input PMID here: ')
-    assert len(pmid) == 8, 'Malformed PMID'
-    return pmid
-
-
-def write_record(record):
-    """Returns a list pertaining to single line in the CSV"""
-
-    pub_date = get_pub_date(record)
-    record_list = []
-
-    author_count = 0
-    for author in record.get('FAU'):
-        last_name, first_name = name_split(author)
-        try:
-            institute = split_institute(record.get('AD'), author_count)
-            idict = parse_institute(institute)
-            email = find_email(record, last_name)
-        except IndexError:
-            institute = 'Malformed Record'
-            email = ''
-        author_count += 1
-        record_list.append([last_name, first_name, email, idict.get('Company'), idict.get('Department'),
-                            idict.get('City'), idict.get('State'), idict.get('Country'), idict.get('Postal'),
-                            'Connexon', pub_date, pub_link, record.get('TI')])
-
-    return record_list
-
-
-def write_csv(records):
-    """The main function. Writes a CSV to the path directory
-
-    Currently writes Last Name, First, Company, Publication Date, Publication Link and Publication Title
-
-    """
-    with open('leadentry.csv', 'wb') as lead_csv:
-        entry_csv = csv.writer(lead_csv)
-        entry_csv.writerow(['Last Name', 'First Name', 'Email', 'Company', 'Department', 'City',
-                            'State', 'Country', 'Postal Code', 'Lead Source', 'Publication Date', 'Publication Link',
-                            'Publication Title'])
-        for record in records:
-            entry_csv.writerows(write_record(record))
-
-    lead_csv.close()
-
-
 def url_wrapper():
     """Prompts user for Connexon issue URL. Will raise AssertionError if non-standard URL added.
 
@@ -284,6 +230,8 @@ def url_wrapper():
     return url
 
 if __name__ == '__main__':
-    test_url = 'http://www.mesenchymalcellnews.com/issue/volume-6-45-dec-2/'
-    news = Newsletter(test_url)
+    url = url_wrapper()
+    news = Newsletter(url)
     news.write_csv(open('leadentry.csv', 'wb'))
+
+#TODO: Catch Press Release first titles
