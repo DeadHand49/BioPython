@@ -1,10 +1,193 @@
+Int J Biol Sci: 4.372
+Pediatr Blood Cancer: 2.562
+ACS Nano: 12.033
+Int J Neurosci: 1.528
+Biofabrication: 4.302
+Pharm Dev Technol: 1.335
+J Clin Oncol: 17.879
+Ann Hematol: 2.396
+Gene Ther: 4.196
+Gene Ther: 4.196
+J Biol Chem: 4.6
+Lasers Med Sci: 2.419
+Acta Pharmacol Sin: 2.496
 Stem Cells Transl Med: 3.596
-Expert Opin Biol Ther: 3.653
-Transfusion: 3.568
-J Biomed Sci: 2.736
-Stem Cells: 7.133
-Mutagenesis: 3.497
-Cardiovasc Res: 5.808
+Biomacromolecules: 5.788
+Proc Natl Acad Sci U S A: 9.809
+Immunol Invest: 1.903
+Arch Toxicol: 5.078
+Cell Transplant: 3.57
+Cancer Res: 9.284
+Nat Rev Endocrinol: 12.958
+Stem Cells Transl Med: 3.596
+Circulation: 14.948
+PLoS One: 3.524
+Sci Rep: 5.078
+Mol Pain: Not in database
+Hum Mol Genet: 6.677
+Tissue Eng Part A: 4.254
+Arch Dis Child: 2.905
+Sci Signal: 6.337
+J Biomater Sci Polym Ed: 1.357
+Bioconjug Chem: 4.821
+Tissue Eng Part A: 4.254
+Tissue Eng Part C Methods: 4.254
+>>-->>Publication IF>>
+4.372
+>>-->>Publication Title>>
+Enhancement of Larval Rnai Efficiency by Over-Expressing Argonaute2 in Bombyx Mori
+>>-->>Publication Content>>
+RNA interference has been described as a powerful genetic tool for gene functional analysis and a promising approach for pest management. However, RNAi efficiency varies significantly among insect species due to distinct RNAi machineries. Lepidopteran insects include a large number of pests as well as model insects, such as the silkworm, Bombyx mori. However, only limited success of in vivo RNAi has been reported in lepidoptera, particularly during the larval stages when the worms feed the most and do the most harm to the host plant. Enhancing the efficiency of larval RNAi in lepidoptera is urgently needed to develop RNAi-based pest management strategies. In the present study, we investigate the function of the conserved RNAi core factor, Argonaute2 (Ago2), in mediating B. mori RNAi efficiency. We demonstrate that introducing BmAgo2 dsRNA inhibits the RNAi response in both BmN cells and embryos. Furthermore, we establish several transgenic silkworm lines to assess the roles of BmAgo2 in larval RNAi. Over-expressing BmAgo2 significantly facilitated both dsRNA-mediated larval RNAi when targeting DsRed using dsRNA injection and shRNA-mediated larval RNAi when targeting BmBlos2 using transgenic shRNA expression. Our results show that BmAgo2 is involved in RNAi in B. mori and provides a promising approach for improving larval RNAi efficiency in B. mori and in lepidopteran insects in general.
+>>-->>Publication Journal>>
+Int J Biol Sci
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.7150/ijbs.10235
+>>-->>Publication IF>>
+2.562
+>>-->>Publication Title>>
+Haploidentical Stem Cell Transplantation Augmented by Cd45Ra Negative Lymphocytes Provides Rapid Engraftment and Excellent Tolerability
+>>-->>Publication Content>>
+BACKGROUND: Haploidentical donors are being increasingly used for allogeneic hematopoietic cell transplantation (HCT). However, the requisite T-cell depletion results in a profound and often long-lasting immunocompromised state, and donor lymphocyte infusions bring a risk of graft-versus-host disease (GVHD). Naive T-cells are believed to be among the most alloreactive T-cell subset and can be identified by CD45RA expression. Allogeneic HCT using CD45RA depletion has not been previously described for haploidentical donors. PROCEDURE: Eight children with relapsed or refractory solid tumors were transplanted following myeloablative conditioning. Each patient received two cell products, one created by CD3 depletion and the other through CD45RA depletion. RESULTS: Median CD34 recovery was 59.2% with CD45RA depletion, compared to 82.4% using CD3 depletion. Median CD3+ T-cell dose after CD45RA reduction was 99.2 x 106 cells/kg, yet depletion of CD3+ CD45RA+ cells exceeded 4.5 log. CD45RA depletion also resulted in substantial depletion of B-cells (median 2.45 log). All eight patients engrafted within 14 days and rapidly achieved 100% donor chimerism. No acute GVHD or secondary graft failure was observed. CONCLUSIONS: CD45RA depletion is a novel approach to haploidentical HCT that offers rapid engraftment with minimal risk of GVHD. Pediatr Blood Cancer (c) 2015 Wiley Periodicals, Inc.
+>>-->>Publication Journal>>
+Pediatr Blood Cancer
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1002/pbc.25352
+>>-->>Publication IF>>
+12.033
+>>-->>Publication Title>>
+Localized Rnai Therapeutics of Chemoresistant Grade Iv Glioma Using Hyaluronan-Grafted Lipid-Based Nanoparticles
+>>-->>Publication Content>>
+Glioblastoma multiforme (GBM) is one of the most infiltrating, aggressive, and poorly treated brain tumors. Progress in genomics and proteomics has paved the way for identifying potential therapeutic targets for treating GBM, yet the vast majority of these leading drug candidates for the treatment of GBM are ineffective, mainly due to restricted passages across the blood-brain barrier. Nanoparticles have been emerged as a promising platform to treat different types of tumors due to their ability to transport drugs to target sites while minimizing adverse effects. Herein, we devised a localized strategy to deliver RNA interference (RNAi) directly to the GBM site using hyaluronan (HA)-grafted lipid-based nanoparticles (LNPs). These LNPs having an ionized lipid were previously shown to be highly effective in delivering small interfering RNAs (siRNAs) into various cell types. LNP's surface was functionalized with hyaluronan (HA), a naturally occurring glycosaminoglycan that specifically binds the CD44 receptor expressed on GBM cells. We found that HA-LNPs can successfully bind to GBM cell lines and primary neurosphers of GBM patients. HA-LNPs loaded with Polo-Like Kinase 1 (PLK1) siRNAs (siPLK1) dramatically reduced the expression of PLK1 mRNA and cumulated in cell death even under shear flow that simulate the flow of the cerebrospinal fluid compared with control groups. Next, a human GBM U87MG orthotopic xenograft model was established by intracranial injection of U87MG cells into nude mice. Convection of Cy3-siRNA entrapped in HA-LNPs was performed, and specific Cy3 uptake was observed in U87MG cells. Moreover, convection of siPLK1 entrapped in HA-LNPs reduced mRNA levels by more than 80% and significantly prolonged survival of treated mice in the orthotopic model. Taken together, our results suggest that RNAi therapeutics could effectively be delivered in a localized manner with HA-coated LNPs and ultimately may become a therapeutic modality for GBM.
+>>-->>Publication Journal>>
+ACS Nano
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1021/nn506248s
+>>-->>Publication IF>>
+1.528
+>>-->>Publication Title>>
+Bace1 Rna Interference Improves Spatial Memory and Attenuates Abeta Burden in Streptozotocin Induced Tau Hyperphosphorylated Rat Model
+>>-->>Publication Content>>
+Abstract Both senile plaques (SP) and intracellular neurofibrillary tangles (NFT) are the important pathological characteristics in Alzheimer's disease (AD). But the relationship between Abeta deposition and tau hyperphosphorylation is unknown. In this study, increased levels of full length APP, APP c terminal fragment (beta-CTF), and BACE1 were found in Streptozotocin (STZ) induced tau hyperphosphorylation models by quantitative PCR, western blotting, and immunohistochemistry methods. In the previous studies, few strategies focusing on inhibiting beta secretase in tau hyperphosphorylation model were utilized. Here, BACE1 RNAi was used to treat the STZ-induced tau hyperphosphorylation animal models. BACE1 RNAi treatment improved behavior ability of animal models and reduced the amount of Abeta1-40 and Abeta1-42 accompanied by decreasing the levels of BACE1 and beta-CTF. Our results demonstrated that neurological defect and neuro-toxic fragments including Abeta and beta-CTF were eliminated by BACE1 RNAi in tau hyperphosphorylated model, implying efficiency and safety of BACE1RNAi treatment against AD.
+>>-->>Publication Journal>>
+Int J Neurosci
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.3109/00207454.2013.790902
+>>-->>Publication IF>>
+4.302
+>>-->>Publication Title>>
+Three-Dimensional Cap/Gelatin Lattice Scaffolds with Integrated Osteoinductive Surface Topographies for Bone Tissue Engineering
+>>-->>Publication Content>>
+Surface topography is known to influence stem cells and has been widely used as physical stimuli to modulate cellular behaviour including adhesion, proliferation and differentiation on 2D surfaces. Integration of well-defined surface topography into three-dimensional (3D) scaffolds for tissue engineering would be useful to direct the cell fate for intended applications. Technical challenges are remaining as how to fabricate such 3D scaffolds with controlled surface topography from a range of biodegradable and biocompatible materials. In this paper, a novel fabrication process using computer numerically controlled machining and lamination is reported to make 3D calcium phosphate/gelatin composite scaffolds with integrated surface micropatterns that are introduced by embossing prior to machining. Geometric analysis shows that this method is versatile and can be used to make a wide range of lattices with porosities that meet the basic requirements for bone tissue engineering. Both in vitro and in vivo studies show that micropatterned composite scaffolds with surfaces comprising 40 mum pits and 50 mum grooves were optimal for improved osteogenesis. The results have demonstrated the potential of a novel fabrication process for producing cell-instructive scaffolds with designed surface topographies to induce specific tissue regeneration.
+>>-->>Publication Journal>>
+Biofabrication
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1088/1758-5090/7/1/015005
+>>-->>Publication IF>>
+1.335
+>>-->>Publication Title>>
+Nanostructured Lipid Carriers as Novel Drug Delivery System for Lung Cancer Gene Therapy
+>>-->>Publication Content>>
+Abstract Context: Nanostructured lipid carriers (NLC) are potentially good colloidal drug carriers for gene delivery. They are advised to be the second lifetime of lipid nanocarriers. Objective: The aim of this study is to develop novel modified NLC as nanomedicine for delivery of plasmid-containing enhanced green fluorescence protein (pEGFP). This system could target the lung cancer cells through receptor-mediated pathways to increase the nuclear uptake of genetic materials. Methods: In the present study, pEGFP-loaded NLC (NLC/pEGFP) were prepared. Transferrin (Tf) containing ligands were used for the surface coating of the vectors. In vitro transfection efficiency of the modified vectors was evaluated in human alveolar adenocarcinoma cell line (A549 cells) and in vivo transfection efficiency of the modified vectors was evaluated on mice bearing A549 cells model. Results: Tf-modified NLC/pEGFP (Tf-NLC/pEGFP) has a particle size of 157 nm, and approximately 82% of gene loading quantity. Tf-NLC/pEGFP displayed remarkably higher transfection efficiency than non-modified NLC/pEGFP both in vitro and in vivo. Conclusion: The results demonstrate that the novel NLC gene delivery system offers an effective strategy for lung cancer gene therapy.
+>>-->>Publication Journal>>
+Pharm Dev Technol
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.3109/10837450.2014.996900
+>>-->>Publication IF>>
+17.879
+>>-->>Publication Title>>
+Bone Marrow Minimal Residual Disease Was an Early Response Marker and a Consistent Independent Predictor of Survival after Anti-Gd2 Immunotherapy
+>>-->>Publication Content>>
+PURPOSE: Immunotherapy is a standard of care for children with high-risk neuroblastoma, where bone marrow (BM) is the predominant metastatic site. Early response markers of minimal residual disease (MRD) in the BM that are also predictive of survival could help individualize patient therapies. PATIENTS AND METHODS: After achieving first remission (n = 163), primary refractory disease (n = 102), or second remission (n = 95), children with stage 4 neuroblastoma received anti-GD2 3F8 antibody immunotherapy. BM MRD before 3F8 treatment and after cycle 2 (postMRD) was measured using a four-marker panel (B4GALNT1, PHOX2B, CCND1, and ISL1) by quantitative reverse transcription polymerase chain reaction. Progression-free survival (PFS) and overall survival (OS) were estimated using the Kaplan-Meier method. Prognostic variables were tested in both univariable and multivariable analyses, and MRD markers were further assessed individually and in combination as binary composite (postMRD: 0 and 1) and as equal sum (postMRDSum: 0 to 4) using the Cox regression models, and their predictive accuracy was determined by the concordance index. RESULTS: When BM was evaluated after cycle 2, individual markers were highly predictive of PFS and OS. The prediction accuracy improved when they were combined in postMRDSum. A multivariable model taking into account all the variables significant in the univariable analyses identified postMRDSum to be independently predictive of PFS and OS. When the model for OS also included missing killer immunoglobulin-like receptor ligand, human antimouse antibody response, and the enrollment disease status, the concordance index was 0.704. CONCLUSION: BM MRD after two cycles of immunotherapy was confirmed as an early response marker and a consistent independent predictor of survival.
+>>-->>Publication Journal>>
+J Clin Oncol
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1200/JCO.2014.57.6777
+>>-->>Publication IF>>
+2.396
+>>-->>Publication Title>>
+Prolonged Clinical Remissions in Patients with Relapsed or Refractory Follicular Lymphoma Treated with Autologous Stem Cell Transplantation Incorporating Rituximab
+>>-->>Publication Content>>
+Three sequential phase II trials were conducted with different immunotherapy approaches to enhance the outcome of autologous transplant (high-dose therapy and autologous stem cell transplantation (HDT/ASCT)) for recurrent follicular lymphoma. Seventy-three patients were enrolled from 1996 to 2009. Patients received HDT/ASCT combined with (1) interferon-alpha 3 MU/m2 subcutaneously (SC) three times per week (TIW) for 2 years post-ASCT, (2) rituximab (R) 375 mg/m2 for in vivo purging 3-5 days pre-stem cell collection and 2 x 4 weekly R at 2 and 6 months post-ASCT, respectively, or (3) three infusions of R pre-stem cell collection followed by 6x R weekly and interferon-alpha 3 MU/m2 SC TIW. Although not statistically significant, progression-free survival (PFS) for patients who received rituximab was 56.4 and 49.1 % at 5 and 10 years compared to 36 and 21 % in those who did not receive rituximab. Molecular relapse post-HDT/ASCT was the strongest predictor of PFS in a multivariate analysis. Molecular relapse was coincident with or preceded clinical relapses in 84 % of patients who relapsed-median of 12 months (range 0-129 months). Adverse events included secondary malignancy, transformation to diffuse large B cell lymphoma, prolonged mostly asymptomatic hypogammaglobulinemia, and pulmonary fibrosis. The long-term toxicity profile must be considered when selecting patients for this treatment.
+>>-->>Publication Journal>>
+Ann Hematol
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1007/s00277-014-2288-5
+>>-->>Publication IF>>
+4.196
+>>-->>Publication Title>>
+Permanent Acceptance of Mouse Cardiac Allografts with Cd40 siRNA to Induce Regulatory Myeloid Cells by Use of a Novel Polysaccharide siRNA Delivery System
+>>-->>Publication Content>>
+The CD40/CD154 co-stimulatory pathway is crucial in alloimmune response. We developed a novel small interfering RNA (siRNA) delivery system with a poly-dA extension at the 5'-end of the siRNA sense strand that was stably incorporated into 1,3-beta-glucan (schizophyllan, SPG). This was captured and incorporated into dendritic cells (DCs) through its receptor, Dectin-1, specifically silencing CD40 genes (siCD40) to exert immunoregulatory activity. siCD40/SPG-treated CBA mice permanently accepted B10 fully mismatched cardiac allografts. Consistent with graft survival, the infiltration of CD4+, CD8+ T cells into the graft was lower, and that the numbers of CD40lowCD11c+ DCs cells and CD4+Foxp3+cells were increased in both the graft and in the recipient spleen. In addition, naive CBA recipients given an adoptive transfer of splenocytes from the primary recipients with siCD40/SPG accepted a heart graft from donor-type B10, but not third-party Balb/c mice. In conclusion, the treatment with siCD40/SPG targeting DCs could generate antigen-specific Tregs, resulting in the permanent acceptance of mouse cardiac allografts. These findings have important implications for clarifying the mechanism underlying the induction of tolerance in DCs, and also highlight the potential of immunomodulation and the feasibility of siRNA-based clinical therapy in the transplantation field.Gene Therapy advance online publication, 8 January 2015; doi:10.1038/gt.2014.119.
+>>-->>Publication Journal>>
+Gene Ther
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/gt.2014.119
+>>-->>Publication IF>>
+4.196
+>>-->>Publication Title>>
+Tgf-Beta-siRNA Delivery with Nanoparticles Inhibits Peritoneal Fibrosis
+>>-->>Publication Content>>
+Gene therapies may be promising for the treatment of peritoneal fibrosis (PF) in subjects undergoing peritoneal dialysis (PD). However, a method of delivery of treatment genes to the peritoneum is lacking. We attempted to develop an in vivo small interfering RNA (siRNA) delivery system with liposome-based nanoparticles (NPs) to the peritoneum to inhibit PF. Transforming growth factor (TGF)-beta1-siRNAs encapsulated in NPs (TGF-beta1-siRNAs-NPs) dissolved in PD fluid were injected into the peritoneum of mice with PF three times a week for 2 weeks. TGF-beta1-siRNAs-NPs knocked down TGF-beta1 expression significantly in the peritoneum and inhibited peritoneal thickening with fibrous changes. TGF-beta1-siRNAs-NPs also inhibited the increase of expression of alpha-smooth muscle actin-positive myofibroblasts. These results suggest that the TGF-beta1-siRNA delivery system with NPs described here could be an effective therapeutic option for PF in subjects undergoing PD.Gene Therapy advance online publication, 8 January 2015; doi:10.1038/gt.2014.116.
+>>-->>Publication Journal>>
+Gene Ther
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/gt.2014.116
+>>-->>Publication IF>>
+4.6
+>>-->>Publication Title>>
+The S228P Mutation Prevents <em>In Vivo</em> and in Vitro Igg4 Fab-Arm Exchange as Demonstrated Using a Combination of Novel Quantitative Immunoassays and Physiological Matrix Preparation
+>>-->>Publication Content>>
+Human immunoglobulin G isotype 4 (IgG4) antibodies (Abs) are potential candidates for immunotherapy when reduced effector functions are desirable. IgG4 Abs are dynamic molecules able to undergo a process known as Fab arm exchange (FAE). This results in functionally monovalent, bispecific antibodies (bsAbs) with unknown specificity and hence, potentially, reduced therapeutic efficacy. IgG4 FAE is suggested to be an important biological mechanism that provides the basis for the anti-inflammatory activity attributed to IgG4 Abs. To date, the mechanism of FAE is not entirely understood and studies looking at measuring FAE in ex vivo matrices have been hampered by the presence and abundance of endogenous IgG4 wild-type (WT) Abs. Using representative humanised WT IgG4 monoclonal Abs , namely, anti-IL-6 and anti-TNF, and a core-hinge stabilised Serine 228 to Proline (S228P) anti-IL-6 IgG4 mutant, it is demonstrated for the first time how anti-IgG4 affinity chromatography can be used to prepare physiologically relevant matrices for assessing and quantifying FAE. A novel method for quantifying FAE using a single MSD immunoassay is also reported and confirms previous findings that, dependent on the redox conditions, the S228P mutation can prevent IgG4 FAE to undetectable levels both in vitro and in vivo. Together, the findings and novel methodologies will allow researchers to monitor and quantify FAE of their own IgG4 molecules in physiologically relevant matrices.
+>>-->>Publication Journal>>
+J Biol Chem
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1074/jbc.M114.600973
+>>-->>Publication IF>>
+2.419
+>>-->>Publication Title>>
+Vascular Regeneration Effect of Adipose-Derived Stem Cells with Light-Emitting Diode Phototherapy in Ischemic Tissue
+>>-->>Publication Content>>
+The objective of this study was to investigate the effects on the vascular regeneration of adipose-derived stem cells (ASCs) by using red light-emitting diode (LED) irradiation in ischemic hind limbs. Low-level light therapy (LLLT) has been shown to enhance proliferation and cytokine secretion of a number of cells. ASCs are an attractive cell source for vascular tissue engineering. This approach is hindered because transplanted ASCs decline rapidly in the recipient tissue. Ischemic hind limbs were treated with LLLT from an LED array (660 nm) at an irradiance of 50 mW/cm2 and a radiant exposure of 30 J/cm2. LLLT, ASC transplantation, and ASC transplantation with LLLT (ASC + LLLT) were applied to ischemic limbs, and cell survival and differentiation, and secretion of vascular endothelial growth factor and basic fibroblast growth factor of the ASCs were evaluated by immunostaining and Western blot analyses. Vascular regeneration was assessed by immunostaining and hematoxylin and eosin staining. In the ASC + LLLT group, the survival of ASCs was increased due to the decreased apoptosis of ASCs. The secretion of growth factors was stimulated in this group compared with ASCs alone. The ASC + LLLT group displayed improved treatment efficacy including neovascularization and tissue regeneration compared with ASCs alone. In particular, quantitative analysis of laser Doppler blood perfusion image ratio showed that blood perfusion was enhanced significantly (p < 0.05) by ASC + LLLT treatment. These data suggest that LLLT is an effective biostimulator of ASCs in vascular regeneration, which enhances the survival of ASCs and stimulates the secretion of growth factors in ischemic limbs.
+>>-->>Publication Journal>>
+Lasers Med Sci
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1007/s10103-014-1699-9
+>>-->>Publication IF>>
+2.496
+>>-->>Publication Title>>
+Sorafenib Inhibits Proliferation and Invasion of Human Hepatocellular Carcinoma Cells via Up-Regulation of P53 and Suppressing Foxm1
+>>-->>Publication Content>>
+Aim:Forkhead box M1 (FoxM1) is a transcription factor that plays important roles in the pathogenesis and progression of human cancers, including hepatocellular carcinoma (HCC). The aim of this study was to examine the involvement of FoxM1 in the anti-cancer action of sorafenib, a multikinase inhibitor, in human HCC cells.Methods:HCC cell lines HepG2 and HuH-7 were tested. Cell viability was examined using MTT assay and cell invasion was determined with Transwell migration assay. The relevant mRNA expression was determined with RT-PCR, and the proteins were detected using Western blotting and immunofluorescence assays. RNA interference was used to modify the expression of p53 and FoxM1. HuH-7 cell line xenograft mice were used for in vivo study, which were treated with sorafenib (40 mg/kg, po) daily for 3 weeks.Results:Sorafenib (2-20 mumol/L) inhibited the proliferation of the cells in dose- and time-dependent manners with an IC50 value of nearly 6 mumol/L at 48 h. Sorafenib (6 mumol/L) markedly suppressed the cell invasion. Furthermore, sorafenib (2-6 mumol/L) dose-dependently decreased the expression of FoxM1, MMP-2, and Ki-67, and up-regulated that of p53 in the cells. Silencing p53 abolished the decrease of FoxM1 and increase of p53 in sorafenib-treated cells. Silencing FoxM1 significantly reduced the expression of MMP-2 and Ki-67, and enhanced the anti-proliferation action of sorafenib in the cells, whereas overexpression of FoxM1 increased the expression of MMP-2 and Ki-67, and abrogated the anti-proliferation action of sorafenib. In the xenograft mice, sorafenib administration decreased the tumor growth by 40%, and markedly increased the expression of p53, and decreased the expression of FoxM1, MMP-2, and Ki-67 in tumor tissues(?).Conclusion:Sorafenib inhibits HCC proliferation and invasion by inhibiting MMP-2 and Ki-67 expression due to up-regulation of P53 and suppressing FoxM1.
+>>-->>Publication Journal>>
+Acta Pharmacol Sin
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/aps.2014.122
 >>-->>Publication IF>>
 3.596
 >>-->>Publication Title>>
@@ -18,74 +201,242 @@ Abstract
 >>-->>Publication Link URLs>>
 http://dx.doi.org/10.5966/sctm.2014-0195
 >>-->>Publication IF>>
-3.653
+5.788
 >>-->>Publication Title>>
-How Far Are We from the Clinical Use of Placental-Derived Mesenchymal Stem Cells?
+Long Term, Sustained Release of Salicylic Acid from Crosslinked, Biodegradable Polyesters Induces Reduced Foreign Body Response in Mice
 >>-->>Publication Content>>
-In recent years, multiple studies have investigated the biology and clinical applications of mesenchymal stem cells (MSCs), trying to define their markers, and elucidate their effects in animal models. MSCs are available from different tissues, and the use of placental-derived MSCs (PMSCs) for treating a variety of disorders is on the forefront. Herein, we discuss the most recent findings regarding the standardization of their isolation procedure and phenotype, along with advantages and limitations of their use. We also discuss the safety of the placental cell products, including the issue of senescence and mutagenesis of PMSCs, and efficacy from preclinical studies.
+There has been a continuous surge towards developing new biopolymers, which can exhibit better in vivo biocompatibility property in terms of reduced foreign body response (FBR). One approach to mitigate such undesired FBR is to develop an implant capable of releasing anti-inflammatory molecules in a sustained manner over a long time period. Implants causing inflammation are also more susceptible to infection. In this perspective, the in vivo biocompatibility of a novel, biodegradable salicylic acid releasing polyester (SAP) has been investigated by subcutaneous implantation in mouse animal model. The tissue response to SAP was compared with a widely used biodegradable polymer, poly(lactic acid-co-glycolic acid) (PLGA) as control over three time points of 2, 4 and 16 weeks. A long term in vitro study illustrates a continuous, linear (zero order) release of salicylic acid with a cumulative mass % release rate of 7.34x10-4 h-1 over ~1.5 to 17 months. On the basis of the physico-chemical analysis, the surface erosion for SAP and bulk erosion for PLGA have been confirmed as the dominant degradation mode in vivo. Based on the histomorphometrical analysis of the inflammatory cell densities and collagen distribution as well as quantification of pro-inflammatory cytokine levels (TNF-alpha and IL-1 beta), a reduced foreign body response of SAP with respect to PLGA has been unambiguously established. The favourable in vivo tissue response to SAP as manifested from the uniform and well vascularized encapsulation around the implant is consistent with the decrease in the inflammatory cell density and an increase in angiogenesis with implantation time. The above observations, together with the demonstration of long term and sustained release of salicylic acid establish the potential use of SAP for applications in improved matrices for tissue engineering and chronic wound healing.
 >>-->>Publication Journal>>
-Expert Opin Biol Ther
+Biomacromolecules
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1517/14712598.2015.1000856
+http://dx.doi.org/10.1021/bm5017282
 >>-->>Publication IF>>
-3.568
+9.809
 >>-->>Publication Title>>
-Optimal Method for Collection of Umbilical Cord Blood: an Egyptian Trial for a Public Cord Blood Bank
+Central Role of Siah Inhibition in Dcc-Dependent Cardioprotection Provoked by Netrin-1/No
 >>-->>Publication Content>>
-BACKGROUND: Umbilical cord blood (UCB) contains stem cells and can be used as an alternative to bone marrow transplantation. Engraftment is dependent on the total nucleated cell (TNC) and CD34+ cell counts of the cord blood units. This study was designed to evaluate the effect of the method of collection of the UCB on the yield of the cord blood units. STUDY DESIGN AND METHODS: Informed consent was obtained from 100 eligible mothers for donation of cord blood. Both in utero and ex utero methods were used for collection. The cord blood volume was measured. The TNC and the CD34+ cell counts were enumerated. RESULTS: We have found that in utero collection gave significantly larger volumes of cord blood and higher TNC counts than ex utero collection. There was no significant difference between both methods regarding the CD34+ cell counts. This study revealed a significant correlation between the volume of the collected cord blood and both TNC and CD34+ cell counts. CONCLUSION: It is better to collect cord blood in utero before placental delivery to optimize the quality of the cord blood unit.
+Deleted in colorectal cancer (DCC), a large transmembrane receptor of netrin-1, is critical for mediating netrin-1's cardioprotective function. In the present study we investigated novel mechanisms underlying netrin-1-induced, rapid, and feed-forward up-regulation of DCC, which is believed to sustain nitric oxide (NO) production to potentiate cardioprotection. Intriguingly, NO markedly reduced expression of the E3 ubiquitin ligase seven in absentia homolog (SIAH) that is specific for regulation of protesome-dependent DCC degradation, resulting in accumulation of DCC. The two SIAH isoforms compensate for each other when one is repressed; inhibition of both SIAH1 and SIAH2 using combined siRNAs significantly reduced infarct size while improving cardiac function after ischemia/reperfusion injury of the heart. This effect was absent in DCC-deficient mice. Moreover, in vivo RNAi inhibition of SIAH1/2 further augmented netrin-1's cardioprotective function. In summary, these data identify a novel therapeutic target of SIAH in facilitating NO/netrin-1-dependent cardioprotection, using the DCC receptor. Combination of netrin-1 and SIAH RNAi may prove to be a substantially effective therapy for myocardial infarction.
 >>-->>Publication Journal>>
-Transfusion
+Proc Natl Acad Sci U S A
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1111/trf.12978
+http://dx.doi.org/10.1073/pnas.1420695112
 >>-->>Publication IF>>
-2.736
+1.903
 >>-->>Publication Title>>
-Effects of Tobacco Smoking during Pregnancy on Oxidative Stress in the Umbilical Cord and Mononuclear Blood Cells of Neonates
+Genetically Modified Murine Adipose-Derived Mesenchymal Stem Cells Producing Interleukin-2 Favors B16F10 Melanoma Cell Proliferation
 >>-->>Publication Content>>
-BackgroundAlthough cigarette smoke is known to be a complex mixture of over 4000 substances that can lead to damage through active or passive smoking, its mechanisms and biochemical consequences in pregnancy and neonates are not yet fully understood. Therefore, in the present study, we propose to study the impact of smoking during gestation on the viability of blood mononuclear cells (MNC) from umbilical cords of newborns to assess the degree of oxidative stress and cell viability. Moreover, we aim to investigate possible biochemical and morphological changes in the umbilical cord.MethodsAfter childbirth, the cord blood and the umbilical cord were immediately collected in public hospitals in Greater Vitoria, ES, Brazil. Flow cytometry was used to analyze the cord blood and biochemical and histological tests were used to analyze the umbilical cord.ResultsPregnant smokers had a reduction of MNC viability from the umbilical cord (10%), an increase in the production of reactive oxygen species (ROS) and an increase in cell apoptosis (~2-fold) compared to pregnant non-smokers. In the umbilical cord, it was observed an increase of advanced oxidation protein products - AOPP (~2.5-fold) and a loss of the typical architecture and disposition of endothelial cells from the umbilical artery.ConclusionsThese data suggest that maternal cigarette smoking during pregnancy (even in small amounts) may compromise the viability of MNC cells and damage the umbilical cord structure, possibly by excessive ROS bioavailability.
+Adipose-derived mesenchymal stem cells (ADSCs) are attractive tools for cancer gene therapy due to their intrinsic tropism to the tumor environment. Interleukin-2 (IL2) is recognized as a key regulatory molecule, which enhances the activity and growth of the immune effector cell function. High-Dose IL2 Therapy is an option for treatment of malignant melanoma but has frequent, often serious and sometimes life-threatening side effects. Here we investigated the effect of genetically modified ADSCs (GM-ADSCs) expressing IL2 in immunocompetent mouse models of subcutaneous and lung metastatic melanoma. Prior to in vivo studies, we demonstrated that IL2 produced by GM-ADSCs may act as a growth factor for melanoma cells due to the increased viability and reduced apoptosis of melanoma cells after in vitro treatment. Subcutaneous co-injection of IL2-expressing ADSCs with melanoma cells significantly enhanced the melanoma tumor growth. Furthermore, histological analysis of subcutaneous tumors for IL2 and Melan-A (a melanocytic differentiation marker) confirmed that most of cells in melanoma/IL2-ADSC co-injected tumors are melanoma cells, not IL2-ADSCs. In pulmonary metastases model, melanoma cells were injected intravenously and 10 days later mice were treated by systematical injection of GM-ADSCs. Intravenously injected IL2-ADSCs engrafted into melanoma lung tumors but were unable to reduce melanoma lung metastases. Besides, administered IL2-ADSCs significantly reduced systemic CD4+ cells and did not impact the total survival of lung metastases melanoma bearing mice. In conclusion, this study showed that IL2-producing ADSCs can favor B16F10 melanoma cell proliferation. Therefore, therapies utilizing IL2 have to be taken into careful consideration.
 >>-->>Publication Journal>>
-J Biomed Sci
+Immunol Invest
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1186/s12929-014-0105-z
+http://dx.doi.org/10.3109/08820139.2014.988719
 >>-->>Publication IF>>
-7.133
+5.078
 >>-->>Publication Title>>
-The Runx1 +24 Enhancer and P1 Promoter Identify a Unique Subpopulation of Hematopoietic Progenitor Cells Derived from Human Pluripotent Stem Cells
+Inhibition of Tgfbeta Type I Receptor Activity Facilitates Liver Regeneration Upon Acute Ccl Intoxication in Mice
 >>-->>Publication Content>>
-Derivation of hematopoietic stem cells from human pluripotent stem cells remains a key goal for the fields of developmental biology and regenerative medicine. Here, we use a novel genetic reporter system to prospectively identify and isolate early hematopoietic cells derived from human embryonic stem cells (hESCs) and human induced pluripotent cells (iPSCs). Cloning the human RUNX1c P1 promoter and +24 enhancer to drive expression of tdTomato (tdTom) in hESCs and iPSCs, we demonstrate that tdTom expression faithfully enriches for RUNX1c-expressing hematopoietic progenitor cells. Time-lapse microscopy demonstrated the tdTom+ hematopoietic cells to emerge from adherent cells. Furthermore, inhibition of primitive hematopoiesis by blocking Activin/Nodal signaling promoted the expansion and/or survival of tdTom+ population. Notably, RUNX1c/tdTom+ cells represent only a limited subpopuation of CD34+ CD45+ and CD34+ CD43+ cells with a unique genetic signature. Using gene array analysis, we find significantly lower expression of Let-7 and mir181a microRNAs in the RUNX1c/tdTom+ cell population. These phenotypic and genetic analyses comparing the RUNX1c/tdTom+ population to CD34+ CD45+ umbilical cord blood and fetal liver demonstrate several key differences that likely impact the development of HSCs capable of long-term multilineage engraftment from hESCs and iPSCs. This article is protected by copyright. All rights reserved.
+Liver exhibits a remarkable maintenance of functional homeostasis in the presence of a variety of damaging toxic factors. Tissue regeneration involves cell replenishment and extracellular matrix remodeling. Key regulator of homeostasis is the transforming growth factor-beta (TGFbeta) cytokine. To understand the role of TGFbeta during liver regeneration, we used the single-dose carbon tetrachloride (CCl4) treatment in mice as a model of acute liver damage. We combined this with in vivo inhibition of the TGFbeta pathway by a small molecule inhibitor, LY364947, which targets the TGFbeta type I receptor kinase [activin receptor-like kinase 5 (ALK5)] in hepatocytes but not in activated stellate cells. Co-administration of LY364947 inhibitor and CCl4 toxic agent resulted in enhanced liver regeneration; cell proliferation (measured by PCNA, phosphorylated histone 3, p21) levels were increased in CCl4 + LY364947 versus CCl4-treated mice. Recovery of CCl4-metabolizing enzyme CYP2E1 expression in hepatocytes is enhanced 7 days after CCl4 intoxication in the mice that received also the TGFbeta inhibitor. In summary, a small molecule inhibitor that blocks ALK5 downstream signaling and halts the cytostatic role of TGFbeta pathway results in increased cell regeneration and improved liver function during acute liver damage. Thus, in vivo ALK5 modulation offers insight into the role of TGFbeta, not only in matrix remodeling and fibrosis, but also in cell regeneration.
 >>-->>Publication Journal>>
-Stem Cells
+Arch Toxicol
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1002/stem.1940
+http://dx.doi.org/10.1007/s00204-014-1436-y
 >>-->>Publication IF>>
-3.497
+3.57
 >>-->>Publication Title>>
-Human Mesenchymal Stem Cells as a Novel Platform for Simultaneous Evaluation of Cytotoxicity and Genotoxicity of Pharmaceuticals
+Adipose-Derived Stem Cells from Both Visceral and Subcutaneous Fat Deposits Significantly Improve Contractile Function of Infarcted Rat Hearts
 >>-->>Publication Content>>
-The in vitro micronucleus test is a well-known test for the screening of genotoxic compounds. However until now, most studies have been performed on either human peripheral lymphocytes or established cancer cell lines. This study provides human mesenchymal stem cells as an alternative to the conventional micronucleus test. We grew umbilical cord mesenchymal stem cells (UC-MSCs) on coverslips eliminating the cumbersome technique involving hypotonic treatment, fixation and preparing smears required for suspension culture (lymphocytes). The background frequency of nuclear blebs and micronuclei in UC-MSCs was found to be 7+/-5, in lymphocytes 16+/-3.5 and 9+/-3 and that for A549 cell line was 65+/-5 and 15+/-5 per 1000 cells, respectively, suggesting differences in the repair mechanism of normal and cancer cell lines. We inspected the cytotoxic and genotoxic effects of two known mutagens, mitomycin-C and hydrogen peroxide (H2O2), on UC-MSCs, lymphocytes and A549 cells. Treatment with mitomycin-C and H2O2 demonstrated drastic differences in the degree of cytotoxicity and genotoxicity suggesting a constitutional difference between normal and cancer cells. In addition we tested two solvents, dimethyl sulfoxide (DMSO) and ethanol, and two drugs, metformin and rapamycin. DMSO above 1% was found to be cytotoxic and genotoxic, whereas ethanol at same concentration was neither cytotoxic nor genotoxic indicating the minimal non-toxic level of the solvents. This study thus offers UC-MSCs as a better substitute to peripheral lymphocytes and cancer cell lines for high throughput screening of compounds and reducing the animal studies.
+BACKGROUND: Adipose-derived stem cells (ASCs) from subcutaneous and visceral adipose tissues have been studied individually. No studies have compared their abilities in treatment of heart failure. This study was designed to evaluate whether ASCs from the two sources could provide a long-term improvement of cardiac function in infarcted hearts. METHODS: Rat subcutaneous and visceral adipose tissues were excised for isolation of ASCs. Morphology, yield, proliferation, surface markers, differentiation, and cytokine secretion of the subcutaneous ASCs (S-ASCs) and visceral ASCs (V-ASCs) were analyzed. Then, a rat model of myocardial infarction (MI) was established by a coronary occlusion. Seven days after occlusion, S-ASCs (n=22), V-ASCs (n=22), and Dulbecco's Modified Eagle Medium (DMEM, n=20) were injected into the infarct rim, respectively. Cardiac function was then monitored with MRI for up to six months. The hearts were then removed for histological assessments. RESULTS: The yield of V-ASCs per gram of the visceral adipose depot was significantly greater than that of S-ASCs in one gram of the subcutaneous adipose depot. On the other hand, the S-ASCs showed a greater proliferation rate and colony-forming unit relative to the V-ASCs. In addition, the infarcted hearts treated with either S-ASCs or VASCs showed a significantly greater left ventricular ejection fraction (LVEF) than those treated with DMEM at four weeks and six months following the cell/DMEM transplantation. Moreover, the infarct sizes of both S-ASCs- and V-ASCs-treated hearts were significantly smaller than that in the DMEM-treated hearts. MRI showed the implanted ASCs at the end of six months of recovery. CONCLUSIONS: Despite the differences in cell yield, proliferation and colony formation capacity, both S-ASCs and V-ASCs provide a long-lasting improvement of cardiac contractile function in infarcted hearts. We conclude that the subcutaneous and visceral adipose tissues are equally effective cell sources for cell therapy of heart failure.
 >>-->>Publication Journal>>
-Mutagenesis
+Cell Transplant
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1093/mutage/geu086
+http://dx.doi.org/10.3727/096368914X685780
 >>-->>Publication IF>>
-5.808
+9.284
 >>-->>Publication Title>>
-Extracardiac Control of Embryonic Cardiomyocyte Proliferation and Ventricular Wall Expansion
+Beta-Catenin Promotes T Regulatory Cell Responses in Tumors by Inducing Vitamin a Metabolism in Dendritic Cells
 >>-->>Publication Content>>
-AIMS: The strategies that control formation of the ventricular wall during heart development are not well understood. In previous studies, we documented IGF2 as a major mitogenic signal that controls ventricular cardiomyocyte proliferation and chamber wall expansion. Our objective in this study was to define the tissue source of IGF2 in heart development and the upstream pathways that control its expression. METHODS AND RESULTS: Using a number of mouse genetic tools, we confirm that the critical source of IGF2 is the epicardium. We find that epicardial Igf2 expression is controlled in a biphasic manner, first induced by erythropoietin, and then regulated by oxygen and glucose with onset of placental function. Both processes are independently controlled by retinoic acid signaling. CONCLUSIONS: Our results demonstrate that ventricular wall cardiomyocyte proliferation is subdivided into distinct regulatory phases. Each involves instructive cues that originate outside the heart and thereby act on the epicardium in an endocrine manner, a mode of regulation that is mostly unknown in embryogenesis.
+Tumors actively suppress antitumor immunity creating formidable barriers to successful cancer immunotherapy. The molecular mechanisms underlying tumor-induced immune tolerance are largely unknown. In the present study, we show that dendritic cells (DCs) in the tumor microenvironment (TME) acquire the ability to metabolize vitamin A to produce retinoic acid (RA), which drives T regulatory responses and immune tolerance. Tolerogenic responses were dependent on induction of vitamin A-metabolizing enzymes via the beta-catenin/T Cell Factor (TCF) pathway in DCs. Consistent with this observation, DC-specific deletion of beta-catenin in mice markedly reduced T regulatory responses and delayed melanoma growth. Pharmacological inhibition of either vitamin A metabolizing enzymes or the beta-catenin/TCF4 pathway in vivo had similar effects on tumor growth and T regulatory responses. Hence, beta-catenin/TCF4 signaling induces local regulatory DC and regulatory T cell phenotypes via the RA pathway, identifying this pathway as an important target for anticancer immunotherapy.
 >>-->>Publication Journal>>
-Cardiovasc Res
+Cancer Res
 >>-->>Publication Link Names>>
 Abstract
 >>-->>Publication Link URLs>>
-http://dx.doi.org/10.1093/cvr/cvu269
+http://dx.doi.org/10.1158/0008-5472.CAN-14-2377
+>>-->>Publication IF>>
+12.958
+>>-->>Publication Title>>
+Stromal Cells and Stem Cells in Clinical Bone Regeneration
+>>-->>Publication Content>>
+Stem-cell-mediated bone repair has been used in clinical trials for the regeneration of large craniomaxillofacial defects, to slow the process of bone degeneration in patients with osteonecrosis of the femoral head and for prophylactic treatment of distal tibial fractures. Successful regenerative outcomes in these investigations have provided a solid foundation for wider use of stromal cells in skeletal repair therapy. However, employing stromal cells to facilitate or enhance bone repair is far from being adopted into clinical practice. Scientific, technical, practical and regulatory obstacles prevent the widespread therapeutic use of stromal cells. Ironically, one of the major challenges lies in the limited understanding of the mechanisms via which transplanted cells mediate regeneration. Animal models have been used to provide insight, but these models largely fail to reproduce the nuances of human diseases and bone defects. Consequently, the development of targeted approaches to optimize cell-mediated outcomes is difficult. In this Review, we highlight the successes and challenges reported in several clinical trials that involved the use of bone-marrow-derived mesenchymal or adipose-tissue-derived stromal cells. We identify several obstacles blocking the mainstream use of stromal cells to enhance skeletal repair and highlight technological innovations or areas in which novel techniques might be particularly fruitful in continuing to advance the field of skeletal regenerative medicine.
+>>-->>Publication Journal>>
+Nat Rev Endocrinol
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/nrendo.2014.234
+>>-->>Publication IF>>
+3.596
+>>-->>Publication Title>>
+Therapeutic Potential of Adipose-Derived Ssea-3-Positive Muse Cells for Treating Diabetic Skin Ulcers
+>>-->>Publication Content>>
+Stage-specific embryonic antigen-3 (SSEA-3)-positive multipotent mesenchymal cells (multilineage differentiating stress-enduring [Muse] cells) were isolated from cultured human adipose tissue-derived stem/stromal cells (hASCs) and characterized, and their therapeutic potential for treating diabetic skin ulcers was evaluated. Cultured hASCs were separated using magnetic-activated cell sorting into positive and negative fractions, a SSEA-3+ cell-enriched fraction (Muse-rich) and the remaining fraction (Muse-poor). Muse-rich hASCs showed upregulated and downregulated pluripotency and cell proliferation genes, respectively, compared with Muse-poor hASCs. These cells also released higher amounts of certain growth factors, particularly under hypoxic conditions, compared with Muse-poor cells. Skin ulcers were generated in severe combined immunodeficiency (SCID) mice with type 1 diabetes, which showed delayed wound healing compared with nondiabetic SCID mice. Treatment with Muse-rich cells significantly accelerated wound healing compared with treatment with Muse-poor cells. Transplanted cells were integrated into the regenerated dermis as vascular endothelial cells and other cells. However, they were not detected in the surrounding intact regions. Thus, the selected population of ASCs has greater therapeutic effects to accelerate impaired wound healing associated with type 1 diabetes. These cells can be achieved in large amounts with minimal morbidity and could be a practical tool for a variety of stem cell-depleted or ischemic conditions of various organs and tissues.
+>>-->>Publication Journal>>
+Stem Cells Transl Med
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.5966/sctm.2014-0181
+>>-->>Publication IF>>
+14.948
+>>-->>Publication Title>>
+Effect of Repetitive Intra-Arterial Infusion of Bone Marrow Mononuclear Cells in Patients with No-Option Limb Ischemia: the Randomized, Double-Blind, Placebo-Controlled Juventas Trial
+>>-->>Publication Content>>
+BACKGROUND: -Patients with severe limb ischemia may not be eligible for conventional therapeutic interventions. Pioneering clinical trials suggest that bone marrow (BM)-derived cell therapy enhances neovascularization, improves tissue perfusion, and prevents amputation. The objective of this trial was to determine whether repetitive intra-arterial infusion of BM mononuclear cells (BMMNC) in patients with severe, non-revascularizable limb ischemia can prevent major amputation. METHODS AND RESULTS: -The Juventas-trial is a randomized, double-blind, placebo-controlled clinical trial in 160 patients with severe, non-revascularizable limb ischemia. Patients were randomized to repetitive (3x; 3-weeks interval) intra-arterial infusion of BMMNC or placebo. No significant differences were observed for the primary outcome, i.e. major amputation at 6 months, with major amputation rates of 19% in the BMMNC vs. 13% in the placebo group (Relative risk [RR] 1.46; 95% confidence interval [CI] 0.62 to 3.42). The safety outcome (all-cause mortality, occurrence of malignancy or hospitalization due to infection) was not significantly different between the groups (RR 1.46; 95%CI 0.63 to 3.38), neither was all-cause mortality at six months with 5% vs. 6% (RR 0.78; 95%CI 0.22 to 2.80). Secondary outcomes quality of life, rest pain, ankle-brachial index, and transcutaneous oxygen pressure improved during follow-up, but there were no significant differences between the groups. CONCLUSIONS: -Repetitive intra-arterial infusion of autologous BMMNC into the common femoral artery did not reduce major amputation rate in patients with severe, non-revascularizable limb ischemia compared to placebo. The general improvement in secondary outcomes during follow-up in both the BMMNC as well as the placebo group underlines the essential role for placebo-controlled design of future trials. Clinical Trial Registration Information-ClinicalTrials.gov. Identifier: NCT00371371.
+>>-->>Publication Journal>>
+Circulation
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1161/CIRCULATIONAHA.114.012913
+>>-->>Publication IF>>
+3.524
+>>-->>Publication Title>>
+Crucial Role of Il1Beta and C3A in the <em>In Vitro</em>-Response of Multipotent Mesenchymal Stromal Cells to Inflammatory Mediators of Polytrauma
+>>-->>Publication Content>>
+Multipotent mesenchymal stromal cells (MSC) exert immune-modulatory effects and support tissue regeneration in various local trauma models. In case of a polytrauma, high amounts of danger-associated molecular patterns are released, leading to a systemic increase of inflammatory mediators. The influence of such a complex inflammatory microenvironment on human MSC is mainly unknown so far. Therefore, we investigated the effects of a defined serum-free polytrauma "cocktail" containing ILbeta, IL6, IL8 and the anaphylatoxins C3a and C5a, in concentrations corresponding to those measured in the blood of polytrauma patients, on human MSC in vitro. The polytrauma cocktail induced directed migration of MSC with C3a representing its major soluble chemoattractive agent. Furthermore, the polytrauma cocktail and IL1beta upregulated the expression of MMP1 indicating a potential role of IL1beta to enhance MSC migration in the tissue context. COX2, PTGES and TSG6 were also found to be upregulated upon stimulation with the polytrauma cocktail or IL1beta, but not through other single factors of the polytrauma cocktail in pathophysiologically relevant concentrations. An RNA expression array of 84 inflammation-related genes revealed that both the polytrauma cocktail and IL1beta induced C3, CSF1, TLR3 and various chemokines without major qualitative or quantitative differences. These results indicate that IL1beta is a crucial mediator of the polytrauma cocktail in terms of immune-modulation and MMP1 expression. Thus, upon encountering the primary sterile, inflammatory milieu of a polytrauma, endogenous or systemically transfused MSC might be able to migrate to sites of injury, secrete TSG6 and PGE2 and to influence macrophage biology as observed in local trauma models.
+>>-->>Publication Journal>>
+PLoS One
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1371/journal.pone.0116772
+>>-->>Publication IF>>
+5.078
+>>-->>Publication Title>>
+A Pliable Electroporation Patch (Ep-Patch) for Efficient Delivery of Nucleic Acid Molecules into Animal Tissues with Irregular Surface Shapes
+>>-->>Publication Content>>
+Delivery of nucleic acids into animal tissues by electroporation is an appealing approach for various types of gene therapy, but efficiency of existing methodsis not satisfactory. Here we present the validation of novel electroporation patch (ep-Patch) for efficient delivery of DNA and siRNA into mouse tissues. Using micromachining technology, closely spaced gold electrodes were made on the pliable parylene substrate to form a patch-like electroporation metrics. It enabled large coverage of the target tissues and close surface contact between the tissues and electrodes, thus providing a uniform electric field to deliver nucleic acids into tissues, even beneath intact skin. Using this ep-Patch for efficiently delivery of both DNA and siRNA, non-invasive electroporation of healthy mouse muscle tissue was successfully achieved. Delivery of these nucleic acids was performed to intact tumors with satisfactory results. Silencing of tumor genes using the ep-Patch was also demonstrated on mice. This pliable electroporation patch method constitutes a novel way of in vivo delivery of siRNA and DNA to certain tissues or organs to circumvent the disadvantages of existing methodologies for in vivo delivery of nucleic acid molecules.
+>>-->>Publication Journal>>
+Sci Rep
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1038/srep07618
+>>-->>Publication IF>>
+Not in database
+>>-->>Publication Title>>
+Viral Vectors Encoding Endomorphins and Serine Histogranin Attenuate Neuropathic Pain Symptoms after Spinal Cord Injury in Rats
+>>-->>Publication Content>>
+BACKGROUND: The treatment of spinal cord injury (SCI)-induced neuropathic pain presents a challenging healthcare problem. The lack of available robust pharmacological treatments underscores the need for novel therapeutic methods and approaches. Due to the complex character of neuropathic pain following SCI, therapies targeting multiple mechanisms may be a better choice for obtaining sufficient long-term pain relief. Previous studies in our lab showed analgesic effects using combinations of an NMDA antagonist peptide [Ser1]histogranin (SHG), and the mu-opioid peptides endomorphins (EMs), in several pain models. As an alternative to drug therapy, this study evaluated the analgesic potential of these peptides when delivered via gene therapy. RESULTS: Lentiviruses encoding SHG and EM-1 and EM-2 were intraspinally injected, either singly or in combination, into rats with clip compression SCI 2 weeks following injury. Treated animals showed significant reduction in mechanical and thermal hypersensitivity, compared to control groups injected with GFP vector only. The antinociceptive effects of individually injected components were modest, but the combination of EMs and SHG produced robust and sustained antinociception. The onset of the analgesic effects was observed between 1-5 weeks post-injection and sustained without decrement for at least 7 weeks. No adverse effects on locomotor function were observed. The involvement of SHG and EMs in the observed antinociception was confirmed by pharmacologic inhibition using intrathecal injection of either the opioid antagonist naloxone or an anti-SHG antibody. Immunohistochemical analysis showed the presence of SHG and EMs in the spinal cord of treated animals, and immunodot-blot analysis of CSF confirmed the presence of these peptides in injected animals. In a separate group of rats, delayed injection of viral vectors was performed in order to mimic more likely clinical scenario Comparable and sustained antinociceptive effects were observed in these animals using the SHG-EMs combination vectors compared to the group with early intervention. CONCLUSIONS: Findings from this study support the potential for direct gene therapy to provide a robust and sustained alleviation of chronic neuropathic pain following SCI. The combination strategy utilizing potent mu-opioid peptides with a naturally-derived NMDA antagonist may produce additive or synergistic analgesic effects without the tolerance development for long-term management of persistent pain.
+>>-->>Publication Journal>>
+Mol Pain
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1186/1744-8069-11-2
+>>-->>Publication IF>>
+6.677
+>>-->>Publication Title>>
+Hepatic Lentiviral Gene Transfer Prevents the Long-Term Onset of Hepatic Tumours of Glycogen Storage Disease Type 1A in Mice
+>>-->>Publication Content>>
+Glycogen storage disease type 1a (GSD1a) is a rare disease due to the deficiency in the glucose-6-phosphatase catalytic subunit (encoded by G6pc), which is essential for endogenous glucose production. Despite strict diet control to maintain blood glucose, patients with GSD1a develop hepatomegaly, steatosis and then hepatocellular adenomas (HCA), which can undergo malignant transformation. Recently, gene therapy has attracted attention as a potential treatment for GSD1a. In order to maintain long-term transgene expression, we developed an HIV-based vector, which allowed us to specifically express the human G6PC cDNA in the liver. We analysed the efficiency of this lentiviral vector in the prevention of the development of the hepatic disease in an original GSD1a mouse model, which exhibits G6Pase deficiency exclusively in the liver (L-G6pc-/- mice). Recombinant lentivirus were injected in B6.G6pcex3lox/ex3lox.SAcreERT2/w neonates and G6pc deletion was induced by tamoxifen treatment at weaning. Magnetic resonance imaging was then performed to follow up the development of hepatic tumours. Lentiviral gene therapy restored glucose-6 phosphatase activity sufficient to correct fasting hypoglycaemia during 9 months. Moreover, lentivirus-treated L-G6pc-/- mice presented normal hepatic triglyceride levels, whereas untreated mice developed steatosis. Glycogen stores were also decreased although liver weight remained high. Interestingly, lentivirus-treated L-G6pc-/- mice were protected against the development of hepatic tumours after 9 months of gene therapy while most of untreated L-G6pc-/- mice developed millimetric HCA. Thus the treatment of new-borns by recombinant lentivirus appears as an attractive approach to protect the liver from the development of steatosis and hepatic tumours associated to GSD1a pathology.
+>>-->>Publication Journal>>
+Hum Mol Genet
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1093/hmg/ddu746
+>>-->>Publication IF>>
+4.254
+>>-->>Publication Title>>
+Elastomeric Core/Shell Nanofibrous Cardiac Patch as a Biomimetic Support for Infarcted Porcine Myocardium
+>>-->>Publication Content>>
+Heart failure due to Myocardial Infarction (MI) remains the leading cause of death worldwide due to the inability of myocardial tissue to regenerate following infarction. Current therapies could only retard the progression of disease but fails to bring functional improvement and cardiac regeneration. The present study analyze the potentials of Poly(glycerol sebacate)/Fibrinogen (PGS/Fib) core/shell fibers as a structural support and initial entrapment of cells in an in vivo porcine model using echocardiography, histology and immunohistochemistry. The echocardiography results showed that the increased ejection fraction (EF) in PGS/Fib/VEGF/Cells compared to MI controls. The percentage increase in the End Diastolic Volume (EDV) dimension from post-MI period to 4 weeks follow-up was the least in PGS/Fib/VEGF/Cells groups compared to MI and cell control group proving that the PGS/Fib/VEGF/Cells group restored the left ventricle (LV) function after MI, evident from the improvement in EF and prevention of LV enlargement. Further, immunohistochemistry results demonstrated that the most of transplanted MSCs within the PGS/Fib/VEGF scaffolds expressed cardiac marker proteins troponin and actinin and endothelial cell marker protein CD31 indicating differentiation of human bone marrow mesenchymal stem cells (MSCs) into cardiac cells and endothelial cells. The developed nanofibrous cardiac patch PGS/Fib/VEGF/Cells provides both functional and structural integrity to the infarcted myocardium and also serves as a suitable matrix for the entrapment of MSCs in clinical applications for cardiac tissue engineering.
+>>-->>Publication Journal>>
+Tissue Eng Part A
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1089/ten.TEA.2014.0265
+>>-->>Publication IF>>
+2.905
+>>-->>Publication Title>>
+Severe Combined Immunodeficiency: Recent Developments and Guidance on Clinical Management
+>>-->>Publication Content>>
+Severe combined immunodeficiency (SCID) is a rare but important condition. Affected infants are born with profound abnormalities of immune cell function that lead to severe and recurrent infection that are almost always fatal in the first year of life without treatment. Infants with SCID are often initially seen by general paediatricians in the hospital care setting, and the recognition of the cardinal features of the disease and alertness to specific laboratory parameters are important in making an early diagnosis. There is also increasing interest in newborn screening for SCID, which has the potential to significantly improve outcome through early diagnosis and implementation of prophylactic medications. Definitive treatments such as haematopoietic stem cell transplantation and gene therapy have also made major advances over the last decade and again promise to improve the overall outcome for SCID with reduced long-term toxicities. In this review, we highlight some of the major advances in diagnosis and management of the disease, but we also want to emphasise the important role of the general paediatrician in making an early diagnosis and in ongoing management.
+>>-->>Publication Journal>>
+Arch Dis Child
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1136/archdischild-2014-306425
+>>-->>Publication IF>>
+6.337
+>>-->>Publication Title>>
+2014: Signaling Breakthroughs of the Year
+>>-->>Publication Content>>
+The 2014 breakthroughs fell into four main areas: innate immunity, host-microbe interactions, cell death signaling, and methodological advances in the study of cell signaling. Nominations included new discoveries about signaling in innate immune cells, innate immune functions for lymphoid and nonhematological cells, and the importance of host-microbe interactions for the regulation of host physiology. Also this year, we received nominations highlighting molecular mechanisms by which p53 contributes to the pathology of chronic inflammation and how signaling pathways mediate programmed necrotic cell death. Finally, 2014 saw the use of new techniques to study cell signaling and identify drug targets, such as the in vivo use of RNA interference to study signaling in T cells and new computational methods to study large datasets of different data types.
+>>-->>Publication Journal>>
+Sci Signal
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1126/scisignal.aaa4696
+>>-->>Publication IF>>
+1.357
+>>-->>Publication Title>>
+Thermo-Sensitive Nanoparticles for Triggered Release of siRNA
+>>-->>Publication Content>>
+Efficient delivery of small interfering RNA (siRNA) is crucially required for cancer gene therapy. Herein, a thermo-sensitive copolymer with a simple structure, poly (ethylene glycol) methyl ether acrylate-b-poly (N-isopropylacrylamide) (mPEG-b-PNIPAM) was developed. A novel kind of thermo-sensitive nanoparticles (DENPs) was constructed for the cold-shock triggered release of siRNA by double emulsion-solvent evaporation method using mPEG-b-PNIPAM and a cationic lipid, 3beta [N-(N', N'-dimethylaminoethane)-carbamoyl] cholesterol [DC-Chol]. DENPs were observed by transmission electron microscopy and dynamical light scattering before and after 'cold shock' treatment. The encapsulation efficiency (EE) of siRNA in DENPs, which was measured by fluorescence spectrophotometer was 96.8% while it was significantly reduced to be 23.2% when DC-Chol was absent. DENPs/siRNA NPs exhibited a thermo-sensitive siRNA release character that the cumulatively released amount of siRNA from cold shock was approximately 2.2 folds higher after 7 days. In vitro luciferase silencing experiments indicated that DENPs showed potent gene silencing efficacy in HeLa-Luc cells (HeLa cells steadily expressed luciferase), which was further enhanced by a cold shock. Furthermore, MTT assay showed that cell viability with DENPs/siRNA up to 200 nM remained above 80%. We also observed that most of siRNA was accumulated in kidney mediated by DENPs instead of liver and spleen in vivo experiments. Thus, DENPs as a cold shock responsive quick release model for siRNA or hydrophilic macromolecules delivery provide a new way to nanocarrier design and clinic therapy.
+>>-->>Publication Journal>>
+J Biomater Sci Polym Ed
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1080/09205063.2014.997559
+>>-->>Publication IF>>
+4.821
+>>-->>Publication Title>>
+Dc3-Decorated Polyion Complexes for Targeted Gene Delivery into Dendritic Cells
+>>-->>Publication Content>>
+Dendritic cells (DCs) are a family of specialized antigen presenting cells (APCs) that detect antigens and initiate a wide spectrum of immune responses against them. These characteristics make them promising candidates for immunotherapy manipulations as gene carriers. In this study we designed and synthesized DCs-targeted block copolymers composed of linear polyethylenimine (PEI) conjugated to hydrophilic polyethylene glycol (PEG) installed with DCs targeting peptide (DC3, primary sequence FYPSYHSTPQRP). Two different conjugation procedures (basic and modified) were employed to synthesize the DC3-PEG-b-PEI and the control SCRM-PEG-b-PEI (with a scrambled DC3 peptide sequence) by one-pot synthesis, in two steps. In the first, basic conjugation procedure, PEG with N-hydroxysuccinimide (NHS) ester and maleimide (MAL) groups (NHS-PEG-MAL, 3.5 kDa) was first coupled to linear PEI (25 kDa) via the NHS group to yield the intermediate MAL-PEG-b-PEI, that was then conjugated to N-terminus-cysteine harboring peptides DC3 or SCRM via the MAL double bond to yield the final DC3-PEG-b-PEI or SCRM-PEG-b-PEI copolymers, respectively. In the second, modified conjugation procedure, Fmoc-cysteine harboring DC3 or SCRM peptides were first conjugated to NHS-PEG-MAL via the MAL group followed by coupling to linear PEI via the NHS functional group. Fmoc cleavage yielded the same final products as in the basic procedure. The modified conjugation procedure was capable of yielding block-copolymers that are richer with the peptides, as determined by 1H-NMR analysis. The designed DC3-PEG-b-PEI copolymers can self-assemble spontaneously with DNA molecules to form nanosized polyion complexes (polyplexes), with lower surface charge and limited cytotoxicity when compared to the PEI building block. Significant transfection efficiency of the DC3-targeted polyplexes by DCs was observed only in DC3-PEG-b-PEI/DNA polyplexes synthesized by the modified conjugation procedure. These polyplexes, with higher peptide loading, showed greater transfection capability in the murine dendritic cell line DC2.4 relative to the control non-targeted SCRM-PEG-b-PEI/DNA polyplexes, but not in endothelial cells. The transfection efficiency was comparable to- or higher than that of the PEI/DNA positive control. The results indicate that PEGylated-PEI show significant DCs transfection efficiency when decorated with DC3 peptide and are excellent candidates for in vivo gene delivery applications.
+>>-->>Publication Journal>>
+Bioconjug Chem
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1021/bc500529d
+>>-->>Publication IF>>
+4.254
+>>-->>Publication Title>>
+Heparin Binding - Epidermal Growth Factor Like Growth Factor for Regeneration of Chronic Tympanic Membrane Perforations in Mice
+>>-->>Publication Content>>
+We aim to explore the role of epidermal growth factor ligand shedding in tympanic membrane wound healing and to investigate the translation of its modulation in tissue engineering of chronic tympanic membrane perforations. Chronic suppurative otitis media is an infected chronic tympanic membrane perforation. Up to 200 million suffer from its associated hearing loss and it is the most common cause of pediatric hearing loss in developing countries. There is a need for non-surgical treatment due to a world-wide lack of resources. Here we show epidermal growth factor ligand shedding is essential for tympanic membrane healing as it's inhibition, with KB-R7785, leads to chronic perforation in 87.9% (n=58) compared to 0% (n=20) of controls. We then show that heparin binding - epidermal growth factor like growth factor (5ug/ml), which acts to shed epidermal growth factor ligands, can regenerate chronic perforations in mouse models with 92% (22 of 24) compared to 38% (10 of 26), also with Eustachian tube occlusion with 94% (18 of 19) compared to 9% (2 of 23) and with chronic suppurative otitis media 100% (16 of 16) compared to 41% (7 of 17). We also show the non-ototoxicity of this treatment and its hydrogel delivery vehicle. This provides preliminary data for a clinical trial where it could be delivered by non-specialist trained health care workers and fulfill the clinical need for a non-surgical treatment for chronic tympanic membrane perforation and chronic suppurative otitis media.
+>>-->>Publication Journal>>
+Tissue Eng Part A
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1089/ten.TEA.2014.0474
+>>-->>Publication IF>>
+4.254
+>>-->>Publication Title>>
+Induction of Hepatic and Endothelial Differentiation by Perfusion in a Three-Dimensional Cell Culture Model of Human Fetal Liver
+>>-->>Publication Content>>
+The development of functional engineered tissue constructs depends on high cell densities and appropriate vascularization. In this study we implemented a four-compartment three-dimensional (3D) perfusion bioreactor culture model for studying the effects of medium perfusion on endothelial, hepatic and hematopoietic cell populations of primary human fetal liver in an in-vivo like environment. Human fetal liver cells were cultured in bioreactors configured to provide either perfusion or diffusion conditions. Metabolic activity of the cultures was monitored daily by measuring glucose consumption and lactate production. Cell viability during culture was analyzed by lactate dehydrogenase activity. Hepatic functionality was determined by the release of albumin and alpha-fetoprotein (AFP) in culture medium samples. After 4 days of culture cells were analyzed for the expression of a variety of endothelial, hepatic and hematopoietic genes, as well as the surface marker expression of CD31 and CD34 in flow cytometry. We found that medium perfusion increased expression of endothelial genes such as CD31, vWF, CD140b, CD309 and CD144 while decreasing expression of the erythrocyte specific hematopoietic gene CD235a. Hepatic differentiation was promoted under perfusion conditions as demonstrated by lower AFP and higher albumin secretion compared to cultures not exposed to medium perfusion. Additionally, cultures exposed to medium perfusion gave higher rates of glucose consumption and lactate production, indicating increased metabolic activity. In conclusion, high-density bioreactors configured to provide constant medium perfusion significantly induced hepatic and endothelial cell differentiation and provided improved conditions for the culture of human fetal liver cells compared to cultures without perfusion.
+>>-->>Publication Journal>>
+Tissue Eng Part C Methods
+>>-->>Publication Link Names>>
+Abstract
+>>-->>Publication Link URLs>>
+http://dx.doi.org/10.1089/ten.TEC.2014.0453

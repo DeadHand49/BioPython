@@ -107,4 +107,4 @@ def emphasize_latin(text, title=True):
 
 
 if __name__ == '__main__':
-    fetch_ids('(wharton\'s OR placental OR "amniotic fluid" OR "Cord Blood" OR "umbilical cord") AND (Stem OR Progenitor OR mesenchymal OR mononuclear) AND "last 14 days"[EPDAT]')
+    fetch_ids('(("Cell Therapy" OR "Tissue Engineering" OR "Tissue Regeneration" OR "Organ Regeneration" OR "Regenerative Medicine" OR "Immunotherapy" OR "RNA interference" OR "RNAi" OR "Gene Therapy" OR "translational medicine")) AND (models OR transplant OR "In vivo" OR engraftment OR xenograft) AND "last 5 days"[EPDAT]')

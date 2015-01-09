@@ -232,9 +232,7 @@ def lookup_up_title(publication_title):
     try:
         return Entrez.read(handle)['IdList'][0]
     except IndexError:
-        # return manual_pmid(publication_title)
-        # uncomment for actual running, I don't understand how mock works
-        return '25430711'
+        return 'Could not find PMID'
 
 
 def url_wrapper():
