@@ -249,3 +249,4 @@ if __name__ == '__main__':
     news.write_csv(open('leadentry.csv', 'wb'))
 
 #TODO: Catch Press Release first titles
+#TODO: Consider refactoring Zotero and Connexon
