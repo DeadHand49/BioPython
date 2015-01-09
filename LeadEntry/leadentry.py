@@ -74,13 +74,12 @@ class Newsletter(object):
         """Adds line to a CSV contain all the information contained in self.articles"""
         field_names = ('First Name', 'Last Name', 'Email', 'Company', 'Department', 'Lead Source',
                        'Specific Lead Source', 'Newsletter Archived Link', 'Search Term', 'Publication Date',
-                       'Publication Link', 'Article Title')
+                       'Publication Link', 'Article Title', 'Aff')
         csv_writer = csv.DictWriter(csv_file, fieldnames=field_names)
         csv_writer.writeheader()
         for article in self.articles:
             for author in article.authors:
                 full_dict = dict(author.info.items() + article.info.items() + self.info.items())
-                del full_dict['Aff']
                 csv_writer.writerow(full_dict)
 
         csv_file.close()
@@ -189,17 +188,29 @@ class Author(object):
         self.find_email()
 
 
-def regex_search(institute, mode):
+def regex_search(institute, mode, lastname=''):
     """Attempt to parse the institute entry using regular expressions"""
     regex_dict = {'Department': r'[\w ]*Department[\w ]*|[\w ]*Laboratory[A-Z ]*|'
-                                r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*|[\w ]*Service[A-Z ]*',
+                                r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*|[\w ]*Service[A-Z ]*'
+                                r'|[\w ]*Institute[A-Z ]*',
                   'Company': r'[\w ]*Universit[y|aria][\w ]*|[\w \']*Institut[e]?[\w \']*|'
-                             r'[\w ]*ETH[\w ]*|[\w \']*Academy[\w \']*',
+                             r'[\w ]*ETH[\w ]*|[\w \']*Academy[\w \']*|[\w \'&]*College[\w \']*',
                   'Email': r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}'
                   }
-    query = re.search(regex_dict.get(mode), institute, flags=re.I | re.U)
+    query = re.findall(regex_dict.get(mode), institute, flags=re.I | re.U)
     if query:
-        return query.group(0).strip()
+        if mode == 'Department':
+            return query[0].strip()
+        elif mode == 'Company':
+            return query[-1].strip()
+        else:
+            if len(query) == 1:
+                return query[0]
+            else:
+                for email in query:
+                    if lastname.lower() in email.lower():
+                        return email
+                return str(query)
     else:
         return ''
 
@@ -211,6 +222,7 @@ def _find_comment(tag):
         return tag.has_attr('face') and tag.has_attr('size') and '#PUBLICATIONS TITLE' in tag.contents[1]
     except IndexError:
         return False
+
 
 def lookup_up_title(publication_title):
     """Returns Entrez entry for a search of the publication title. If publication title does not return result,
