@@ -5,6 +5,7 @@ __author__ = 'memery'
 
 import leadentry
 import unittest
+import urllib2
 
 
 class LeadEntryTest(unittest.TestCase):
@@ -36,8 +37,8 @@ class LeadEntryTest(unittest.TestCase):
         self.assertEqual('11/29/2014', self.newsletter.articles[8].info['Publication Date'])
 
     def test_publication_link(self):
-        self.assertEqual('http://www.pnas.org/content/early/2014/11/06/1416121111.abstract',
-                         self.article.info['Publication Link'])
+        test_open = urllib2.urlopen('http://www.pnas.org/content/early/2014/11/06/1416121111.abstract')
+        self.assertIn(self.article.info['Publication Link'], test_open.url)
 
     def test_publication_link_no_resolve(self):
         self.assertEqual('DOI cannot be resolved: http://dx.doi.org/10.1002/stem.1902',
@@ -58,7 +59,7 @@ class LeadEntryTest(unittest.TestCase):
         self.assertEqual('Prockop@medicine.tamhsc.edu', self.author.info['Email'])
 
     def test_author_company(self):
-        self.assertEqual('Texas A&M Health Science Center', self.author.info['Company'])
+        self.assertIn('Texas A&M Health Science Center', self.author.info['Company'])
 
     def test_author_department(self):
         self.assertEqual('Institute for Regenerative Medicine', self.author.info['Department'])

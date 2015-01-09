@@ -179,7 +179,7 @@ class Author(object):
         self.info['Company'] = regex_search(self.info['Aff'], 'Company')
 
     def find_email(self):
-        self.info['Email'] = regex_search(self.info['Aff'], 'Email')
+        self.info['Email'] = regex_search(self.info['Aff'], 'Email', lastname=self.info['Last Name'])
 
     def set_institute(self, aff):
         self.info['Aff'] = aff
@@ -246,8 +246,8 @@ def url_wrapper():
     return url
 
 if __name__ == '__main__':
-    url = url_wrapper()
-    news = Newsletter(url)
+    chosen_url = url_wrapper()
+    news = Newsletter(chosen_url)
     news.write_csv(open('leadentry.csv', 'wb'))
 
 #TODO: Catch Press Release first titles
