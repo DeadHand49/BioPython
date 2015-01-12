@@ -105,6 +105,7 @@ def emphasize_latin(text, title=True):
 #     return text
 
 
-
 if __name__ == '__main__':
-    fetch_ids('(("Cell Therapy" OR "Tissue Engineering" OR "Tissue Regeneration" OR "Organ Regeneration" OR "Regenerative Medicine" OR "Immunotherapy" OR "RNA interference" OR "RNAi" OR "Gene Therapy" OR "translational medicine")) AND (models OR transplant OR "In vivo" OR engraftment OR xenograft) AND "last 5 days"[EPDAT]')
+    prompt = raw_input('Pubmed query? ')
+    fetch_ids(prompt)
+    print 'Finished'
