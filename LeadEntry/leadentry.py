@@ -28,17 +28,16 @@ class Batch(object):
         for article in self.records('pubmedarticle'):
             self.articles.append((Article(article)))
 
-    @staticmethod
-    def lookup_up_title(publication_title):
+    def lookup_up_title(self, publication_title):
         """Returns Entrez entry for a search of the publication title. If publication title does not return result,
         input PMID manually to continue to retrieve entry"""
         Entrez.email = "matthew.emery@stemcell.com"
         handle = Entrez.esearch(db='pubmed', term=publication_title, retmax=1)
         try:
-            return Entrez.read(handle)['IdList'][0]
+            self.pmids.append(Entrez.read(handle)['IdList'][0])
         except IndexError:
             print 'Could not find PMID: {}'.format(publication_title)
-            return IndexError
+            self.no_pmids.append(publication_title)
 
     def fetch_pmid(self, title):
         try:
@@ -76,12 +75,13 @@ class ZoteroEntry(Batch):
 class Newsletter(Batch):
 
     def __init__(self, url):
+        self.url = url
         self.pmids, self.no_pmids = [], []
         self.articles = []
-        self.url = url
         self.soup = self.make_soup()
         self.publication_titles = self.parse_connexon()
-        self.pubmed_list = self.look_up_titles()
+        for pub in self.publication_titles:
+            self.lookup_up_title(pub)
         self.records = self.fetch_from_pubmed()
         self.parse_pubmed_soup()
         self.info = {'Lead Source': 'Connexon',
@@ -266,9 +266,6 @@ def _find_comment(tag):
         return tag.has_attr('face') and tag.has_attr('size') and '#PUBLICATIONS TITLE' in tag.contents[1]
     except IndexError:
         return False
-
-
-
 
 
 def url_wrapper():
