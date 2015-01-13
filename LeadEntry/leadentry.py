@@ -28,7 +28,7 @@ class Batch(object):
         for article in self.records('pubmedarticle'):
             self.articles.append((Article(article)))
 
-    def lookup_up_title(self, publication_title):
+    def lookup_up_title(self, publication_title, translated=False):
         """Returns Entrez entry for a search of the publication title. If publication title does not return result,
         input PMID manually to continue to retrieve entry"""
         Entrez.email = "matthew.emery@stemcell.com"
@@ -36,8 +36,17 @@ class Batch(object):
         try:
             self.pmids.append(Entrez.read(handle)['IdList'][0])
         except IndexError:
-            print 'Could not find PMID: {}'.format(publication_title)
-            self.no_pmids.append(publication_title)
+            if not translated:
+                #Britishness could be the issue
+                brit_dict = {'leukemia': 'leukaemia',
+                             'tumor': 'tumour',
+                             'signaling': 'signalling'}
+                for brit in brit_dict.items():
+                    new_title = publication_title.replace(brit[0], brit[1])
+                    self.lookup_up_title(self, new_title, translated=True)
+            else:
+                print 'Could not find PMID: {}'.format(publication_title)
+                self.no_pmids.append(publication_title)
 
     def fetch_pmid(self, title):
         try:
@@ -277,9 +286,11 @@ def url_wrapper():
     return url
 
 if __name__ == '__main__':
-    chosen_url = url_wrapper()
-    news = Newsletter(chosen_url)
-    news.write_csv(open('leadentry.csv', 'wb'))
+    # chosen_url = url_wrapper()
+    # news = Newsletter(chosen_url)
+    # news.write_csv(open('leadentry.csv', 'wb'))
+    tester = Batch()
+    tester.lookup_up_title('ZEB2 Drives Immature T-Cell Lymphoblastic Leukemia Development via Enhanced Tumour-Initiating Potential and IL-7 Receptor Signalling')
 
 #TODO: Catch Press Release first titles
 #TODO: Consider refactoring Zotero and Connexon
