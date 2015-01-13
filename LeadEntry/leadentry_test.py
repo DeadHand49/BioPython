@@ -16,6 +16,10 @@ class LeadEntryTest(unittest.TestCase):
         cls.newsletter = leadentry.Newsletter(cls.url)
         cls.article = cls.newsletter.articles[0]
         cls.author = cls.article.authors[-1]
+        cls.pmids = ['24411336', '25068130', '24649403', '25347300', '25333967', '24928924', '25138722', '25419247',
+                     '24675733', '25308419', '25548614', '24615461', '25426336', '25152405', '25071572', '24874291',
+                     '25065511', '25553826', '25496616', '25157815', '24509632', '25086649', '23354045', '25091426',
+                     '24572354', '24907126', '24895273', '25520292', '25211370', '25070322', '25398343']
 
     def test_parse_connexon_proper_length(self):
         self.assertEqual(12, len(self.newsletter.articles))

@@ -29,6 +29,7 @@ class Batch(object):
         """Appends to self.list_of_articles Article objects"""
         for article in self.records('pubmedarticle'):
             self.articles.append((Article(article)))
+            print Article(article)
 
     def lookup_up_title(self, publication_title, translated=False):
         """Returns Entrez entry for a search of the publication title. If publication title does not return result,
@@ -39,7 +40,7 @@ class Batch(object):
             self.pmids.append(Entrez.read(handle)['IdList'][0])
         except IndexError:
             if not translated:
-                #Britishness could be the issue
+                # Britishness could be the issue
                 brit_dict = {'Leukemia': 'Leukaemia',
                              'Tumor': 'Tumour',
                              'Signaling': 'Signalling',
@@ -53,10 +54,9 @@ class Batch(object):
 
 
 class ZoteroEntry(Batch):
-
     def __init__(self, zotero_csv, search_term, product_use, product_line, aoi, product_sector):
+        Batch.__init__(self)
         self.zotero_csv = zotero_csv
-        self.pmids, self.no_pmids = [], []
         self.read_csv()
         self.records = self.fetch_from_pubmed()
         self.articles = []
@@ -65,6 +65,7 @@ class ZoteroEntry(Batch):
                      'Product Line': product_line,
                      'Area of Interest': aoi,
                      'Product Sector': product_sector}
+        print self.pmids
         self.parse_pubmed_soup()
 
     def read_csv(self):
@@ -92,14 +93,15 @@ class ZoteroEntry(Batch):
 class Newsletter(Batch):
 
     def __init__(self, url):
+        Batch.__init__(self)
         self.url = url
-        self.pmids, self.no_pmids = [], []
         self.articles = []
         self.soup = self.make_soup()
         self.publication_titles = self.parse_connexon()
         for pub in self.publication_titles:
             self.lookup_up_title(pub)
         self.records = self.fetch_from_pubmed()
+        print self.pmids
         self.parse_pubmed_soup()
         self.info = {'Lead Source': 'Connexon',
                      'Specific Lead Source': self.find_specific_lead_source(),
@@ -203,9 +205,14 @@ class Article(object):
             else:
                 prev_aff = obj_author.info['Aff']
             self.authors.append(obj_author)
+            print obj_author
 
     def find_abstract(self):
         self.info['Abstract'] = self.tag.abstracttext.text.strip()
+
+    def __str__(self):
+        return self.info['Article Title'].encode('UTF-8')
+
 
 class Author(object):
 
@@ -250,6 +257,9 @@ class Author(object):
         self.find_department()
         self.find_email()
 
+    def __str__(self):
+        return '{} {}'.format(self.info['First Name'], self.info['Last Name']).encode('UTF-8')
+
 
 def regex_search(institute, mode, lastname=''):
     """Attempt to parse the institute entry using regular expressions"""
@@ -259,7 +269,7 @@ def regex_search(institute, mode, lastname=''):
                   'Company': r'[\w ]*Universit[y|aria][\w ]*|[\w \']*Institut[e]?[\w \']*|'
                              r'[\w ]*ETH[\w ]*|[\w \']*Academy[\w \']*|[\w \'&]*College[\w \']*',
                   'Email': r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}'
-                  }
+    }
     query = re.findall(regex_dict.get(mode), institute, flags=re.I | re.U)
     if query:
         if mode == 'Department':
@@ -295,6 +305,7 @@ def url_wrapper():
     assert '/issue/' in url, 'URL does not point to Connexon issue.'
     return url
 
+
 if __name__ == '__main__':
     tester = ZoteroEntry(open('ZoteroTest.csv', 'rb'), 'test', 'test', 'test', 'test', 'test')
     tester.write_csv(open('ZoteroOut.csv', 'wb'))
@@ -303,5 +314,5 @@ if __name__ == '__main__':
     # news = Newsletter(chosen_url)
     # news.write_csv(open('leadentry.csv', 'wb'))
 
-#TODO: Catch Press Release first titles
-#TODO: Search for Salesforce IDs?
+    # TODO: Catch Press Release first titles
+    #TODO: Search for Salesforce IDs?
