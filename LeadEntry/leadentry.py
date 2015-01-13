@@ -1,5 +1,7 @@
-from __future__ import unicode_literals
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
+
+from __future__ import unicode_literals
 
 __author__ = 'memery'
 
@@ -38,12 +40,13 @@ class Batch(object):
         except IndexError:
             if not translated:
                 #Britishness could be the issue
-                brit_dict = {'leukemia': 'leukaemia',
-                             'tumor': 'tumour',
-                             'signaling': 'signalling'}
+                brit_dict = {'Leukemia': 'Leukaemia',
+                             'Tumor': 'Tumour',
+                             'Signaling': 'Signalling',
+                             'α': 'alpha'}
                 for brit in brit_dict.items():
-                    new_title = publication_title.replace(brit[0], brit[1])
-                    self.lookup_up_title(self, new_title, translated=True)
+                    publication_title = publication_title.replace(brit[0], brit[1])
+                self.lookup_up_title(publication_title, translated=True)
             else:
                 print 'Could not find PMID: {}'.format(publication_title)
                 self.no_pmids.append(publication_title)
@@ -196,6 +199,8 @@ class Article(object):
                 prev_aff = obj_author.info['Aff']
             self.authors.append(obj_author)
 
+    def find_abstract(self):
+        self.info['Abstract'] = self.tag.abstracttext.text.strip()
 
 class Author(object):
 
@@ -286,11 +291,12 @@ def url_wrapper():
     return url
 
 if __name__ == '__main__':
+    tester = ZoteroEntry(open('ZoteroTest.csv', 'rb'), 'test')
+    Zotero
+
     # chosen_url = url_wrapper()
     # news = Newsletter(chosen_url)
     # news.write_csv(open('leadentry.csv', 'wb'))
-    tester = Batch()
-    tester.lookup_up_title('ZEB2 Drives Immature T-Cell Lymphoblastic Leukemia Development via Enhanced Tumour-Initiating Potential and IL-7 Receptor Signalling')
 
 #TODO: Catch Press Release first titles
 #TODO: Consider refactoring Zotero and Connexon
