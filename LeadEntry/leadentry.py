@@ -51,37 +51,42 @@ class Batch(object):
                 print 'Could not find PMID: {}'.format(publication_title)
                 self.no_pmids.append(publication_title)
 
-    def fetch_pmid(self, title):
-        try:
-            self.pmids.append(self.lookup_up_title(title))
-        except IndexError:
-            self.no_pmids.append(title)
-
 
 class ZoteroEntry(Batch):
 
-    def __init__(self, zotero_csv, specific_source):
+    def __init__(self, zotero_csv, search_term, product_use, product_line, aoi, product_sector):
         self.zotero_csv = zotero_csv
-        self.specific_source = specific_source
         self.pmids, self.no_pmids = [], []
         self.read_csv()
         self.records = self.fetch_from_pubmed()
         self.articles = []
+        self.info = {'Search Term': search_term,
+                     'Product Use/Assay Type': product_use,
+                     'Product Line': product_line,
+                     'Area of Interest': aoi,
+                     'Product Sector': product_sector}
         self.parse_pubmed_soup()
-
 
     def read_csv(self):
         with self.zotero_csv as zotero:
             reader = csv.DictReader(zotero)
             for row in reader:
-                self.fetch_pmid(row['Title'])
+                self.lookup_up_title(row['Title'])
 
-    def write_csv(self):
+    def write_csv(self, csv_file):
         """Complete"""
         field_names = ('Publication Link', 'Publication Date', 'Article Name', 'Abstract', 'Search Term',
-                       'Product Use/Assay Type', 'Product Line', 'First Name', 'Last Name', 'Company',
-                       'Department', 'Email', 'Lead Source', 'Specific Lead Source')
-        pass
+                       'Product Use/Assay Type', 'Area of Interest', 'Product Line', 'First Name', 'Last Name',
+                       'Company', 'Department', 'Email', 'Lead Source', 'Specific Lead Source', 'Product Sector')
+
+        csv_writer = csv.DictWriter(csv_file, extrasaction='ignore', fieldnames=field_names)
+        csv_writer.writeheader()
+        for article in self.articles:
+            for author in article.authors:
+                full_dict = dict(author.info.items() + article.info.items() + self.info.items())
+                csv_writer.writerow(full_dict)
+
+        csv_file.close()
 
 
 class Newsletter(Batch):
@@ -131,7 +136,7 @@ class Newsletter(Batch):
         field_names = ('First Name', 'Last Name', 'Email', 'Company', 'Department', 'Lead Source',
                        'Specific Lead Source', 'Newsletter Archived Link', 'Search Term', 'Publication Date',
                        'Publication Link', 'Article Title', 'Aff')
-        csv_writer = csv.DictWriter(csv_file, fieldnames=field_names)
+        csv_writer = csv.DictWriter(csv_file, extrasaction='ignore', fieldnames=field_names)
         csv_writer.writeheader()
         for article in self.articles:
             for author in article.authors:
@@ -291,12 +296,12 @@ def url_wrapper():
     return url
 
 if __name__ == '__main__':
-    tester = ZoteroEntry(open('ZoteroTest.csv', 'rb'), 'test')
-    Zotero
+    tester = ZoteroEntry(open('ZoteroTest.csv', 'rb'), 'test', 'test', 'test', 'test', 'test')
+    tester.write_csv(open('ZoteroOut.csv', 'wb'))
 
     # chosen_url = url_wrapper()
     # news = Newsletter(chosen_url)
     # news.write_csv(open('leadentry.csv', 'wb'))
 
 #TODO: Catch Press Release first titles
-#TODO: Consider refactoring Zotero and Connexon
+#TODO: Search for Salesforce IDs?
