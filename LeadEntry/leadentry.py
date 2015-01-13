@@ -11,9 +11,72 @@ import re
 import unicodecsv as csv
 
 
-class Newsletter(object):
+class Batch(object):
+    """A Batch object contains a collection of PMIDs that are parsed into Articles"""
+
+    def __init__(self):
+        self.pmids, self.no_pmids = [], []
+
+    def fetch_from_pubmed(self):
+        """Returns a list of Pubmed records based on a list of PMIDs"""
+        Entrez.email = "matthew.emery@stemcell.com"
+        handle = Entrez.efetch(db='pubmed', id=self.pmids, retmode='xml')
+        return BeautifulSoup(handle.read())
+
+    def parse_pubmed_soup(self):
+        """Appends to self.list_of_articles Article objects"""
+        for article in self.records('pubmedarticle'):
+            self.articles.append((Article(article)))
+
+    @staticmethod
+    def lookup_up_title(publication_title):
+        """Returns Entrez entry for a search of the publication title. If publication title does not return result,
+        input PMID manually to continue to retrieve entry"""
+        Entrez.email = "matthew.emery@stemcell.com"
+        handle = Entrez.esearch(db='pubmed', term=publication_title, retmax=1)
+        try:
+            return Entrez.read(handle)['IdList'][0]
+        except IndexError:
+            print 'Could not find PMID: {}'.format(publication_title)
+            return IndexError
+
+    def fetch_pmid(self, title):
+        try:
+            self.pmids.append(self.lookup_up_title(title))
+        except IndexError:
+            self.no_pmids.append(title)
+
+
+class ZoteroEntry(Batch):
+
+    def __init__(self, zotero_csv, specific_source):
+        self.zotero_csv = zotero_csv
+        self.specific_source = specific_source
+        self.pmids, self.no_pmids = [], []
+        self.read_csv()
+        self.records = self.fetch_from_pubmed()
+        self.articles = []
+        self.parse_pubmed_soup()
+
+
+    def read_csv(self):
+        with self.zotero_csv as zotero:
+            reader = csv.DictReader(zotero)
+            for row in reader:
+                self.fetch_pmid(row['Title'])
+
+    def write_csv(self):
+        """Complete"""
+        field_names = ('Publication Link', 'Publication Date', 'Article Name', 'Abstract', 'Search Term',
+                       'Product Use/Assay Type', 'Product Line', 'First Name', 'Last Name', 'Company',
+                       'Department', 'Email', 'Lead Source', 'Specific Lead Source')
+        pass
+
+
+class Newsletter(Batch):
 
     def __init__(self, url):
+        self.pmids, self.no_pmids = [], []
         self.articles = []
         self.url = url
         self.soup = self.make_soup()
@@ -27,7 +90,7 @@ class Newsletter(object):
                      'Search Term': 'Connexon; {}'.format(self.find_specific_lead_source())}
 
     def make_soup(self):
-        """Given a URL will return a BeatifulSoup of that URL
+        """Given a URL will return a BeautifulSoup of that URL
 
         Utilizes a header to avoid 503 Errors
         """
@@ -44,31 +107,12 @@ class Newsletter(object):
             publication_titles.append(pub.text.lstrip('\n'))
         return publication_titles
 
-    def look_up_titles(self):
-        """Returns a list of PMIDs given a list of Connexon Titles"""
-        pubmed_list = []
-        for publication in self.publication_titles:
-                pubmed_list.append(lookup_up_title(publication))
-
-        return pubmed_list
-
-    def fetch_from_pubmed(self):
-        """Returns a list of Pubmed records based on a list of PMIDs"""
-        Entrez.email = "matthew.emery@stemcell.com"
-        handle = Entrez.efetch(db='pubmed', id=self.pubmed_list, retmode='xml')
-        return BeautifulSoup(handle.read())
-
     def find_specific_lead_source(self):
         """Returns the name of the specific lead source."""
         title = self.soup.find('title').text
         title_split = title.split(' - ')
         vol = re.findall('\d+.\d+', title_split[0])
         return '{} {}'.format(title_split[1], vol[0])
-
-    def parse_pubmed_soup(self):
-        """Appends to self.list_of_articles Article objects"""
-        for article in self.records('pubmedarticle'):
-            self.articles.append((Article(article)))
 
     def write_csv(self, csv_file):
         """Adds line to a CSV contain all the information contained in self.articles"""
@@ -224,15 +268,7 @@ def _find_comment(tag):
         return False
 
 
-def lookup_up_title(publication_title):
-    """Returns Entrez entry for a search of the publication title. If publication title does not return result,
-    input PMID manually to continue to retrieve entry"""
-    Entrez.email = "matthew.emery@stemcell.com"
-    handle = Entrez.esearch(db='pubmed', term=publication_title, retmax=1)
-    try:
-        return Entrez.read(handle)['IdList'][0]
-    except IndexError:
-        return 'Could not find PMID'
+
 
 
 def url_wrapper():
