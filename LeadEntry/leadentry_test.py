@@ -12,10 +12,10 @@ class LeadEntryTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.url = 'http://www.mesenchymalcellnews.com/issue/volume-6-43-nov-18/'
-        cls.newsletter = leadentry.Newsletter(cls.url)
-        cls.article = cls.newsletter.articles[0]
-        cls.author = cls.article.authors[-1]
+        # cls.url = 'http://www.mesenchymalcellnews.com/issue/volume-6-43-nov-18/'
+        # cls.newsletter = leadentry.Newsletter(cls.url)
+        # cls.article = cls.newsletter.articles[0]
+        # cls.author = cls.article.authors[-1]
         cls.pmids = ['24411336', '25068130', '24649403', '25347300', '25333967', '24928924', '25138722', '25419247',
                      '24675733', '25308419', '25548614', '24615461', '25426336', '25152405', '25071572', '24874291',
                      '25065511', '25553826', '25496616', '25157815', '24509632', '25086649', '23354045', '25091426',
@@ -67,3 +67,9 @@ class LeadEntryTest(unittest.TestCase):
 
     def test_author_department(self):
         self.assertEqual('Institute for Regenerative Medicine', self.author.info['Department'])
+
+    def test_batch_correct_pmid(self):
+        tester = leadentry.Batch()
+        tester.lookup_up_title('The Ion Channel TRPV1 Regulates the Activation and '
+                               'Proinflammatory Properties of CD4+ T Cells')
+        self.assertEqual(tester.pmids[0], '25282159')

@@ -18,6 +18,8 @@ class Batch(object):
 
     def __init__(self):
         self.pmids, self.no_pmids = [], []
+        self.records = None
+        self.articles = []
 
     def fetch_from_pubmed(self):
         """Returns a list of Pubmed records based on a list of PMIDs"""
@@ -35,7 +37,7 @@ class Batch(object):
         """Returns Entrez entry for a search of the publication title. If publication title does not return result,
         input PMID manually to continue to retrieve entry"""
         Entrez.email = "matthew.emery@stemcell.com"
-        handle = Entrez.esearch(db='pubmed', term=publication_title, retmax=1)
+        handle = Entrez.esearch(db='pubmed', term=publication_title, retmax=10, sort='relevance')
         try:
             self.pmids.append(Entrez.read(handle)['IdList'][0])
         except IndexError:
@@ -268,8 +270,7 @@ def regex_search(institute, mode, lastname=''):
                                 r'|[\w ]*Institute[A-Z ]*',
                   'Company': r'[\w ]*Universit[y|aria][\w ]*|[\w \']*Institut[e]?[\w \']*|'
                              r'[\w ]*ETH[\w ]*|[\w \']*Academy[\w \']*|[\w \'&]*College[\w \']*',
-                  'Email': r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}'
-    }
+                  'Email': r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}'}
     query = re.findall(regex_dict.get(mode), institute, flags=re.I | re.U)
     if query:
         if mode == 'Department':
@@ -307,12 +308,9 @@ def url_wrapper():
 
 
 if __name__ == '__main__':
-    tester = ZoteroEntry(open('ZoteroTest.csv', 'rb'), 'test', 'test', 'test', 'test', 'test')
-    tester.write_csv(open('ZoteroOut.csv', 'wb'))
+    chosen_url = url_wrapper()
+    news = Newsletter(chosen_url)
+    news.write_csv(open('leadentry.csv', 'wb'))
 
-    # chosen_url = url_wrapper()
-    # news = Newsletter(chosen_url)
-    # news.write_csv(open('leadentry.csv', 'wb'))
-
-    # TODO: Catch Press Release first titles
+    #TODO: Catch Press Release first titles
     #TODO: Search for Salesforce IDs?
