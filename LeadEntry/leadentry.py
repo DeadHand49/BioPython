@@ -12,6 +12,8 @@ import time
 import re
 import unicodecsv as csv
 import socket
+import Tkinter
+import tkFileDialog
 
 
 class Batch(object):
@@ -304,19 +306,29 @@ def url_wrapper():
 
 
 def make_zotero_entry():
-    pass
+    info_dict = {'Search Term': raw_input('Input Search Term: '),
+                 'Product Use/Assay Type': raw_input('Input Product Use/Assay Type: '),
+                 'Product Line': raw_input('Input Product Line: '),
+                 'Area of Interest': raw_input('Input Area of Interest: '),
+                 'Product Line': raw_input('Input Product Line: '),
+                 'Product Sector': raw_input('Input Product Sector')}
+    root = Tkinter.Tk()
+    root.withdraw()
+    source = tkFileDialog.askopenfile(parent=root,
+                                      title='Select Zotero CSV')
+    return ZoteroEntry(source, info_dict)
 
 
 if __name__ == '__main__':
-    PROMPT = raw_input('Press "Z" for Zotero. Press "C" for Connexon')
+    PROMPT = raw_input('Press "Z" for Zotero. Press "C" for Connexon. ')
     if PROMPT.upper() == 'Z':
-        batch = ZoteroEntry(open('ZoteroTest.csv', 'rb'))
+        batch = make_zotero_entry()
         batch.read_csv()
     elif PROMPT.upper() == 'C':
         chosen_url = url_wrapper()
         batch = Newsletter()
     else:
-        raise AssertionError, 'Invalid choice, choose again'
+        raise AssertionError('Invalid choice, try again')
     batch.records = batch.fetch_from_pubmed()
     batch.parse_pubmed_soup()
     batch.write_csv(open('BatchOutput.csv', 'wb'))
