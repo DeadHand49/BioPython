@@ -10,16 +10,41 @@ import urllib2
 
 class LeadEntryTest(unittest.TestCase):
 
-    @classmethod
-    def setUpClass(cls):
-        # cls.url = 'http://www.mesenchymalcellnews.com/issue/volume-6-43-nov-18/'
-        # cls.newsletter = leadentry.Newsletter(cls.url)
-        # cls.article = cls.newsletter.articles[0]
-        # cls.author = cls.article.authors[-1]
-        cls.pmids = ['24411336', '25068130', '24649403', '25347300', '25333967', '24928924', '25138722', '25419247',
-                     '24675733', '25308419', '25548614', '24615461', '25426336', '25152405', '25071572', '24874291',
-                     '25065511', '25553826', '25496616', '25157815', '24509632', '25086649', '23354045', '25091426',
-                     '24572354', '24907126', '24895273', '25520292', '25211370', '25070322', '25398343']
+    # @classmethod
+    # def setUpClass(cls):
+    #     # cls.url = 'http://www.mesenchymalcellnews.com/issue/volume-6-43-nov-18/'
+    #     # cls.newsletter = leadentry.Newsletter(cls.url)
+    #     # cls.article = cls.newsletter.articles[0]
+    #     # cls.author = cls.article.authors[-1]
+    #     cls.pmids = ['24411336', '25068130', '24649403', '25347300', '25333967', '24928924', '25138722', '25419247',
+    #                  '24675733', '25308419', '25548614', '24615461', '25426336', '25152405', '25071572', '24874291',
+    #                  '25065511', '25553826', '25496616', '25157815', '24509632', '25086649', '23354045', '25091426',
+    #                  '24572354', '24907126', '24895273', '25520292', '25211370', '25070322', '25398343']
+
+    def test_batch_title(self):
+        batch = leadentry.Batch()
+        batch.pmids = ['24411336']
+        batch.records = batch.fetch_from_pubmed()
+        batch.parse_pubmed_soup()
+        self.assertEqual('A defined xeno-free and feeder-free culture system for the derivation, '
+                         'expansion and direct differentiation of transgene-free patient-specific '
+                         'induced pluripotent stem cells', batch.articles[0].info['Article Title'])
+
+    def test_batch_abstract(self):
+        batch = leadentry.Batch()
+        batch.pmids = ['24411336']
+        batch.records = batch.fetch_from_pubmed()
+        batch.parse_pubmed_soup()
+        self.assertIn('A defined xeno-free system for patient-specific iPSC derivation and differentiation',
+                      batch.articles[0].info['Abstract'])
+
+    def test_batch_pub_link(self):
+        batch = leadentry.Batch()
+        batch.pmids = ['24411336']
+        batch.records = batch.fetch_from_pubmed()
+        batch.parse_pubmed_soup()
+        self.assertEqual('http://www.sciencedirect.com/science/article/pii/S0142961213015342',
+                         batch.articles[0].info['Publication Link'])
 
     def test_parse_connexon_proper_length(self):
         self.assertEqual(12, len(self.newsletter.articles))
@@ -73,3 +98,6 @@ class LeadEntryTest(unittest.TestCase):
         tester.lookup_up_title('The Ion Channel TRPV1 Regulates the Activation and '
                                'Proinflammatory Properties of CD4+ T Cells')
         self.assertEqual(tester.pmids[0], '25282159')
+
+if __name__ == "__main__":
+    unittest.main()

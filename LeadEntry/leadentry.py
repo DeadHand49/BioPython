@@ -11,7 +11,7 @@ from Bio import Entrez
 import time
 import re
 import unicodecsv as csv
-
+import doctest
 
 class Batch(object):
     """A Batch object contains a collection of PMIDs that are parsed into Articles"""
@@ -56,19 +56,10 @@ class Batch(object):
 
 
 class ZoteroEntry(Batch):
-    def __init__(self, zotero_csv, search_term, product_use, product_line, aoi, product_sector):
+    def __init__(self, zotero_csv, info={}):
         Batch.__init__(self)
         self.zotero_csv = zotero_csv
-        self.read_csv()
-        self.records = self.fetch_from_pubmed()
-        self.articles = []
-        self.info = {'Search Term': search_term,
-                     'Product Use/Assay Type': product_use,
-                     'Product Line': product_line,
-                     'Area of Interest': aoi,
-                     'Product Sector': product_sector}
-        print self.pmids
-        self.parse_pubmed_soup()
+        self.info = info
 
     def read_csv(self):
         with self.zotero_csv as zotero:
@@ -78,7 +69,7 @@ class ZoteroEntry(Batch):
 
     def write_csv(self, csv_file):
         """Complete"""
-        field_names = ('Publication Link', 'Publication Date', 'Article Name', 'Abstract', 'Search Term',
+        field_names = ('Publication Link', 'Publication Date', 'Article Title', 'Abstract', 'Search Term',
                        'Product Use/Assay Type', 'Area of Interest', 'Product Line', 'First Name', 'Last Name',
                        'Company', 'Department', 'Email', 'Lead Source', 'Specific Lead Source', 'Product Sector')
 
@@ -97,7 +88,6 @@ class Newsletter(Batch):
     def __init__(self, url):
         Batch.__init__(self)
         self.url = url
-        self.articles = []
         self.soup = self.make_soup()
         self.publication_titles = self.parse_connexon()
         for pub in self.publication_titles:
@@ -160,6 +150,7 @@ class Article(object):
         self.find_date()
         self.find_doi()
         self.find_authors()
+        self.find_abstract()
 
     def find_title(self):
         self.info['Article Title'] = self.tag.articletitle.text.strip().strip('.')
@@ -189,8 +180,12 @@ class Article(object):
         """Return the DOI of an article as a string"""
         if self.tag.find(idtype='doi'):
             try:
-                article_url = urllib2.urlopen('http://dx.doi.org/{}'.format(self.tag.find(idtype='doi').text.strip()))
-                self.info['Publication Link'] = article_url.url
+                doi = self.tag.find(idtype='doi').text.strip()
+                header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) "
+                                        "Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
+                request = urllib2.Request('http://dx.doi.org/{}'.format(doi), headers=header)
+                article_url = urllib2.urlopen(request)
+                self.info['Publication Link'] = article_url.geturl()
             except urllib2.HTTPError:
                 self.info['Publication Link'] = 'DOI cannot be resolved: ' \
                                                 'http://dx.doi.org/{}'.format(self.tag.find(idtype='doi').text.strip())
@@ -312,5 +307,5 @@ if __name__ == '__main__':
     news = Newsletter(chosen_url)
     news.write_csv(open('leadentry.csv', 'wb'))
 
-    #TODO: Catch Press Release first titles
-    #TODO: Search for Salesforce IDs?
+    # TODO: Catch Press Release first titles
+    # TODO: Search for Salesforce IDs?
