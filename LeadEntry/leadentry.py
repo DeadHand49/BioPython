@@ -25,7 +25,12 @@ class Batch(object):
         self.articles = []
 
     def fetch_from_pubmed(self):
-        """Returns a list of Pubmed records based on a list of PMIDs"""
+        """Returns a BeautifulSoup object from a list of Pubmed IDs.
+
+        Creates one BeautifulSoup object from a list of Pubmed IDs. The Entrez email is currently defaulted to
+        matthew.emery@stemcell.com. {This may change in the future}. The Beautiful Soup is retrieved in XML format.
+        I believe this may affect whether Greek letters are properly encoded.
+        """
         Entrez.email = "matthew.emery@stemcell.com"
         handle = Entrez.efetch(db='pubmed', id=self.pmids, retmode='xml')
         return BeautifulSoup(handle.read())
@@ -59,10 +64,13 @@ class Batch(object):
 
 
 class ZoteroEntry(Batch):
-    def __init__(self, zotero_csv, info={'Lead Source': 'Web Search (Google, FASEB, PubMed, CRISP)'}):
+    def __init__(self, zotero_csv, info=None):
         Batch.__init__(self)
         self.zotero_csv = zotero_csv
-        self.info = info
+        if info:
+            self.info = info
+        else:
+            self.info = {'Lead Source': 'Web Search (Google, FASEB, PubMed, CRISP)'}
 
     def read_csv(self):
         with self.zotero_csv as zotero:
@@ -310,7 +318,8 @@ def make_zotero_entry():
                  'Product Use/Assay Type': raw_input('Input Product Use/Assay Type: '),
                  'Product Line': raw_input('Input Product Line: '),
                  'Area of Interest': raw_input('Input Area of Interest: '),
-                 'Product Sector': raw_input('Input Product Sector: ')}
+                 'Product Sector': raw_input('Input Product Sector: '),
+                 'Lead Source': 'Web Search (Google, FASEB, PubMed, CRISP)'}
     root = Tkinter.Tk()
     root.withdraw()
     print 'Please select Zotero CSV.'
@@ -336,3 +345,5 @@ if __name__ == '__main__':
 
     # TODO: Catch Press Release first titles
     # TODO: Search for Salesforce IDs?
+    # TODO: Custom Entrez.email entries
+    # TODO: Build the article from the Article class? (Good OOP)
