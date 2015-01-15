@@ -266,7 +266,7 @@ def regex_search(institute, mode, lastname=''):
     regex_dict = {'Department': r'[\w ]*Department[\w ]*|[\w ]*Laboratory[A-Z ]*|'
                                 r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*|[\w ]*Service[A-Z ]*'
                                 r'|[\w ]*Institute[A-Z ]*',
-                  'Company': r'[\w- ]*Universit[y|aria][\w ]*|[\w \']*Institut[e]?[\w \']*|'
+                  'Company': r'[\w\- ]*Universit[y|aria][\w ]*|[\w \']*Institut[e]?[\w \']*|'
                              r'[\w ]*ETH[\w ]*|[\w \']*Academy[\w \']*|[\w \'&]*College[\w \']*',
                   'Email': r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}'}
     query = re.findall(regex_dict.get(mode), institute, flags=re.I | re.U)
@@ -310,10 +310,10 @@ def make_zotero_entry():
                  'Product Use/Assay Type': raw_input('Input Product Use/Assay Type: '),
                  'Product Line': raw_input('Input Product Line: '),
                  'Area of Interest': raw_input('Input Area of Interest: '),
-                 'Product Line': raw_input('Input Product Line: '),
-                 'Product Sector': raw_input('Input Product Sector')}
+                 'Product Sector': raw_input('Input Product Sector: ')}
     root = Tkinter.Tk()
     root.withdraw()
+    print 'Please select Zotero CSV.'
     source = tkFileDialog.askopenfile(parent=root,
                                       title='Select Zotero CSV')
     return ZoteroEntry(source, info_dict)
@@ -326,7 +326,7 @@ if __name__ == '__main__':
         batch.read_csv()
     elif PROMPT.upper() == 'C':
         chosen_url = url_wrapper()
-        batch = Newsletter()
+        batch = Newsletter(chosen_url)
     else:
         raise AssertionError('Invalid choice, try again')
     batch.records = batch.fetch_from_pubmed()
