@@ -11,7 +11,8 @@ from Bio import Entrez
 import time
 import re
 import unicodecsv as csv
-import doctest
+import socket
+
 
 class Batch(object):
     """A Batch object contains a collection of PMIDs that are parsed into Articles"""
@@ -56,7 +57,7 @@ class Batch(object):
 
 
 class ZoteroEntry(Batch):
-    def __init__(self, zotero_csv, info={}):
+    def __init__(self, zotero_csv, info={'Lead Source': 'Web Search (Google, FASEB, PubMed, CRISP)'}):
         Batch.__init__(self)
         self.zotero_csv = zotero_csv
         self.info = info
@@ -65,7 +66,8 @@ class ZoteroEntry(Batch):
         with self.zotero_csv as zotero:
             reader = csv.DictReader(zotero)
             for row in reader:
-                self.lookup_up_title(row['Title'])
+                if row['Item Type'] == 'journalArticle':
+                    self.lookup_up_title(row['Title'])
 
     def write_csv(self, csv_file):
         """Complete"""
@@ -108,7 +110,7 @@ class Newsletter(Batch):
         header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 "
                                 "Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
         request = urllib2.Request(self.url, headers=header)
-        return BeautifulSoup(urllib2.urlopen(request))
+        return BeautifulSoup(urllib2.urlopen(request, timeout=20))
 
     def parse_connexon(self):
         """Given a BeautifulSoup object, returns a list of publication names"""
@@ -184,11 +186,10 @@ class Article(object):
                 header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) "
                                         "Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
                 request = urllib2.Request('http://dx.doi.org/{}'.format(doi), headers=header)
-                article_url = urllib2.urlopen(request)
+                article_url = urllib2.urlopen(request, timeout=20)
                 self.info['Publication Link'] = article_url.geturl()
-            except urllib2.HTTPError:
-                self.info['Publication Link'] = 'DOI cannot be resolved: ' \
-                                                'http://dx.doi.org/{}'.format(self.tag.find(idtype='doi').text.strip())
+            except (urllib2.HTTPError, socket.timeout) as e:
+                self.info['Publication Link'] = '{}: http://dx.doi.org/{}'.format(e, self.tag.find(idtype='doi').text)
         else:
             self.info['Publication Link'] = 'DOI not found'
 
@@ -263,7 +264,7 @@ def regex_search(institute, mode, lastname=''):
     regex_dict = {'Department': r'[\w ]*Department[\w ]*|[\w ]*Laboratory[A-Z ]*|'
                                 r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*|[\w ]*Service[A-Z ]*'
                                 r'|[\w ]*Institute[A-Z ]*',
-                  'Company': r'[\w ]*Universit[y|aria][\w ]*|[\w \']*Institut[e]?[\w \']*|'
+                  'Company': r'[\w- ]*Universit[y|aria][\w ]*|[\w \']*Institut[e]?[\w \']*|'
                              r'[\w ]*ETH[\w ]*|[\w \']*Academy[\w \']*|[\w \'&]*College[\w \']*',
                   'Email': r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}'}
     query = re.findall(regex_dict.get(mode), institute, flags=re.I | re.U)
@@ -302,10 +303,24 @@ def url_wrapper():
     return url
 
 
+def make_zotero_entry():
+    pass
+
+
 if __name__ == '__main__':
-    chosen_url = url_wrapper()
-    news = Newsletter(chosen_url)
-    news.write_csv(open('leadentry.csv', 'wb'))
+    PROMPT = raw_input('Press "Z" for Zotero. Press "C" for Connexon')
+    if PROMPT.upper() == 'Z':
+        batch = ZoteroEntry(open('ZoteroTest.csv', 'rb'))
+        batch.read_csv()
+    elif PROMPT.upper() == 'C':
+        chosen_url = url_wrapper()
+        batch = Newsletter()
+    else:
+        raise AssertionError, 'Invalid choice, choose again'
+    batch.records = batch.fetch_from_pubmed()
+    batch.parse_pubmed_soup()
+    batch.write_csv(open('BatchOutput.csv', 'wb'))
+
 
     # TODO: Catch Press Release first titles
     # TODO: Search for Salesforce IDs?

@@ -73,6 +73,10 @@ class LeadEntryTest(unittest.TestCase):
         self.assertEqual('DOI cannot be resolved: http://dx.doi.org/10.1002/stem.1902',
                          self.newsletter.articles[2].info['Publication Link'])
 
+
+    def test_article_sun_yet_sen(self):
+
+
     def test_article_title(self):
         self.assertEqual('TSG-6 as a Biomarker to Predict Efficacy of Human Mesenchymal '
                          'Stem/Progenitor Cells (hMSCs) in Modulating Sterile Inflammation In Vivo'.lower(),
