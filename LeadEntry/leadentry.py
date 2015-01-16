@@ -20,9 +20,8 @@ class Batch(object):
     """A Batch object contains a collection of PMIDs that are parsed into Articles"""
 
     def __init__(self):
-        self.pmids, self.no_pmids = [], []
-        self.records = None
         self.articles = []
+        self.pubmed_xml = None
 
     def fetch_from_pubmed(self):
         """Returns a BeautifulSoup object from a list of Pubmed IDs.
@@ -32,36 +31,14 @@ class Batch(object):
         I believe this may affect whether Greek letters are properly encoded.
         """
         Entrez.email = "matthew.emery@stemcell.com"
-        handle = Entrez.efetch(db='pubmed', id=self.pmids, retmode='xml')
+        handle = Entrez.efetch(db='pubmed', id=self.articles, retmode='xml')
         return BeautifulSoup(handle.read())
 
     def parse_pubmed_soup(self):
         """Appends to self.list_of_articles Article objects"""
-        for article in self.records('pubmedarticle'):
+        for article in self.pubmed_xml('pubmedarticle'):
             self.articles.append((Article(article)))
             print Article(article)
-
-    def lookup_up_title(self, publication_title, translated=False):
-        """Returns Entrez entry for a search of the publication title. If publication title does not return result,
-        input PMID manually to continue to retrieve entry"""
-        Entrez.email = "matthew.emery@stemcell.com"
-        handle = Entrez.esearch(db='pubmed', term=publication_title, retmax=10, sort='relevance')
-        try:
-            self.pmids.append(Entrez.read(handle)['IdList'][0])
-        except IndexError:
-            if not translated:
-                # Britishness could be the issue
-                brit_dict = {'Leukemia': 'Leukaemia',
-                             'Tumor': 'Tumour',
-                             'Signaling': 'Signalling',
-                             'α': 'alpha'}
-                for brit in brit_dict.items():
-                    publication_title = publication_title.replace(brit[0], brit[1])
-                self.lookup_up_title(publication_title, translated=True)
-            else:
-                print 'Could not find PMID: {}'.format(publication_title)
-                self.no_pmids.append(publication_title)
-
 
 class ZoteroEntry(Batch):
     def __init__(self, zotero_csv, info=None):
@@ -77,7 +54,11 @@ class ZoteroEntry(Batch):
             reader = csv.DictReader(zotero)
             for row in reader:
                 if row['Item Type'] == 'journalArticle':
-                    self.lookup_up_title(row['Title'])
+                    article = Article(info={'Article Title': row['Title'],
+                                            'Publication Link': row['Url']})
+                    article.update_info_dict('PMID', article.lookup_up_pmid())
+                    if not article.in_info('PMID'):
+                        article.update_info_dict('Authors', row['Author'].split('; '))
 
     def write_csv(self, csv_file):
         """Complete"""
@@ -104,7 +85,7 @@ class Newsletter(Batch):
         self.publication_titles = self.parse_connexon()
         for pub in self.publication_titles:
             self.lookup_up_title(pub)
-        self.records = self.fetch_from_pubmed()
+        self.pubmed_xml = self.fetch_from_pubmed()
         print self.pmids
         self.parse_pubmed_soup()
         self.info = {'Lead Source': 'Connexon',
@@ -154,18 +135,51 @@ class Newsletter(Batch):
 
 class Article(object):
 
-    def __init__(self, tag, info=None):
-        self.tag = tag
+    def __init__(self, info=None):
+
+        # self.tag = tag
         if info:
             self.info = info
         else:
             self.info = {}
-        self.authors = []
-        self.find_title()
-        self.find_date()
-        self.find_doi()
-        self.find_authors()
-        self.find_abstract()
+        # self.find_title()
+        # self.find_date()
+        # self.find_doi()
+        # self.find_authors()
+        # self.find_abstract()
+
+    def in_info(self, query):
+        return query in self.info
+
+    def lookup_up_pmid(self, translated=False):
+        """Returns Entrez entry for a search of the publication title. If publication title does not return result,
+        input PMID manually to continue to retrieve entry"""
+        if self.info['Article Title']:
+            Entrez.email = "matthew.emery@stemcell.com"
+            handle = Entrez.esearch(db='pubmed', term=self.info['Article Title'], retmax=10, sort='relevance')
+            try:
+                return Entrez.read(handle)['IdList'][0]
+            except IndexError:
+                if not translated:
+                    # Britishness could be the issue
+                    brit_dict = {'Leukemia': 'Leukaemia',
+                                 'Tumor': 'Tumour',
+                                 'Signaling': 'Signalling',
+                                 'α': 'alpha'}
+                    for brit in brit_dict.items():
+                        publication_title = self.info['Article Title'].replace(brit[0], brit[1])
+                    self.update_info_dict('Article Title', publication_title)
+                    self.lookup_up_pmid(publication_title, translated=True)
+                else:
+                    print 'Could not find PMID: {}'.format(self.info['Article Title'])
+        else:
+            raise AssertionError('Impossible to search PubMed without a title!')
+
+    def update_info_dict(self, key, value):
+        self.info[key] = value
+
+    def process_tag_info(self):
+        pass
 
     def find_title(self):
         self.info['Article Title'] = self.tag.articletitle.text.strip().strip('.')
@@ -344,7 +358,7 @@ if __name__ == '__main__':
         batch = Newsletter(chosen_url)
     else:
         raise AssertionError('Invalid choice, try again')
-    batch.records = batch.fetch_from_pubmed()
+    batch.pubmed_xml = batch.fetch_from_pubmed()
     batch.parse_pubmed_soup()
     batch.write_csv(open('BatchOutput.csv', 'wb'))
 
