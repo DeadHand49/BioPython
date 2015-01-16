@@ -154,9 +154,12 @@ class Newsletter(Batch):
 
 class Article(object):
 
-    def __init__(self, tag):
+    def __init__(self, tag, info=None):
         self.tag = tag
-        self.info = {}
+        if info:
+            self.info = info
+        else:
+            self.info = {}
         self.authors = []
         self.find_title()
         self.find_date()
@@ -322,7 +325,7 @@ def make_zotero_entry():
                  'Lead Source': 'Web Search (Google, FASEB, PubMed, CRISP)'}
     root = Tkinter.Tk()
     root.withdraw()
-    print 'Please select Zotero CSV.'
+    print 'Please Select Zotero CSV.'
     source = tkFileDialog.askopenfile(parent=root,
                                       title='Select Zotero CSV')
     return ZoteroEntry(source, info_dict)
