@@ -24,7 +24,7 @@ class LeadEntryTest(unittest.TestCase):
     def test_batch_title(self):
         batch = leadentry.Batch()
         batch.pmids = ['24411336']
-        batch.pubmed_xml = batch.fetch_from_pubmed()
+        batch.pubmed_xml = batch.create_pubmed_xml()
         batch.parse_pubmed_soup()
         self.assertEqual('A defined xeno-free and feeder-free culture system for the derivation, '
                          'expansion and direct differentiation of transgene-free patient-specific '
@@ -33,7 +33,7 @@ class LeadEntryTest(unittest.TestCase):
     def test_batch_abstract(self):
         batch = leadentry.Batch()
         batch.pmids = ['24411336']
-        batch.pubmed_xml = batch.fetch_from_pubmed()
+        batch.pubmed_xml = batch.create_pubmed_xml()
         batch.parse_pubmed_soup()
         self.assertIn('A defined xeno-free system for patient-specific iPSC derivation and differentiation',
                       batch.articles[0].info['Abstract'])
@@ -41,7 +41,7 @@ class LeadEntryTest(unittest.TestCase):
     def test_batch_pub_link(self):
         batch = leadentry.Batch()
         batch.pmids = ['24411336']
-        batch.pubmed_xml = batch.fetch_from_pubmed()
+        batch.pubmed_xml = batch.create_pubmed_xml()
         batch.parse_pubmed_soup()
         self.assertEqual('http://www.sciencedirect.com/science/article/pii/S0142961213015342',
                          batch.articles[0].info['Publication Link'])

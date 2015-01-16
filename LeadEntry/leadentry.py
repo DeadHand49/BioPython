@@ -23,7 +23,10 @@ class Batch(object):
         self.articles = []
         self.pubmed_xml = None
 
-    def fetch_from_pubmed(self):
+    def add_article(self, article):
+        self.articles.append(Article(article))
+
+    def create_pubmed_xml(self):
         """Returns a BeautifulSoup object from a list of Pubmed IDs.
 
         Creates one BeautifulSoup object from a list of Pubmed IDs. The Entrez email is currently defaulted to
@@ -31,14 +34,19 @@ class Batch(object):
         I believe this may affect whether Greek letters are properly encoded.
         """
         Entrez.email = "matthew.emery@stemcell.com"
-        handle = Entrez.efetch(db='pubmed', id=self.articles, retmode='xml')
-        return BeautifulSoup(handle.read())
+        queries = [article['PMID'] for article in self.articles if 'PMID' in article]
+        handle = Entrez.efetch(db='pubmed', id=queries, retmode='xml')
+        self.pubmed_xml = BeautifulSoup(handle.read())
 
     def parse_pubmed_soup(self):
         """Appends to self.list_of_articles Article objects"""
-        for article in self.pubmed_xml('pubmedarticle'):
-            self.articles.append((Article(article)))
-            print Article(article)
+        if self.pubmed_xml:
+            for article in self.pubmed_xml('pubmedarticle'):
+                self.articles.append((Article(article)))
+                print Article(article)
+        else:
+            raise AssertionError('Can\'t parse a PubMed soup that isn\'t there. Try self.create_pubmed_xml')
+
 
 class ZoteroEntry(Batch):
     def __init__(self, zotero_csv, info=None):
@@ -59,12 +67,14 @@ class ZoteroEntry(Batch):
                     article.update_info_dict('PMID', article.lookup_up_pmid())
                     if not article.in_info('PMID'):
                         article.update_info_dict('Authors', row['Author'].split('; '))
+                    self.add_article(article)
 
     def write_csv(self, csv_file):
         """Complete"""
         field_names = ('Publication Link', 'Publication Date', 'Article Title', 'Abstract', 'Search Term',
                        'Product Use/Assay Type', 'Area of Interest', 'Product Line', 'First Name', 'Last Name',
-                       'Company', 'Department', 'Email', 'Lead Source', 'Specific Lead Source', 'Product Sector')
+                       'Company', 'Department', 'Email', 'Lead Source', 'Specific Lead Source', 'Product Sector',
+                       'PMID')
 
         csv_writer = csv.DictWriter(csv_file, extrasaction='ignore', fieldnames=field_names)
         csv_writer.writeheader()
@@ -85,7 +95,7 @@ class Newsletter(Batch):
         self.publication_titles = self.parse_connexon()
         for pub in self.publication_titles:
             self.lookup_up_title(pub)
-        self.pubmed_xml = self.fetch_from_pubmed()
+        self.pubmed_xml = self.create_pubmed_xml()
         print self.pmids
         self.parse_pubmed_soup()
         self.info = {'Lead Source': 'Connexon',
@@ -122,12 +132,12 @@ class Newsletter(Batch):
         """Adds line to a CSV contain all the information contained in self.articles"""
         field_names = ('First Name', 'Last Name', 'Email', 'Company', 'Department', 'Lead Source',
                        'Specific Lead Source', 'Newsletter Archived Link', 'Search Term', 'Publication Date',
-                       'Publication Link', 'Article Title', 'Aff')
+                       'Publication Link', 'Article Title', 'Aff', 'PMID')
         csv_writer = csv.DictWriter(csv_file, extrasaction='ignore', fieldnames=field_names)
         csv_writer.writeheader()
         for article in self.articles:
             for author in article.authors:
-                full_dict = dict(author.info.items() + article.info.items() + self.info.items())
+                full_dict = dict(author.get_info_items() + article.get_info_items() + self.info.items())
                 csv_writer.writerow(full_dict)
 
         csv_file.close()
@@ -177,6 +187,9 @@ class Article(object):
 
     def update_info_dict(self, key, value):
         self.info[key] = value
+
+    def get_info_items(self):
+        return self.info.items()
 
     def process_tag_info(self):
         pass
@@ -285,6 +298,9 @@ class Author(object):
         self.find_department()
         self.find_email()
 
+    def get_info_items(self):
+        return self.info.items()
+
     def __str__(self):
         return '{} {}'.format(self.info['First Name'], self.info['Last Name']).encode('UTF-8')
 
@@ -358,7 +374,7 @@ if __name__ == '__main__':
         batch = Newsletter(chosen_url)
     else:
         raise AssertionError('Invalid choice, try again')
-    batch.pubmed_xml = batch.fetch_from_pubmed()
+    batch.pubmed_xml = batch.create_pubmed_xml()
     batch.parse_pubmed_soup()
     batch.write_csv(open('BatchOutput.csv', 'wb'))
 
