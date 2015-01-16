@@ -224,6 +224,9 @@ class Article(object):
     def __str__(self):
         return self.info['Article Title'].encode('UTF-8')
 
+    def __repr__(self):
+        return self.info['Article Title'].encode('UTF-8')
+
 
 class Author(object):
 
