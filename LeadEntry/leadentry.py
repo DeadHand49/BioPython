@@ -24,7 +24,7 @@ class Batch(object):
         self.pubmed_xml = None
 
     def add_article(self, article):
-        self.articles.append(Article(article))
+        self.articles.append(article)
 
     def create_pubmed_xml(self):
         """Returns a BeautifulSoup object from a list of Pubmed IDs.
@@ -160,6 +160,12 @@ class Article(object):
 
     def in_info(self, query):
         return query in self.info
+
+    def get_info(self, query):
+        if query in self.info:
+            return self.info[query]
+        else:
+            return None
 
     def lookup_up_pmid(self, translated=False):
         """Returns Entrez entry for a search of the publication title. If publication title does not return result,
@@ -382,4 +388,4 @@ if __name__ == '__main__':
     # TODO: Catch Press Release first titles
     # TODO: Search for Salesforce IDs?
     # TODO: Custom Entrez.email entries
-    # TODO: Build the article from the Article class? (Good OOP)
+    # TODO: A reminder of where you are: self.pubmed_xml.find('pmid', text=re.compile('25433608')).parent.find('issn').text

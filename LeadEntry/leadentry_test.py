@@ -6,6 +6,7 @@ __author__ = 'memery'
 import leadentry
 import unittest
 import urllib2
+from bs4 import BeautifulSoup
 
 
 class LeadEntryTest(unittest.TestCase):
@@ -99,6 +100,13 @@ class LeadEntryTest(unittest.TestCase):
                                'Proinflammatory Properties of CD4+ T Cells')
         self.assertEqual(tester.pmids[0], '25282159')
 
+    def test_find_pmid_in_xml(self):
+        tester = leadentry.Batch()
+        with open('leadentry_test.xml') as xml:
+            tester.pubmed_xml = BeautifulSoup(xml.read())
+            tester.add_article(leadentry.Article(info={'PMID': '25433608'}))
+            tester.parse_pubmed_soup()
+        self.assertEqual('a', 'b')
 
 if __name__ == "__main__":
     unittest.main()
