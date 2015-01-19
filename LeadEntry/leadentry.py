@@ -41,9 +41,10 @@ class Batch(object):
     def parse_pubmed_soup(self):
         """Appends to self.list_of_articles Article objects"""
         if self.pubmed_xml:
-            for article in self.pubmed_xml('pubmedarticle'):
-                self.articles.append((Article(article)))
-                print Article(article)
+            for article in self.articles:
+                if article.in_info('PMID'):
+                    child = self.pubmed_xml.find('pmid', text=re.compile(article.get_info('PMID')))
+                    article.update_info_dict('Tag', child.find_parent('pubmedarticle'))
         else:
             raise AssertionError('Can\'t parse a PubMed soup that isn\'t there. Try self.create_pubmed_xml')
 
@@ -185,7 +186,7 @@ class Article(object):
                     for brit in brit_dict.items():
                         publication_title = self.info['Article Title'].replace(brit[0], brit[1])
                     self.update_info_dict('Article Title', publication_title)
-                    self.lookup_up_pmid(publication_title, translated=True)
+                    self.lookup_up_pmid(self, publication_title, translated=True)
                 else:
                     print 'Could not find PMID: {}'.format(self.info['Article Title'])
         else:
@@ -344,6 +345,10 @@ def _find_comment(tag):
         return tag.has_attr('face') and tag.has_attr('size') and '#PUBLICATIONS TITLE' in tag.contents[1]
     except IndexError:
         return False
+
+# def _find_pmid_in_xml(tag):
+#     try:
+
 
 
 def url_wrapper():
