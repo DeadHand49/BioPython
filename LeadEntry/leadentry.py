@@ -198,27 +198,27 @@ class Article(object):
     def get_info_items(self):
         return self.info.items()
 
-    def process_tag_info(self):
-        pass
+    def process_tag_info(self, tag_list):
+        """Looks for tag info for a list of tags"""
 
     def find_title(self):
-        self.info['Article Title'] = self.tag.articletitle.text.strip().strip('.')
+        self.info['Article Title'] = self.info['Tag'].articletitle.text.strip().strip('.')
 
-    def find_date(self):
+    def find_date(self): #This sucks. Rewrite it
         year, month, day = None, None, None
-        if self.tag.find('pubmedpubdate', {'pubstatus': 'aheadofprint'}):
-            year = self.tag.find(pubstatus='aheadofprint').year.text.strip()
-            month = self.tag.find(pubstatus='aheadofprint').month.text.strip()
-            day = self.tag.find(pubstatus='aheadofprint').day.text.strip()
-        elif self.tag.pubdate:
+        if self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}):
+            year = self.info['Tag'].find(pubstatus='aheadofprint').year.text.strip()
+            month = self.info['Tag'].find(pubstatus='aheadofprint').month.text.strip()
+            day = self.info['Tag'].find(pubstatus='aheadofprint').day.text.strip()
+        elif self.info['Tag'].pubdate:
             try:
-                year = self.tag.pubdate.year.text.strip()
-                month = self.tag.pubdate.month.text.strip()
-                day = self.tag.pubdate.day.text.strip()
+                year = self.info['Tag'].pubdate.year.text.strip()
+                month = self.info['Tag'].pubdate.month.text.strip()
+                day = self.info['Tag'].pubdate.day.text.strip()
             except AttributeError:
-                year = self.tag.find(pubstatus='medline').year.text.strip()
-                month = self.tag.find(pubstatus='medline').month.text.strip()
-                day = self.tag.find(pubstatus='medline').day.text.strip()
+                year = self.info['Tag'].find(pubstatus='medline').year.text.strip()
+                month = self.info['Tag'].find(pubstatus='medline').month.text.strip()
+                day = self.info['Tag'].find(pubstatus='medline').day.text.strip()
         if month.isdigit():
             pubdate = time.strptime('{}{}{}'.format(month, day, year), '%m%d%Y')
         else:
@@ -227,23 +227,23 @@ class Article(object):
 
     def find_doi(self):
         """Return the DOI of an article as a string"""
-        if self.tag.find(idtype='doi'):
+        if self.info['Tag'].find(idtype='doi'):
             try:
-                doi = self.tag.find(idtype='doi').text.strip()
+                doi = self.info['Tag'].find(idtype='doi').text.strip()
                 header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) "
                                         "Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
                 request = urllib2.Request('http://dx.doi.org/{}'.format(doi), headers=header)
                 article_url = urllib2.urlopen(request, timeout=20)
                 self.info['Publication Link'] = article_url.geturl()
             except (urllib2.HTTPError, socket.timeout) as e:
-                self.info['Publication Link'] = '{}: http://dx.doi.org/{}'.format(e, self.tag.find(idtype='doi').text)
+                self.info['Publication Link'] = '{}: http://dx.doi.org/{}'.format(e, self.info['Tag'].find(idtype='doi').text)
         else:
             self.info['Publication Link'] = 'DOI not found'
 
     def find_authors(self):
         prev_aff = ''
 
-        for author in self.tag('author'):
+        for author in self.info['Tag']('author'):
             obj_author = Author(author)
             if obj_author.info['Aff'] == '':
                 obj_author.set_institute(prev_aff)

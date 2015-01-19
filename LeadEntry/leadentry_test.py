@@ -6,6 +6,7 @@ __author__ = 'memery'
 import leadentry
 import unittest
 import urllib2
+import bs4
 from bs4 import BeautifulSoup
 
 
@@ -104,9 +105,12 @@ class LeadEntryTest(unittest.TestCase):
         tester = leadentry.Batch()
         with open('leadentry_test.xml') as xml:
             tester.pubmed_xml = BeautifulSoup(xml.read())
-            tester.add_article(leadentry.Article(info={'PMID': '25433608'}))
+            test_article = leadentry.Article(info={'PMID': '25433608'})
+            tester.add_article(test_article)
             tester.parse_pubmed_soup()
-        self.assertEqual('a', 'b')
+        self.assertIsInstance(test_article.info['Tag'], bs4.element.Tag)
+
+
 
 if __name__ == "__main__":
     unittest.main()
