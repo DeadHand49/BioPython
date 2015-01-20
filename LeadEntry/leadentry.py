@@ -70,6 +70,12 @@ class ZoteroEntry(Batch):
                         article.update_info_dict('Authors', row['Author'].split('; '))
                     self.add_article(article)
 
+    def construct_articles(self):
+        for article in self.articles:
+            article.update_info_dict('Publication Date', article.find_date())
+            article.update_info_dict('Abstract', article.find_abstract())
+            article.update_info_dict('Authors', article.find_authors())
+
     def write_csv(self, csv_file):
         """Complete"""
         field_names = ('Publication Link', 'Publication Date', 'Article Title', 'Abstract', 'Search Term',
@@ -153,11 +159,6 @@ class Article(object):
             self.info = info
         else:
             self.info = {}
-        # self.find_title()
-        # self.find_date()
-        # self.find_doi()
-        # self.find_authors()
-        # self.find_abstract()
 
     def in_info(self, query):
         return query in self.info
@@ -192,7 +193,7 @@ class Article(object):
         else:
             raise AssertionError('Impossible to search PubMed without a title!')
 
-    def update_info_dict(self, key, value):  # We could use this to get everything else to return (simpler debugging)
+    def update_info_dict(self, key, value):
         self.info[key] = value
 
     def get_info_items(self):
@@ -202,21 +203,20 @@ class Article(object):
         return self.info['Tag'].articletitle.text.strip().strip('.')
 
     def find_date(self):
-        year, month, day = None, None, None
-        if self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}):
-            year, month, day = self.verify_date(self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}))
-            if day:
-                self.output_date(day, month, year)
-        elif self.info['Tag'].pubdate:
-            year, month, day = self.verify_date(self.info['Tag'].pubdate)
-            if day:
-                self.output_date(day, month, year)
-        elif self.info['Tag'].find(pubstatus='medline'):
-            year, month, day = self.verify_date(self.info['Tag'].find(pubstatus='medline'))
-            if day:
-                self.output_date(day, month, year)
-        else:
-            raise AssertionError('Could not find date. :(')
+        pass
+        # This is a mess figure it out later
+        # year, month, day = None, None, None
+        # potential_tags = [self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}),
+        #                   self.info['Tag'].pubdate,
+        #                   self.info['Tag'].find(pubstatus='medline')]
+        # potential_tags = [pot_tag for pot_tag in potential_tags if pot_tag]
+        # while not day and not month and not year:
+        #     for tag in potential_tags:
+        #         if tag:
+        #             year, month, day = self.return_date_from_tag(tag)
+        #             if year and month and day:
+        #                 break
+        # return self.output_date(day, month, year)
 
     @staticmethod
     def output_date(day, month, year):
@@ -227,13 +227,13 @@ class Article(object):
         return time.strftime('%m/%d/%Y', pubdate)
 
     @staticmethod
-    def verify_date(find_tag):
+    def return_date_from_tag(find_tag):
         try:
             year = find_tag.year.strip()
             month = find_tag.month.strip()
             day = find_tag.day.strip()
             return year, month, day
-        except AttributeError:
+        except (TypeError, AttributeError):  # consider a print statement here
             return None, None, None
 
 

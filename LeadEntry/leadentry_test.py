@@ -102,8 +102,6 @@ class LeadEntryTest(unittest.TestCase):
         self.assertEqual(tester.pmids[0], '25282159')
 
 
-
-
 class ArticleTest(unittest.TestCase):
     def setUp(self):
         tester = leadentry.Batch()
@@ -116,15 +114,14 @@ class ArticleTest(unittest.TestCase):
     def test_find_pmid_in_xml(self):
         self.assertIsInstance(self.test_article.info['Tag'], bs4.element.Tag)
 
-    def test_get_journal(self):
+    def test_get_article(self):
         self.test_article.find_title()
         self.assertEqual('Mesenchymal stromal cells form vascular tubes when placed '
                          'in fibrin sealant and accelerate wound healing in vivo',
                          self.test_article.get_info('Article Title'))
 
     def test_get_date(self):
-        self.test_article.find_date()
-        self.assertEqual('a', 'b')
+        self.assertEqual('2014/11/30', self.test_article.find_date())
 
 if __name__ == "__main__":
     unittest.main()
