@@ -192,17 +192,14 @@ class Article(object):
         else:
             raise AssertionError('Impossible to search PubMed without a title!')
 
-    def update_info_dict(self, key, value):
+    def update_info_dict(self, key, value):  # We could use this to get everything else to return (simpler debugging)
         self.info[key] = value
 
     def get_info_items(self):
         return self.info.items()
 
-    def process_tag_info(self, tag_list):
-        """Looks for tag info for a list of tags"""
-
     def find_title(self):
-        self.info['Article Title'] = self.info['Tag'].articletitle.text.strip().strip('.')
+        return self.info['Tag'].articletitle.text.strip().strip('.')
 
     def find_date(self): #This sucks. Rewrite it
         year, month, day = None, None, None
@@ -223,7 +220,7 @@ class Article(object):
             pubdate = time.strptime('{}{}{}'.format(month, day, year), '%m%d%Y')
         else:
             pubdate = time.strptime('{}{}{}'.format(month, day, year), '%b%d%Y')
-        self.info['Publication Date'] = time.strftime('%m/%d/%Y', pubdate)
+        return time.strftime('%m/%d/%Y', pubdate)
 
     def find_doi(self):
         """Return the DOI of an article as a string"""
@@ -234,11 +231,11 @@ class Article(object):
                                         "Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
                 request = urllib2.Request('http://dx.doi.org/{}'.format(doi), headers=header)
                 article_url = urllib2.urlopen(request, timeout=20)
-                self.info['Publication Link'] = article_url.geturl()
+                return article_url.geturl()
             except (urllib2.HTTPError, socket.timeout) as e:
-                self.info['Publication Link'] = '{}: http://dx.doi.org/{}'.format(e, self.info['Tag'].find(idtype='doi').text)
+                return '{}: http://dx.doi.org/{}'.format(e, self.info['Tag'].find(idtype='doi').text)
         else:
-            self.info['Publication Link'] = 'DOI not found'
+            return 'DOI not found'
 
     def find_authors(self):
         prev_aff = ''
@@ -253,7 +250,7 @@ class Article(object):
             print obj_author
 
     def find_abstract(self):
-        self.info['Abstract'] = self.tag.abstracttext.text.strip()
+        return self.tag.abstracttext.text.strip()
 
     def __str__(self):
         return self.info['Article Title'].encode('UTF-8')

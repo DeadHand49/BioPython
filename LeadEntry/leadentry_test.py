@@ -101,16 +101,26 @@ class LeadEntryTest(unittest.TestCase):
                                'Proinflammatory Properties of CD4+ T Cells')
         self.assertEqual(tester.pmids[0], '25282159')
 
-    def test_find_pmid_in_xml(self):
+
+
+
+class ArticleTest(unittest.TestCase):
+    def setUp(self):
         tester = leadentry.Batch()
         with open('leadentry_test.xml') as xml:
             tester.pubmed_xml = BeautifulSoup(xml.read())
-            test_article = leadentry.Article(info={'PMID': '25433608'})
-            tester.add_article(test_article)
+            self.test_article = leadentry.Article(info={'PMID': '25433608'})
+            tester.add_article(self.test_article)
             tester.parse_pubmed_soup()
-        self.assertIsInstance(test_article.info['Tag'], bs4.element.Tag)
 
+    def test_find_pmid_in_xml(self):
+        self.assertIsInstance(self.test_article.info['Tag'], bs4.element.Tag)
 
+    def test_get_journal(self):
+        self.test_article.find_title()
+        self.assertEqual('Mesenchymal stromal cells form vascular tubes when placed '
+                         'in fibrin sealant and accelerate wound healing in vivo',
+                         self.test_article.get_info('Article Title'))
 
 if __name__ == "__main__":
     unittest.main()
