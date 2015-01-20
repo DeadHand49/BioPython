@@ -122,5 +122,9 @@ class ArticleTest(unittest.TestCase):
                          'in fibrin sealant and accelerate wound healing in vivo',
                          self.test_article.get_info('Article Title'))
 
+    def test_get_date(self):
+        self.test_article.find_date()
+        self.assertEqual('a', 'b')
+
 if __name__ == "__main__":
     unittest.main()

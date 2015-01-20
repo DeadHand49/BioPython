@@ -201,26 +201,41 @@ class Article(object):
     def find_title(self):
         return self.info['Tag'].articletitle.text.strip().strip('.')
 
-    def find_date(self): #This sucks. Rewrite it
+    def find_date(self):
         year, month, day = None, None, None
         if self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}):
-            year = self.info['Tag'].find(pubstatus='aheadofprint').year.text.strip()
-            month = self.info['Tag'].find(pubstatus='aheadofprint').month.text.strip()
-            day = self.info['Tag'].find(pubstatus='aheadofprint').day.text.strip()
+            year, month, day = self.verify_date(self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}))
+            if day:
+                self.output_date(day, month, year)
         elif self.info['Tag'].pubdate:
-            try:
-                year = self.info['Tag'].pubdate.year.text.strip()
-                month = self.info['Tag'].pubdate.month.text.strip()
-                day = self.info['Tag'].pubdate.day.text.strip()
-            except AttributeError:
-                year = self.info['Tag'].find(pubstatus='medline').year.text.strip()
-                month = self.info['Tag'].find(pubstatus='medline').month.text.strip()
-                day = self.info['Tag'].find(pubstatus='medline').day.text.strip()
+            year, month, day = self.verify_date(self.info['Tag'].pubdate)
+            if day:
+                self.output_date(day, month, year)
+        elif self.info['Tag'].find(pubstatus='medline'):
+            year, month, day = self.verify_date(self.info['Tag'].find(pubstatus='medline'))
+            if day:
+                self.output_date(day, month, year)
+        else:
+            raise AssertionError('Could not find date. :(')
+
+    @staticmethod
+    def output_date(day, month, year):
         if month.isdigit():
             pubdate = time.strptime('{}{}{}'.format(month, day, year), '%m%d%Y')
         else:
             pubdate = time.strptime('{}{}{}'.format(month, day, year), '%b%d%Y')
         return time.strftime('%m/%d/%Y', pubdate)
+
+    @staticmethod
+    def verify_date(find_tag):
+        try:
+            year = find_tag.year.strip()
+            month = find_tag.month.strip()
+            day = find_tag.day.strip()
+            return year, month, day
+        except AttributeError:
+            return None, None, None
+
 
     def find_doi(self):
         """Return the DOI of an article as a string"""
