@@ -65,7 +65,7 @@ class ZoteroEntry(Batch):
                 if row['Item Type'] == 'journalArticle':
                     article = Article(info={'Article Title': row['Title'],
                                             'Publication Link': row['Url']})
-                    article.update_info_dict('PMID', article.lookup_up_pmid())
+                    article.update_info_dict('PMID', article.lookup_up_pmid(article.info['Article Title']))
                     if not article.in_info('PMID'):
                         article.update_info_dict('Authors', row['Author'].split('; '))
                     self.add_article(article)
@@ -167,29 +167,29 @@ class Article(object):
         else:
             return None
 
-    def lookup_up_pmid(self, translated=False): # This should be refactored
+    def lookup_up_pmid(self, pub_title, translated=False):
         """Returns Entrez entry for a search of the publication title. If publication title does not return result,
         input PMID manually to continue to retrieve entry"""
-        if self.info['Article Title']:
-            Entrez.email = "matthew.emery@stemcell.com"
-            handle = Entrez.esearch(db='pubmed', term=self.info['Article Title'], retmax=10, sort='relevance')
-            try:
-                return Entrez.read(handle)['IdList'][0]
-            except IndexError:
-                if not translated:
-                    # Britishness could be the issue
-                    brit_dict = {'Leukemia': 'Leukaemia',
-                                 'Tumor': 'Tumour',
-                                 'Signaling': 'Signalling',
-                                 'α': 'alpha'}
-                    for brit in brit_dict.items():
-                        publication_title = self.info['Article Title'].replace(brit[0], brit[1])
-                    self.update_info_dict('Article Title', publication_title)
-                    self.lookup_up_pmid(publication_title, translated=True)
-                else:
-                    print 'Could not find PMID: {}'.format(self.info['Article Title'])
-        else:
-            raise AssertionError('Impossible to search PubMed without a title!')
+        Entrez.email = "matthew.emery@stemcell.com"
+        handle = Entrez.esearch(db='pubmed', term=pub_title, retmax=10, sort='relevance')
+        try:
+            return Entrez.read(handle)['IdList'][0]
+        except IndexError:
+            if not translated:
+                pub_title = self.translate_british(pub_title)
+                return self.lookup_up_pmid(pub_title, translated=True)
+            else:
+                print 'Could not find PMID: {}'.format(pub_title)
+
+    @staticmethod
+    def translate_british(publication_title):
+        brit_dict = {'Leukemia': 'Leukaemia',
+                     'Tumor': 'Tumour',
+                     'Signaling': 'Signalling',
+                     'α': 'alpha'}
+        for brit in brit_dict.items():
+            publication_title = publication_title.replace[0], brit[1]
+        return publication_title
 
     def update_info_dict(self, key, value):
         self.info[key] = value
