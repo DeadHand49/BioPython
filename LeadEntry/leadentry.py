@@ -153,8 +153,6 @@ class Newsletter(Batch):
 class Article(object):
 
     def __init__(self, info=None):
-
-        # self.tag = tag
         if info:
             self.info = info
         else:
@@ -169,7 +167,7 @@ class Article(object):
         else:
             return None
 
-    def lookup_up_pmid(self, translated=False):
+    def lookup_up_pmid(self, translated=False): # This should be refactored
         """Returns Entrez entry for a search of the publication title. If publication title does not return result,
         input PMID manually to continue to retrieve entry"""
         if self.info['Article Title']:
@@ -187,7 +185,7 @@ class Article(object):
                     for brit in brit_dict.items():
                         publication_title = self.info['Article Title'].replace(brit[0], brit[1])
                     self.update_info_dict('Article Title', publication_title)
-                    self.lookup_up_pmid(self, publication_title, translated=True)
+                    self.lookup_up_pmid(publication_title, translated=True)
                 else:
                     print 'Could not find PMID: {}'.format(self.info['Article Title'])
         else:
@@ -236,7 +234,6 @@ class Article(object):
         except (TypeError, AttributeError):  # consider a print statement here
             return None, None, None
 
-
     def find_doi(self):
         """Return the DOI of an article as a string"""
         if self.info['Tag'].find(idtype='doi'):
@@ -255,17 +252,28 @@ class Article(object):
     def find_authors(self):
         prev_aff = ''
 
-        for author in self.info['Tag']('author'):
-            obj_author = Author(author)
-            if obj_author.info['Aff'] == '':
-                obj_author.set_institute(prev_aff)
-            else:
-                prev_aff = obj_author.info['Aff']
-            self.authors.append(obj_author)
-            print obj_author
+        for author_tag in self.info['Tag']('author'):
+            author = Author(author_tag)
+            author.update_info_dict('First Name', author.find_first_name())
+            author.update_info_dict('Last Name', author.find_last_name())
+            try:
+                affiliation = author.find_affiliation()
+                author.update_info_dict('Aff', affiliation)
+                prev_aff = affiliation
+            except AttributeError:
+                author.update_info_dict('Aff', prev_aff)
+            author.update_info_dict('Company', author.find_company())
+            author.update_info_dict('Department', author.find_department())
+            author.update_info_dict('Email', author.find_email())
+
+            self.info['Authors'].append(author)
+            print author
+
+    def find_author(self): # This needs to be filled in
+        pass
 
     def find_abstract(self):
-        return self.tag.abstracttext.text.strip()
+        return self.info['Tag'].abstracttext.text.strip()
 
     def __str__(self):
         return self.info['Article Title'].encode('UTF-8')
@@ -277,45 +285,35 @@ class Article(object):
 class Author(object):
 
     def __init__(self, tag):
-        self.tag = tag
-        self.info = {}
-        self.find_first_name()
-        self.find_last_name()
-        self.find_institute()
-        self.find_department()
-        self.find_company()
-        self.find_email()
+        self.info = {'Tag': tag}
+
+    def update_info_dict(self, key, value):
+        self.info[key] = value
 
     def find_last_name(self):
-        self.info['Last Name'] = unicode(self.tag.lastname.text.strip())
+        return unicode(self.info['Tag'].lastname.text.strip())
 
     def find_first_name(self):
-        forename = self.tag.forename.text.strip()
+        forename = self.info['Tag'].forename.text.strip()
         if forename.split(' '):
-            self.info['First Name'] = unicode(forename.split(' ')[0])
+            return unicode(forename.split(' ')[0])
         else:
-            self.info['First Name'] = unicode(forename)
+            return unicode(forename)
 
-    def find_institute(self):
-        try:
-            self.info['Aff'] = self.tag.affiliation.text.strip()
-        except AttributeError:
-            self.info['Aff'] = ''
+    def find_affiliation(self):
+        return self.info['Tag'].affiliation.text.strip()
 
     def find_department(self):
-        self.info['Department'] = regex_search(self.info['Aff'], 'Department')
+        return regex_search(self.info['Aff'], 'Department')
 
     def find_company(self):
-        self.info['Company'] = regex_search(self.info['Aff'], 'Company')
+        return regex_search(self.info['Aff'], 'Company')
 
     def find_email(self):
-        self.info['Email'] = regex_search(self.info['Aff'], 'Email', lastname=self.info['Last Name'])
+        return regex_search(self.info['Aff'], 'Email', lastname=self.info['Last Name'])
 
-    def set_institute(self, aff):
-        self.info['Aff'] = aff
-        self.find_company()
-        self.find_department()
-        self.find_email()
+    def in_info(self, query):
+        return query in self.info
 
     def get_info_items(self):
         return self.info.items()
@@ -357,11 +355,6 @@ def _find_comment(tag):
         return tag.has_attr('face') and tag.has_attr('size') and '#PUBLICATIONS TITLE' in tag.contents[1]
     except IndexError:
         return False
-
-# def _find_pmid_in_xml(tag):
-#     try:
-
-
 
 def url_wrapper():
     """Prompts user for Connexon issue URL. Will raise AssertionError if non-standard URL added.
