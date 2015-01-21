@@ -322,7 +322,7 @@ class Author(object):
         return '{} {}'.format(self.info['First Name'], self.info['Last Name']).encode('UTF-8')
 
 
-def regex_search(institute, mode, lastname=''):
+def regex_search(institute, mode, lastname=''): # possibly rafactor this
     """Attempt to parse the institute entry using regular expressions"""
     regex_dict = {'Department': r'[\w ]*Department[\w ]*|[\w ]*Laboratory[A-Z ]*|'
                                 r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*|[\w ]*Service[A-Z ]*'
