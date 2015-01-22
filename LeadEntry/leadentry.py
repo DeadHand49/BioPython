@@ -17,12 +17,17 @@ import socket
 import Tkinter
 import tkFileDialog
 
+
 class Batch(object):
     """A Batch object contains a collection of PMIDs that are parsed into Articles"""
 
-    def __init__(self):
+    def __init__(self, field_names=None):
         self.articles = []
         self.pubmed_xml = None
+        if field_names:
+            self.field_names = field_names
+        else:
+            self.field_names = ('Article Title', 'PMID', 'Last Name', 'First Name', 'Email', 'Company', 'Department')
 
     def add_article(self, article):
         assert isinstance(article, Article), 'Only Articles go in self.articles'
@@ -50,15 +55,32 @@ class Batch(object):
         else:
             raise AssertionError('Can\'t parse a PubMed soup that isn\'t there. Try self.create_pubmed_xml')
 
+    def write_csv(self, csv_file):
+        """Complete"""
+        csv_writer = csv.DictWriter(csv_file, extrasaction='ignore', fieldnames=self.field_names)
+        csv_writer.writeheader()
+        for article in self.articles:
+            for author in article.authors:
+                full_dict = dict(author.info.items() + article.info.items() + self.info.items())
+                csv_writer.writerow(full_dict)
+
+        csv_file.close()
 
 class ZoteroEntry(Batch):
-    def __init__(self, zotero_csv, info=None):
+    def __init__(self, zotero_csv, info=None, field_names=None):
         Batch.__init__(self)
         self.zotero_csv = zotero_csv
         if info:
             self.info = info
         else:
             self.info = {'Lead Source': 'Web Search (Google, FASEB, PubMed, CRISP)'}
+        if field_names:
+            self.field_names = field_names
+        else:
+            self.field_names = ('Publication Link', 'Publication Date', 'Article Title', 'Abstract', 'Search Term',
+                                'Product Use/Assay Type', 'Area of Interest', 'Product Line', 'First Name', 'Last Name',
+                                'Company', 'Department', 'Email', 'Lead Source', 'Specific Lead Source',
+                                'Product Sector', 'PMID')
 
     def read_csv(self):
         with self.zotero_csv as zotero:
@@ -78,26 +100,10 @@ class ZoteroEntry(Batch):
             article.update_info_dict('Abstract', article.find_abstract())
             article.update_info_dict('Authors', article.find_authors())
 
-    def write_csv(self, csv_file):
-        """Complete"""
-        field_names = ('Publication Link', 'Publication Date', 'Article Title', 'Abstract', 'Search Term',
-                       'Product Use/Assay Type', 'Area of Interest', 'Product Line', 'First Name', 'Last Name',
-                       'Company', 'Department', 'Email', 'Lead Source', 'Specific Lead Source', 'Product Sector',
-                       'PMID')
-
-        csv_writer = csv.DictWriter(csv_file, extrasaction='ignore', fieldnames=field_names)
-        csv_writer.writeheader()
-        for article in self.articles:
-            for author in article.authors:
-                full_dict = dict(author.info.items() + article.info.items() + self.info.items())
-                csv_writer.writerow(full_dict)
-
-        csv_file.close()
-
 
 class Newsletter(Batch):
 
-    def __init__(self, url, info=None):
+    def __init__(self, url, info=None, field_names=None):
         Batch.__init__(self)
         self.url = url
         self.soup = self.make_soup()
@@ -109,6 +115,12 @@ class Newsletter(Batch):
                          'Specific Lead Source': self.find_specific_lead_source(),
                          'Newsletter Archived Link': self.url.lstrip('http://www.'),
                          'Search Term': 'Connexon; {}'.format(self.find_specific_lead_source())}
+        if field_names:
+            self.field_names = field_names
+        else:
+            self.field_names = ('First Name', 'Last Name', 'Email', 'Company', 'Department', 'Lead Source',
+                                'Specific Lead Source', 'Newsletter Archived Link', 'Search Term', 'Publication Date',
+                                'Publication Link', 'Article Title', 'Aff', 'PMID')
 
     def make_soup(self):
         """Given a URL will return a BeautifulSoup of that URL
@@ -133,21 +145,6 @@ class Newsletter(Batch):
         """Returns the name of the specific lead source."""
         title = self.soup.find('title').text
         return title.split(' - ')[1]
-
-    def write_csv(self, csv_file):
-        """Adds line to a CSV contain all the information contained in self.articles"""
-        field_names = ('First Name', 'Last Name', 'Email', 'Company', 'Department', 'Lead Source',
-                       'Specific Lead Source', 'Newsletter Archived Link', 'Search Term', 'Publication Date',
-                       'Publication Link', 'Article Title', 'Aff', 'PMID')
-        csv_writer = csv.DictWriter(csv_file, extrasaction='ignore', fieldnames=field_names)
-        csv_writer.writeheader()
-        for article in self.articles:
-            for author in article.authors:
-                full_dict = dict(author.get_info_items() + article.get_info_items() + self.info.items())
-                csv_writer.writerow(full_dict)
-
-        csv_file.close()
-
 
 class Article(object):
 
