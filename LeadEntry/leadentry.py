@@ -216,22 +216,21 @@ class Article(object):
         return self.info['Tag'].articletitle.text.strip().strip('.')
 
     def find_date(self):
-        # This is a mess figure it out later
-        year, month, day = None, None, None
         potential_tags = [self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}),
                           self.info['Tag'].pubdate,
                           self.info['Tag'].find(pubstatus='medline')]
         potential_tags = [pot_tag for pot_tag in potential_tags if pot_tag]
-        while not day and not month and not year:
-            for tag in potential_tags:
-                if tag:
-                    year, month, day = self.return_date_from_tag(tag)
-                    if year and month and day:
-                        break
-        return self.output_date(day, month, year)
+        for tag in potential_tags:
+            year, month, day = self.return_date_from_tag(tag)
+            if year and month and day:
+                return self.output_date(year, month, day)
+        else:
+            print 'Could not find date'
+            return None
+
 
     @staticmethod
-    def output_date(day, month, year):
+    def output_date(year, month, day):
         if month.isdigit():
             pubdate = time.strptime('{}{}{}'.format(month, day, year), '%m%d%Y')
         else:
@@ -241,9 +240,9 @@ class Article(object):
     @staticmethod
     def return_date_from_tag(find_tag):
         try:
-            year = find_tag.year.strip()
-            month = find_tag.month.strip()
-            day = find_tag.day.strip()
+            year = find_tag.find('year').text.strip()
+            month = find_tag.find('month').text.strip()
+            day = find_tag.find('day').text.strip()
             return year, month, day
         except (TypeError, AttributeError):  # consider a print statement here
             return None, None, None
