@@ -188,7 +188,6 @@ class Article(object):
         Entrez.email = "matthew.emery@stemcell.com"
         handle = Entrez.esearch(db='pubmed', term=pub_title, retmax=10, sort='relevance')
         try:
-            print 'Found PMID: {}'.format(pub_title)
             return Entrez.read(handle)['IdList'][0]
         except IndexError:
             if not translated:
@@ -217,20 +216,19 @@ class Article(object):
         return self.info['Tag'].articletitle.text.strip().strip('.')
 
     def find_date(self):
-        pass
         # This is a mess figure it out later
-        # year, month, day = None, None, None
-        # potential_tags = [self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}),
-        # self.info['Tag'].pubdate,
-        #                   self.info['Tag'].find(pubstatus='medline')]
-        # potential_tags = [pot_tag for pot_tag in potential_tags if pot_tag]
-        # while not day and not month and not year:
-        #     for tag in potential_tags:
-        #         if tag:
-        #             year, month, day = self.return_date_from_tag(tag)
-        #             if year and month and day:
-        #                 break
-        # return self.output_date(day, month, year)
+        year, month, day = None, None, None
+        potential_tags = [self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}),
+                          self.info['Tag'].pubdate,
+                          self.info['Tag'].find(pubstatus='medline')]
+        potential_tags = [pot_tag for pot_tag in potential_tags if pot_tag]
+        while not day and not month and not year:
+            for tag in potential_tags:
+                if tag:
+                    year, month, day = self.return_date_from_tag(tag)
+                    if year and month and day:
+                        break
+        return self.output_date(day, month, year)
 
     @staticmethod
     def output_date(day, month, year):

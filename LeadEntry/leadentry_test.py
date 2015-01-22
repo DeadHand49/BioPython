@@ -107,7 +107,8 @@ class ArticleTest(unittest.TestCase):
         tester = leadentry.Batch()
         with open('leadentry_test.xml') as xml:
             tester.pubmed_xml = BeautifulSoup(xml.read())
-            self.test_article = leadentry.Article(info={'PMID': '25433608'})
+            self.test_article = leadentry.Article(info={'PMID': '25433608',
+                                                        'Article Title': 'Mock'})
             tester.add_article(self.test_article)
             tester.parse_pubmed_soup()
 
