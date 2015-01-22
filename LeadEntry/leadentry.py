@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """A script that uses PubMed to fill in lead entry on a csv."""
 
-
 from __future__ import unicode_literals
 
 __author__ = 'memery'
@@ -35,6 +34,7 @@ class Batch(object):
 
     def add_article(self, article):
         assert isinstance(article, Article), 'Only Articles go in self.articles'
+        print article
         self.articles.append(article)
 
     def create_pubmed_xml(self):
@@ -61,6 +61,7 @@ class Batch(object):
 
     def write_csv(self, csv_file):
         """Complete"""
+        print 'Writing CSV.'
         csv_writer = csv.DictWriter(csv_file, extrasaction='ignore', fieldnames=self.field_names)
         csv_writer.writeheader()
         for article in self.articles:
@@ -69,6 +70,7 @@ class Batch(object):
                 csv_writer.writerow(full_dict)
 
         csv_file.close()
+
 
 class ZoteroEntry(Batch):
     def __init__(self, zotero_csv, info=None, field_names=None):
@@ -100,13 +102,13 @@ class ZoteroEntry(Batch):
 
     def construct_articles(self):
         for article in self.articles:
-            article.update_info_dict('Publication Date', article.find_date())
-            article.update_info_dict('Abstract', article.find_abstract())
-            article.update_info_dict('Authors', article.find_authors())
+            if article.in_info('Tag'):
+                article.update_info_dict('Publication Date', article.find_date())
+                article.update_info_dict('Abstract', article.find_abstract())
+                article.update_info_dict('Authors', article.find_authors())
 
 
 class Newsletter(Batch):
-
     def __init__(self, url, info=None, field_names=None):
         Batch.__init__(self)
         self.url = url
@@ -150,16 +152,29 @@ class Newsletter(Batch):
         title = self.soup.find('title').text
         return title.split(' - ')[1]
 
-class Article(object):
+    def construct_articles(self):
+        for article in self.articles:
+            if article.in_info('Tag'):
+                article.update_info_dict('Publication Date', article.find_date())
+                article.update_info_dict('Authors', article.find_authors())
 
+
+class Article(object):
     def __init__(self, info=None):
         if info:
             self.info = info
         else:
             self.info = {}
+        self.authors = []
 
     def in_info(self, query):
-        return query in self.info
+        try:
+            if self.info[query]:
+                return query in self.info
+            else:
+                return False
+        except KeyError:
+            return False
 
     def get_info(self, query):
         if query in self.info:
@@ -173,6 +188,7 @@ class Article(object):
         Entrez.email = "matthew.emery@stemcell.com"
         handle = Entrez.esearch(db='pubmed', term=pub_title, retmax=10, sort='relevance')
         try:
+            print 'Found PMID: {}'.format(pub_title)
             return Entrez.read(handle)['IdList'][0]
         except IndexError:
             if not translated:
@@ -205,7 +221,7 @@ class Article(object):
         # This is a mess figure it out later
         # year, month, day = None, None, None
         # potential_tags = [self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}),
-        #                   self.info['Tag'].pubdate,
+        # self.info['Tag'].pubdate,
         #                   self.info['Tag'].find(pubstatus='medline')]
         # potential_tags = [pot_tag for pot_tag in potential_tags if pot_tag]
         # while not day and not month and not year:
@@ -266,7 +282,7 @@ class Article(object):
             author.update_info_dict('Department', author.find_department())
             author.update_info_dict('Email', author.find_email())
 
-            self.info['Authors'].append(author)
+            self.authors.append(author)
             print author
 
     def find_author(self):  # This needs to be filled in
@@ -283,7 +299,6 @@ class Article(object):
 
 
 class Author(object):
-
     def __init__(self, tag):
         self.info = {'Tag': tag}
 
@@ -393,6 +408,7 @@ if __name__ == '__main__':
         raise AssertionError('Invalid choice, try again')
     batch.create_pubmed_xml()
     batch.parse_pubmed_soup()
+    batch.construct_articles()
     batch.write_csv(open('BatchOutput.csv', 'wb'))
 
 
