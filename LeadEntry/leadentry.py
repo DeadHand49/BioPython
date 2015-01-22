@@ -1,6 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-"""A script that uses PubMed to fill in lead entry on a csv."""
+"""A script that uses PubMed to fill in lead entry on a csv.
+
+This module allows the user to select either a previous CSV generated from Zotero or a Connexon URL as the basis for
+the new leadentry CSV. The leadentry CSV will appear in the the same directory as the module with the title
+'BatchOutput.csv'. Any bugs in the the script should be reported to matthew.emery@stemcell.com as soon as possible.
+
+At runtime, select """
 
 from __future__ import unicode_literals
 
@@ -18,11 +24,27 @@ import tkFileDialog
 
 
 class Batch(object):
-    """A Batch object contains a collection of PMIDs that are parsed into Articles"""
+    """A Batch object contains a list of Article objects and field names that are combined when writing a CSV.
 
-    def __init__(self, info=None, field_names=None):
+    A batch is the superclass of both ZoteroEntry and Connexon objects. The methods and attributes that they have in
+    common can be found here. While it is poossible to inistaniate a Batch object, it is preferable to use its
+    subclass's instead.
+
+    Attributes:
+        stem_email: A valid stemcell.com email. The NIH requires the use of a valid email adress to access it's
+        databases.
+        articles: List that contains Article objects
+        pubmed_xml: A BeautifulSoup XML object that containing the results of a PubMed eSearch.
+        info: A dictionary containing any Batch-level information that the user wishes to be written in a CSV
+        (i.e. Newsletter Issue or Google Scholar Search Term)
+        field_names: A tuple containing headers the user wishes to see in the outgoing CSV in the order they
+        will be written
+        """
+
+    def __init__(self, stem_email, info=None, field_names=None):
         self.articles = []
         self.pubmed_xml = None
+        self.stem_email = stem_email
         if info:
             self.info = info
         else:
@@ -33,6 +55,16 @@ class Batch(object):
             self.field_names = ('Article Title', 'PMID', 'Last Name', 'First Name', 'Email', 'Company', 'Department')
 
     def add_article(self, article):
+        """Adds an article to self.articles
+
+        Adds an Article object to self.articles. Will raise AssertionError is a non-Article object is added. Also
+        prints the article's title for diagnostic pruposes.
+
+        Args:
+            article: An Article object
+
+        Raises:
+            AssertionError: Only Articles go in self.articles"""
         assert isinstance(article, Article), 'Only Articles go in self.articles'
         print article
         self.articles.append(article)
@@ -44,7 +76,7 @@ class Batch(object):
         matthew.emery@stemcell.com. {This may change in the future}. The Beautiful Soup is retrieved in XML format.
         I believe this may affect whether Greek letters are properly encoded.
         """
-        Entrez.email = "matthew.emery@stemcell.com"
+        Entrez.email = self.stem_email
         queries = [article.get_info('PMID') for article in self.articles if article.in_info('PMID')]
         handle = Entrez.efetch(db='pubmed', id=queries, retmode='xml')
         self.pubmed_xml = BeautifulSoup(handle.read())
@@ -73,8 +105,8 @@ class Batch(object):
 
 
 class ZoteroEntry(Batch):
-    def __init__(self, zotero_csv, info=None, field_names=None):
-        Batch.__init__(self)
+    def __init__(self, zotero_csv, stem_email, info=None, field_names=None):
+        Batch.__init__(self, stem_email)
         self.zotero_csv = zotero_csv
         if info:
             self.info = info
@@ -95,7 +127,8 @@ class ZoteroEntry(Batch):
                 if row['Item Type'] == 'journalArticle':
                     article = Article(info={'Article Title': row['Title'],
                                             'Publication Link': row['Url']})
-                    article.update_info_dict('PMID', article.lookup_up_pmid(article.info['Article Title']))
+                    article.update_info_dict('PMID', article.lookup_up_pmid(article.info['Article Title'],
+                                                                            self.stem_email))
                     if not article.in_info('PMID'):
                         article.update_info_dict('Authors', row['Author'].split('; '))
                     self.add_article(article)
@@ -109,8 +142,8 @@ class ZoteroEntry(Batch):
 
 
 class Newsletter(Batch):
-    def __init__(self, url, info=None, field_names=None):
-        Batch.__init__(self)
+    def __init__(self, url, stem_email, info=None, field_names=None):
+        Batch.__init__(self, stem_email)
         self.url = url
         self.soup = self.make_soup()
         self.parse_connexon()
@@ -143,7 +176,7 @@ class Newsletter(Batch):
         pubs = self.soup.find_all(_find_comment)  # pubs[0].find_previous('a')
         for pub in pubs:
             article = Article(info={'Article Title': pub.text.lstrip('\n')})
-            article.update_info_dict('PMID', article.lookup_up_pmid(pub.text.lstrip('\n')))
+            article.update_info_dict('PMID', article.lookup_up_pmid(pub.text.lstrip('\n'), self.stem_email))
             article.update_info_dict('Publication Link', pub.find_previous('a').get('href'))
             self.add_article(article)
 
@@ -182,17 +215,17 @@ class Article(object):
         else:
             return None
 
-    def lookup_up_pmid(self, pub_title, translated=False):
+    def lookup_up_pmid(self, pub_title, stem_email, translated=False):
         """Returns Entrez entry for a search of the publication title. If publication title does not return result,
         input PMID manually to continue to retrieve entry"""
-        Entrez.email = "matthew.emery@stemcell.com"
+        Entrez.email = stem_email
         handle = Entrez.esearch(db='pubmed', term=pub_title, retmax=10, sort='relevance')
         try:
             return Entrez.read(handle)['IdList'][0]
         except IndexError:
             if not translated:
                 pub_title = self.translate_british(pub_title)
-                return self.lookup_up_pmid(pub_title, translated=True)
+                return self.lookup_up_pmid(pub_title, stem_email, translated=True)
             else:
                 print 'Could not find PMID: {}'.format(pub_title)
 
@@ -378,7 +411,7 @@ def url_wrapper():
     return url
 
 
-def make_zotero_entry():
+def make_zotero_entry(stem_email):
     info_dict = {'Search Term': raw_input('Input Search Term: '),
                  'Product Use/Assay Type': raw_input('Input Product Use/Assay Type: '),
                  'Product Line': raw_input('Input Product Line: '),
@@ -390,25 +423,25 @@ def make_zotero_entry():
     print 'Please Select Zotero CSV.'
     source = tkFileDialog.askopenfile(parent=root,
                                       title='Select Zotero CSV')
-    return ZoteroEntry(source, info_dict)
+    return ZoteroEntry(source, stem_email, info=info_dict)
 
 
 if __name__ == '__main__':
+    EMAIL = raw_input('Input valid Stemcell email address: ')
+    assert re.match(r'[\S]+@stemcell.com', EMAIL), 'Script requires valid Stemcell email address.'
     PROMPT = raw_input('Press "Z" for Zotero. Press "C" for Connexon. ')
     if PROMPT.upper() == 'Z':
-        batch = make_zotero_entry()
+        batch = make_zotero_entry(EMAIL)
         batch.read_csv()
     elif PROMPT.upper() == 'C':
         chosen_url = url_wrapper()
-        batch = Newsletter(chosen_url)
+        batch = Newsletter(chosen_url, EMAIL)
     else:
         raise AssertionError('Invalid choice, try again')
-    batch.create_pubmed_xml()
+    batch.create_pubmed_xml(EMAIL)
     batch.parse_pubmed_soup()
     batch.construct_articles()
     batch.write_csv(open('BatchOutput.csv', 'wb'))
 
-
     # TODO: Catch Press Release first titles
     # TODO: Search for Salesforce IDs?
-    # TODO: Custom Entrez.email entries
