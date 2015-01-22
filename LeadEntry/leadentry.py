@@ -35,7 +35,7 @@ class Batch(object):
         I believe this may affect whether Greek letters are properly encoded.
         """
         Entrez.email = "matthew.emery@stemcell.com"
-        queries = [article['PMID'] for article in self.articles if 'PMID' in article]
+        queries = [article.get_info('PMID') for article in self.articles if article.in_info('PMID')]
         handle = Entrez.efetch(db='pubmed', id=queries, retmode='xml')
         self.pubmed_xml = BeautifulSoup(handle.read())
 
@@ -101,14 +101,13 @@ class Newsletter(Batch):
         self.url = url
         self.soup = self.make_soup()
         self.parse_connexon()
-        self.create_pubmed_xml()
         if info:
             self.info = info
         else:
             self.info = {'Lead Source': 'Connexon',
-                        'Specific Lead Source': self.find_specific_lead_source(),
-                        'Newsletter Archived Link': self.url.lstrip('http://www.'),
-                        'Search Term': 'Connexon; {}'.format(self.find_specific_lead_source())}
+                         'Specific Lead Source': self.find_specific_lead_source(),
+                         'Newsletter Archived Link': self.url.lstrip('http://www.'),
+                         'Search Term': 'Connexon; {}'.format(self.find_specific_lead_source())}
 
     def make_soup(self):
         """Given a URL will return a BeautifulSoup of that URL
@@ -122,7 +121,7 @@ class Newsletter(Batch):
 
     def parse_connexon(self):
         """Given a BeautifulSoup object, returns a list of publication names"""
-        pubs = self.soup.find_all(_find_comment) # pubs[0].find_previous('a')
+        pubs = self.soup.find_all(_find_comment)  # pubs[0].find_previous('a')
         for pub in pubs:
             article = Article(info={'Article Title': pub.text.lstrip('\n')})
             article.update_info_dict('PMID', article.lookup_up_pmid(pub.text.lstrip('\n')))
@@ -132,8 +131,7 @@ class Newsletter(Batch):
     def find_specific_lead_source(self):
         """Returns the name of the specific lead source."""
         title = self.soup.find('title').text
-        return title.split(' - ')
-        return '{} {}'.format(title_split[1])
+        return title.split(' - ')[1]
 
     def write_csv(self, csv_file):
         """Adds line to a CSV contain all the information contained in self.articles"""
@@ -188,7 +186,7 @@ class Article(object):
                      'Signaling': 'Signalling',
                      'α': 'alpha'}
         for brit in brit_dict.items():
-            publication_title = publication_title.replace[0], brit[1]
+            publication_title = publication_title.replace(brit[0], brit[1])
         return publication_title
 
     def update_info_dict(self, key, value):
@@ -269,7 +267,7 @@ class Article(object):
             self.info['Authors'].append(author)
             print author
 
-    def find_author(self): # This needs to be filled in
+    def find_author(self):  # This needs to be filled in
         pass
 
     def find_abstract(self):
@@ -322,7 +320,7 @@ class Author(object):
         return '{} {}'.format(self.info['First Name'], self.info['Last Name']).encode('UTF-8')
 
 
-def regex_search(institute, mode, lastname=''): # possibly rafactor this
+def regex_search(institute, mode, lastname=''):  # possibly rafactor this
     """Attempt to parse the institute entry using regular expressions"""
     regex_dict = {'Department': r'[\w ]*Department[\w ]*|[\w ]*Laboratory[A-Z ]*|'
                                 r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*|[\w ]*Service[A-Z ]*'
@@ -355,6 +353,7 @@ def _find_comment(tag):
         return tag.has_attr('face') and tag.has_attr('size') and '#PUBLICATIONS TITLE' in tag.contents[1]
     except IndexError:
         return False
+
 
 def url_wrapper():
     """Prompts user for Connexon issue URL. Will raise AssertionError if non-standard URL added.
@@ -390,7 +389,7 @@ if __name__ == '__main__':
         batch = Newsletter(chosen_url)
     else:
         raise AssertionError('Invalid choice, try again')
-    batch.pubmed_xml = batch.create_pubmed_xml()
+    batch.create_pubmed_xml()
     batch.parse_pubmed_soup()
     batch.write_csv(open('BatchOutput.csv', 'wb'))
 
