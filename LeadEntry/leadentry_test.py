@@ -121,7 +121,7 @@ class ArticleTest(unittest.TestCase):
                          self.test_article.get_info('Article Title'))
 
     def test_get_date(self):
-        self.assertEqual('2014/11/30', self.test_article.find_date())
+        self.assertEqual('2014/11/10', self.test_article.find_date())
 
 if __name__ == "__main__":
     unittest.main()

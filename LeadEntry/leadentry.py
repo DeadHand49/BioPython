@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+"""A script that uses PubMed to fill in lead entry on a csv."""
+
 
 from __future__ import unicode_literals
 
@@ -14,7 +16,6 @@ import unicodecsv as csv
 import socket
 import Tkinter
 import tkFileDialog
-
 
 class Batch(object):
     """A Batch object contains a collection of PMIDs that are parsed into Articles"""
@@ -235,15 +236,15 @@ class Article(object):
     def find_doi(self):
         """Return the DOI of an article as a string"""
         if self.info['Tag'].find(idtype='doi'):
+            doi = self.info['Tag'].find(idtype='doi').text.strip()
             try:
-                doi = self.info['Tag'].find(idtype='doi').text.strip()
                 header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) "
                                         "Ubuntu/11.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
                 request = urllib2.Request('http://dx.doi.org/{}'.format(doi), headers=header)
                 article_url = urllib2.urlopen(request, timeout=20)
                 return article_url.geturl()
             except (urllib2.HTTPError, socket.timeout) as e:
-                return '{}: http://dx.doi.org/{}'.format(e, self.info['Tag'].find(idtype='doi').text)
+                return '{}: http://dx.doi.org/{}'.format(e, doi)
         else:
             return 'DOI not found'
 
