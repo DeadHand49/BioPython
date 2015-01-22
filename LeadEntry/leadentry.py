@@ -24,6 +24,7 @@ class Batch(object):
         self.pubmed_xml = None
 
     def add_article(self, article):
+        assert isinstance(article, Article), 'Only Articles go in self.articles'
         self.articles.append(article)
 
     def create_pubmed_xml(self):
@@ -95,20 +96,19 @@ class ZoteroEntry(Batch):
 
 class Newsletter(Batch):
 
-    def __init__(self, url):
+    def __init__(self, url, info=None):
         Batch.__init__(self)
         self.url = url
         self.soup = self.make_soup()
-        self.publication_titles = self.parse_connexon()
-        for pub in self.publication_titles:
-            self.lookup_up_title(pub)
-        self.pubmed_xml = self.create_pubmed_xml()
-        print self.pmids
-        self.parse_pubmed_soup()
-        self.info = {'Lead Source': 'Connexon',
-                     'Specific Lead Source': self.find_specific_lead_source(),
-                     'Newsletter Archived Link': self.url.lstrip('http://www.'),
-                     'Search Term': 'Connexon; {}'.format(self.find_specific_lead_source())}
+        self.parse_connexon()
+        self.create_pubmed_xml()
+        if info:
+            self.info = info
+        else:
+            self.info = {'Lead Source': 'Connexon',
+                        'Specific Lead Source': self.find_specific_lead_source(),
+                        'Newsletter Archived Link': self.url.lstrip('http://www.'),
+                        'Search Term': 'Connexon; {}'.format(self.find_specific_lead_source())}
 
     def make_soup(self):
         """Given a URL will return a BeautifulSoup of that URL
@@ -122,18 +122,18 @@ class Newsletter(Batch):
 
     def parse_connexon(self):
         """Given a BeautifulSoup object, returns a list of publication names"""
-        pubs = self.soup.find_all(_find_comment)
-        publication_titles = []
+        pubs = self.soup.find_all(_find_comment) # pubs[0].find_previous('a')
         for pub in pubs:
-            publication_titles.append(pub.text.lstrip('\n'))
-        return publication_titles
+            article = Article(info={'Article Title': pub.text.lstrip('\n')})
+            article.update_info_dict('PMID', article.lookup_up_pmid(pub.text.lstrip('\n')))
+            article.update_info_dict('Publication Link', pub.find_previous('a').get('href'))
+            self.add_article(article)
 
     def find_specific_lead_source(self):
         """Returns the name of the specific lead source."""
         title = self.soup.find('title').text
-        title_split = title.split(' - ')
-        vol = re.findall('\d+.\d+', title_split[0])
-        return '{} {}'.format(title_split[1], vol[0])
+        return title.split(' - ')
+        return '{} {}'.format(title_split[1])
 
     def write_csv(self, csv_file):
         """Adds line to a CSV contain all the information contained in self.articles"""
@@ -398,4 +398,3 @@ if __name__ == '__main__':
     # TODO: Catch Press Release first titles
     # TODO: Search for Salesforce IDs?
     # TODO: Custom Entrez.email entries
-    # TODO: A reminder of where you are: self.pubmed_xml.find('pmid', text=re.compile('25433608')).parent.find('issn').text
