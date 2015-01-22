@@ -21,9 +21,13 @@ import tkFileDialog
 class Batch(object):
     """A Batch object contains a collection of PMIDs that are parsed into Articles"""
 
-    def __init__(self, field_names=None):
+    def __init__(self, info=None, field_names=None):
         self.articles = []
         self.pubmed_xml = None
+        if info:
+            self.info = info
+        else:
+            self.info = {'Object Type': 'Batch Test'}
         if field_names:
             self.field_names = field_names
         else:
