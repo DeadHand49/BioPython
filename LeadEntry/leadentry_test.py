@@ -11,28 +11,28 @@ from bs4 import BeautifulSoup, element
 class LeadEntryTest(unittest.TestCase):
 
     def setUp(self):
-        batch = leadentry.Batch('matthew.emery@stemcell.com')
-        batch.pmids = ['24411336']
-        batch.pubmed_xml = batch.create_pubmed_xml()
-        batch.parse_pubmed_soup()
+        self.batch = leadentry.Batch('matthew.emery@stemcell.com')
+        self.batch.pmids = ['24411336']
+        self.batch.pubmed_xml = self.batch.create_pubmed_xml()
+        self.batch.parse_pubmed_soup()
 
     def test_batch_title(self):
         self.assertEqual('A defined xeno-free and feeder-free culture system for the derivation, '
                          'expansion and direct differentiation of transgene-free patient-specific '
-                         'induced pluripotent stem cells', batch.articles[0].info['Article Title'])
+                         'induced pluripotent stem cells', self.batch.articles[0].info['Article Title'])
 
     def test_batch_abstract(self):
         self.assertIn('A defined xeno-free system for patient-specific iPSC derivation and differentiation',
-                      batch.articles[0].info['Abstract'])
+                      self.batch.articles[0].info['Abstract'])
 
     def test_batch_pub_link(self):
         self.assertEqual('http://www.sciencedirect.com/science/article/pii/S0142961213015342',
-                         batch.articles[0].info['Publication Link'])
+                         self.batch.articles[0].info['Publication Link'])
 
 
 class ArticleTest(unittest.TestCase):
     def setUp(self):
-        tester = leadentry.Batch()
+        tester = leadentry.Batch('matthew.emery@stemcell.com')
         with open('leadentry_test.xml') as xml:
             tester.pubmed_xml = BeautifulSoup(xml.read())
             self.test_article = leadentry.Article(info={'PMID': '25433608',
