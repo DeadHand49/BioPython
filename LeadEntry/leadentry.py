@@ -4,9 +4,15 @@
 
 This module allows the user to select either a previous CSV generated from Zotero or a Connexon URL as the basis for
 the new leadentry CSV. The leadentry CSV will appear in the the same directory as the module with the title
-'BatchOutput.csv'. Any bugs in the the script should be reported to matthew.emery@stemcell.com as soon as possible.
+'BatchOutput.csv'.
 
-At runtime, select """
+This module contains a simple structure. A Batch object (whether ZoteroEntry or Newsletter) acts as a factory,
+building Article objects from previously known information and PubMed lookups. In turn, an Article object acts as a
+factory for Author objects, a modified dictionary built from PubMed affiliation strings.
+
+Any bugs in the the script should be reported to matthew.emery@stemcell.com as soon as possible.
+
+At runtime, type your stemcell username and then follow the prompts. {Could be more detailed)"""
 
 from __future__ import unicode_literals
 
@@ -35,9 +41,9 @@ class Batch(object):
         databases.
         articles: List that contains Article objects
         pubmed_xml: A BeautifulSoup XML object that containing the results of a PubMed eSearch.
-        info: A dictionary containing any Batch-level information that the user wishes to be written in a CSV
+        info: (Keyword) A dictionary containing any Batch-level information that the user wishes to be written in a CSV
         (i.e. Newsletter Issue or Google Scholar Search Term)
-        field_names: A tuple containing headers the user wishes to see in the outgoing CSV in the order they
+        field_names: (Keyword) A tuple containing headers the user wishes to see in the outgoing CSV in the order they
         will be written
         """
 
@@ -60,8 +66,11 @@ class Batch(object):
         Adds an Article object to self.articles. Will raise AssertionError is a non-Article object is added. Also
         prints the article's title for diagnostic pruposes.
 
-        Args:
+        Arguments:
             article: An Article object
+
+        Returns:
+            None. self.articles is appended with an Article object
 
         Raises:
             AssertionError: Only Articles go in self.articles"""
@@ -72,9 +81,13 @@ class Batch(object):
     def create_pubmed_xml(self):
         """Returns a BeautifulSoup object from a list of Pubmed IDs.
 
-        Creates one BeautifulSoup object from a list of Pubmed IDs. The Entrez email is currently defaulted to
-        matthew.emery@stemcell.com. {This may change in the future}. The Beautiful Soup is retrieved in XML format.
-        I believe this may affect whether Greek letters are properly encoded.
+        Creates BeautifulSoup XML object from a list of Pubmed IDs. Note that in order to minimize the stress on
+        NIH servers and increase speed it is assumed that with function will be called only once in the
+        construction of a Batch object. If a previous eSearch for an article's PMID was unsuccessful, there will be no
+        attempt to fetch that article and the user will have to do a manual search.
+
+        Returns:
+            None. The already initialized self.pubmed_xml is replaced with a BeautifulSoup object
         """
         Entrez.email = self.stem_email
         queries = [article.get_info('PMID') for article in self.articles if article.in_info('PMID')]
@@ -82,7 +95,19 @@ class Batch(object):
         self.pubmed_xml = BeautifulSoup(handle.read())
 
     def parse_pubmed_soup(self):
-        """Appends to self.list_of_articles Article objects"""
+        """Adds a BeautifulSoup Tag object to an Article object by finding it's PMID from within self.pubmed_xml
+
+        Requires that self.pubmed_xml exist (i.e. self.create_pubmed_xml must have already been executed. Only article
+        objects in self.articles with valid PMIDs are searched. All PubMed information about the article can be found
+        within its Tag. Although Tag can be found within the Article objects info dictionary and therefore
+        could be added to a CSV, it is not encouraged as the Tag would be quite large.
+
+        Returns:
+            None. The each Article object with a PMID will have an attached Tag
+
+        Raises:
+            AssertionError: 'Can't parse a PubMed soup that isn\'t there. Try self.create_pubmed_xml'
+        """
         if self.pubmed_xml:
             for article in self.articles:
                 if article.in_info('PMID'):
@@ -92,7 +117,19 @@ class Batch(object):
             raise AssertionError('Can\'t parse a PubMed soup that isn\'t there. Try self.create_pubmed_xml')
 
     def write_csv(self, csv_file):
-        """Complete"""
+        """Writes a CSV file with by combining the info dictionaries of the Batch, Articles and Author objects.
+
+        The method leverages the powerful DictWriter object to build a highly customizable CSV out of the info
+        dictionaries of each class. The appearance and order of CSV is dictated by self.field_names, which can be
+        defined at initialization. DictWriter will leave empty any information it does not know.
+
+        Arguments:
+            csv_file: An OPEN .csv file in 'wb/ab' mode. Binary mode is critical to this method's success.
+
+        Raises:
+            AssertionError: "Open CSV file in proper mode! ('wb'/'ab')"
+        """
+        assert csv_file.mode == 'wb' or csv_file == 'ab', "Open CSV file in proper mode! ('wb'/'ab')"
         print 'Writing CSV.'
         csv_writer = csv.DictWriter(csv_file, extrasaction='ignore', fieldnames=self.field_names)
         csv_writer.writeheader()
