@@ -41,11 +41,11 @@ class Batch(object):
         databases.
         articles: List that contains Article objects
         pubmed_xml: A BeautifulSoup XML object that containing the results of a PubMed eSearch.
-        info: (Keyword) A dictionary containing any Batch-level information that the user wishes to be written in a CSV
+        info: A dictionary containing any Batch-level information that the user wishes to be written in a CSV
         (i.e. Newsletter Issue or Google Scholar Search Term)
-        field_names: (Keyword) A tuple containing headers the user wishes to see in the outgoing CSV in the order they
+        field_names:  A tuple containing headers the user wishes to see in the outgoing CSV in the order they
         will be written
-        """
+    """
 
     def __init__(self, stem_email, info=None, field_names=None):
         self.articles = []
@@ -73,7 +73,8 @@ class Batch(object):
             None. self.articles is appended with an Article object
 
         Raises:
-            AssertionError: Only Articles go in self.articles"""
+            AssertionError: Only Articles go in self.articles
+        """
         assert isinstance(article, Article), 'Only Articles go in self.articles'
         print article
         self.articles.append(article)
@@ -95,7 +96,7 @@ class Batch(object):
         self.pubmed_xml = BeautifulSoup(handle.read())
 
     def parse_pubmed_soup(self):
-        """Adds a BeautifulSoup Tag object to an Article object by finding it's PMID from within self.pubmed_xml
+        """Adds a BeautifulSoup Tag object to an Article object by finding it's PMID from within self.pubmed_xml.
 
         Requires that self.pubmed_xml exist (i.e. self.create_pubmed_xml must have already been executed. Only article
         objects in self.articles with valid PMIDs are searched. All PubMed information about the article can be found
@@ -142,6 +143,24 @@ class Batch(object):
 
 
 class ZoteroEntry(Batch):
+    """Subclass of Batch object that populates self.articles from a Zotero CSV.
+
+    Zotero is a free citation manager that, among other things, allows the user to scrape citation information from
+    Google Scholar. Zotero does an excllent job of this, so it would be unproductive to code a seperate, inferior
+    version for our purposes. However, there is still key information missing from this process, so this class takes
+    the information already known and combines it with PubMed queries to build a more complete lead entry CSV file.
+
+    Attributes:
+        zotero_csv: An CSV file exported from Zotero
+        stem_email: A valid stemcell.com email. The NIH requires the use of a valid email adress to access it's
+        databases.
+        articles: List that contains Article objects
+        pubmed_xml: A BeautifulSoup XML object that containing the results of a PubMed eSearch.
+        info: A dictionary containing any Batch-level information that the user wishes to be written in a CSV
+        (i.e. Google Scholar Search Term)
+        field_names: A tuple containing headers the user wishes to see in the outgoing CSV in the order they
+        will be written.
+    """
     def __init__(self, zotero_csv, stem_email, info=None, field_names=None):
         Batch.__init__(self, stem_email)
         self.zotero_csv = zotero_csv
@@ -158,6 +177,17 @@ class ZoteroEntry(Batch):
                                 'Product Sector', 'PMID')
 
     def read_csv(self):
+        """Reads self.zotero_csv and populates the self.articles list.
+
+        Opens self.zotero_csv as a csv DictReader object. The reader gies through each row, appending Article Title
+        and URL information. Note that gathering URL information here allows greatly increases the speed of the script,
+        since collection and validation of DOIs is a significant bottleneck. At this point, the method will attempt
+        to find the PMID based on article name. If this unsuccessful, function builds article.authors from the CSV.
+        Finally, the article is added to the self.articles list.
+
+        Returns:
+            None. Method add partially constructed articles into self.articles.
+        """
         with self.zotero_csv as zotero:
             reader = csv.DictReader(zotero)
             for row in reader:
@@ -171,6 +201,7 @@ class ZoteroEntry(Batch):
                     self.add_article(article)
 
     def construct_articles(self):
+        """Further constructs articles from self.read_csv after self.pubmed_xml is constructed."""
         for article in self.articles:
             if article.in_info('Tag'):
                 article.update_info_dict('Publication Date', article.find_date())
@@ -179,6 +210,23 @@ class ZoteroEntry(Batch):
 
 
 class Newsletter(Batch):
+    """Subclass of Batch object that populates self.articles from a valid Connexon URL.
+
+    Opens the provided Connexon URL and scrapes article title and URL information from the issue. The information
+    is then processed in the same way as a Batch object.
+
+    Attributes:
+        url: A valid Connexon url
+        stem_email: A valid stemcell.com email. The NIH requires the use of a valid email adress to access it's
+        databases.
+        soup = A BeautifulSoup object created from self.url.
+        articles: List that contains Article objects.
+        pubmed_xml: A BeautifulSoup XML object that containing the results of a PubMed eSearch.
+        info: A dictionary containing any Batch-level information that the user wishes to be written in a CSV
+        (i.e. Newsletter Issue or Google Scholar Search Term)
+        field_names:  A tuple containing headers the user wishes to see in the outgoing CSV in the order they
+        will be written.
+    """
     def __init__(self, url, stem_email, info=None, field_names=None):
         Batch.__init__(self, stem_email)
         self.url = url
@@ -199,18 +247,22 @@ class Newsletter(Batch):
                                 'Publication Link', 'Article Title', 'Aff', 'PMID')
 
     def make_soup(self):
-        """Given a URL will return a BeautifulSoup of that URL
-
-        Utilizes a header to avoid 503 Errors
-        """
+        """Given a URL will return a BeautifulSoup object."""
         header = {'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/11.04 "
                                 "Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"}
         request = urllib2.Request(self.url, headers=header)
         return BeautifulSoup(urllib2.urlopen(request, timeout=20))
 
     def parse_connexon(self):
-        """Given a BeautifulSoup object, returns a list of publication names"""
-        pubs = self.soup.find_all(_find_comment)  # pubs[0].find_previous('a')
+        """Given a Connexon BeautifulSoup object, adds Article objects to self.articles.
+
+        Parses article information from self.soup and constructs Article objects from it. This method will scrape
+        Article Title and Publication Link from self.soup and attempt a PMID lookup.
+
+        Returns:
+            None. Appends Article object to self.articles.
+        """
+        pubs = self.soup.find_all(_find_comment)
         for pub in pubs:
             article = Article(info={'Article Title': pub.text.lstrip('\n')})
             article.update_info_dict('PMID', article.lookup_up_pmid(pub.text.lstrip('\n'), self.stem_email))
@@ -223,6 +275,7 @@ class Newsletter(Batch):
         return title.split(' - ')[1]
 
     def construct_articles(self):
+        """Adds Publication Date and Author Information to each article based on self.pubmed_xml."""
         for article in self.articles:
             if article.in_info('Tag'):
                 article.update_info_dict('Publication Date', article.find_date())
@@ -230,6 +283,15 @@ class Newsletter(Batch):
 
 
 class Article(object):
+    """An object containing a dictionary for writable information and a list of Author objects.
+
+    The Article object has two respionsibilities. The first is to populate itself with CSV writable information for the
+    Batch write_CSV method. The second is to act as a factory for Author objects.
+
+    Arguments:
+        info:
+        authors:
+    """
     def __init__(self, info=None):
         if info:
             self.info = info
@@ -238,23 +300,31 @@ class Article(object):
         self.authors = []
 
     def in_info(self, query):
+        """Returns boolean for whether query is in self.info."""
         try:
             if self.info[query]:
                 return query in self.info
-            else:
-                return False
         except KeyError:
             return False
 
     def get_info(self, query):
+        """Returns query's key value from self.info. Returns None if query not in info."""
         if query in self.info:
             return self.info[query]
         else:
             return None
 
     def lookup_up_pmid(self, pub_title, stem_email, translated=False):
-        """Returns Entrez entry for a search of the publication title. If publication title does not return result,
-        input PMID manually to continue to retrieve entry"""
+        """Returns PMID for a search of the publication title.
+
+        Querys the NIH Entrez database with publication title and returns the PMID if successful. If unsuccessful,
+        this method will translate the publication title into
+
+        Arguments:
+            pub_title:
+            stem_email:
+            translated:
+        """
         Entrez.email = stem_email
         handle = Entrez.esearch(db='pubmed', term=pub_title, retmax=10, sort='relevance')
         try:
@@ -268,6 +338,7 @@ class Article(object):
 
     @staticmethod
     def translate_british(publication_title):
+        """Translates commonly Americanized words back into their British counterparts."""
         brit_dict = {'Leukemia': 'Leukaemia',
                      'Tumor': 'Tumour',
                      'Signaling': 'Signalling',
@@ -277,12 +348,15 @@ class Article(object):
         return publication_title
 
     def update_info_dict(self, key, value):
+        """Simple key-value update for self.info."""
         self.info[key] = value
 
     def get_info_items(self):
+        """Returns all of self.info in the form of a tuple of two-tuples"""
         return self.info.items()
 
     def find_title(self):
+        """Returns a string derived from the Article Tag it's title"""
         return self.info['Tag'].articletitle.text.strip().strip('.')
 
     def find_date(self):
@@ -475,7 +549,7 @@ if __name__ == '__main__':
         batch = Newsletter(chosen_url, EMAIL)
     else:
         raise AssertionError('Invalid choice, try again')
-    batch.create_pubmed_xml(EMAIL)
+    batch.create_pubmed_xml()
     batch.parse_pubmed_soup()
     batch.construct_articles()
     batch.write_csv(open('BatchOutput.csv', 'wb'))
