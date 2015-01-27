@@ -109,3 +109,5 @@ if __name__ == '__main__':
     prompt = raw_input('Pubmed query? ')
     fetch_ids(prompt)
     print 'Finished'
+
+# TODO: Alzheimer'S

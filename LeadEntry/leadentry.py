@@ -406,28 +406,34 @@ class Article(object):
         else:
             return 'DOI not found'
 
-    def find_authors(self):
-        prev_aff = ''
+    def find_authors(self, full=True):
+        previous_affiliation = ''
+        tags = self.info['Tag']('author')
 
-        for author_tag in self.info['Tag']('author'):
-            author = Author(author_tag)
-            author.update_info_dict('First Name', author.find_first_name())
-            author.update_info_dict('Last Name', author.find_last_name())
-            try:
-                affiliation = author.find_affiliation()
-                author.update_info_dict('Aff', affiliation)
-                prev_aff = affiliation
-            except AttributeError:
-                author.update_info_dict('Aff', prev_aff)
-            author.update_info_dict('Company', author.find_company())
-            author.update_info_dict('Department', author.find_department())
-            author.update_info_dict('Email', author.find_email())
+        if full or len(tags) > 3:
+            for author_tag in tags:
+                previous_affiliation = self.find_author(author_tag, previous_affiliation)
+        else:
+            for author_tag in [tags[0], tags[1], tags[-1]]:
+                previous_affiliation = self.find_author(author_tag, previous_affiliation)
 
-            self.authors.append(author)
-            print author
+    def find_author(self, tag, previous_affliation):  # This needs to be filled in
+        author = Author(tag)
+        author.update_info_dict('First Name', author.find_first_name())
+        author.update_info_dict('Last Name', author.find_last_name())
+        try:
+            affiliation = author.find_affiliation()
+            author.update_info_dict('Aff', affiliation)
+            previous_affliation = affiliation
+        except AttributeError:
+            author.update_info_dict('Aff', previous_affliation)
+        author.update_info_dict('Company', author.find_company())
+        author.update_info_dict('Department', author.find_department())
+        author.update_info_dict('Email', author.find_email())
 
-    def find_author(self):  # This needs to be filled in
-        pass
+        self.authors.append(author)
+        print author
+        return previous_affliation
 
     def find_abstract(self):
         return self.info['Tag'].abstracttext.text.strip()
