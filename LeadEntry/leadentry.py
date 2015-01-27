@@ -67,7 +67,7 @@ class Batch(object):
         prints the article's title for diagnostic pruposes.
 
         Arguments:
-            article: An Article object
+            :param article: An Article object
 
         Returns:
             None. self.articles is appended with an Article object
@@ -125,7 +125,7 @@ class Batch(object):
         defined at initialization. DictWriter will leave empty any information it does not know.
 
         Arguments:
-            csv_file: An OPEN .csv file in 'wb/ab' mode. Binary mode is critical to this method's success.
+            :param csv_file: An OPEN .csv file in 'wb/ab' mode. Binary mode is critical to this method's success.
 
         Raises:
             AssertionError: "Open CSV file in proper mode! ('wb'/'ab')"
@@ -289,8 +289,9 @@ class Article(object):
     Batch write_CSV method. The second is to act as a factory for Author objects.
 
     Arguments:
-        info:
-        authors:
+        info: A dictionary containing any Article-level information that the user wishes to be written in a CSV.
+        (i.e. Publication Title, Publication Date.)
+        authors: A list of author objects.
     """
     def __init__(self, info=None):
         if info:
@@ -318,12 +319,19 @@ class Article(object):
         """Returns PMID for a search of the publication title.
 
         Querys the NIH Entrez database with publication title and returns the PMID if successful. If unsuccessful,
-        this method will translate the publication title into
+        this method will translate the publication title in a British English as PubMed occasionally does not
+        recognize alternate spellings. Function returns the PMID of the queried publication title. If the PMID cannot
+        be found the function will print this fact.
 
         Arguments:
-            pub_title:
-            stem_email:
-            translated:
+            pub_title: String representing the title of the article to be seen
+            stem_email: A valid stemcell.com email. The NIH requires the use of a valid email adress to access it's
+        databases.
+            translated: Boolean flag that determines whether the title has been translated or not. Defaults to False
+            but will be set to True if the first attempt at finding the article fails.
+
+        Returns:
+            PMID of the queried publication title
         """
         Entrez.email = stem_email
         handle = Entrez.esearch(db='pubmed', term=pub_title, retmax=10, sort='relevance')
@@ -338,7 +346,17 @@ class Article(object):
 
     @staticmethod
     def translate_british(publication_title):
-        """Translates commonly Americanized words back into their British counterparts."""
+        """Translates commonly Americanized words back into their British counterparts.
+
+        This static method will replace any instance of an Americanized word with it's British English couterpart and
+        return the newly translated string. The following words are translated: leukemia, tumor, signaling, α.
+
+        Arguments:
+            :param publication_title: A string representing the untranslated version of the title.
+
+        Returns:
+            A string representing the translated version of the title.
+        """
         brit_dict = {'Leukemia': 'Leukaemia',
                      'Tumor': 'Tumour',
                      'Signaling': 'Signalling',
@@ -360,6 +378,19 @@ class Article(object):
         return self.info['Tag'].articletitle.text.strip().strip('.')
 
     def find_date(self):
+        """Returns a properly fromatted string representing the article's publication date
+
+        Because date tags in PubMed are not uniform, this function will parse several different tags. First, the
+        function finds the article's 'ahead of print' date. Failing that it will search for the publication date.
+        Rarely, this function will be forced to return the 'medline date.' This is the date that it was entered into
+        PubMed. If all these potential tags fail, the method will return None.
+
+        Next, the method will pass the date to static method that validates validates that the tag is complete
+        (i.e. not missing the day). If this is true, the method will return a properly formatted date string.
+
+        Returns:
+            A properly formatted date string. (MM/DD/YYYY)
+        """
         potential_tags = [self.info['Tag'].find('pubmedpubdate', {'pubstatus': 'aheadofprint'}),
                           self.info['Tag'].pubdate,
                           self.info['Tag'].find(pubstatus='medline')]
@@ -375,6 +406,20 @@ class Article(object):
 
     @staticmethod
     def output_date(year, month, day):
+        """Returns a properly formatted date string. (MM/DD/YYYY)
+
+        This static method returns a properly formatted date string. PubMed is inconsistent with it's date conventions
+        so this method must first determine whether the month is written as a decimal (i.e. 10) or abbreviated
+        (i.e Oct).
+
+        Arguments:
+            :param year: A string representing the year
+            :param month: A string representing the month
+            :param day: A string representing the day
+
+        Returns:
+            A properly formatted date string (MM/DD/YYYY)
+        """
         if month.isdigit():
             pubdate = time.strptime('{}{}{}'.format(month, day, year), '%m%d%Y')
         else:
@@ -382,17 +427,35 @@ class Article(object):
         return time.strftime('%m/%d/%Y', pubdate)
 
     @staticmethod
-    def return_date_from_tag(find_tag):
+    def return_date_from_tag(date_tag):
+        """Returns year, month and day strings from a given tag.
+
+        This static method attempts to return the year, month, and day strings from a given tag. If the a tag is
+        missing one of these string, this static method will catch the exception and return a 3-tuple of Nones.
+
+        Arguments:
+            :param date_tag: A BeautifulSoup Tag containing date information.
+
+        Returns:
+            year: A string representing the year
+            month: A string representing the month
+            day: A string representing the day
+        """
         try:
-            year = find_tag.find('year').text.strip()
-            month = find_tag.find('month').text.strip()
-            day = find_tag.find('day').text.strip()
+            year = date_tag.find('year').text.strip()
+            month = date_tag.find('month').text.strip()
+            day = date_tag.find('day').text.strip()
             return year, month, day
         except (TypeError, AttributeError):  # consider a print statement here
             return None, None, None
 
-    def find_doi(self):
-        """Return the DOI of an article as a string"""
+    def _find_url(self):
+        """Return the URL of an article as a string. DEPRECAITED.
+
+        This method attempts to find the URL of an article by finding it's DOI and and attempting the resolve the
+        DOI redirect. The function is no longer used because this method is rather slow and the URL of a given article
+        can be retrieved by other, faster means.
+        """
         if self.info['Tag'].find(idtype='doi'):
             doi = self.info['Tag'].find(idtype='doi').text.strip()
             try:
@@ -417,23 +480,40 @@ class Article(object):
             for author_tag in [tags[0], tags[1], tags[-1]]:
                 previous_affiliation = self.find_author(author_tag, previous_affiliation)
 
-    def find_author(self, tag, previous_affliation):  # This needs to be filled in
+    def find_author(self, tag, previous_affiliation):
+        """Constucts Author object from author tag information.
+
+        From tag information, an Author tag is created. All Author objects contain First and Last Name information
+        that are added to the object. Method attempts to also include affiliation information but some articles do
+        not include this information. In that case, the method will use the information found in provided
+        previous_affiliation. The method then adds Company, Department and Email information from the affiliation
+        information. The construct Author object is appended to self.authors and the affiliation information is
+        returned to be used as the previous_affiliation of the next author.
+
+        Arguments:
+            :param tag: A BeautifulSoup Tag object for an author
+            :param previous_affiliation: The affiliation tag information from the previous author
+
+        Returns:
+            affiliation: The current affiliation is provided to the next constructed Author object as
+            previous_affiliation. Also appends the constructed Author object to self.authors.
+        """
         author = Author(tag)
         author.update_info_dict('First Name', author.find_first_name())
         author.update_info_dict('Last Name', author.find_last_name())
         try:
             affiliation = author.find_affiliation()
             author.update_info_dict('Aff', affiliation)
-            previous_affliation = affiliation
         except AttributeError:
-            author.update_info_dict('Aff', previous_affliation)
+            author.update_info_dict('Aff', previous_affiliation)
+            affiliation = previous_affiliation
         author.update_info_dict('Company', author.find_company())
         author.update_info_dict('Department', author.find_department())
         author.update_info_dict('Email', author.find_email())
 
         self.authors.append(author)
         print author
-        return previous_affliation
+        return affiliation
 
     def find_abstract(self):
         return self.info['Tag'].abstracttext.text.strip()
