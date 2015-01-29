@@ -206,7 +206,7 @@ class ZoteroEntry(Batch):
             if article.in_info('Tag'):
                 article.update_info_dict('Publication Date', article.find_date())
                 article.update_info_dict('Abstract', article.find_abstract())
-                article.update_info_dict('Authors', article.find_authors())
+                article.update_info_dict('Authors', article.find_authors(full=False))
 
 
 class Newsletter(Batch):
@@ -470,13 +470,18 @@ class Article(object):
 
     def find_authors(self, full=True):
         """
+        Constructs multiple Author objects from the available author tags within an article.
 
-        :param full:
+        If full is True, the all Author objects will be constructed. If False, on ly the first two authors and last
+        author will be constructed.
+
+        Arguments:
+            :param full: Boolean. Determines whether all or three Authors will be constructed
         """
         previous_affiliation = ''
         tags = self.info['Tag']('author')
 
-        if full or len(tags) > 3:
+        if full or len(tags) < 3:
             for author_tag in tags:
                 previous_affiliation = self.find_author(author_tag, previous_affiliation)
         else:
@@ -519,6 +524,7 @@ class Article(object):
         return affiliation
 
     def find_abstract(self):
+        """Returns a string derived from the Article Tag abstract."""
         return self.info['Tag'].abstracttext.text.strip()
 
     def __str__(self):
@@ -536,9 +542,11 @@ class Author(object):
         self.info[key] = value
 
     def find_last_name(self):
+        """Returns a string derived from the Author Tag's last name."""
         return unicode(self.info['Tag'].lastname.text.strip())
 
     def find_first_name(self):
+        """Returns a string derived from the Author Tag's first name. Middle initials are removed"""
         forename = self.info['Tag'].forename.text.strip()
         if forename.split(' '):
             return unicode(forename.split(' ')[0])
@@ -546,15 +554,21 @@ class Author(object):
             return unicode(forename)
 
     def find_affiliation(self):
+        """Returns a string derived from the Author Tag's affiliation."""
         return self.info['Tag'].affiliation.text.strip()
 
     def find_department(self):
+        """Returns a department string from a regular expression search of the affiliation string."""
         return regex_search(self.info['Aff'], 'Department')
 
     def find_company(self):
+        """Returns a company string from a regular expression search of the affiliation string."""
         return regex_search(self.info['Aff'], 'Company')
 
     def find_email(self):
+        """Returns a email string from a regular expression search of the affiliation string. The email is checked
+        against the person's last name to ensure that it is an official email.
+        """
         return regex_search(self.info['Aff'], 'Email', lastname=self.info['Last Name'])
 
     def in_info(self, query):
@@ -567,7 +581,7 @@ class Author(object):
         return '{} {}'.format(self.info['First Name'], self.info['Last Name']).encode('UTF-8')
 
 
-def regex_search(institute, mode, lastname=''):  # possibly rafactor this
+def regex_search(institute, mode, lastname=''):
     """Attempt to parse the institute entry using regular expressions"""
     regex_dict = {'Department': r'[\w ]*Department[\w ]*|[\w ]*Laboratory[A-Z ]*|'
                                 r'[\w ]*Cent[er|re][\w ]*|[\w ]*Service[A-Z ]*|[\w ]*Service[A-Z ]*'
