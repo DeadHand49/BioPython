@@ -12,7 +12,7 @@ factory for Author objects, a modified dictionary built from PubMed affiliation 
 
 Any bugs in the the script should be reported to matthew.emery@stemcell.com as soon as possible.
 
-At runtime, type your stemcell username and then follow the prompts. {Could be more detailed)"""
+At runtime, type your stemcell username and then follow the prompts."""
 
 from __future__ import unicode_literals
 
@@ -403,7 +403,6 @@ class Article(object):
             print 'Could not find date'
             return None
 
-
     @staticmethod
     def output_date(year, month, day):
         """Returns a properly formatted date string. (MM/DD/YYYY)
@@ -470,6 +469,10 @@ class Article(object):
             return 'DOI not found'
 
     def find_authors(self, full=True):
+        """
+
+        :param full:
+        """
         previous_affiliation = ''
         tags = self.info['Tag']('author')
 

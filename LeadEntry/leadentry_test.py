@@ -1,10 +1,13 @@
 # coding=utf-8
+"""Unittests for leadentry.py"""
+
 from __future__ import unicode_literals
 
 __author__ = 'memery'
 
 import leadentry
 import unittest
+import mock
 from bs4 import BeautifulSoup, element
 
 
@@ -36,21 +39,66 @@ class ArticleTest(unittest.TestCase):
         with open('leadentry_test.xml') as xml:
             tester.pubmed_xml = BeautifulSoup(xml.read())
             self.test_article = leadentry.Article(info={'PMID': '25433608',
-                                                        'Article Title': 'Mock'})
+                                                        'Article Title': 'Mesenchymal stromal cells form vascular '
+                                                                         'tubes when placed in fibrin sealant and '
+                                                                         'accelerate wound healing in vivo'})
             tester.add_article(self.test_article)
             tester.parse_pubmed_soup()
+
+    def test_in_info(self):
+        self.assertTrue(self.test_article.in_info('PMID'))
+
+    def test_not_in_info(self):
+        self.assertFalse(self.test_article.in_info('Cell Type'))
+
+    def test_get_info(self):
+        self.assertEqual(self.test_article.get_info('PMID'),
+                         '25433608')
+
+    def test_no_get_info(self):
+        self.assertIsNone(self.test_article.get_info('Cell Type'))
+
+    def test_look_up_pmid(self):
+        self.assertEqual('25433608',
+                         self.test_article.lookup_up_pmid(self.test_article.get_info('Article Title'),
+                                                          'matthew.emery@stemcell.com'))
+
+    def test_look_up_pmid_first_fail(self):
+        """Need to find an example of a test that fails at first, but succeeds on Britishness"""
+        pass
+
+    def test_look_up_pmid_complete_fail(self):
+        """Need to find an example that fails in completely and returns None"""
+        pass
+
+    def test_translate_british(self):
+        pub_example = 'Leukemia Tumor Signaling α'
+        self.assertEqual('Leukaemia Tumour Signalling alpha',
+                         self.test_article.translate_british(pub_example))
+
+    def test_update_info_dict(self):
+        self.test_article.update_info_dict('PMID', 'test')
+        self.assertDictContainsSubset('PMID', 'test')
+
+    def test_get_info_items(self):
+        self.assertEqual((('PMID', '25433608'),
+                         ('Article Title', 'Mesenchymal stromal cells form vascular tubes when placed in fibrin '
+                                           'sealant and accelerate wound healing in vivo')),
+                         self.test_article.get_info_items())
+
+    def test_find_date(self):
+        self.assertEqual('11/26/2014', self.test_article.find_date())
+
+    def test_cant_find_date(self):
+        """Need to find example where find date fails"""
+        pass
 
     def test_find_pmid_in_xml(self):
         self.assertIsInstance(self.test_article.info['Tag'], element.Tag)
 
-    def test_get_article(self):
-        self.test_article.find_title()
-        self.assertEqual('Mesenchymal stromal cells form vascular tubes when placed '
-                         'in fibrin sealant and accelerate wound healing in vivo',
-                         self.test_article.get_info('Article Title'))
 
-    def test_get_date(self):
-        self.assertEqual('11/26/2014', self.test_article.find_date())
+class AuthorTest(unittest.TestCase):
+    pass
 
 if __name__ == "__main__":
     unittest.main()
