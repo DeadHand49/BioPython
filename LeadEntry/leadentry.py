@@ -238,7 +238,7 @@ class Newsletter(Batch):
             self.info = {'Lead Source': 'Connexon',
                          'Specific Lead Source': self.find_specific_lead_source(),
                          'Newsletter Archived Link': self.url.lstrip('http://www.'),
-                         'Search Term': 'Connexon; {}'.format(self.find_specific_lead_source())}
+                         'Search Term': 'Connexon; {}'.format(self.soup.find('title').text.split(' - ')[1])}
         if field_names:
             self.field_names = field_names
         else:
@@ -272,7 +272,8 @@ class Newsletter(Batch):
     def find_specific_lead_source(self):
         """Returns the name of the specific lead source."""
         title = self.soup.find('title').text
-        return title.split(' - ')[1]
+        issue_number = re.search(r'\d+\.\d+', title)
+        return '{} {}'.format(title.split(' - ')[1], issue_number.group())
 
     def construct_articles(self):
         """Adds Publication Date and Author Information to each article based on self.pubmed_xml."""

@@ -33,6 +33,20 @@ class LeadEntryTest(unittest.TestCase):
                          self.batch.articles[0].info['Publication Link'])
 
 
+class NewsletterTest(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        cls.tester = leadentry.Newsletter('http://www.mesenchymalcellnews.com/issue/volume-7-03-jan-27/',
+                                          'matthew.emery@stemcell.com')
+
+    def test_get_specific_lead_source(self):
+        self.assertEqual('Mesenchymal Cell News 7.03', self.tester.find_specific_lead_source())
+
+    def test_get_search_term(self):
+        self.assertEqual('Connexon; Mesenchymal Cell News', self.tester.info['Search Term'])
+
+
 class ArticleTest(unittest.TestCase):
     def setUp(self):
         tester = leadentry.Batch('matthew.emery@stemcell.com')
