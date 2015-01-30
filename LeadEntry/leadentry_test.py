@@ -47,6 +47,10 @@ class NewsletterTest(unittest.TestCase):
         self.assertEqual('Connexon; Mesenchymal Cell News', self.tester.info['Search Term'])
 
 
+class ZoteroTest(unittest.TestCase):
+    pass
+
+
 class ArticleTest(unittest.TestCase):
     def setUp(self):
         tester = leadentry.Batch('matthew.emery@stemcell.com')
@@ -110,6 +114,13 @@ class ArticleTest(unittest.TestCase):
     def test_find_pmid_in_xml(self):
         self.assertIsInstance(self.test_article.info['Tag'], element.Tag)
 
+    def test_find_authors_full(self):
+        self.test_article.find_authors()
+        self.assertEqual(9, len(self.test_article.authors))
+
+    def test_find_authors_not_full(self):
+        self.test_article.find_authors(full=False)
+        self.assertEqual(3, len(self.test_article.authors))
 
 class AuthorTest(unittest.TestCase):
     pass
